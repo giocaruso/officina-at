@@ -42,12 +42,20 @@
             return array;
         }
 
-        // Caricamento dati dal Caveau JSON
+       // Caricamento dati con controllo errori
         fetch('domande.json')
-            .then(res => res.json())
+            .then(res => {
+                if (!res.ok) throw new Error("File domande.json non trovato!");
+                return res.json();
+            })
             .then(data => {
-                allQuestions = shuffle(data); // Rimescola le domande all'avvio
+                allQuestions = shuffle(data);
                 showQuestion();
+            })
+            .catch(err => {
+                document.getElementById('q-text').innerHTML = 
+                    "<span style='color:red'>ERRORE DI CARICAMENTO:</span><br>" + err.message + 
+                    "<br><br>Verifica che il file domande.json sia scritto correttamente.";
             });
 
         function showQuestion() {
