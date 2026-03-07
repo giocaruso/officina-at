@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulatore Quiz AT - Oltre il Profilo</title>
+    <title>Oltre il Profilo - Simulatore Quiz AT</title>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; padding: 20px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; padding: 20px; line-height: 1.6; }
         .quiz-container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); max-width: 700px; width: 100%; }
+        
+        /* Stili Vetrina */
+        #welcome-screen { text-align: center; }
+        .book-title { color: #007bff; font-size: 2rem; margin-bottom: 10px; }
+        .promo-box { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #dee2e6; }
+        .amazon-link { display: inline-block; margin-top: 10px; color: #ff9900; font-weight: bold; text-decoration: none; border: 2px solid #ff9900; padding: 8px 15px; border-radius: 5px; transition: 0.3s; }
+        .amazon-link:hover { background: #ff9900; color: white; }
+        
+        /* Stili Quiz */
         .question { font-size: 1.3rem; margin-bottom: 25px; color: #1c1e21; font-weight: 600; }
         .options { display: grid; gap: 12px; }
         button.opt { padding: 15px; border: 2px solid #e4e6eb; border-radius: 8px; cursor: pointer; text-align: left; background: white; font-size: 1rem; transition: all 0.2s; }
@@ -16,92 +25,121 @@
         #feedback { margin-top: 25px; padding: 20px; border-radius: 8px; display: none; background-color: #e9ecef; border-left: 5px solid #007bff; }
         #next-btn { margin-top: 20px; padding: 12px 30px; background: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; display: none; }
         .progress { margin-bottom: 20px; color: #65676b; font-size: 0.9rem; }
+        input[type="text"] { padding: 12px; width: 80%; max-width: 300px; margin-bottom: 15px; border-radius: 6px; border: 1px solid #ccc; font-size: 1rem; text-align: center; }
+        .unlock-btn { padding: 12px 30px; background: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 1rem; }
     </style>
 </head>
 <body>
-    <div class="quiz-container">
+
+<div class="quiz-container">
+    <div id="welcome-screen">
+        <h1 class="book-title">Oltre il Profilo</h1>
+        <p><strong>Simulatore Interattivo per Assistenti Tecnici</strong></p>
+        
+        <div class="promo-box">
+            <p>Questo simulatore è un'estensione digitale del manuale operativo.<br>
+            All'interno troverai le 200 domande rimescolate per un allenamento efficace.</p>
+            <p><strong>Non hai ancora il libro?</strong></p>
+            <a href="https://www.amazon.it/dp/B0DSL9Z792" target="_blank" class="amazon-link">Acquista il manuale su Amazon</a>
+        </div>
+
+        <p>Per sbloccare il quiz, inserisci la <strong>prima parola</strong> della spiegazione alla <strong>domanda n. 117</strong> del manoscritto:</p>
+        <input type="text" id="pass-input" placeholder="Scrivi la parola qui...">
+        <br>
+        <button class="unlock-btn" onclick="unlockQuiz()">Sblocca Simulatore</button>
+    </div>
+
+    <div id="quiz-box" style="display: none;">
         <div class="progress" id="progress">Domanda 0 di 0</div>
-        <div id="quiz-box">
-            <div class="question" id="q-text">Inizializzazione Quiz AT...</div>
+        <div id="quiz-content">
+            <div class="question" id="q-text">Caricamento in corso...</div>
             <div class="options" id="q-options"></div>
             <div id="feedback"></div>
             <center><button id="next-btn" onclick="loadNext()">Prossima Domanda</button></center>
         </div>
     </div>
+</div>
 
-    <script>
-        let allQuestions = [];
-        let currentIdx = 0;
+<script>
+    let allQuestions = [];
+    let currentIdx = 0;
 
-        // Funzione per rimescolare l'array (Fisher-Yates)
-        function shuffle(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-            return array;
+    function unlockQuiz() {
+        const input = document.getElementById('pass-input').value.toLowerCase().trim();
+        const segreto = "tecnologie"; // La parola che hai scelto
+
+        if (input === segreto) {
+            document.getElementById('welcome-screen').style.display = 'none';
+            document.getElementById('quiz-box').style.display = 'block';
+            startEngine();
+        } else {
+            alert("Parola errata. Controlla la spiegazione della domanda 117 nel tuo libro!");
         }
+    }
 
-       // Caricamento dati con controllo errori
+    function shuffle(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
+
+    function startEngine() {
         fetch('domande.json')
-            .then(res => {
-                if (!res.ok) throw new Error("File domande.json non trovato!");
-                return res.json();
-            })
+            .then(res => res.json())
             .then(data => {
                 allQuestions = shuffle(data);
                 showQuestion();
             })
-            .catch(err => {
-                document.getElementById('q-text').innerHTML = 
-                    "<span style='color:red'>ERRORE DI CARICAMENTO:</span><br>" + err.message + 
-                    "<br><br>Verifica che il file domande.json sia scritto correttamente.";
-            });
+            .catch(err => alert("Errore nel caricamento del database domande."));
+    }
 
-        function showQuestion() {
-            const q = allQuestions[currentIdx];
-            document.getElementById('progress').innerText = `Domanda ${currentIdx + 1} di ${allQuestions.length}`;
-            document.getElementById('q-text').innerText = q.domanda;
-            document.getElementById('feedback').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'none';
-            
-            const container = document.getElementById('q-options');
-            container.innerHTML = '';
-            
-            q.opzioni.forEach((opt, i) => {
-                const btn = document.createElement('button');
-                btn.className = 'opt';
-                btn.innerText = opt;
-                btn.onclick = () => check(btn, i, q.corretta, q.spiegazione);
-                container.appendChild(btn);
-            });
-        }
+    function showQuestion() {
+        const q = allQuestions[currentIdx];
+        document.getElementById('progress').innerText = `Domanda ${currentIdx + 1} di ${allQuestions.length}`;
+        document.getElementById('q-text').innerText = q.domanda;
+        document.getElementById('feedback').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
+        
+        const container = document.getElementById('q-options');
+        container.innerHTML = '';
+        
+        q.opzioni.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'opt';
+            btn.innerText = opt;
+            btn.onclick = () => check(btn, i, q.corretta, q.spiegazione);
+            container.appendChild(btn);
+        });
+    }
 
-        function check(btn, selected, correct, info) {
-            const btns = document.querySelectorAll('.opt');
-            btns.forEach(b => b.disabled = true);
-            
-            if(selected === correct) {
-                btn.classList.add('correct');
-            } else {
-                btn.classList.add('wrong');
-                btns[correct].classList.add('correct');
-            }
-            
-            const f = document.getElementById('feedback');
-            f.innerHTML = `<strong>Spiegazione:</strong> ${info}`;
-            f.style.display = 'block';
-            document.getElementById('next-btn').style.display = 'block';
+    function check(btn, selected, correct, info) {
+        const btns = document.querySelectorAll('.opt');
+        btns.forEach(b => b.disabled = true);
+        
+        if(selected === correct) {
+            btn.classList.add('correct');
+        } else {
+            btn.classList.add('wrong');
+            btns[correct].classList.add('correct');
         }
+        
+        const f = document.getElementById('feedback');
+        f.innerHTML = `<strong>Spiegazione:</strong> ${info}`;
+        f.style.display = 'block';
+        document.getElementById('next-btn').style.display = 'block';
+    }
 
-        function loadNext() {
-            currentIdx++;
-            if(currentIdx < allQuestions.length) {
-                showQuestion();
-            } else {
-                document.getElementById('quiz-box').innerHTML = "<h2>Allenamento Completato!</h2><p>La tua preparazione è ora più solida.</p>";
-            }
+    function loadNext() {
+        currentIdx++;
+        if(currentIdx < allQuestions.length) {
+            showQuestion();
+        } else {
+            document.getElementById('quiz-content').innerHTML = "<h2>Allenamento Completato!</h2><p>La tua preparazione è ora più solida. Torna quando vuoi per una nuova sfida rimescolata.</p>";
         }
-    </script>
+    }
+</script>
+
 </body>
 </html>
