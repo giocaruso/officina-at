@@ -73,7 +73,7 @@
         <button class="btn-back" onclick="location.reload()">← Home</button>
         <div class="unlock-box">
             <h2>Accesso al Simulatore</h2>
-            <p>Inserisci la prima parola della spiegazione alla domanda n. 187:</p>
+            <p>Inserisci la prima parola della spiegazione alla domanda n. 187 del manoscritto ":</p>
             <input type="text" id="secret-word" placeholder="Parola segreta...">
             <br>
             <button class="btn-action" onclick="unlockQuiz()">Accedi al Test</button>
@@ -115,7 +115,7 @@
 
     function unlockQuiz() {
         const word = document.getElementById('secret-word').value.toLowerCase().trim();
-        if(word === "bussola") { // Sostituisci "bussola" con la tua parola scelta
+        if(word === "passweb") { // Sostituisci "bussola" con la tua parola scelta
             showSection('quiz-engine');
             startQuiz();
         } else {
