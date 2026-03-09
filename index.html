@@ -1,185 +1,28 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oltre il Profilo - Hub Assistente Tecnico</title>
-    <style>
-        :root { --primary: #004a99; --accent: #f4f7f6; --dark: #333; --gray: #666; }
-        body { font-family: 'Segoe UI', system-ui, sans-serif; background-color: var(--accent); margin: 0; padding: 20px; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; }
-        
-        /* Dashboard */
-        .header { text-align: center; margin-bottom: 50px; padding-top: 30px; }
-        .header h1 { color: var(--primary); font-size: 2.2rem; margin-bottom: 10px; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
-        .card { background: white; padding: 35px; border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); text-align: center; cursor: pointer; transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid #eee; }
-        .card:hover { transform: translateY(-8px); border-color: var(--primary); box-shadow: 0 15px 35px rgba(0,74,153,0.15); }
-        .card.disabled { opacity: 0.6; cursor: not-allowed; filter: grayscale(1); }
-        .card.disabled:hover { transform: none; border-color: #eee; }
-        .icon { font-size: 3.5rem; margin-bottom: 20px; display: block; }
-        .card h3 { color: var(--primary); margin: 0 0 12px 0; font-size: 1.4rem; }
-        .card p { color: var(--gray); font-size: 0.95rem; margin: 0; }
-
-        /* Sezioni */
-        .section { display: none; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); }
-        .btn-back { background: var(--gray); color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; margin-bottom: 30px; font-weight: 600; }
-        
-        /* Quiz & UI */
-        .unlock-box { text-align: center; padding: 20px; }
-        input[type="text"], input[type="email"] { width: 100%; max-width: 300px; padding: 15px; border: 2px solid #ddd; border-radius: 8px; margin-bottom: 20px; font-size: 1rem; }
-        .btn-action { background: var(--primary); color: white; border: none; padding: 15px 40px; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 1rem; }
-        .opt { display: block; width: 100%; padding: 15px; margin: 12px 0; border: 1px solid #eee; border-radius: 10px; text-align: left; background: #fff; cursor: pointer; font-size: 1rem; transition: 0.2s; }
-        .opt:hover { background: #f0f7ff; border-color: var(--primary); }
-        .correct { background: #d4edda !important; border-color: #28a745 !important; color: #155724; font-weight: bold; }
-        .wrong { background: #f8d7da !important; border-color: #dc3545 !important; color: #721c24; }
-        #feedback { margin-top: 25px; padding: 20px; background: #eef6ff; border-radius: 10px; border-left: 5px solid var(--primary); display: none; }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    
-    <div id="hub-home">
-        <div class="header">
-            <h1>Oltre il Profilo</h1>
-            <p>Strumenti Digitali per l'Assistente Tecnico</p>
-        </div>
-        <div class="grid">
-            <div class="card" onclick="showSection('quiz-auth')">
-                <span class="icon">💻</span>
-                <h3>Simulatore Quiz</h3>
-                <p>Esercitati con le 200 domande del manuale rimescolate.</p>
-            </div>
-            <div class="card disabled">
-                <span class="icon">🗂️</span>
-                <h3>Flashcards</h3>
-                <p>Ripasso rapido visivo delle sigle e procedure (Prossimamente).</p>
-            </div>
-            <div class="card" onclick="window.open('https://www.miur.gov.it/scuola-digitale', '_blank')">
-                <span class="icon">📚</span>
-                <h3>Normative & News</h3>
-                <p>Accesso rapido alle fonti ufficiali e glossario tecnico.</p>
-            </div>
-            <div class="card" onclick="showSection('news-section')">
-                <span class="icon">🔔</span>
-                <h3>Resta Aggiornato</h3>
-                <p>Ricevi news su nuovi concorsi e guide per il profilo AT.</p>
-            </div>
-        </div>
+<div id="quiz-auth" class="section">
+    <button class="btn-back" onclick="location.reload()">← Home</button>
+    <div class="unlock-box">
+        <img src="https://m.media-amazon.com/images/I/link-tua-copertina.jpg" style="width:100px; margin-bottom:20px;">
+        <h2>Sblocca i Contenuti del Manuale</h2>
+        <p>Verifica possesso: inserisci la <strong>prima parola</strong> della spiegazione alla <strong>domanda n. 187</strong> del manoscritto:</p>
+        <input type="text" id="secret-word" placeholder="Scrivi la parola qui...">
+        <br>
+        <button class="btn-action" onclick="unlockQuiz()">Verifica e Accedi</button>
     </div>
-
-    <div id="quiz-auth" class="section">
-        <button class="btn-back" onclick="location.reload()">← Home</button>
-        <div class="unlock-box">
-            <h2>Accesso al Simulatore</h2>
-            <p>Inserisci la prima parola della spiegazione alla domanda n. 187 del manoscritto ":</p>
-            <input type="text" id="secret-word" placeholder="Parola segreta...">
-            <br>
-            <button class="btn-action" onclick="unlockQuiz()">Accedi al Test</button>
-        </div>
-    </div>
-
-    <div id="quiz-engine" class="section">
-        <div id="quiz-header">
-            <div id="progress" style="font-weight: bold; color: var(--primary); margin-bottom: 10px;"></div>
-            <h2 id="q-text"></h2>
-        </div>
-        <div id="q-options"></div>
-        <div id="feedback"></div>
-        <button id="next-btn" class="btn-action" style="display:none; margin-top:30px;" onclick="loadNext()">Prossima Domanda</button>
-    </div>
-
-    <div id="news-section" class="section">
-        <button class="btn-back" onclick="location.reload()">← Home</button>
-        <center>
-            <h2>La tua Community Tecnica</h2>
-            <p>Iscriviti per ricevere aggiornamenti normativi e nuovi quiz gratuiti.</p>
-            <input type="email" id="user-email" placeholder="la-tua-email@esempio.it">
-            <br>
-            <button class="btn-action" onclick="inviaNewsletter()">Voglio gli aggiornamenti</button>
-        </center>
-    </div>
-
 </div>
 
-<script>
-    let allQuestions = [];
-    let currentIdx = 0;
-    const GOOGLE_URL = "https://script.google.com/macros/s/AKfycbxyQUkxrfwyVsu2ws8ACqkRgJUhc_KQ5KoVDNys_sj0NUCOjEPGQ_GGOvm0uIACcAxZNw/exec"; // INCOLLA QUI L'URL DELLO STEP 1
+<div id="quiz-setup" class="section">
+    <h2>Quanto vuoi allenarti oggi?</h2>
+    <p>Scegli il numero di domande per questa sessione:</p>
+    <div class="grid">
+        <button class="btn-action" onclick="prepareQuiz(25)">Sprint (25)</button>
+        <button class="btn-action" onclick="prepareQuiz(50)">Standard (50)</button>
+        <button class="btn-action" onclick="prepareQuiz(0)">Tutte (200)</button>
+    </div>
+</div>
 
-    function showSection(id) {
-        document.getElementById('hub-home').style.display = 'none';
-        document.getElementById(id).style.display = 'block';
-    }
-
-    function unlockQuiz() {
-        const word = document.getElementById('secret-word').value.toLowerCase().trim();
-        if(word === "passweb") { // Sostituisci "bussola" con la tua parola scelta
-            showSection('quiz-engine');
-            startQuiz();
-        } else {
-            alert("Parola errata. Controlla il manuale!");
-        }
-    }
-
-    async function startQuiz() {
-        const res = await fetch('domande.json');
-        allQuestions = await res.json();
-        allQuestions.sort(() => Math.random() - 0.5);
-        showQuestion();
-    }
-
-    function showQuestion() {
-        const q = allQuestions[currentIdx];
-        document.getElementById('progress').innerText = `Domanda ${currentIdx + 1} di ${allQuestions.length}`;
-        document.getElementById('q-text').innerText = q.domanda;
-        document.getElementById('feedback').style.display = 'none';
-        document.getElementById('next-btn').style.display = 'none';
-        const container = document.getElementById('q-options');
-        container.innerHTML = '';
-        
-        q.opzioni.forEach((opt, i) => {
-            const btn = document.createElement('button');
-            btn.className = 'opt';
-            btn.innerText = opt;
-            btn.onclick = () => check(btn, i, q.corretta, q.spiegazione);
-            container.appendChild(btn);
-        });
-    }
-
-    function check(btn, selected, correct, info) {
-        const btns = document.querySelectorAll('.opt');
-        btns.forEach(b => b.disabled = true);
-        if(selected === correct) btn.classList.add('correct');
-        else {
-            btn.classList.add('wrong');
-            btns[correct].classList.add('correct');
-        }
-        document.getElementById('feedback').innerHTML = `<strong>Approfondimento:</strong> ${info}`;
-        document.getElementById('feedback').style.display = 'block';
-        document.getElementById('next-btn').style.display = 'block';
-    }
-
-    function loadNext() {
-        currentIdx++;
-        if(currentIdx < allQuestions.length) showQuestion();
-        else alert("Allenamento completato con successo!");
-    }
-
-    function inviaNewsletter() {
-        const email = document.getElementById('user-email').value;
-        if(!email.includes("@")) return alert("Inserisci una mail valida");
-
-        fetch(GOOGLE_URL, {
-            method: 'POST',
-            mode: 'no-cors',
-            body: JSON.stringify({ email: email })
-        }).then(() => {
-            alert("Iscrizione completata!");
-            location.reload();
-        });
-    }
-</script>
-</body>
-</html>
+<div id="quiz-results" class="section" style="text-align:center;">
+    <h2 id="res-title">Risultato Finale</h2>
+    <div id="res-score" style="font-size:3rem; color:var(--primary); margin:20px 0;"></div>
+    <p id="res-comment"></p>
+    <button class="btn-action" onclick="location.reload()">Torna alla Home</button>
+</div>
