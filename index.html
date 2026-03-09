@@ -13,7 +13,7 @@
         .header { text-align: center; padding: 40px 0; border-bottom: 2px solid #ddd; margin-bottom: 30px; }
         .header h1 { margin: 0; color: var(--primary); font-size: 2.2rem; }
         .header p { margin: 10px 0 0; color: #666; font-style: italic; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
         .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; cursor: pointer; transition: 0.3s; }
         .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
         .card.disabled { opacity: 0.5; cursor: not-allowed; }
@@ -32,9 +32,15 @@
         .wrong { background: #f8d7da !important; border-color: var(--danger) !important; color: #721c24; }
         #feedback { margin: 20px 0; padding: 15px; background: #e7f3ff; border-radius: 8px; border-left: 5px solid var(--primary); display: none; }
         
+        /* Progress Bar */
+        .progress-container { width: 100%; background-color: #eee; border-radius: 10px; margin-top: 30px; height: 12px; overflow: hidden; }
+        .progress-bar { height: 100%; width: 0%; background-color: var(--primary); transition: width 0.4s ease; }
+
         /* Privacy & Form */
         .privacy-box { font-size: 0.85rem; color: #666; margin-top: 15px; text-align: left; border-top: 1px solid #eee; padding-top: 15px; }
         input[type="text"], input[type="email"] { width: 100%; max-width: 400px; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        a { text-decoration: none; color: var(--primary); font-weight: bold; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -47,6 +53,11 @@
             <p>Risorse Digitali per personale ATA, tecnici e aspiranti tecnici.</p>
         </div>
         <div class="grid">
+            <div class="card" onclick="window.open('https://forms.gle/6qDLEak6GL7SiVSM6', '_blank')">
+                <span class="icon">🎁</span>
+                <h3>Risorsa Gratuita</h3>
+                <p>Mini-test di 50 domande aperto a tutti.</p>
+            </div>
             <div class="card" onclick="showSection('quiz-auth')">
                 <span class="icon">📝</span>
                 <h3>Simulatore Quiz</h3>
@@ -69,7 +80,12 @@
         <button class="btn btn-outline" onclick="location.reload()">← Indietro</button>
         <div style="text-align:center; padding: 20px;">
             <h2>Sblocco Simulatore</h2>
-            <p>Inserisci la <strong>prima parola</strong> della spiegazione alla <strong>domanda n. 187</strong> del manuale:</p>
+            <p>Questo è il quiz interattivo del manuale <br> 
+               <strong>"Quiz dell'assistente tecnico delle scuole : Manuale di preparazione alla professione e all'esame per le posizioni economiche ATA."</strong><br>
+               Link al manuale: <a href="https://amzn.eu/d/0iFVNuCY" target="_blank">🛒 Vai su Amazon</a>
+            </p>
+            <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+            <p>Per sbloccare l'accesso, inserisci la <strong>prima parola</strong> della spiegazione alla <strong>domanda n. 187</strong> del manuale:</p>
             <input type="text" id="pass-word" placeholder="Parola segreta...">
             <br><br>
             <button class="btn" onclick="checkAuth()">Sblocca</button>
@@ -95,6 +111,10 @@
         <div id="q-options"></div>
         <div id="feedback"></div>
         <button id="next-btn" class="btn" style="display:none; margin-top:20px; width:100%;" onclick="nextQuestion()">Prossima Domanda</button>
+        
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
     </div>
 
     <div id="quiz-results" class="section" style="text-align:center;">
@@ -128,8 +148,8 @@
     let score = 0;
 
     // --- CONFIGURAZIONE ---
-    const SECRET_WORD = "passweb"; // <--- CAMBIA CON QUELLA DEL LIBRO (tutta minuscola)
-    const GOOGLE_URL = "https://script.google.com/macros/s/AKfycbxyQUkxrfwyVsu2ws8ACqkRgJUhc_KQ5KoVDNys_sj0NUCOjEPGQ_GGOvm0uIACcAxZNw/exec"; // <--- METTI IL TUO URL DI GOOGLE
+    const SECRET_WORD = "passweb"; 
+    const GOOGLE_URL = "https://script.google.com/macros/s/AKfycbxyQUkxrfwyVsu2ws8ACqkRgJUhc_KQ5KoVDNys_sj0NUCOjEPGQ_GGOvm0uIACcAxZNw/exec";
 
     function showSection(id) {
         document.querySelectorAll('.container > div').forEach(div => div.style.display = 'none');
@@ -156,7 +176,12 @@
 
     function renderQuestion() {
         const q = sessionQuestions[currentIdx];
+        
+        // Aggiornamento testo progresso e barra
         document.getElementById('quiz-progress').innerText = `Domanda ${currentIdx + 1} di ${sessionQuestions.length}`;
+        const progressPercent = ((currentIdx + 1) / sessionQuestions.length) * 100;
+        document.getElementById('progress-bar').style.width = progressPercent + '%';
+
         document.getElementById('q-text').innerText = q.domanda;
         document.getElementById('feedback').style.display = 'none';
         document.getElementById('next-btn').style.display = 'none';
