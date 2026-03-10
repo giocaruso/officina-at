@@ -3,236 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oltre il Profilo - Hub Digitale per Assistenti Tecnici</title>
+    <title>Hub Assistenti Tecnici</title>
     <style>
-        :root { --primary: #004a99; --secondary: #002d5d; --accent: #f8f9fa; --text: #333; --success: #28a745; --danger: #dc3545; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--accent); color: var(--text); margin: 0; line-height: 1.6; }
-        .container { max-width: 850px; margin: 0 auto; padding: 20px; }
-        
-        /* Dashboard & Header */
-        .header { text-align: center; padding: 40px 0; border-bottom: 2px solid #ddd; margin-bottom: 30px; }
-        .header h1 { margin: 0; color: var(--primary); font-size: 2.2rem; }
-        .header p { margin: 10px 0 0; color: #666; font-style: italic; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
-        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; cursor: pointer; transition: 0.3s; }
-        .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
-        .card.disabled { opacity: 0.5; cursor: not-allowed; }
-        .icon { font-size: 3rem; margin-bottom: 15px; display: block; }
-        
-        /* Sections */
-        .section { display: none; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
-        .btn { background: var(--primary); color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-weight: bold; font-size: 1rem; transition: 0.2s; }
-        .btn:hover { background: var(--secondary); }
-        .btn-outline { background: transparent; color: var(--primary); border: 2px solid var(--primary); }
-        
-        /* Quiz Specifics */
-        .opt { display: block; width: 100%; padding: 15px; margin: 10px 0; border: 1px solid #ddd; border-radius: 8px; text-align: left; background: #fff; cursor: pointer; font-size: 1rem; }
-        .opt:hover { background: #f1f7ff; }
-        .correct { background: #d4edda !important; border-color: var(--success) !important; color: #155724; }
-        .wrong { background: #f8d7da !important; border-color: var(--danger) !important; color: #721c24; }
-        #feedback { margin: 20px 0; padding: 15px; background: #e7f3ff; border-radius: 8px; border-left: 5px solid var(--primary); display: none; }
-        
-        /* Progress Bar */
-        .progress-container { width: 100%; background-color: #eee; border-radius: 10px; margin-top: 30px; height: 12px; overflow: hidden; }
-        .progress-bar { height: 100%; width: 0%; background-color: var(--primary); transition: width 0.4s ease; }
+        :root { 
+            --primary: #004a99; 
+            --secondary: #002d5d; 
+            --accent: #ffffff; 
+            --bg: #f4f7fa;
+            --text: #2c3e50; 
+        }
 
-        /* Privacy & Form */
-        .privacy-box { font-size: 0.85rem; color: #666; margin-top: 15px; text-align: left; border-top: 1px solid #eee; padding-top: 15px; }
-        input[type="text"], input[type="email"] { width: 100%; max-width: 400px; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
-        a { text-decoration: none; color: var(--primary); font-weight: bold; }
-        a:hover { text-decoration: underline; }
+        body { 
+            font-family: 'Inter', -apple-system, sans-serif; 
+            background-color: var(--bg); 
+            color: var(--text); 
+            margin: 0; 
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        .hero-container { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 25px; }
+        @media (min-width: 768px) { .hero-container { flex-direction: row; text-align: left; } }
+
+        @keyframes gentleWave {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(-2deg); }
+            50% { transform: rotate(2deg); }  
+            75% { transform: rotate(-1deg); } 
+            100% { transform: rotate(0deg); } 
+        }
+
+        .hero-img {
+            width: 180px;
+            border-radius: 20px;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+            transform-origin: bottom center; 
+            animation: gentleWave 4s ease-in-out infinite;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .hero-img:hover {
+            transform: scale(1.08) rotate(0deg); 
+            box-shadow: 0 20px 45px rgba(0,0,0,0.5);
+            border: 4px solid var(--accent);
+            animation-play-state: paused; 
+        }
+
+        .red-mark { color: #ff6b6b; font-weight: bold; padding-bottom: 2px; }
+        .bold-tech { font-weight: 800; color: #fff; }
+
+        .container { flex-grow: 1; max-width: 1000px; margin: -40px auto 40px; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+        
+        .card { 
+            background: white; padding: 25px; border-radius: 16px; box-shadow: 0 8px 16px rgba(0,0,0,0.05); 
+            text-align: center; cursor: pointer; transition: 0.3s; border: 1px solid rgba(0,0,0,0.05);
+        }
+        .card:hover { transform: translateY(-10px); border-color: var(--primary); }
+
+        .manuali-section { margin-top: 60px; text-align: center; padding-bottom: 50px; }
+        .manuali-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 30px; }
+        
+        /* CARD MANUALI AGGIORNATE (Senza bottone, interamente cliccabili) */
+        .manual-card { 
+            background: #ebf2f9; 
+            padding: 25px; 
+            border-radius: 15px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+            display: flex; flex-direction: column; align-items: center;
+            border: 1px solid rgba(0, 74, 153, 0.1);
+            cursor: pointer; /* Fa capire che si può cliccare */
+            transition: all 0.3s ease;
+        }
+        .manual-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+            border-color: var(--primary);
+        }
+
+        .manual-img { height: 180px; width: auto; border-radius: 5px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 15px; object-fit: contain; }
+        .manual-card h4 { margin: 10px 0 5px 0; font-size: 1.1rem; color: var(--secondary); font-weight: 700; }
+        .manual-subtitle { font-size: 0.85rem; color: #555; margin-bottom: 0; }
+
+        .section { display: none; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .btn { background: var(--primary); color: white; border: none; padding: 15px; border-radius: 8px; cursor: pointer; font-weight: bold; width: 100%; }
+
+        .footer { background-color: var(--secondary); color: #d1d9e6; text-align: center; padding: 40px 20px; margin-top: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; }
+        .footer-container { max-width: 900px; margin: 0 auto; }
+        .footer a { color: #fff; text-decoration: none; transition: 0.3s; }
+        .footer a:hover { text-decoration: underline; color: var(--amazon); }
     </style>
 </head>
 <body>
 
-<div class="container">
-    
-    <div id="home-hub">
-        <div class="header">
-            <h1>Oltre il Profilo</h1>
-            <p>Risorse Digitali per personale ATA, tecnici e aspiranti tecnici.</p>
+    <header class="hero">
+        <div class="hero-container">
+            <a href="chi-sono.html" title="Scopri chi sono">
+                <img src="assistente-tecnico.png" alt="Avatar Tecnico Esperto" class="hero-img">
+            </a>
+            <div style="flex:1;">
+                <h1>Hub Assistente Tecnico</h1>
+                <p>Supporto digitale e risorse interattive per l'AT di laboratorio. <br> <span class="bold-tech">Realizzato da un Assistente tecnico di Informatica</span>.</p>
+            </div>
         </div>
-        <div class="grid">
-            <div class="card" onclick="window.open('https://forms.gle/6qDLEak6GL7SiVSM6', '_blank')">
-                <span class="icon">🎁</span>
-                <h3>Risorsa Gratuita</h3>
-                <p>Mini-test di 50 domande aperto a tutti.</p>
+    </header>
+
+    <div class="container">
+        <div id="home-hub">
+            <div class="grid">
+                <div class="card" onclick="window.open('https://forms.gle/6qDLEak6GL7SiVSM6', '_blank')">
+                    <span style="font-size:2.5rem;">💻</span>
+                    <h3>50 Domande aperte a tutti</h3>
+                    <p>Un primo check sulle conoscenze operative, normative e tecnologiche richieste nel mondo ATA moderno.</p>
+                </div>
+                <div class="card" style="border: 2px solid var(--primary);" onclick="showSection('quiz-auth')">
+                    <span style="font-size:2.5rem;">📝</span>
+                    <h3>Quiz dell'Assistente Tecnico</h3>
+                    <p>200 Domande dal manuale. <span class="red-mark">DigComp 2.2</span>, casi pratici di gestione hardware/software derivati dalla reale esperienza scolastica.</p>
+                </div>
+                <div class="card" onclick="showSection('newsletter-section')">
+                    <span style="font-size:2.5rem;">🔔</span>
+                    <h3>Resta Aggiornato</h3>
+                    <p>News, concorsi e aggiornamenti.</p>
+                </div>
             </div>
-            <div class="card" onclick="showSection('quiz-auth')">
-                <span class="icon">📝</span>
-                <h3>Simulatore Quiz</h3>
-                <p>L'assistente tecnico delle scuole: 200 Domande</p>
-            </div>
-            <div class="card disabled">
-                <span class="icon">🗂️</span>
-                <h3>Flashcards</h3>
-                <p>Ripasso rapido delle sigle (In arrivo).</p>
-            </div>
-            <div class="card" onclick="showSection('newsletter-section')">
-                <span class="icon">🔔</span>
-                <h3>Resta Aggiornato</h3>
-                <p>News su concorsi e aggiornamenti per AT.</p>
+
+            <div class="manuali-section">
+                <h2>I Miei Manuali</h2>
+                <p style="color: var(--secondary); font-weight: 600; margin-bottom: 0;">I miei appunti quotidiani, le miei soluzioni e gli aggiornamenti alla professione.</p>
+
+                <div class="manuali-grid">
+                    <div class="manual-card" onclick="window.open('https://amzn.eu/d/0iFVNuCY', '_blank')" title="Scoprilo su Amazon">
+                        <img src="copertina-200quiz.jpg" class="manual-img" alt="Quiz 200">
+                        <h4>Quiz dell' AT</h4>
+                        <p class="manual-subtitle">Per misurare il livello di competenza professionale.</p>
+                    </div>
+                    <div class="manual-card" onclick="window.open('https://amzn.eu/d/005dvtg0', '_blank')" title="Scoprilo su Amazon">
+                        <img src="copertina-oltre-profilo.jpg" class="manual-img" alt="Area Informatica">
+                        <h4>Diario di un AT</h4>
+                        <p class="manual-subtitle">Diario di bordo quotidiano di un assistente al lavoro.</p>
+                    </div>
+                    <div class="manual-card" onclick="window.open('https://amzn.eu/d/03SaaHGU', '_blank')" title="Scoprilo su Amazon">
+                        <img src="copertina-tutti-possono.jpg" class="manual-img" alt="Posizioni Economiche">
+                        <h4>Tutti possono fare l'AT</h4>
+                        <p class="manual-subtitle">Per tutti coloro che vogliono iscriversi nelle graduatorie come tecnico di laboratorio informatico e hanno timore di non esserne all'altezza.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="quiz-auth" class="section">
-        <button class="btn btn-outline" onclick="location.reload()">← Indietro</button>
-        <div style="text-align:center; padding: 20px;">
-            <h2>Sblocco Simulatore</h2>
-            <p>Questo è il quiz interattivo del manuale <br> 
-               <strong>"Quiz dell'assistente tecnico delle scuole : Manuale di preparazione alla professione e all'esame per le posizioni economiche ATA."</strong><br>
-               Link al manuale: <a href="https://amzn.eu/d/0iFVNuCY" target="_blank">🛒 Vai su Amazon</a>
+    <footer class="footer">
+        <div class="footer-container">
+            <p style="font-weight: bold; font-size: 1.1rem; margin-bottom: 10px;">&copy; 2026 Giovanni Caruso</p>
+            <p style="font-size: 0.85rem; max-width: 600px; margin: 0 auto 15px; line-height: 1.4;">
+                Hub digitale non ufficiale, creato per la formazione del personale ATA. <br>
+                <span style="opacity: 0.7;">In qualità di Affiliato Amazon ricevo un guadagno dagli acquisti idonei.</span>
             </p>
-            <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
-            <p>Per sbloccare l'accesso, inserisci la <strong>prima parola</strong> della spiegazione alla <strong>domanda n. 187</strong> del manuale:</p>
-            <input type="text" id="pass-word" placeholder="Parola segreta...">
-            <br><br>
-            <button class="btn" onclick="checkAuth()">Sblocca</button>
+            <p style="font-size: 0.9rem;">
+                <a href="chi-sono.html#contatti">Contattami</a>
+            </p>
         </div>
-    </div>
+    </footer>
 
-    <div id="quiz-setup" class="section">
-        <h2>Quanto vuoi allenarti?</h2>
-        <p>Scegli il numero di domande per questa sessione (rimescolate):</p>
-        <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
-            <button class="btn" onclick="startQuiz(25)">Rapido (25)</button>
-            <button class="btn" onclick="startQuiz(50)">Intermedio (50)</button>
-            <button class="btn" onclick="startQuiz(0)">Tutte (200)</button>
-        </div>
-    </div>
-
-    <div id="quiz-engine" class="section">
-        <div style="display: flex; justify-content: space-between; align-items: center;">
-            <span id="quiz-progress" style="font-weight: bold; color: var(--primary);"></span>
-            <button class="btn btn-outline" style="padding: 5px 10px; font-size: 0.8rem;" onclick="location.reload()">Abbandona</button>
-        </div>
-        <h2 id="q-text" style="margin-top: 20px;"></h2>
-        <div id="q-options"></div>
-        <div id="feedback"></div>
-        <button id="next-btn" class="btn" style="display:none; margin-top:20px; width:100%;" onclick="nextQuestion()">Prossima Domanda</button>
-        
-        <div class="progress-container">
-            <div id="progress-bar" class="progress-bar"></div>
-        </div>
-    </div>
-
-    <div id="quiz-results" class="section" style="text-align:center;">
-        <h2>Sessione Completata!</h2>
-        <div id="final-score" style="font-size: 4rem; color: var(--primary); margin: 20px 0;"></div>
-        <p id="final-comment"></p>
-        <button class="btn" onclick="location.reload()">Ricomincia o Vai alla Home</button>
-    </div>
-
-    <div id="newsletter-section" class="section">
-        <button class="btn btn-outline" onclick="location.reload()">← Home</button>
-        <div style="text-align:center;">
-            <h2>Resta Aggiornato</h2>
-            <p>Ti avviserò per nuovi concorsi, news normative e aggiornamenti software.</p>
-            <input type="email" id="user-email" placeholder="latuamail@esempio.it"><br>
-            <div class="privacy-box">
-                <input type="checkbox" id="gdpr-check"> 
-                Accetto il trattamento dei dati personali ai sensi del GDPR (Reg. UE 2016/679). La mail verrà usata esclusivamente per comunicazioni relative al profilo Assistente Tecnico.
-            </div>
-            <br>
-            <button class="btn" onclick="sendEmail()">Iscrivimi</button>
-        </div>
-    </div>
-
-</div>
-
-<script>
-    let allQuestions = [];
-    let sessionQuestions = [];
-    let currentIdx = 0;
-    let score = 0;
-
-    // --- CONFIGURAZIONE ---
-    const SECRET_WORD = "passweb"; 
-    const GOOGLE_URL = "https://script.google.com/macros/s/AKfycbxyQUkxrfwyVsu2ws8ACqkRgJUhc_KQ5KoVDNys_sj0NUCOjEPGQ_GGOvm0uIACcAxZNw/exec";
-
-    function showSection(id) {
-        document.querySelectorAll('.container > div').forEach(div => div.style.display = 'none');
-        document.getElementById(id).style.display = 'block';
-    }
-
-    function checkAuth() {
-        const val = document.getElementById('pass-word').value.toLowerCase().trim();
-        if(val === SECRET_WORD) showSection('quiz-setup');
-        else alert("Parola non corretta. Controlla il manuale!");
-    }
-
-    async function startQuiz(num) {
-        const res = await fetch('domande.json');
-        allQuestions = await res.json();
-        allQuestions.sort(() => Math.random() - 0.5);
-        
-        sessionQuestions = num === 0 ? allQuestions : allQuestions.slice(0, num);
-        currentIdx = 0;
-        score = 0;
-        showSection('quiz-engine');
-        renderQuestion();
-    }
-
-    function renderQuestion() {
-        const q = sessionQuestions[currentIdx];
-        
-        // Aggiornamento testo progresso e barra
-        document.getElementById('quiz-progress').innerText = `Domanda ${currentIdx + 1} di ${sessionQuestions.length}`;
-        const progressPercent = ((currentIdx + 1) / sessionQuestions.length) * 100;
-        document.getElementById('progress-bar').style.width = progressPercent + '%';
-
-        document.getElementById('q-text').innerText = q.domanda;
-        document.getElementById('feedback').style.display = 'none';
-        document.getElementById('next-btn').style.display = 'none';
-        
-        const optContainer = document.getElementById('q-options');
-        optContainer.innerHTML = '';
-        
-        q.opzioni.forEach((opt, i) => {
-            const b = document.createElement('button');
-            b.className = 'opt';
-            b.innerText = opt;
-            b.onclick = () => {
-                const btns = document.querySelectorAll('.opt');
-                btns.forEach(btn => btn.disabled = true);
-                if(i === q.corretta) {
-                    b.classList.add('correct');
-                    score++;
-                } else {
-                    b.classList.add('wrong');
-                    btns[q.corretta].classList.add('correct');
-                }
-                document.getElementById('feedback').innerHTML = `<strong>Spiegazione:</strong> ${q.spiegazione}`;
-                document.getElementById('feedback').style.display = 'block';
-                document.getElementById('next-btn').style.display = 'block';
-            };
-            optContainer.appendChild(b);
-        });
-    }
-
-    function nextQuestion() {
-        currentIdx++;
-        if(currentIdx < sessionQuestions.length) renderQuestion();
-        else showResults();
-    }
-
-    function showResults() {
-        showSection('quiz-results');
-        const percent = Math.round((score / sessionQuestions.length) * 100);
-        document.getElementById('final-score').innerText = `${percent}%`;
-        document.getElementById('final-comment').innerText = `Hai risposto correttamente a ${score} domande su ${sessionQuestions.length}.`;
-    }
-
-    function sendEmail() {
-        const mail = document.getElementById('user-email').value;
-        const gdpr = document.getElementById('gdpr-check').checked;
-        if(!mail.includes("@")) return alert("Inserisci una mail valida");
-        if(!gdpr) return alert("Devi accettare l'informativa privacy");
-
-        fetch(GOOGLE_URL, { method: 'POST', mode: 'no-cors', body: JSON.stringify({ email: mail }) })
-        .then(() => { alert("Iscrizione avvenuta! Grazie."); location.reload(); });
-    }
-</script>
+    <script>
+        const SECRET_WORD = "passweb"; 
+        const GOOGLE_URL = "https://script.google.com/macros/s/AKfycbxyQUkxrfwyVsu2ws8ACqkRgJUhc_KQ5KoVDNys_sj0NUCOjEPGQ_GGOvm0uIACcAxZNw/exec";
+        function showSection(id) {
+            document.getElementById('home-hub').style.display = 'none';
+            document.querySelector('.hero').style.display = 'none';
+            document.getElementById(id).style.display = 'block';
+        }
+        function checkAuth() {
+            const val = document.getElementById('pass-word').value.toLowerCase().trim();
+            if(val === SECRET_WORD) showSection('quiz-setup');
+            else alert("Parola non corretta!");
+        }
+    </script>
 </body>
 </html>
