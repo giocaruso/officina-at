@@ -331,14 +331,25 @@
             
             <span style="font-size: 4rem;">📩</span>
             <h2 style="color: var(--secondary);">Iscriviti alla Newsletter</h2>
-            <p style="font-size: 1.05rem; margin-bottom: 30px;">Ricevi aggiornamenti sulle ultime normative, concorsi e nuovi strumenti pensati per gli Assistenti Tecnici.</p>
+            <p style="font-size: 1.05rem; margin-bottom: 30px;">Ricevi aggiornamenti sulle ultime novità da questo Hub, concorsi, manuali e nuovi strumenti pensati per gli Assistenti Tecnici.</p>
             
-            <form id="newsletter-form" onsubmit="submitToGoogle(event)">
+           <form id="newsletter-form" onsubmit="submitToGoogle(event)">
                 <input type="text" id="work-address" name="work-address" style="display:none;" tabindex="-1" autocomplete="off">
                 
                 <input type="email" id="email-input" placeholder="Inserisci la tua email..." required style="padding:15px; border-radius:8px; border:1px solid #ccc; width:100%; max-width:300px; margin-bottom: 15px; font-size: 1rem;">
-                <br>
+                
+               <div style="text-align: left; max-width: 300px; margin: 0 auto 15px auto; font-size: 0.85rem; color: #555;">
+                    <label style="display: flex; align-items: flex-start; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" required style="margin-top: 3px;">
+                        <span>Acconsento al trattamento della mia email esclusivamente per ricevere la newsletter dell'Hub.</span>
+                    </label>
+                </div>
+
                 <button type="submit" class="btn" id="submit-btn" style="max-width:300px; font-size: 1.1rem;">Iscriviti Ora</button>
+                
+               <p style="font-size: 0.8rem; color: #777; margin-top: 15px; max-width: 300px; margin-left: auto; margin-right: auto; line-height: 1.4;">
+                    Potrai cancellare la tua iscrizione in qualsiasi momento cliccando sul link presente in fondo a ogni nostra email.
+                </p>
             </form>
 
             <div id="newsletter-msg" style="margin-top: 20px; font-weight: bold; display: none; padding: 15px; border-radius: 8px;"></div>
