@@ -65,15 +65,23 @@
         .bold-tech { font-weight: 800; color: #fff; font-style: italic; }
 
         .container { flex-grow: 1; max-width: 1000px; margin: -40px auto 40px; padding: 0 20px; }
+        
+        /* Modificata per le nuove sezioni */
+        .category-section { margin-top: 50px; }
+        .category-section h2 { color: var(--secondary); margin-bottom: 5px; text-align: center; font-size: 2rem;}
+        .category-section p.subtitle { color: var(--primary); font-weight: 600; text-align: center; margin-top: 0; margin-bottom: 30px; }
+
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
         
         .card { 
             background: white; padding: 25px; border-radius: 16px; box-shadow: 0 8px 16px rgba(0,0,0,0.05); 
             text-align: center; cursor: pointer; transition: 0.3s; border: 1px solid rgba(0,0,0,0.05);
+            display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
         }
         .card:hover { transform: translateY(-10px); border-color: var(--primary); }
+        .card h3 { margin: 15px 0 10px 0; color: var(--secondary); font-size: 1.2rem; }
+        .card p { margin: 0; font-size: 0.95rem; color: #555; }
 
-        .manuali-section { margin-top: 60px; text-align: center; padding-bottom: 50px; }
         .manuali-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; margin-top: 30px; }
         
         .manual-card { 
@@ -94,17 +102,15 @@
 
         .manual-img { height: 180px; width: auto; border-radius: 5px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); margin-bottom: 15px; object-fit: contain; }
         .manual-card h4 { margin: 10px 0 5px 0; font-size: 1.1rem; color: var(--secondary); font-weight: 700; }
-        .manual-subtitle { font-size: 0.85rem; color: #555; margin-bottom: 0; }
+        .manual-subtitle { font-size: 0.85rem; color: #555; margin-bottom: 0; text-align: center; }
 
-        .section { display: none; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .section { display: none; background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-top: 40px; }
         .btn { background: var(--primary); color: white; border: none; padding: 15px; border-radius: 8px; cursor: pointer; font-weight: bold; width: 100%; transition: 0.3s; }
         .btn:hover { background: var(--secondary); }
         
-        /* Stile per i bottoni delle opzioni del quiz */
         .btn-opzione:hover:not(:disabled) { background-color: var(--bg) !important; border-color: var(--primary) !important; }
         .btn-opzione:disabled { cursor: default; }
 
-        /* Nuovo bottone "Torna all'Hub" stilizzato */
         .btn-back-hub {
             display: inline-block;
             background: transparent;
@@ -123,7 +129,6 @@
             color: white;
         }
 
-        /* Layout intro quiz */
         .quiz-intro-wrapper { display: flex; flex-direction: column; align-items: center; gap: 30px; margin-bottom: 30px; text-align: center; }
         .quiz-cover-link { flex-shrink: 0; display: block; transition: transform 0.3s ease; }
         .quiz-cover-link:hover { transform: scale(1.05); }
@@ -156,30 +161,61 @@
     <div class="container">
         
         <div id="home-hub">
-            <div class="grid">
-                <div class="card" onclick="window.open('https://forms.gle/6qDLEak6GL7SiVSM6', '_blank')">
-                    <span style="font-size:2.5rem;">💻</span>
-                    <h3>50 Domande aperte a tutti</h3>
-                    <p>Un primo check sulle conoscenze operative, normative e tecnologiche richieste nel mondo ATA moderno.</p>
-                </div>
-                
-                <div class="card" style="border: 2px solid var(--primary);" onclick="showSection('quiz-auth')">
-                    <span style="font-size:2.5rem;">📝</span>
-                    <h3>Quiz dell'Assistente Tecnico</h3>
-                    <p>200 Domande dal manuale. <span class="red-mark">DigComp 2.2</span>, casi pratici di gestione hardware/software derivati dalla reale esperienza scolastica.</p>
-                </div>
-                
-                <div class="card" onclick="showSection('newsletter-section')">
-                    <span style="font-size:2.5rem;">🔔</span>
-                    <h3>Resta Aggiornato</h3>
-                    <p>News, concorsi e aggiornamenti.</p>
+            
+            <div class="category-section" style="margin-top: 0;">
+                <h2>Strumenti Operativi</h2>
+                <p class="subtitle">Test, utilità e aggiornamenti per il lavoro quotidiano.</p>
+                <div class="grid">
+                    <div class="card" style="border: 2px solid var(--primary);" onclick="showSection('area-test')">
+                        <span style="font-size:2.5rem;">📝</span>
+                        <h3>Area Test & Simulazioni</h3>
+                        <p>Mettiti alla prova: test rapido da 50 domande e simulatore avanzato sui 200 quiz del manuale.</p>
+                    </div>
+                    
+                    <div class="card" onclick="showSection('coming-soon')">
+                        <span style="font-size:2.5rem;">🔔</span>
+                        <h3>Resta Aggiornato</h3>
+                        <p>News, concorsi, normative e aggiornamenti sul profilo ATA.</p>
+                    </div>
+                    
+                    <div class="card" style="filter: grayscale(100%); opacity: 0.6; cursor: not-allowed;" title="Sezione in lavorazione">
+                        <span style="font-size:2.5rem;">🧰</span>
+                        <h3>Trucchi del Mestiere</h3>
+                        <p>Script, comandi rapidi e utility da chiavetta per la gestione del laboratorio.<br><strong style="color: var(--secondary); font-size: 0.9rem;">[ Prossimamente ]</strong></p>
+                    </div>
                 </div>
             </div>
 
-            <div class="manuali-section">
-                <h2>I Miei Manuali</h2>
-                <p style="color: var(--secondary); font-weight: 600; margin-bottom: 0;">I miei appunti quotidiani, le miei soluzioni e gli aggiornamenti alla professione.</p>
+            <div class="category-section">
+                <h2>La Professione</h2>
+                <p class="subtitle">Tutto quello che c'è da sapere per iniziare e crescere come AT.</p>
+                <div class="grid">
+                    <div class="card" onclick="showSection('coming-soon')">
+                        <span style="font-size:2.5rem;">🎓</span>
+                        <h3>Come si diventa tecnico</h3>
+                        <p>Requisiti, titoli di studio e accesso alle graduatorie ATA (24 mesi e terza fascia).</p>
+                    </div>
+                    <div class="card" onclick="showSection('coming-soon')">
+                        <span style="font-size:2.5rem;">⚙️</span>
+                        <h3>Cosa fa un tecnico</h3>
+                        <p>Mansioni, orari, responsabilità e gestione quotidiana dei laboratori.</p>
+                    </div>
+                    <div class="card" onclick="showSection('coming-soon')">
+                        <span style="font-size:2.5rem;">📈</span>
+                        <h3>Avanzamento di carriera</h3>
+                        <p>Posizioni economiche, passaggi di profilo e ricostruzione di carriera.</p>
+                    </div>
+                    <div class="card" onclick="showSection('coming-soon')">
+                        <span style="font-size:2.5rem;">🚒</span>
+                        <h3>Corsi e Formazione</h3>
+                        <p>Sicurezza sul lavoro, antincendio, primo soccorso e certificazioni utili.</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="category-section">
+                <h2>I Miei Manuali</h2>
+                <p class="subtitle">I miei appunti quotidiani, le soluzioni e gli aggiornamenti alla professione.</p>
                 <div class="manuali-grid">
                     <div class="manual-card" onclick="window.open('https://amzn.eu/d/0iFVNuCY', '_blank')" title="Scoprilo su Amazon">
                         <img src="img/copertina-200quiz.jpg" class="manual-img" alt="Quiz 200">
@@ -198,6 +234,27 @@
                     </div>
                 </div>
             </div>
+
+        </div>
+
+        <div id="area-test" class="section">
+            <button onclick="location.reload()" class="btn-back-hub">← Torna all'Hub</button>
+            <h2 style="color: var(--secondary); text-align: center; margin-bottom: 10px;">Area Test & Simulazioni</h2>
+            <p style="text-align: center; margin-bottom: 40px; font-size: 1.1rem;">Scegli il livello della tua sfida:</p>
+            
+            <div class="grid" style="max-width: 800px; margin: 0 auto;">
+                <div class="card" onclick="window.open('https://forms.gle/6qDLEak6GL7SiVSM6', '_blank')">
+                    <span style="font-size:2.5rem;">💻</span>
+                    <h3>50 Domande Aperte</h3>
+                    <p>Un primo check libero e veloce sulle conoscenze operative richieste nel mondo ATA moderno.</p>
+                </div>
+                
+                <div class="card" style="border: 2px solid var(--primary);" onclick="showSection('quiz-auth')">
+                    <span style="font-size:2.5rem;">📝</span>
+                    <h3>Simulatore 200 Quiz</h3>
+                    <p>Accesso riservato. Include domande sul DigComp 2.2, sicurezza e casi pratici tratti dal manuale.</p>
+                </div>
+            </div>
         </div>
 
         <div id="quiz-auth" class="section">
@@ -213,7 +270,7 @@
                     
                     <div>
                         <p style="font-size: 1.05rem; margin-top: 0; line-height: 1.6;">
-                            Questo simulatore contiene le 200 domande interattive tratte dal mio libro pubblicato su Amazon:
+                            Questo simulatore contiene le 200 domande interattive tratte dal mio libro pubblicato su Amazon: <br>
                             <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: underline;"><em>"Quiz dell'Assistente Tecnico delle scuole"</em></a>.
                         </p>
 
@@ -257,18 +314,21 @@
                 <div style="text-align:center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
                     <input type="text" id="pass-word" placeholder="Inserisci la parola segreta..." style="padding:15px; border-radius:8px; border:1px solid #ccc; width:100%; max-width:300px; margin-bottom: 15px; font-size: 1rem;">
                     <br>
-                    <button class="btn" onclick="checkAuth()" style="max-width:300px; font-size: 1.1rem;">Sblocca e Avvia Simulatore</button>
+                    <button class="btn" onclick="checkAuth()" style="max-width:300px; font-size: 1.1rem; margin-bottom: 30px;">Sblocca e Avvia Simulatore</button>
                 </div>
             </div>
+            <button onclick="location.reload()" class="btn-back-hub" style="margin-top: 20px;">← Torna all'Hub</button>
         </div>
 
         <div id="quiz-setup" class="section">
         </div>
 
-        <div id="newsletter-section" class="section" style="text-align: center;">
-            <button onclick="location.reload()" class="btn-back-hub">← Torna all'Hub</button>
-            <h2 style="color: var(--secondary);">Resta Aggiornato</h2>
-            <p>Sezione in costruzione...</p>
+        <div id="coming-soon" class="section" style="text-align: center; max-width: 600px; margin-left: auto; margin-right: auto;">
+            <button onclick="location.reload()" class="btn-back-hub" style="float: left;">← Torna all'Hub</button>
+            <div style="clear: both;"></div>
+            <span style="font-size: 4rem;">🚧</span>
+            <h2 style="color: var(--secondary);">Lavori in corso...</h2>
+            <p style="font-size: 1.1rem;">Sto preparando e raccogliendo i migliori materiali per arricchire questa sezione. Torna a trovarmi presto per le novità!</p>
         </div>
 
     </div>
@@ -294,10 +354,19 @@
         let risposteUtente = []; 
 
         function showSection(id) {
+            // Nascondiamo l'Hub principale e la copertina
             document.getElementById('home-hub').style.display = 'none';
             document.querySelector('.hero').style.display = 'none';
-            document.getElementById('quiz-auth').style.display = 'none'; 
+            
+            // Nascondiamo tutte le altre sezioni aperte
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(sec => sec.style.display = 'none');
+            
+            // Mostriamo solo la sezione desiderata
             document.getElementById(id).style.display = 'block';
+            
+            // Trucco UX: Riporta la visuale automaticamente in cima alla pagina
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         
         function checkAuth() {
@@ -384,6 +453,7 @@
             `;
             
             quizContainer.innerHTML = html;
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Riporta in alto ad ogni nuova domanda
         }
 
         function verificaRisposta(indiceSelezionato) {
@@ -433,6 +503,9 @@
                 <p style="margin-bottom: 20px;"><strong>Spiegazione:</strong> ${q.spiegazione}</p>
                 <button class="btn" onclick="prossimaDomanda()" style="width: auto; padding: 10px 25px;">Avanti ➔</button>
             `;
+            
+            // Fai scorrere leggermente la pagina in basso per far leggere la spiegazione
+            feedbackDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
 
         function prossimaDomanda() {
@@ -466,7 +539,7 @@
             
             if(errori.length > 0) {
                 html += `
-                    <div style="text-align: left; background: var(--bg); padding: 30px; border-radius: 12px;">
+                    <div style="text-align: left; background: var(--bg); padding: 30px; border-radius: 12px; margin-bottom: 30px;">
                         <h3 style="color: var(--secondary); margin-top: 0; border-bottom: 2px solid white; padding-bottom: 10px;">Riepilogo Errori</h3>
                 `;
                 errori.forEach((err, i) => {
@@ -479,9 +552,11 @@
                 });
                 html += `</div>`;
             }
-
-            html += `</div>`;
+            
+            html += `<button onclick="location.reload()" class="btn-back-hub" style="margin-bottom: 40px;">← Torna all'Hub</button></div>`;
+            
             quizContainer.innerHTML = html;
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Riporta in alto
         }
     </script>
 </body>
