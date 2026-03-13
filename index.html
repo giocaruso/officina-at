@@ -332,26 +332,21 @@
                     </a>
                     
                     <div>
-					 <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 20px;">
-                            Uno strumento pensato per misurare il livello di competenza professionale e prepararsi ai passaggi per le <strong>posizioni economiche ATA</strong> attraverso un metodo di apprendimento attivo.
-                        </p>
                         <p style="font-size: 1.05rem; margin-top: 0; line-height: 1.6;">
                             Questo simulatore contiene le 200 domande interattive tratte dal mio libro: <br>
                             <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: underline;"><em>"Quiz dell'Assistente Tecnico delle scuole"</em></a>.
                         </p>
+
+                        <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 20px;">
+                            Uno strumento pensato per misurare il livello di competenza professionale e prepararsi ai passaggi per le <strong>posizioni economiche ATA</strong> attraverso un metodo di apprendimento attivo.
+                        </p>
+                        
                         <div style="margin-top: 20px; text-align: left;">
                             <p style="margin-top: 0; font-weight: bold; color: var(--secondary);">Cosa troverai in questo simulatore:</p>
                             <ul style="line-height: 1.6; padding-left: 20px; margin-top: 5px;">
                                 <li style="margin-bottom: 8px;"><strong>200 Quiz Mirati:</strong> Normativa, sicurezza, gestione documentale, informatica e IA.</li>
                                 <li style="margin-bottom: 8px;"><strong>Soluzioni Commentate:</strong> Ogni risposta include una spiegazione rapida per un ripasso immediato.</li>
                                 <li><strong>Sistema Random:</strong> L'algoritmo rimescola le domande a ogni avvio per evitare l'apprendimento mnemonico.</li>
-                            </ul>
-                        </div>
-						<div style="margin-top: 25px; text-align: left;">
-                            <p style="margin-top: 0; font-weight: bold; color: var(--secondary);">A chi è rivolto:</p>
-                            <ul style="line-height: 1.6; padding-left: 20px; margin-top: 5px;">
-                                <li style="margin-bottom: 8px;"><strong>Assistenti Tecnici in servizio e personale ATA:</strong> per consolidare le competenze quotidiane o prepararsi ai passaggi per le posizioni economiche.</li>
-                                <li><strong>Aspiranti Tecnici:</strong> per chi desidera inserirsi nelle graduatorie e vuole scoprire esattamente quali argomenti e casistiche pratiche bisogna conoscere per affrontare questo mestiere con sicurezza.</li>
                             </ul>
                         </div>
 
@@ -389,7 +384,7 @@
             <h2 style="color: var(--secondary);">Iscriviti alla Newsletter</h2>
             <form id="newsletter-form" onsubmit="submitToGoogle(event)">
                 <input type="text" id="work-address" name="work-address" style="display:none;" tabindex="-1">
-				<input type="email" id="email-input" placeholder="La tua email..." required style="padding:15px; border-radius:8px; border:1px solid #ccc; width:100%; max-width:300px; margin-bottom: 15px; box-sizing: border-box;">
+                <input type="email" id="email-input" placeholder="La tua email..." required style="padding:15px; border-radius:8px; border:1px solid #ccc; width:100%; max-width:300px; margin-bottom: 15px; box-sizing: border-box;">
                 <div style="text-align: left; max-width: 300px; margin: 0 auto 15px auto; font-size: 0.85rem;">
                     <label style="display: flex; align-items: flex-start; gap: 8px;">
                         <input type="checkbox" required>
@@ -422,6 +417,7 @@
 
     <script>
         const SECRET_HASH = "cGFzc3dlYg=="; 
+        let databaseDomandeTotale = []; // Contiene tutte le domande scaricate
         let domandeQuiz = [], domandaCorrente = 0, punteggio = 0, risposteUtente = []; 
 
         function showSection(id) {
@@ -471,18 +467,53 @@
             try {
                 const response = await fetch('domande.json');
                 const data = await response.json();
-                domandeQuiz = mescolaArray(data);
-                domandeQuiz.forEach(q => {
-                    let opts = q.opzioni.map((testo, index) => ({ testo, isCorretta: index === q.corretta }));
-                    opts = mescolaArray(opts);
-                    q.opzioniMescolate = opts.map(opt => opt.testo);
-                    q.indiceCorrettoMescolato = opts.findIndex(opt => opt.isCorretta);
-                });
-                
-                showSection('quiz-setup'); // ECCO IL COMANDO MANCANTE!
-                mostraDomanda();
-                
+                databaseDomandeTotale = data; // Salviamo tutte le domande intatte
+                mostraSceltaBlocchi(); // Chiamiamo la nuova funzione invece di partire subito
             } catch (e) { alert("Errore caricamento quiz. Verifica che il file domande.json sia online."); }
+        }
+
+        function mostraSceltaBlocchi() {
+            showSection('quiz-setup');
+            const totali = databaseDomandeTotale.length;
+            
+            document.getElementById('quiz-setup').innerHTML = `
+                <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                    <button onclick="location.reload()" class="btn-back-hub" style="float:left;">← Torna all'Hub</button>
+                    <div style="clear: both;"></div>
+                    
+                    <h2 style="color: var(--secondary); margin-bottom: 20px; font-size: 2rem;">Quante domande vuoi affrontare?</h2>
+                    <p style="font-size: 1.1rem; color: #555; margin-bottom: 30px;">Il database contiene ${totali} domande in totale. Scegli un blocco per la tua simulazione:</p>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: 0 auto;">
+                        <button class="btn" onclick="preparaQuiz(10)" style="font-size: 1.1rem;">Test Rapido (10 Domande)</button>
+                        <button class="btn" onclick="preparaQuiz(20)" style="font-size: 1.1rem;">Simulazione Breve (20 Domande)</button>
+                        <button class="btn" onclick="preparaQuiz(50)" style="font-size: 1.1rem;">Simulazione Media (50 Domande)</button>
+                        <button class="btn" onclick="preparaQuiz(${totali})" style="font-size: 1.1rem; background-color: var(--secondary);">Simulazione Completa (Tutte)</button>
+                    </div>
+                </div>
+            `;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function preparaQuiz(numeroDomandeScelte) {
+            // Prendiamo una copia del database totale, la mescoliamo e tagliamo il numero di domande scelto
+            let copiaDati = [...databaseDomandeTotale];
+            domandeQuiz = mescolaArray(copiaDati).slice(0, numeroDomandeScelte);
+            
+            // Per ogni domanda selezionata, rimescoliamo anche l'ordine delle opzioni
+            domandeQuiz.forEach(q => {
+                let opts = q.opzioni.map((testo, index) => ({ testo, isCorretta: index === q.corretta }));
+                opts = mescolaArray(opts);
+                q.opzioniMescolate = opts.map(opt => opt.testo);
+                q.indiceCorrettoMescolato = opts.findIndex(opt => opt.isCorretta);
+            });
+            
+            // Resettiamo le variabili prima di avviare il quiz
+            domandaCorrente = 0;
+            punteggio = 0;
+            risposteUtente = [];
+            
+            mostraDomanda(); // Avviamo la prima domanda
         }
 
         function mostraDomanda() {
@@ -495,7 +526,7 @@
                     <div style="display: flex; flex-direction: column; gap: 15px;">
                         ${q.opzioniMescolate.map((opt, i) => `
                             <button id="btn-opt-${i}" class="btn-opzione" onclick="verificaRisposta(${i})" 
-                                    style="background: white; border: 2px solid var(--bg); padding: 15px; border-radius: 8px; text-align: left;">
+                                    style="background: white; border: 2px solid var(--bg); padding: 15px; border-radius: 8px; text-align: left; cursor: pointer;">
                                 ${opt}
                             </button>`).join('')}
                     </div>
