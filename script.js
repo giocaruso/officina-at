@@ -1,5 +1,5 @@
 const SECRET_HASH = "cGFzc3dlYg=="; 
-        let databaseDomandeTotale = []; // Contiene tutte le domande scaricate
+        let databaseDomandeTotale = []; 
         let domandeQuiz = [], domandaCorrente = 0, punteggio = 0, risposteUtente = []; 
 
         // ==========================================
@@ -53,8 +53,8 @@ const SECRET_HASH = "cGFzc3dlYg==";
         function checkAuth() {
             const val = document.getElementById('pass-word').value.toLowerCase().trim();
             if(btoa(val) === SECRET_HASH) {
-                // Percorso aggiornato: cerca nella cartella json/
-                loadQuizData('json/domande.json');
+                // Percorso aggiornato: punta al nuovo file rinominato
+                loadQuizData('json/quiz-at-200.json');
             } else {
                 alert("Parola non corretta! Verifica sul manuale.");
             }
