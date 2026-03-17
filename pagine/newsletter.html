@@ -1,0 +1,18 @@
+<div class="section" style="display: block; max-width: 600px; margin: 0 auto; text-align: center;">
+    <button onclick="tornaAllHub()" class="btn-back-hub" style="float: left;">← Torna all'Hub</button>
+    <div style="clear: both;"></div>
+    <span style="font-size: 4rem;">📩</span>
+    <h2 style="color: var(--secondary);">Iscriviti alla Newsletter</h2>
+    <form id="newsletter-form" onsubmit="submitToGoogle(event)">
+        <input type="text" id="work-address" name="work-address" style="display:none;" tabindex="-1">
+        <input type="email" id="email-input" placeholder="La tua email..." required style="padding:15px; border-radius:8px; border:1px solid #ccc; width:100%; max-width:300px; margin-bottom: 15px; box-sizing: border-box;">
+        <div style="text-align: left; max-width: 300px; margin: 0 auto 15px auto; font-size: 0.85rem;">
+            <label style="display: flex; align-items: flex-start; gap: 8px;">
+                <input type="checkbox" required>
+                <span>Acconsento al trattamento dati per la newsletter dell'Hub.</span>
+            </label>
+        </div>
+        <button type="submit" class="btn" id="submit-btn" style="max-width:300px;">Iscriviti Ora</button>
+    </form>
+    <div id="newsletter-msg" style="margin-top: 20px; font-weight: bold; display: none; padding: 15px; border-radius: 8px;"></div>
+</div>

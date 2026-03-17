@@ -1,0 +1,54 @@
+<div class="section" style="display: block;">
+    <button onclick="caricaPagina('pagine/area-test.html')" class="btn-back-hub">← Indietro</button>
+    
+    <div style="max-width: 800px; margin: 0 auto;">
+        <h2 style="color: var(--secondary); text-align: center; margin-bottom: 30px; font-size: 2rem;">Quiz dell'AT: Preparazione e Competenze</h2>
+        
+        <div class="quiz-intro-wrapper">
+            <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" class="quiz-cover-link" title="Acquista o visualizza su Amazon">
+                <img src="img/copertina-200quiz.jpg" alt="Copertina Quiz 200" class="quiz-cover-img">
+            </a>
+            
+            <div>
+                <p style="font-size: 1.05rem; margin-top: 0; line-height: 1.6;">
+                    Questo simulatore contiene le 200 domande interattive tratte dal mio libro: <br>
+                    <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: underline;"><em>"Quiz dell'Assistente Tecnico delle scuole"</em></a>.
+                </p>
+
+                <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 20px;">
+                    Uno strumento pensato per misurare il livello di competenza professionale e prepararsi ai passaggi per le <strong>posizioni economiche ATA</strong> attraverso un metodo di apprendimento attivo.
+                </p>
+                
+                <div style="margin-top: 20px; text-align: left;">
+                    <p style="margin-top: 0; font-weight: bold; color: var(--secondary);">Cosa troverai in questo simulatore:</p>
+                    <ul style="line-height: 1.6; padding-left: 20px; margin-top: 5px;">
+                        <li style="margin-bottom: 8px;"><strong>200 Quiz Mirati:</strong> Normativa, sicurezza, gestione documentale, informatica e IA.</li>
+                        <li style="margin-bottom: 8px;"><strong>Soluzioni Commentate:</strong> Ogni risposta include una spiegazione rapida per un ripasso immediato.</li>
+                        <li><strong>Sistema Random:</strong> L'algoritmo rimescola le domande a ogni avvio per evitare l'apprendimento mnemonico.</li>
+                    </ul>
+                </div>
+
+                <div style="margin-top: 25px; text-align: left;">
+                    <p style="margin-top: 0; font-weight: bold; color: var(--secondary);">Argomenti principali:</p>
+                    <ul style="line-height: 1.6; padding-left: 20px; margin-top: 5px;">
+                        <li style="margin-bottom: 8px;"><strong>DigComp 2.2:</strong> Le competenze digitali richieste nella Pubblica Amministrazione.</li>
+                        <li style="margin-bottom: 8px;"><strong>Sicurezza (D.Lgs. 81/08):</strong> La gestione dei rischi nei laboratori scolastici.</li>
+                        <li><strong>Informatica e Reti:</strong> Hardware, software e piattaforme ministeriali.</li>
+                    </ul>
+                </div>
+                
+                <div style="background: var(--bg); padding: 20px; border-radius: 12px; border: 1px dashed var(--primary); margin-top: 30px;">
+                    <p style="margin-top: 0; font-weight: bold; color: var(--secondary);">Come accedere:</p>
+                    <p style="margin-bottom: 0;">Prendi una copia del manuale, cerca la spiegazione relativa alla <strong>domanda n. 187</strong> e inserisci qui sotto la <strong>prima parola</strong> esatta di quel testo.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align:center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee;">
+            <input type="text" id="pass-word" placeholder="Inserisci la parola segreta..." style="padding:15px; border-radius:8px; border:1px solid #ccc; width:100%; max-width:300px; margin-bottom: 15px; font-size: 1rem;">
+            <br>
+            <button class="btn" onclick="checkAuth()" style="max-width:300px; font-size: 1.1rem; margin-bottom: 30px;">Sblocca e Avvia Simulatore</button>
+        </div>
+    </div>
+    <button onclick="tornaAllHub()" class="btn-back-hub" style="margin-top: 20px;">← Torna all'Hub</button>
+</div>
