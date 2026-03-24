@@ -10,7 +10,8 @@
     ],
     "corretta": 0,
     "spiegazione": "La 1ª posizione gestisce l'ordinario; la 2ª ha funzioni di coordinamento, affiancamento e supporto progettuale.",
-    "_ref": "[cite: 26-30, 152]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 2,
@@ -18,7 +19,8 @@
     "opzioni": ["Il Dirigente Scolastico.", "Il Docente della materia.", "Il Collaboratore Scolastico.", "L'Assistente Tecnico."],
     "corretta": 3,
     "spiegazione": "L'AT è il responsabile della chiusura tecnica e della messa in sicurezza delle attrezzature a fine attività.",
-    "_ref": "[cite: 31-35, 153]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 3,
@@ -26,7 +28,8 @@
     "opzioni": ["Il PTOF (Piano Triennale).", "Il DVR (Documento Valutazione Rischi).", "Il PEI (Piano Educativo Individualizzato).", "Il Regolamento d'Istituto."],
     "corretta": 2,
     "spiegazione": "Il PEI definisce il supporto necessario per l'inclusione, inclusa l'assistenza tecnica per software o hardware specifici.",
-    "_ref": "[cite: 36-40, 154]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 4,
@@ -34,7 +37,8 @@
     "opzioni": ["Il mero scarico dei pacchi consegnati.", "La redazione di specifiche tecniche per bandi e la consulenza sugli acquisti.", "La firma dei contratti con i fornitori.", "La scelta discrezionale del fornitore fuori dal MePA."],
     "corretta": 1,
     "spiegazione": "La 2ª posizione fornisce il supporto tecnico-progettuale necessario per definire i capitolati di acquisto.",
-    "_ref": "[cite: 41-45, 155]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "opzioni": ["Il processo di inserimento e affiancamento del nuovo personale.", "La procedura di licenziamento di un dipendente.", "Un software per la gestione della biblioteca.", "La configurazione di una rete Wi-Fi."],
     "corretta": 0,
     "spiegazione": "L'onboarding è l'accoglienza strutturata che rende operativo il personale appena arrivato in istituto.",
-    "_ref": "[cite: 46-50, 156]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 6,
@@ -50,7 +55,8 @@
     "opzioni": ["Decreto Legislativo 165/2001.", "Regolamento GDPR 679/2016.", "Legge 104/1992.", "Decreto Legislativo 81/2008."],
     "corretta": 3,
     "spiegazione": "Il Testo Unico sulla Sicurezza impone a tutti i lavoratori di collaborare per la prevenzione dei rischi.",
-    "_ref": "[cite: 51-55, 157]"
+    "_ref": "",
+    "categoria": "Sicurezza"
   },
   {
     "id": 7,
@@ -58,7 +64,8 @@
     "opzioni": ["Fissarla con canaline o ancorarla al banco.", "Lasciarla libera per facilitare gli spostamenti.", "Coprirla con nastro adesivo semplice.", "Scollegarla quando non in uso."],
     "corretta": 0,
     "spiegazione": "Il fissaggio stabile delle multi prese previene rischi, cadute e protegge i cavi da trazioni dannose.",
-    "_ref": "[cite: 56-60, 158]"
+    "_ref": "",
+    "categoria": "Sicurezza"
   },
   {
     "id": 8,
@@ -66,7 +73,8 @@
     "opzioni": ["3 ore di lavoro, 2 backup, 1 verifica.", "3 copie dei dati, su 2 supporti diversi, con 1 copia off-site.", "3 tipi di file, 2 cartelle, 1 utente.", "3 account admin, 2 utenti, 1 guest."],
     "corretta": 1,
     "spiegazione": "La strategia 3-2-1 garantisce la ridondanza e la protezione dei dati anche in caso di disastri fisici.",
-    "_ref": "[cite: 61-65, 159]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 9,
@@ -74,7 +82,8 @@
     "opzioni": ["Account Guest senza password.", "Account Amministratore.", "Account Utente Standard (limitato).", "Accesso libero senza profilo."],
     "corretta": 2,
     "spiegazione": "L'account limitato impedisce la modifica accidentale del sistema e l'installazione di software non autorizzato.",
-    "_ref": "[cite: 66-70, 160]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 10,
@@ -82,7 +91,8 @@
     "opzioni": ["Rimuovere solo l'etichetta inventario.", "Effettuare una cancellazione sicura dei dati (wiping).", "Gettarlo nei rifiuti indifferenziati.", "Regalarlo senza verifiche ai docenti."],
     "corretta": 1,
     "spiegazione": "La protezione dei dati sensibili deve continuare fino alla distruzione fisica o allo smaltimento del supporto.",
-    "_ref": "[cite: 71-75, 161]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 11,
@@ -90,7 +100,8 @@
     "opzioni": ["Area 3.", "Area 1.", "Area 2.", "Area 5."],
     "corretta": 0,
     "spiegazione": "L'Area 3 del DigComp riguarda lo sviluppo di contenuti digitali e il rispetto del copyright.",
-    "_ref": "[cite: 76-80, 162]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 12,
@@ -98,7 +109,8 @@
     "opzioni": ["L'informazione è analogica, il dato è digitale.", "Il dato è un elemento grezzo, l'informazione è il dato interpretato in un contesto.", "Non c'è differenza tecnica.", "Il dato è pubblico, l'informazione è segreta."],
     "corretta": 1,
     "spiegazione": "L'informazione è il valore aggiunto che si ottiene analizzando i dati grezzi in un contesto di senso.",
-    "_ref": "[cite: 81-85, 163]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 13,
@@ -106,7 +118,8 @@
     "opzioni": ["PDF/A (Archive).", ".docx (Microsoft Word).", ".jpg (Immagine).", ".zip (Compresso)."],
     "corretta": 0,
     "spiegazione": "Il PDF/A garantisce l'inalterabilità del documento e la sua leggibilità universale nel tempo.",
-    "_ref": "[cite: 86-90, 164]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 14,
@@ -114,7 +127,8 @@
     "opzioni": ["Dati che descrivono altri dati (autore, data, ecc.) per facilitarne la ricerca.", "Virus nascosti nel codice.", "Le password di accesso.", "Il testo principale del file."],
     "corretta": 0,
     "spiegazione": "I metadati sono essenziali per l'indicizzazione, l'archiviazione e la gestione documentale automatizzata.",
-    "_ref": "[cite: 91-95, 165]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 15,
@@ -122,7 +136,8 @@
     "opzioni": ["Abbellire le informative grafiche.", "Limitare l'uso dei PC in ufficio.", "Creare database separati per utente.", "Integrare la protezione dati fin dalla progettazione di un sistema."],
     "corretta": 3,
     "spiegazione": "Il GDPR richiede che ogni procedura sia pensata per tutelare i dati fin dal momento dell'ideazione.",
-    "_ref": "[cite: 96-100, 166]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 16,
@@ -130,7 +145,8 @@
     "opzioni": ["Sostituire subito tutto l'hardware.", "Procedere con modifiche minime una alla volta per isolare la causa.", "Formattare il PC al primo errore.", "Spegnere e chiamare una ditta esterna."],
     "corretta": 1,
     "spiegazione": "La diagnosi per tentativi minimi permette di isolare la causa del guasto risparmiando risorse.",
-    "_ref": "[cite: 101-105, 167]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 17,
@@ -138,7 +154,8 @@
     "opzioni": ["Verificare l'alimentazione (presa, ciabatta, cavi).", "Sostituire la scheda madre.", "Reinstallare i driver video.", "Controllare il BIOS."],
     "corretta": 0,
     "spiegazione": "Gran parte dei problemi di accensione derivano da banali distacchi di cavi o interruttori spenti.",
-    "_ref": "[cite: 106-110, 168]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 18,
@@ -146,7 +163,8 @@
     "opzioni": ["A pulire il disco rigido.", "A monitorare la temperatura della CPU.", "A verificare il corretto funzionamento della RAM.", "A resettare le password."],
     "corretta": 2,
     "spiegazione": "MemTest86 è lo standard per individuare banchi di memoria RAM difettosi che causano crash.",
-    "_ref": "[cite: 111-115, 169]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 19,
@@ -154,7 +172,8 @@
     "opzioni": ["Caricare più ISO (sistemi operativi) su una singola chiavetta USB avviabile.", "Velocizzare la ventola del PC.", "Criptare i dati dell'inventario.", "Gestire il sito web della scuola."],
     "corretta": 0,
     "spiegazione": "Ventoy permette di avere tutti i tool di riparazione (ISO) in un'unica chiavetta USB avviabile.",
-    "_ref": "[cite: 116-120, 170]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 20,
@@ -162,7 +181,8 @@
     "opzioni": ["Cambiare il cavo Ethernet.", "Verificare l'identificativo numerico assegnato al dispositivo nella rete.", "Controllare il nome del router.", "Aggiornare il browser."],
     "corretta": 1,
     "spiegazione": "L'indirizzo IP è la 'targa' del PC: se è errato, la comunicazione di rete è impossibile.",
-    "_ref": "[cite: 121-125, 171]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 21,
@@ -170,7 +190,8 @@
     "opzioni": ["Sostituire il registro elettronico.", "Creare grafiche per i social.", "Gestire anagrafiche, organici, dati finanziari e rilevazioni ministeriali.", "Archiviare le foto degli eventi."],
     "corretta": 2,
     "spiegazione": "Il SIDI è il portale centrale del Ministero per tutti i processi amministrativi delle scuole.",
-    "_ref": "[cite: 126-130, 172]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 22,
@@ -178,7 +199,8 @@
     "opzioni": ["Il DSGA.", "Il Dirigente Scolastico.", "L'AT informatico.", "Il Garante Privacy."],
     "corretta": 1,
     "spiegazione": "Il Dirigente, come rappresentante legale, ha la responsabilità ultima sulle decisioni relative ai dati.",
-    "_ref": "[cite: 131-135, 173]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 23,
@@ -186,7 +208,8 @@
     "opzioni": ["Solo lo SPID livello 1.", "L'account Google personale.", "Il codice fiscale cartaceo.", "La CIE (Carta Identità) o la CNS (Carta Nazionale Servizi)."],
     "corretta": 3,
     "spiegazione": "CIE e CNS contengono un chip con certificato digitale utilizzabile per firmare atti legali.",
-    "_ref": "[cite: 136-140, 174]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 24,
@@ -194,7 +217,8 @@
     "opzioni": ["Un aggiornamento del BIOS.", "Un tentativo di rubare credenziali tramite email o siti contraffatti.", "La procedura di inventario dei beni.", "Una tecnica di raffreddamento."],
     "corretta": 1,
     "spiegazione": "Il phishing è un attacco basato sull'inganno per spingere l'utente a rivelare password o codici.",
-    "_ref": "[cite: 141-145, 175]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 25,
@@ -202,7 +226,8 @@
     "opzioni": ["Saper contare i computer.", "L'uso di password diverse per tutti.", "L'obbligo del titolare di dimostrare di aver adottato misure di sicurezza adeguate.", "Il pagamento veloce dei fornitori."],
     "corretta": 2,
     "spiegazione": "L'accountability richiede che la scuola documenti e provi ogni misura di sicurezza intrapresa.",
-    "_ref": "[cite: 146-150, 176]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 26,
@@ -210,7 +235,8 @@
     "opzioni": ["I chatbot per il servizio clienti.", "I sistemi a rischio inaccettabile (es. manipolazione o punteggio sociale).", "I generatori di immagini didattiche.", "I correttori ortografici avanzati."],
     "corretta": 1,
     "spiegazione": "L'AI Act proibisce tecnologie che ledono la dignità umana o manipolano pericolosamente il comportamento.",
-    "_ref": "[cite: 178-182, 304]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 27,
@@ -218,7 +244,8 @@
     "opzioni": ["Overclocking del processore.", "Latenza della connessione di rete.", "Debugging del codice sorgente.", "Allucinazione (Hallucination)."],
     "corretta": 3,
     "spiegazione": "L'allucinazione avviene quando l'IA genera informazioni false o inventate a causa dei suoi limiti probabilistici.",
-    "_ref": ""
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 28,
@@ -226,7 +253,8 @@
     "opzioni": ["L'obsolescenza programmata.", "Il phishing.", "Il bias (distorsione algoritmica).", "Il cloud computing."],
     "corretta": 2,
     "spiegazione": "Il bias è una distorsione che può amplificare pregiudizi presenti nei dati di addestramento dell'algoritmo.",
-    "_ref": "[cite: 188-192, 306]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 29,
@@ -234,7 +262,8 @@
     "opzioni": ["Condividere le password del sidi con l'ia.", "Usare solo ia non collegate a internet.", "Caricare i nomi e cognomi di tutti i docenti.", "Evitare di inserire dati sensibili o riservati della scuola nei prompt."],
     "corretta": 3,
     "spiegazione": "Caricare dati protetti dal GDPR su piattaforme IA esterne espone la scuola a gravi responsabilità legali.",
-    "_ref": "[cite: 193-197, 307]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 30,
@@ -242,7 +271,8 @@
     "opzioni": ["Cambiando il colore del monitor.", "Inserendo etichette o watermark digitali nel contenuto.", "Stampandoli solo su carta riciclata.", "Non è possibile identificarli in alcun modo."],
     "corretta": 1,
     "spiegazione": "Il watermark è un'impronta digitale che attesta l'origine artificiale di un'immagine o di un testo.",
-    "_ref": "[cite: 198-202, 308]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 31,
@@ -250,7 +280,8 @@
     "opzioni": ["L'intervento umano necessario per verificare e validare l'output dell'ia.", "Un tipo di cavo per collegare i robot.", "Un corso di ginnastica per tecnici.", "L'uso dell'ia senza alcuna supervisione."],
     "corretta": 0,
     "spiegazione": "La supervisione umana è fondamentale per correggere eventuali errori o allucinazioni del sistema artificiale.",
-    "_ref": "[cite: 203-207, 309]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 32,
@@ -258,7 +289,8 @@
     "opzioni": ["Errori di sintassi.", "Aggiornamenti di sistema.", "Allucinazioni.", "Backup corrotti."],
     "corretta": 2,
     "spiegazione": "Le allucinazioni avvengono quando l'IA 'inventa' fatti o citazioni non esistenti nel suo database.",
-    "_ref": "[cite: 208-212, 310]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 33,
@@ -266,7 +298,8 @@
     "opzioni": ["Screenshot.", "Deepfake.", "Podcast.", "Bitrate."],
     "corretta": 1,
     "spiegazione": "I deepfake utilizzano l'apprendimento profondo per sostituire volti o voci con estremo realismo.",
-    "_ref": "[cite: 213-217, 311]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 34,
@@ -274,7 +307,8 @@
     "opzioni": ["Buttare via tutti i computer vecchi.", "Comprare solo libri di testo cartacei.", "L'eliminazione fisica degli uffici.", "La trasformazione di un documento cartaceo in un documento informatico."],
     "corretta": 3,
     "spiegazione": "La dematerializzazione riduce i costi di gestione e accelera i flussi documentali tra uffici.",
-    "_ref": "[cite: 218-222, 312]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 35,
@@ -282,7 +316,8 @@
     "opzioni": ["La firma del dirigente sulla circolare.", "La registrazione di un documento nel sistema di gestione documentale.", "Un timbro a inchiostro indelebile.", "L'indirizzo ip del server di posta."],
     "corretta": 1,
     "spiegazione": "Il protocollo garantisce la provenienza e la data certa di un documento in entrata o uscita.",
-    "_ref": "[cite: 223-227, 313]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 36,
@@ -290,7 +325,8 @@
     "opzioni": ["Cades (.p7m).", "Pades (.pdf).", ".zip.", ".docx."],
     "corretta": 0,
     "spiegazione": "Il formato .p7m è la busta crittografica che contiene il file originale e la firma digitale valida.",
-    "_ref": "[cite: 228-232, 314]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 37,
@@ -298,7 +334,8 @@
     "opzioni": ["Livello 1 (solo password).", "Livello 4 (impronta digitale).", "Livello 2 (password + otp/app).", "Non serve lo spid."],
     "corretta": 2,
     "spiegazione": "Il livello 2 garantisce un alto grado di sicurezza grazie all'autenticazione a due fattori.",
-    "_ref": "[cite: 233-237, 315]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 38,
@@ -306,7 +343,8 @@
     "opzioni": ["Un software per il disegno tecnico.", "Il portale per la gestione amministrativa, contabile e del personale.", "Il sistema di riscaldamento aule.", "Un tipo di monitor touch."],
     "corretta": 1,
     "spiegazione": "Il SIDI è l'infrastruttura centrale per la gestione della carriera e dei dati scolastici.",
-    "_ref": "[cite: 238-242, 316]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 39,
@@ -314,7 +352,8 @@
     "opzioni": ["Scrivere le domande per gli studenti.", "Correggere i test manualmente.", "Fare le foto agli studenti durante la prova.", "Garantire la stabilità della rete e il funzionamento dei pc."],
     "corretta": 3,
     "spiegazione": "L'AT assicura che l'infrastruttura tecnologica non interrompa lo svolgimento dei test nazionali.",
-    "_ref": "[cite: 243-247, 317]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 40,
@@ -322,7 +361,8 @@
     "opzioni": ["Pulire i magazzini dalla polvere.", "La catalogazione, etichettatura e verifica dei beni mobili e delle attrezzature.", "La vendita dei pc usati agli studenti.", "Il conteggio dei libri in biblioteca."],
     "corretta": 1,
     "spiegazione": "Ogni bene acquistato dalla scuola deve essere registrato e monitorato nel tempo.",
-    "_ref": "[cite: 248-252, 318]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 41,
@@ -330,7 +370,8 @@
     "opzioni": ["Valutazione d'impatto sulla protezione dei dati.", "Un nuovo tipo di stampante laser.", "La password del wi-fi docenti.", "Una certificazione per pc portatili."],
     "corretta": 0,
     "spiegazione": "La DPIA è necessaria quando un trattamento di dati presenta rischi elevati per gli interessati.",
-    "_ref": "[cite: 253-257, 319]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 42,
@@ -338,7 +379,8 @@
     "opzioni": ["Comprare solo dispositivi della scuola.", "Il divieto di usare tablet in classe.", "L'uso di dispositivi personali per fini didattici o lavorativi.", "Un tipo di cavo video."],
     "corretta": 2,
     "spiegazione": "Il BYOD richiede policy di sicurezza chiare per proteggere la rete scolastica da accessi esterni.",
-    "_ref": "[cite: 258-262, 320]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 43,
@@ -346,7 +388,8 @@
     "opzioni": ["Formattare subito il server centrale.", "Isolare immediatamente il dispositivo dalla rete (scollegare cavi/wi-fi).", "Pagare il riscatto richiesto.", "Riavviare il computer più volte."],
     "corretta": 1,
     "spiegazione": "Isolare il PC infetto evita che il malware si propaghi agli altri computer della scuola.",
-    "_ref": "[cite: 263-267, 321]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 44,
@@ -354,7 +397,8 @@
     "opzioni": ["Usare una password più corta.", "Cambiare monitor ogni anno.", "Spegnere il router di notte.", "L'autenticazione a due fattori (2fa/mfa)."],
     "corretta": 3,
     "spiegazione": "Il secondo fattore (es. un codice sul telefono) blocca l'accesso ai malintenzionati.",
-    "_ref": "[cite: 268-272, 322]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 45,
@@ -362,7 +406,8 @@
     "opzioni": ["Fare il backup solo una volta all'anno.", "Avere più copie degli stessi dati su supporti diversi.", "Scrivere file molto lunghi e ripetitivi.", "Usare solo chiavette usb economiche."],
     "corretta": 1,
     "spiegazione": "La ridondanza assicura che, se un disco si rompe, i dati siano recuperabili da un'altra fonte.",
-    "_ref": "[cite: 273-277, 323]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 46,
@@ -370,7 +415,8 @@
     "opzioni": ["Ascolto attivo e spiegazione semplice senza gergo eccessivo.", "Ignorare la richiesta se non è urgente.", "Parlare solo in termini tecnici complessi.", "Risolvere il problema senza spiegare nulla."],
     "corretta": 0,
     "spiegazione": "La comunicazione chiara facilita la collaborazione e l'uso consapevole delle tecnologie.",
-    "_ref": "[cite: 278-282, 324]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 47,
@@ -378,7 +424,8 @@
     "opzioni": ["Un disegno decorativo per il laboratorio.", "Una lista della spesa per l'hardware.", "Un diagramma di flusso che guida alla risoluzione di un guasto.", "Un tipo di cavo di rete colorato."],
     "corretta": 2,
     "spiegazione": "Seguire uno schema logico permette di risolvere i problemi in modo rapido e sistematico.",
-    "_ref": "[cite: 283-287, 325]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 48,
@@ -386,7 +433,8 @@
     "opzioni": ["Telefonate individuali a casa.", "Google forms o Microsoft forms.", "Moduli cartacei inviati per posta.", "Messaggi vocali su whatsapp."],
     "corretta": 1,
     "spiegazione": "I moduli online permettono di analizzare i dati automaticamente in un foglio di calcolo.",
-    "_ref": "[cite: 288-292, 326]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 49,
@@ -394,7 +442,8 @@
     "opzioni": ["Il listino prezzi dei ricambi.", "L'elenco dei voti degli studenti.", "Solo il numero del tecnico esterno.", "Passaggi ordinati (verifica alimentazione, cavi, porte)."],
     "corretta": 3,
     "spiegazione": "La checklist evita di dimenticare i controlli di base prima di passare a diagnosi complesse.",
-    "_ref": "[cite: 293-297, 327]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 50,
@@ -402,9 +451,9 @@
     "opzioni": ["Tenendole chiuse nell'ufficio del dsga.", "Stampando qr code su ogni reagente o postazione.", "Imparandole a memoria.", "Non sono necessarie in ambito scolastico."],
     "corretta": 1,
     "spiegazione": "Il QR code permette a chiunque di consultare istantaneamente le norme di sicurezza dallo smartphone.",
-    "_ref": "[cite: 298-302, 328]"
+    "_ref": "",
+    "categoria": "Sicurezza"
   },
-
   {
     "id": 51,
     "domanda": "Come è solitamente articolato l'orario settimanale di 36 ore di un Assistente Tecnico full-time?",
@@ -416,7 +465,8 @@
     ],
     "corretta": 1,
     "spiegazione": "L'attività dell'AT prevede 24 ore in presenza durante le lezioni e 12 per la manutenzione tecnica.",
-    "_ref": "[cite: 330-334, 456]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 52,
@@ -429,7 +479,8 @@
     ],
     "corretta": 2,
     "spiegazione": "Il DSGA predispone il piano delle attività basandosi sulle direttive organizzative del Dirigente.",
-    "_ref": "[cite: 335-339, 457]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 53,
@@ -442,7 +493,8 @@
     ],
     "corretta": 1,
     "spiegazione": "La temporizzazione permette di conservare il valore economico dello stipendio precedente nel nuovo inquadramento.",
-    "_ref": "[cite: 340-344, 458]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 54,
@@ -455,7 +507,8 @@
     ],
     "corretta": 0,
     "spiegazione": "Il riallineamento recupera l'anzianità economica accantonata dopo determinati anni di servizio di ruolo.",
-    "_ref": "[cite: 345-349, 459]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 55,
@@ -468,7 +521,8 @@
     ],
     "corretta": 2,
     "spiegazione": "Le ferie estive del personale ATA devono concludersi entro il 31 agosto per l'avvio del nuovo anno.",
-    "_ref": "[cite: 350-354, 460]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 56,
@@ -481,7 +535,8 @@
     ],
     "corretta": 1,
     "spiegazione": "Unica è la piattaforma hub per i servizi a studenti e famiglie e il supporto dei tutor.",
-    "_ref": "[cite: 355-359, 461]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 57,
@@ -494,7 +549,8 @@
     ],
     "corretta": 0,
     "spiegazione": "NoiPA gestisce l'intero aspetto economico e stipendiale del personale della Pubblica Amministrazione.",
-    "_ref": "[cite: 360-364, 462]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 58,
@@ -507,15 +563,22 @@
     ],
     "corretta": 1,
     "spiegazione": "PagoPA è il sistema obbligatorio per i pagamenti digitali verso le scuole (es. gite, assicurazione).",
-    "_ref": "[cite: 365-369, 463]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 59,
     "domanda": "Quale applicativo del SIDI è utilizzato per la firma elettronica avanzata (FEA) dei contratti?",
-    "opzioni": ["Passweb.", "MePA.", "Argo.", "Sigillo."],
+    "opzioni": [
+      "Passweb.",
+      "MePA.",
+      "Argo.",
+      "Sigillo."
+    ],
     "corretta": 3,
     "spiegazione": "Sigillo permette di apporre la Firma Elettronica Avanzata (FEA) sui contratti nel SIDI.",
-    "_ref": "[cite: 370-374, 464]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 60,
@@ -528,15 +591,22 @@
     ],
     "corretta": 0,
     "spiegazione": "L'ANS raccoglie e monitora la storia scolastica e anagrafica di ogni studente in Italia.",
-    "_ref": "[cite: 375-379, 465]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 61,
     "domanda": "Quale tra questi è un esempio di strumento compensativo per alunni con difficoltà visive?",
-    "opzioni": ["Stampante 3D.", "Cronometro digitale.", "Screen reader o software di ingrandimento testo.", "Banco regolabile."],
+    "opzioni": [
+      "Stampante 3D.",
+      "Cronometro digitale.",
+      "Screen reader o software di ingrandimento testo.",
+      "Banco regolabile."
+    ],
     "corretta": 2,
     "spiegazione": "Screen reader e software di ingrandimento sono strumenti compensativi vitali per l'ipovisione e cecità.",
-    "_ref": "[cite: 380-384, 466]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 62,
@@ -549,7 +619,8 @@
     ],
     "corretta": 1,
     "spiegazione": "L'uso di pulsantiere e strumenti facilitati permette la partecipazione attiva degli alunni con disabilità motoria.",
-    "_ref": "[cite: 385-389, 467]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 63,
@@ -562,7 +633,8 @@
     ],
     "corretta": 0,
     "spiegazione": "La CAA usa icone e software per permettere la comunicazione a chi ha difficoltà di linguaggio verbale.",
-    "_ref": "[cite: 390-394, 468]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 64,
@@ -575,15 +647,22 @@
     ],
     "corretta": 1,
     "spiegazione": "La seconda posizione economica assume un ruolo di referente e progettista per l'inclusione tecnologica.",
-    "_ref": "[cite: 395-399, 469]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 65,
     "domanda": "Quale documento scolastico è fondamentale per definire l'uso di strumenti compensativi e dispensativi?",
-    "opzioni": ["Il DVR.", "Il PEI (o il PDP per i DSA).", "Certificato di laurea del docente.", "Bilancio sociale."],
+    "opzioni": [
+      "Il DVR.",
+      "Il PEI (o il PDP per i DSA).",
+      "Certificato di laurea del docente.",
+      "Bilancio sociale."
+    ],
     "corretta": 1,
     "spiegazione": "Il PEI è il documento che stabilisce ufficialmente quali ausili e supporti l'alunno deve ricevere.",
-    "_ref": "[cite: 400-404, 470]"
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 66,
@@ -596,7 +675,8 @@
     ],
     "corretta": 0,
     "spiegazione": "L'hardening è la pratica di 'blindare' un sistema chiudendo le falle e i servizi non necessari.",
-    "_ref": "[cite: 405-409, 471]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 67,
@@ -609,7 +689,8 @@
     ],
     "corretta": 2,
     "spiegazione": "Il firewall controlla il perimetro della rete scolastica, bloccando traffico sospetto o non autorizzato.",
-    "_ref": "[cite: 410-414, 472]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 68,
@@ -622,7 +703,8 @@
     ],
     "corretta": 1,
     "spiegazione": "La segnalazione del Data Breach è un atto dovuto e urgente per limitare le responsabilità legali dell'ente.",
-    "_ref": "[cite: 415-419, 473]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 69,
@@ -635,7 +717,8 @@
     ],
     "corretta": 0,
     "spiegazione": "Il BYOD permette l'uso di mezzi propri per la didattica, richiedendo però policy di sicurezza rigorose.",
-    "_ref": "[cite: 420-424, 474]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 70,
@@ -648,7 +731,8 @@
     ],
     "corretta": 1,
     "spiegazione": "L'autenticazione a due fattori (MFA) è oggi il gold standard per proteggere gli account istituzionali.",
-    "_ref": "[cite: 425-429, 475]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 71,
@@ -661,7 +745,8 @@
     ],
     "corretta": 1,
     "spiegazione": "I beep code del BIOS sono la 'voce' dell'hardware che segnala guasti prima ancora del caricamento del sistema.",
-    "_ref": "[cite: 430-434, 476]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 72,
@@ -674,7 +759,8 @@
     ],
     "corretta": 1,
     "spiegazione": "L'IP è l'indirizzo logico che permette ai dati di raggiungere il computer corretto.",
-    "_ref": "[cite: 435-439, 477]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 73,
@@ -687,7 +773,8 @@
     ],
     "corretta": 1,
     "spiegazione": "Hiren's BootCD è un 'coltellino svizzero' essenziale per recuperare sistemi operativi compromessi.",
-    "_ref": "[cite: 440-444, 478]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 74,
@@ -700,15 +787,22 @@
     ],
     "corretta": 1,
     "spiegazione": "Le VLAN permettono di isolare i dati amministrativi da quelli degli studenti sulla stessa rete fisica.",
-    "_ref": "[cite: 445-449, 479]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 75,
     "domanda": "Quale standard Wi-Fi è più indicato per gestire un'alta densità di dispositivi?",
-    "opzioni": ["Wi-Fi 6 (802.11ax).", "Wi-Fi 4.", "Bluetooth 1.0.", "Infrarossi."],
+    "opzioni": [
+      "Wi-Fi 6 (802.11ax).",
+      "Wi-Fi 4.",
+      "Bluetooth 1.0.",
+      "Infrarossi."
+    ],
     "corretta": 0,
     "spiegazione": "Il Wi-Fi 6 gestisce con efficienza molti dispositivi collegati contemporaneamente nello stesso ambiente.",
-    "_ref": "[cite: 450-454, 480]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 76,
@@ -721,7 +815,8 @@
     ],
     "corretta": 2,
     "spiegazione": "Il PDF/A incorpora font e metadati per garantire l'immutabilità visiva del documento nel tempo.",
-    "_ref": "[cite: 482-486, 608]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 77,
@@ -734,7 +829,8 @@
     ],
     "corretta": 0,
     "spiegazione": "I documenti nativi digitali sono creati originariamente al PC per favorire la dematerializzazione obbligatoria.",
-    "_ref": "[cite: 487-491, 609]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 78,
@@ -747,7 +843,8 @@
     ],
     "corretta": 3,
     "spiegazione": "I metadati sono dati descrittivi fondamentali per la ricerca e l'archiviazione documentale automatizzata.",
-    "_ref": "[cite: 492-496, 610]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 79,
@@ -760,15 +857,22 @@
     ],
     "corretta": 1,
     "spiegazione": "L'uso dei modelli garantisce uniformità stilistica e riduce gli errori formali nei documenti scolastici.",
-    "_ref": "[cite: 497-501, 611]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 80,
     "domanda": "Cosa identifica l'estensione '.dotx' in un file di Microsoft Word?",
-    "opzioni": ["Malware.", "Foglio di calcolo.", "Modello di Word (Template).", "Presentazione PowerPoint."],
+    "opzioni": [
+      "Malware.",
+      "Foglio di calcolo.",
+      "Modello di Word (Template).",
+      "Presentazione PowerPoint."
+    ],
     "corretta": 2,
     "spiegazione": "L'estensione .dotx identifica i modelli di Microsoft Word per la creazione rapida di nuovi documenti.",
-    "_ref": "[cite: 502-506, 612]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 81,
@@ -781,7 +885,8 @@
     ],
     "corretta": 0,
     "spiegazione": "La clausola 'Share Alike' obbliga a distribuire le opere derivate con la stessa licenza originale.",
-    "_ref": "[cite: 507-511, 613]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 82,
@@ -794,7 +899,8 @@
     ],
     "corretta": 3,
     "spiegazione": "Il copyleft garantisce che l'opera e le sue derivazioni rimangano libere e accessibili a tutti.",
-    "_ref": "[cite: 512-516, 614]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 83,
@@ -807,7 +913,8 @@
     ],
     "corretta": 1,
     "spiegazione": "Il freeware è software proprietario distribuito gratuitamente e legalmente utilizzabile a scuola.",
-    "_ref": "[cite: 517-521, 615]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 84,
@@ -820,7 +927,8 @@
     ],
     "corretta": 2,
     "spiegazione": "Violazioni del GDPR possono comportare sanzioni pecuniarie amministrative e procedimenti penali.",
-    "_ref": "[cite: 522-526, 616]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 85,
@@ -833,7 +941,8 @@
     ],
     "corretta": 0,
     "spiegazione": "L'attribuzione 'BY' richiede obbligatoriamente il riconoscimento della paternità dell'autore.",
-    "_ref": "[cite: 527-531, 617]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 86,
@@ -846,7 +955,8 @@
     ],
     "corretta": 3,
     "spiegazione": "La supervisione umana e il controllo dell'output IA tramite prompt accurati sono compiti essenziali.",
-    "_ref": "[cite: 532-536, 618]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 87,
@@ -859,7 +969,8 @@
     ],
     "corretta": 0,
     "spiegazione": "Il social scoring è vietato dall'UE poiché classificato come rischio inaccettabile per i diritti umani.",
-    "_ref": "[cite: 537-541, 619]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 88,
@@ -872,7 +983,8 @@
     ],
     "corretta": 1,
     "spiegazione": "Il bias è una distorsione algoritmica che può replicare e amplificare pregiudizi umani nei dati.",
-    "_ref": "[cite: 542-546, 620]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 89,
@@ -885,7 +997,8 @@
     ],
     "corretta": 0,
     "spiegazione": "L'IA generativa è uno strumento utile per produrre bozze di manuali e guide operative tecniche.",
-    "_ref": "[cite: 547-551, 621]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 90,
@@ -898,7 +1011,8 @@
     ],
     "corretta": 2,
     "spiegazione": "La trasparenza impone di informare l'utente quando interagisce con un software automatizzato.",
-    "_ref": "[cite: 552-556, 622]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 91,
@@ -911,7 +1025,8 @@
     ],
     "corretta": 1,
     "spiegazione": "Il MePA è la piattaforma obbligatoria per acquisti trasparenti di beni e servizi nella scuola.",
-    "_ref": "[cite: 557-561, 623]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 92,
@@ -924,7 +1039,8 @@
     ],
     "corretta": 2,
     "spiegazione": "L'inventario digitale centralizzato permette una gestione efficiente di beni e manutenzioni.",
-    "_ref": "[cite: 562-566, 624]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 93,
@@ -937,7 +1053,8 @@
     ],
     "corretta": 0,
     "spiegazione": "Il codice inventariale identifica univocamente ogni bene mobile nel patrimonio dell'istituto.",
-    "_ref": "[cite: 567-571, 625]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 94,
@@ -950,7 +1067,8 @@
     ],
     "corretta": 3,
     "spiegazione": "Il collaudo tecnico verifica che le attrezzature acquistate siano conformi al bando di gara.",
-    "_ref": "[cite: 572-576, 626]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 95,
@@ -963,7 +1081,8 @@
     ],
     "corretta": 1,
     "spiegazione": "La codifica CER è necessaria per lo smaltimento legale e sicuro dei rifiuti speciali a scuola.",
-    "_ref": "[cite: 577-581, 627]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 96,
@@ -976,7 +1095,8 @@
     ],
     "corretta": 1,
     "spiegazione": "Il flaming è un comportamento polemico online che viola le regole della netiquette professionale.",
-    "_ref": "[cite: 582-586, 628]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 97,
@@ -989,7 +1109,8 @@
     ],
     "corretta": 0,
     "spiegazione": "Un netizen è un cittadino della rete che agisce in modo responsabile e rispettoso delle regole.",
-    "_ref": "[cite: 587-591, 629]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 98,
@@ -1002,7 +1123,8 @@
     ],
     "corretta": 1,
     "spiegazione": "I social non moderati espongono la scuola a rischi di trolling e violazioni della privacy dei minori.",
-    "_ref": "[cite: 592-596, 630]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 99,
@@ -1015,7 +1137,8 @@
     ],
     "corretta": 1,
     "spiegazione": "Oggetti email chiari facilitano l'organizzazione e la priorità degli interventi dell'assistente tecnico.",
-    "_ref": "[cite: 597-601, 631]"
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 100,
@@ -1028,9 +1151,9 @@
     ],
     "corretta": 2,
     "spiegazione": "L'accessibilità garantisce che i contenuti web siano fruibili da tutti tramite tecnologie assistive.",
-    "_ref": "[cite: 602-606, 632]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
-  
   {
     "id": 101,
     "domanda": "Cosa si intende per 'Ricostruzione di carriera' per un Assistente Tecnico?",
@@ -1041,42 +1164,54 @@
       "L'aggiornamento del profilo LinkedIn personale."
     ],
     "corretta": 1,
-    "spiegazione": "La ricostruzione di carriera permette di valorizzare gli anni di supplenza per scalare i gradoni stipendiali."
+    "spiegazione": "La ricostruzione di carriera permette di valorizzare gli anni di supplenza per scalare i gradoni stipendiali.",
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 102,
     "domanda": "Quanto dura solitamente il periodo di prova per il personale ATA (profilo AT) neo-immesso in ruolo?",
     "opzioni": ["15 giorni.", "12 mesi.", "2 mesi.", "4 mesi."],
     "corretta": 2,
-    "spiegazione": "Il periodo di prova per gli assistenti tecnici è di 2 mesi di servizio effettivo."
+    "spiegazione": "Il periodo di prova per gli assistenti tecnici è di 2 mesi di servizio effettivo.",
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 103,
     "domanda": "Quale documento attesta ufficialmente l'avvenuta presa di servizio?",
     "opzioni": ["Il Verbale di presa di servizio.", "La tessera del sindacato.", "L'orario delle lezioni.", "Una mail inviata al collega."],
     "corretta": 0,
-    "spiegazione": "Il verbale di presa di servizio è l'atto che sancisce l'inizio del rapporto di lavoro e la decorrenza dello stipendio."
+    "spiegazione": "Il verbale di presa di servizio è l'atto che sancisce l'inizio del rapporto di lavoro e la decorrenza dello stipendio.",
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 104,
     "domanda": "Cosa succede se il periodo di prova ha esito negativo?",
     "opzioni": ["Si viene spostati in un'altra scuola d'ufficio.", "Il rapporto di lavoro può essere risolto previo preavviso.", "Si deve ripetere l'anno di prova per 3 volte.", "Si riceve una multa pecuniaria."],
     "corretta": 1,
-    "spiegazione": "In caso di esito sfavorevole, l'amministrazione può procedere alla risoluzione del contratto."
+    "spiegazione": "In caso di esito sfavorevole, l'amministrazione può procedere alla risoluzione del contratto.",
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 105,
     "domanda": "Entro quanto tempo dall'immissione in ruolo va presentata la 'Dichiarazione dei Servizi'?",
     "opzioni": ["Entro 10 anni.", "Entro 30 giorni.", "Entro la fine della carriera.", "Non è più obbligatoria."],
     "corretta": 1,
-    "spiegazione": "La dichiarazione dei servizi è fondamentale per istruire la pratica di ricostruzione di carriera."
+    "spiegazione": "La dichiarazione dei servizi è fondamentale per istruire la pratica di ricostruzione di carriera.",
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 106,
     "domanda": "Quale formato di file è preferibile per inviare una guida tecnica ai docenti via mail?",
     "opzioni": [".exe (Eseguibile).", ".bat (Batch file).", ".pdf (Portable Document Format).", ".psd (Photoshop)."],
     "corretta": 2,
-    "spiegazione": "Il PDF garantisce che la guida sia leggibile su ogni dispositivo senza alterazioni di layout."
+    "spiegazione": "Il PDF garantisce che la guida sia leggibile su ogni dispositivo senza alterazioni di layout.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 107,
@@ -1088,7 +1223,9 @@
       "L'aumento della risoluzione di un'immagine."
     ],
     "corretta": 0,
-    "spiegazione": "Comprimere i file è essenziale quando si devono inviare molti allegati rispettando i limiti delle mail."
+    "spiegazione": "Comprimere i file è essenziale quando si devono inviare molti allegati rispettando i limiti delle mail.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 108,
@@ -1100,7 +1237,9 @@
       "È più veloce da stampare."
     ],
     "corretta": 1,
-    "spiegazione": "Gli standard aperti assicurano che i documenti della scuola restino accessibili indipendentemente dal software usato."
+    "spiegazione": "Gli standard aperti assicurano che i documenti della scuola restino accessibili indipendentemente dal software usato.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 109,
@@ -1112,14 +1251,18 @@
       "Il controllo della temperatura interna."
     ],
     "corretta": 1,
-    "spiegazione": "L'OCR è fondamentale per la dematerializzazione, permettendo di ricercare parole dentro documenti scansionati."
+    "spiegazione": "L'OCR è fondamentale per la dematerializzazione, permettendo di ricercare parole dentro documenti scansionati.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 110,
     "domanda": "Un file .csv (Comma Separated Values) è solitamente utilizzato per:",
     "opzioni": ["Ascoltare musica.", "Vedere video in HD.", "Scambiare dati in formato tabella tra software diversi.", "Creare modelli 3D."],
     "corretta": 2,
-    "spiegazione": "Il CSV è un formato universale per importare/esportare elenchi di studenti o inventari tra diversi gestionali."
+    "spiegazione": "Il CSV è un formato universale per importare/esportare elenchi di studenti o inventari tra diversi gestionali.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 111,
@@ -1131,7 +1274,9 @@
       "Un tipo di fumo emesso dai computer guasti."
     ],
     "corretta": 1,
-    "spiegazione": "Il Cloud permette all'AT di gestire file e backup accessibili da qualunque postazione della scuola."
+    "spiegazione": "Il Cloud permette all'AT di gestire file e backup accessibili da qualunque postazione della scuola.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 112,
@@ -1143,7 +1288,9 @@
       "La perdita del colore delle icone sul desktop."
     ],
     "corretta": 1,
-    "spiegazione": "Le memorie esterne non controllate sono il veicolo numero uno per le infezioni informatiche nei laboratori."
+    "spiegazione": "Le memorie esterne non controllate sono il veicolo numero uno per le infezioni informatiche nei laboratori.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 113,
@@ -1155,7 +1302,9 @@
       "La stampa del file in formato minuscolo."
     ],
     "corretta": 1,
-    "spiegazione": "Criptare i file sensibili (es. verbali o dati BES) è una misura di sicurezza prevista dal GDPR."
+    "spiegazione": "Criptare i file sensibili (es. verbali o dati BES) è una misura di sicurezza prevista dal GDPR.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 114,
@@ -1167,7 +1316,9 @@
       "Un tipo di cavo di rete molto sottile."
     ],
     "corretta": 1,
-    "spiegazione": "Rispettare la netiquette è fondamentale per mantenere rapporti professionali civili via mail o chat."
+    "spiegazione": "Rispettare la netiquette è fondamentale per mantenere rapporti professionali civili via mail o chat.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 115,
@@ -1179,7 +1330,9 @@
       "Attendere che l'algoritmo corregga l'errore autonomamente."
     ],
     "corretta": 1,
-    "spiegazione": "Il Dirigente e il DPO devono coordinarsi per valutare la gravità del breach e l'eventuale notifica al Garante."
+    "spiegazione": "Il Dirigente e il DPO devono coordinarsi per valutare la gravità del breach e l'eventuale notifica al Garante.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 116,
@@ -1191,7 +1344,9 @@
       "La velocità di navigazione su internet."
     ],
     "corretta": 1,
-    "spiegazione": "Mentre l'IP cambia, il MAC address è 'scolpito' nell'hardware e serve per identificare fisicamente il PC."
+    "spiegazione": "Mentre l'IP cambia, il MAC address è 'scolpito' nell'hardware e serve per identificare fisicamente il PC.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 117,
@@ -1203,7 +1358,9 @@
       "Il numero di computer collegati contemporaneamente."
     ],
     "corretta": 1,
-    "spiegazione": "Un'alta latenza causa rallentamenti vistosi, rendendo difficili le videoconferenze o l'uso di software cloud."
+    "spiegazione": "Un'alta latenza causa rallentamenti vistosi, rendendo difficili le videoconferenze o l'uso di software cloud.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 118,
@@ -1215,19 +1372,23 @@
       "A misurare la temperatura dei server."
     ],
     "corretta": 1,
-    "spiegazione": "Senza DHCP, l'AT dovrebbe configurare manualmente ogni singolo PC, tablet o telefono che entra a scuola."
+    "spiegazione": "Senza DHCP, l'AT dovrebbe configurare manualmente ogni singolo PC, tablet o telefono che entra a scuola.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 119,
     "domanda": "Cos'è uno 'Switch' di rete?",
     "opzioni": [
-      "Un interruttore per le luci del laboratorio.",
+      "Un interruttore per le lights del laboratorio.",
       "Un dispositivo che smista i dati tra i computer di una rete locale (LAN).",
       "Un comando per spegnere il computer.",
       "Un tipo di tastiera ergonomica."
     ],
     "corretta": 1,
-    "spiegazione": "Lo switch è il 'vigile urbano' che indirizza i pacchetti di dati alla porta corretta nella LAN scolastica."
+    "spiegazione": "Lo switch è il 'vigile urbano' che indirizza i pacchetti di dati alla porta corretta nella LAN scolastica.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 120,
@@ -1239,7 +1400,9 @@
       "Che il computer sta per spegnersi."
     ],
     "corretta": 1,
-    "spiegazione": "L'HTTPS protegge i dati inseriti (es. login del registro elettronico) da intercettazioni esterne."
+    "spiegazione": "L'HTTPS protegge i dati inseriti (es. login del registro elettronico) da intercettazioni esterne.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 121,
@@ -1251,7 +1414,9 @@
       "I sistemi di domotica per le luci."
     ],
     "corretta": 1,
-    "spiegazione": "I sistemi a rischio inaccettabile sono vietati nell'UE perché violano i diritti fondamentali."
+    "spiegazione": "I sistemi a rischio inaccettabile sono vietati nell'UE perché violano i diritti fondamentali.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 122,
@@ -1263,7 +1428,9 @@
       "La perdita di segnale Wi-Fi."
     ],
     "corretta": 1,
-    "spiegazione": "Il bias può portare l'IA a escludere o discriminare persone sulla base di dati storici distorti."
+    "spiegazione": "Il bias può portare l'IA a escludere o discriminare persone sulla base di dati storici distorti.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 123,
@@ -1275,7 +1442,9 @@
       "Il comando o la domanda fornita dall'utente per guidare l'output."
     ],
     "corretta": 3,
-    "spiegazione": "Saper scrivere prompt chiari è la competenza chiave per ottenere risultati utili dall'IA generativa."
+    "spiegazione": "Saper scrivere prompt chiari è la competenza chiave per ottenere risultati utili dall'IA generativa.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 124,
@@ -1287,7 +1456,9 @@
       "Lo spegnimento improvviso del server."
     ],
     "corretta": 1,
-    "spiegazione": "Bisogna sempre verificare le fonti, poiché l'IA non 'capisce' la verità ma predice parole statisticamente probabili."
+    "spiegazione": "Bisogna sempre verificare le fonti, poiché l'IA non 'capisce' la verità ma predice parole statisticamente probabili.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 125,
@@ -1299,7 +1470,9 @@
       "Non usare mai l'IA a scuola."
     ],
     "corretta": 1,
-    "spiegazione": "La trasparenza è un obbligo etico e legale per evitare inganni verso gli studenti e il personale."
+    "spiegazione": "La trasparenza è un obbligo etico e legale per evitare inganni verso gli studenti e il personale.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 126,
@@ -1311,14 +1484,18 @@
       "Il cambio della sedia del tecnico."
     ],
     "corretta": 1,
-    "spiegazione": "Una diagnosi accurata evita di buttare componenti ancora funzionanti, risparmiando fondi scolastici."
+    "spiegazione": "Una diagnosi accurata evita di buttare componenti ancora funzionanti, risparmiando fondi scolastici.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 127,
     "domanda": "Quale strumento è utile per testare la continuità di un cavo di rete?",
     "opzioni": ["Un termometro.", "Un LAN Tester.", "Un righello.", "Una calamita."],
     "corretta": 1,
-    "spiegazione": "Il LAN tester verifica che tutti gli 8 fili del cavo Ethernet siano collegati correttamente ai connettori RJ45."
+    "spiegazione": "Il LAN tester verifica che tutti gli 8 fili del cavo Ethernet siano collegati correttamente ai connettori RJ45.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 128,
@@ -1330,7 +1507,9 @@
       "Il numero di serie del disco."
     ],
     "corretta": 0,
-    "spiegazione": "In presenza di bad sectors, l'AT deve procedere immediatamente al backup e alla sostituzione del disco."
+    "spiegazione": "In presenza di bad sectors, l'AT deve procedere immediatamente al backup e alla sostituzione del disco.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 129,
@@ -1342,7 +1521,9 @@
       "A proteggere dalla polvere."
     ],
     "corretta": 1,
-    "spiegazione": "Senza pasta termica, il processore si surriscalda in pochi secondi e il PC si spegne per protezione."
+    "spiegazione": "Senza pasta termica, il processore si surriscalda in pochi secondi e il PC si spegne per protezione.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 130,
@@ -1354,7 +1535,9 @@
       "La fine dell'orario di lavoro."
     ],
     "corretta": 1,
-    "spiegazione": "Creare un punto di ripristino prima di installare nuovi driver salva ore di lavoro in caso di crash."
+    "spiegazione": "Creare un punto di ripristino prima di installare nuovi driver salva ore di lavoro in caso di crash.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 131,
@@ -1366,7 +1549,9 @@
       "Controllare l'accesso ai laboratori."
     ],
     "corretta": 1,
-    "spiegazione": "PagoPA elimina l'uso del contante a scuola, automatizzando la riconciliazione contabile per il DSGA."
+    "spiegazione": "PagoPA elimina l'uso del contante a scuola, automatizzando la riconciliazione contabile per il DSGA.",
+    "_ref": "",
+    "categoria": "Normativa e Carriera"
   },
   {
     "id": 132,
@@ -1378,7 +1563,9 @@
       "Un software per il disegno 3D."
     ],
     "corretta": 1,
-    "spiegazione": "Lo SPID è la chiave unica per accedere a Istanze Online, NoiPA e tutti i portali istituzionali."
+    "spiegazione": "Lo SPID è la chiave unica per accedere a Istanze Online, NoiPA e tutti i portali istituzionali.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 133,
@@ -1390,7 +1577,9 @@
       "Nascondere i computer rotti."
     ],
     "corretta": 1,
-    "spiegazione": "L'AT conosce lo stato reale delle attrezzature ed è fondamentale per aggiornare il registro inventariale."
+    "spiegazione": "L'AT conosce lo stato reale delle attrezzature ed è fondamentale per aggiornare il registro inventariale.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 134,
@@ -1402,7 +1591,9 @@
       "Controllo Ingressi Elettronici."
     ],
     "corretta": 1,
-    "spiegazione": "La CIE non è solo un documento, ma uno strumento di autenticazione digitale (livello 3) per i siti della PA."
+    "spiegazione": "La CIE non è solo un documento, ma uno strumento di autenticazione digitale (livello 3) per i siti della PA.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 135,
@@ -1414,7 +1605,9 @@
       "Cambiare il fornitore di carta."
     ],
     "corretta": 1,
-    "spiegazione": "La conservazione a norma garantisce che un file PDF firmato digitalmente valga quanto un originale cartaceo per decenni."
+    "spiegazione": "La conservazione a norma garantisce che un file PDF firmato digitalmente valga quanto un originale cartaceo per decenni.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 136,
@@ -1426,7 +1619,9 @@
       "Stampando i compiti su carta colorata."
     ],
     "corretta": 1,
-    "spiegazione": "Le tecnologie assistive sono il ponte che permette l'inclusione reale e l'autonomia dello studente."
+    "spiegazione": "Le tecnologie assistive sono il ponte che permette l'inclusione reale e l'autonomia dello studente.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 137,
@@ -1438,7 +1633,9 @@
       "Un filtro per la luce blu."
     ],
     "corretta": 1,
-    "spiegazione": "Garantire che il sito della scuola o il registro siano compatibili con gli screen reader è un obbligo di accessibilità."
+    "spiegazione": "Garantire che il sito della scuola o il registro siano compatibili con gli screen reader è un obbligo di accessibilità.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 138,
@@ -1450,7 +1647,9 @@
       "A parlare con il Dirigente Scolastico."
     ],
     "corretta": 1,
-    "spiegazione": "Per uno studente dislessico, la sintesi vocale permette di comprendere testi lunghi senza l'affaticamento della lettura."
+    "spiegazione": "Per uno studente dislessico, la sintesi vocale permette di comprendere testi lunghi senza l'affaticamento della lettura.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 139,
@@ -1462,7 +1661,9 @@
       "Software per i pagamenti mensa."
     ],
     "corretta": 1,
-    "spiegazione": "L'IA generativa produce materiale nuovo basandosi sui modelli statistici appresi durante l'addestramento."
+    "spiegazione": "L'IA generativa produce materiale nuovo basandosi sui modelli statistici appresi durante l'addestramento.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 140,
@@ -1474,7 +1675,9 @@
       "Inviare mail massive ai genitori."
     ],
     "corretta": 0,
-    "spiegazione": "Con Ventoy, basta copiare i file ISO sulla chiavetta per avere tutti i sistemi di riparazione pronti all'uso."
+    "spiegazione": "Con Ventoy, basta copiare i file ISO sulla chiavetta per avere tutti i sistemi di riparazione pronti all'uso.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 141,
@@ -1486,7 +1689,9 @@
       "Proteggere il PC dai fulmini."
     ],
     "corretta": 1,
-    "spiegazione": "Clonare i dischi permette all'AT di ripristinare un intero laboratorio in un solo pomeriggio invece che in settimane."
+    "spiegazione": "Clonare i dischi permette all'AT di ripristinare un intero laboratorio in un solo pomeriggio invece che in settimane.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 142,
@@ -1498,7 +1703,9 @@
       "La password per il Wi-Fi protetto."
     ],
     "corretta": 1,
-    "spiegazione": "La modalità provvisoria è il primo passo per disinstallare driver o programmi che impediscono l'avvio normale."
+    "spiegazione": "La modalità provvisoria è il primo passo per disinstallare driver o programmi che impediscono l'avvio normale.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 143,
@@ -1510,7 +1717,9 @@
       "Il nome della ditta che fornisce i PC."
     ],
     "corretta": 0,
-    "spiegazione": "Aggiornare il firmware (es. del router o della scheda madre) corregge bug hardware e migliora la sicurezza."
+    "spiegazione": "Aggiornare il firmware (es. del router o della scheda madre) corregge bug hardware e migliora la sicurezza.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 144,
@@ -1522,7 +1731,9 @@
       "A migliorare la connessione internet."
     ],
     "corretta": 1,
-    "spiegazione": "La sospensione è utile tra una lezione e l'altra, ma lo spegnimento è necessario per risparmio energetico e stabilità."
+    "spiegazione": "La sospensione è utile tra una lezione e l'altra, ma lo spegnimento è necessario per risparmio energetico e stabilità.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 145,
@@ -1534,7 +1745,9 @@
       "Disinstallare Windows."
     ],
     "corretta": 1,
-    "spiegazione": "Spesso il problema è un cavo staccato o un indirizzo IP cambiato accidentalmente."
+    "spiegazione": "Spesso il problema è un cavo staccato o un indirizzo IP cambiato accidentalmente.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 146,
@@ -1546,7 +1759,9 @@
       "L'aggiornamento automatico delle app."
     ],
     "corretta": 1,
-    "spiegazione": "In emergenza (Wi-Fi guasto), il tethering permette all'AT o al docente di restare connessi."
+    "spiegazione": "In emergenza (Wi-Fi guasto), il tethering permette all'AT o al docente di restare connessi.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 147,
@@ -1558,7 +1773,9 @@
       "La durata della batteria di un laptop."
     ],
     "corretta": 1,
-    "spiegazione": "Avere molta banda è essenziale per permettere a 30 studenti di guardare video in streaming contemporaneamente."
+    "spiegazione": "Avere molta banda è essenziale per permettere a 30 studenti di guardare video in streaming contemporaneamente.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 148,
@@ -1570,7 +1787,9 @@
       "Una certificazione di qualità."
     ],
     "corretta": 0,
-    "spiegazione": "L'AT scarica file ISO per creare chiavette di installazione di Windows o Linux."
+    "spiegazione": "L'AT scarica file ISO per creare chiavette di installazione di Windows o Linux.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 149,
@@ -1582,7 +1801,9 @@
       "A cancellare i file temporanei."
     ],
     "corretta": 1,
-    "spiegazione": "Se il ping risponde, sappiamo che il cavo e la configurazione base di rete funzionano correttamente."
+    "spiegazione": "Se il ping risponde, sappiamo che il cavo e la configurazione base di rete funzionano correttamente.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 150,
@@ -1594,407 +1815,459 @@
       "Un tipo di monitor ultra-wide."
     ],
     "corretta": 1,
-    "spiegazione": "L'UPS protegge i server della scuola e i dati da spegnimenti improvvisi che potrebbero corrompere il database."
+    "spiegazione": "L'UPS protegge i server della scuola e i dati da spegnimenti improvvisi che potrebbero corrompere il database.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
-    
   {
     "id": 151,
-    "domanda": "Qual è uno dei compiti distintivi dell'Assistente Tecnico di seconda posizione economica rispetto alla prima?",
-    "opzioni": ["La semplice pulizia dei banchi di laboratorio.", "L'accensione mattutina dei server.", "Il coordinamento tecnico dell'area e l'onboarding dei nuovi colleghi.", "La vigilanza degli alunni durante l'intervallo."],
-    "corretta": 2,
-    "spiegazione": "La seconda posizione amplia l'operatività verso funzioni di coordinamento, diventando un punto di riferimento per i colleghi e gestendo l'inserimento (onboarding) del nuovo personale.",
-    "_ref": "[cite: 941-945, 1192]"
+    "domanda": "Qual è il limite di spesa per gli acquisti diretti fuori dal MePA per le scuole?",
+    "opzioni": ["Sempre obbligatorio il MePA.", "Sotto la soglia definita annualmente dal Codice Appalti per affidamenti diretti.", "Massimo 100 euro.", "Non esiste alcun limite."],
+    "corretta": 1,
+    "spiegazione": "Le scuole possono procedere fuori MePA solo per acquisti sotto soglia o se il bene non è disponibile in piattaforma.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 152,
-    "domanda": "Chi si occupa della redazione delle specifiche tecniche per i bandi di acquisto nei laboratori?",
-    "opzioni": ["L'Assistente Tecnico di seconda posizione economica.", "Il Collaboratore Scolastico.", "Esclusivamente il fornitore esterno.", "Il docente di materie letterarie."],
+    "domanda": "Cos'è il 'Documento di Stipula'?",
+    "opzioni": ["Il contratto firmato tra scuola e fornitore a conclusione di una trattativa sul MePA.", "La lista dei voti degli studenti.", "Un manuale d'uso del computer.", "Il verbale di una riunione sindacale."],
     "corretta": 0,
-    "spiegazione": "Tra i compiti strategici della seconda posizione rientra la consulenza per gli acquisti e la redazione di capitolati tecnici per forniture e collaudi.",
-    "_ref": "[cite: 946-950, 1193]"
+    "spiegazione": "La stipula è l'atto formale che sancisce l'acquisto e i doveri del fornitore.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 153,
-    "domanda": "A chi è affidata, secondo il profilo professionale, la conduzione tecnica dei laboratori e delle officine?",
-    "opzioni": ["Al Dirigente Scolastico.", "All'Assistente Tecnico.", "Al Responsabile della Sicurezza (RSPP).", "All'impresa di pulizie esterna."],
+    "domanda": "Cosa deve verificare l'AT durante il 'Collaudo' di un notebook appena consegnato?",
+    "opzioni": ["Solo se il colore della scatola è bello.", "La corrispondenza tra quanto ordinato (capitolato) e quanto consegnato, e il corretto funzionamento.", "Se il corriere è stato gentile.", "Se il prezzo è scritto sul monitor."],
     "corretta": 1,
-    "spiegazione": "L'Assistente Tecnico è il responsabile diretto della funzionalità delle attrezzature e della preparazione dei materiali necessari per le esercitazioni.",
-    "_ref": "[cite: 951-955, 1194]"
+    "spiegazione": "Il collaudo è una verifica tecnica di conformità obbligatoria per legge.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 154,
-    "domanda": "Cosa si intende per 'Onboarding' nell'ambito del personale ATA?",
-    "opzioni": ["La procedura di sbarco da una nave scuola.", "Il processo di inserimento e affiancamento del nuovo personale all'inizio dell'anno.", "L'installazione di un nuovo sistema operativo.", "La gestione delle ferie estive residue."],
+    "domanda": "Qual è lo scopo del 'Verbale di Collaudo'?",
+    "opzioni": ["Perdere tempo in ufficio.", "Attestare che il bene è funzionante e può essere inserito in inventario e pagato.", "Chiedere lo sconto al fornitore.", "Invitare il tecnico a cena."],
     "corretta": 1,
-    "spiegazione": "L'onboarding è la fase di accoglienza e formazione iniziale gestita dai tecnici esperti per facilitare l'operatività dei nuovi ingressi.",
-    "_ref": "[cite: 956-960, 1195]"
+    "spiegazione": "Senza verbale di collaudo positivo, la scuola non può emettere il pagamento al fornitore.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 155,
-    "domanda": "Chi è la figura che predispone il 'Piano delle attività' che dettaglia i compiti del personale ATA?",
-    "opzioni": ["Il Direttore dei Servizi Generali e Amministrativi (DSGA).", "Il Sindaco del comune di pertinenza.", "L'Assistente Amministrativo addetto al protocollo.", "L'Animatore Digitale."],
+    "domanda": "Cosa indica l'acronimo 'RAEE'?",
+    "opzioni": ["Rifiuti di Apparecchiature Elettriche ed Elettroniche.", "Rete Aziendale Elettronica Europea.", "Rilevazione Annuale Esiti Esami.", "Registro Alunni Entrata Emergenza."],
     "corretta": 0,
-    "spiegazione": "Il DSGA organizza il lavoro del personale ATA sulla base delle direttive organizzative emanate dal Dirigente Scolastico.",
-    "_ref": "[cite: 961-965, 1196]"
+    "spiegazione": "I RAEE sono rifiuti speciali che richiedono procedure di smaltimento tracciate e separate.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 156,
-    "domanda": "Quale normativa stabilisce l'obbligo di collaborazione tra AT, Dirigente e RSPP per la sicurezza?",
-    "opzioni": ["Legge 104/1992.", "Regolamento GDPR 679/2016.", "Decreto Legislativo 81/2008.", "Codice dell'Amministrazione Digitale."],
-    "corretta": 2,
-    "spiegazione": "Il Testo Unico sulla Sicurezza (D.Lgs. 81/2008) impone a tutto il personale di collaborare per segnalare pericoli e utilizzare correttamente i dispositivi di protezione.",
-    "_ref": "[cite: 966-970, 1197]"
+    "domanda": "Qual è il compito dell'AT nel processo di 'Discarico Inventariale'?",
+    "opzioni": ["Riparare l'oggetto a proprie spese.", "Proporre al DSGA i beni non più riparabili o obsoleti per la radiazione dal registro.", "Vendere i pezzi di ricambio su internet.", "Buttare tutto nel cassonetto di nascosto."],
+    "corretta": 1,
+    "spiegazione": "L'AT segnala l'obsolescenza o l'irreparabilità per mantenere l'inventario aggiornato al valore reale.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 157,
-    "domanda": "Cosa deve fare l'AT se trova un plotter incustodito e collegato alla rete elettrica?",
-    "opzioni": ["Lasciarlo acceso per il turno successivo.", "Verificare che sia spento e scollegato se non utilizzato.", "Chiamare i vigili del fuoco.", "Mettere un cartello con scritto 'Attenzione'."],
-    "corretta": 1,
-    "spiegazione": "È dovere dell'AT prevenire rischi elettrici e meccanici assicurandosi che i macchinari non necessari siano scollegati dalla rete.",
-    "_ref": "[cite: 971-975, 1198]"
+    "domanda": "Chi firma il 'Verbale di Passaggio di Consegne' in caso di cambio del DSGA?",
+    "opzioni": ["Il nuovo DSGA e l'AT informatico.", "Il Dirigente Scolastico e il DSGA uscente.", "Il DSGA uscente e il DSGA subentrante.", "Tutti i docenti della scuola."],
+    "corretta": 2,
+    "spiegazione": "Il passaggio di consegne trasferisce ufficialmente la responsabilità del patrimonio dal vecchio al nuovo Direttore.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 158,
-    "domanda": "Come vanno protette le attrezzature costose come i notebook dalle manomissioni e dai furti?",
-    "opzioni": ["Utilizzando sistemi di ancoraggio antifurto o armadietti con serratura.", "Nascondendoli sotto i banchi.", "Chiedendo agli studenti di portarli a casa.", "Lasciandoli sempre accesi per il tracciamento GPS."],
-    "corretta": 0,
-    "spiegazione": "La protezione fisica include l'uso di barriere meccaniche (cavi in acciaio, armadietti) e la custodia regolamentata delle chiavi dei locali.",
-    "_ref": "[cite: 976-980, 1199]"
+    "domanda": "Perché è importante l'etichettatura fisica dei beni?",
+    "opzioni": ["Per rendere i PC più colorati.", "Per facilitare il riconoscimento e il controllo durante le verifiche inventariali.", "Per coprire i graffi sui case.", "Per impedire agli studenti di toccarli."],
+    "corretta": 1,
+    "spiegazione": "L'etichetta col numero di inventario collega l'oggetto fisico alla riga del registro contabile.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 159,
-    "domanda": "Qual è la frequenza consigliata per le scansioni antivirus complete dei sistemi scolastici?",
-    "opzioni": ["Una volta all'anno.", "Almeno una volta al mese.", "Solo quando il computer si blocca.", "Ogni ora."],
+    "domanda": "Cos'è la 'Cittadinanza Digitale'?",
+    "opzioni": ["La capacità di usare internet per scopi illegali.", "L'insieme di diritti e doveri che permettono a una persona di partecipare attivamente alla società tramite le tecnologie.", "Avere un computer molto costoso a casa.", "Saper giocare ai videogiochi."],
     "corretta": 1,
-    "spiegazione": "Oltre alla protezione in tempo reale, occorrono scansioni periodiche sistematiche per garantire la sicurezza digitale dei sistemi scolastici.",
-    "_ref": "[cite: 981-985, 1200]"
+    "spiegazione": "Essere cittadini digitali significa usare la tecnologia in modo etico, sicuro e consapevole.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 160,
-    "domanda": "Cosa indica un asterisco (*) alla fine di un codice CER per lo smaltimento dei rifiuti?",
-    "opzioni": ["Che il rifiuto può essere regalato.", "Che il materiale è biodegradabile.", "Che si tratta di un componente funzionante.", "Che il rifiuto è classificato come pericoloso."],
-    "corretta": 3,
-    "spiegazione": "Nel Catalogo Europeo dei Rifiuti, l'asterisco identifica le sostanze pericolose che richiedono procedure di smaltimento speciali.",
-    "_ref": "[cite: 986-990, 1201]"
+    "domanda": "Cosa si intende per 'Netiquette' professionale?",
+    "opzioni": ["L'uso di un linguaggio tecnico incomprensibile.", "Le regole di cortesia e rispetto da usare nelle comunicazioni via mail e sui social istituzionali.", "La velocità della rete ethernet.", "Il costo della connessione internet."],
+    "corretta": 1,
+    "spiegazione": "La netiquette evita conflitti e malintesi nella collaborazione digitale quotidiana a scuola.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 161,
-    "domanda": "Quale area del framework DigComp 2.2 si occupa specificamente della 'Sicurezza'?",
-    "opzioni": ["Area 1.", "Area 4.", "Area 2.", "Area 5."],
+    "domanda": "Qual è il rischio del 'Cyberbullismo' in ambito scolastico?",
+    "opzioni": ["La rottura della tastiera.", "Danni psicologici gravi agli studenti e responsabilità legali per la scuola.", "Un rallentamento della linea Wi-Fi.", "L'esaurimento del toner."],
     "corretta": 1,
-    "spiegazione": "L'Area 4 del framework DigComp 2.2 comprende la protezione dei dispositivi, dei dati personali, della privacy e del benessere.",
-    "_ref": "[cite: 991-995, 1202]"
+    "spiegazione": "La scuola ha il dovere di prevenire e gestire episodi di bullismo perpetrati tramite canali digitali.",
+    "_ref": "",
+    "categoria": "Gestione Laboratorio"
   },
   {
     "id": 162,
-    "domanda": "Qual è l'unità elementare di informazione elaborabile da un computer, rappresentata in formato binario?",
-    "opzioni": ["Il Metadato.", "Il Dato digitale.", "L'URL.", "Il Chatbot."],
+    "domanda": "Perché l'AT deve promuovere l'uso di 'Password Complesse' tra i docenti?",
+    "opzioni": ["Per far loro dimenticare l'accesso.", "Per aumentare la sicurezza degli account e prevenire intrusioni nei dati sensibili.", "Perché lo dicono i film di hacker.", "Per consumare più inchiostro."],
     "corretta": 1,
-    "spiegazione": "Il dato digitale è l'elemento binario di base che, una volta interpretato, diventa informazione utile all'utente.",
-    "_ref": "[cite: 996-1000, 1203]"
+    "spiegazione": "Password robuste sono la prima barriera contro furti d'identità e violazioni della privacy.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 163,
-    "domanda": "Cosa si intende per 'Alfabetizzazione su informazioni e dati' nel DigComp?",
-    "opzioni": ["Saper riparare una scheda madre.", "Saper articolare le esigenze informative, individuare, recuperare e gestire dati digitali.", "Saper usare i social media per fini privati.", "Conoscere a memoria il Codice Penale."],
+    "domanda": "Cosa si intende per 'Identità Digitale'?",
+    "opzioni": ["L'immagine usata come sfondo del PC.", "L'insieme delle informazioni e delle credenziali che ci identificano univocamente online.", "Il numero di serie del processore.", "Il colore del case del computer."],
     "corretta": 1,
-    "spiegazione": "L'alfabetizzazione su dati e informazioni riguarda la capacità di navigare, ricercare e filtrare i contenuti digitali giudicandone la rilevanza.",
-    "_ref": "[cite: 1001-1005, 1204]"
+    "spiegazione": "Proteggere la propria identità digitale (SPID, CIE, account) è fondamentale per la sicurezza personale.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 164,
-    "domanda": "In quale area del DigComp 2.2 ricade la risoluzione di guasti tecnici e l'innovazione creativa?",
-    "opzioni": ["Area 5 (Risolvere problemi).", "Area 1.", "Area 3.", "Area 4."],
-    "corretta": 0,
-    "spiegazione": "L'Area 5 riguarda l'identificazione dei bisogni tecnologici, la risoluzione di difficoltà concettuali e l'uso creativo delle tecnologie.",
-    "_ref": "[cite: 1006-1010, 1205]"
+    "domanda": "Qual è il vantaggio dell'uso del 'Cloud Storage' (es. Google Drive/OneDrive) per un AT?",
+    "opzioni": ["Nessuno, è meglio usare solo i floppy disk.", "L'accesso ai file da qualunque postazione e la facilità di condivisione di driver e guide.", "Far vedere le proprie foto a tutti.", "Non usare più la connessione internet."],
+    "corretta": 1,
+    "spiegazione": "Il cloud permette all'AT di avere i propri tool diagnostici sempre pronti ovunque si trovi nella scuola.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 165,
-    "domanda": "Quale livello di padronanza del DigComp 2.2 è generalmente associato alla prima posizione economica?",
-    "opzioni": ["Base.", "Intermedio.", "Avanzato.", "Altamente specializzato."],
+    "domanda": "Cos'è il 'Deep Web'?",
+    "opzioni": ["Un sito per scaricare musica gratis.", "La parte del web non indicizzata dai comuni motori di ricerca.", "Un tipo di cavo sottomarino.", "Il nome di un nuovo virus."],
     "corretta": 1,
-    "spiegazione": "Alla prima posizione economica corrisponde generalmente una competenza di livello intermedio, mentre alla seconda una di livello avanzato.",
-    "_ref": "[cite: 1011-1015, 1206]"
+    "spiegazione": "Il Deep Web comprende pagine private, database e reti protette non accessibili tramite Google.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 166,
-    "domanda": "Chi è formalmente il 'Titolare del trattamento' dei dati personali nell'istituzione scolastica?",
-    "opzioni": ["Il DSGA.", "Il Dirigente Scolastico (DS).", "Il Responsabile Protezione Dati (DPO).", "Il Ministero dell'Economia."],
-    "corretta": 1,
-    "spiegazione": "Il Dirigente Scolastico, come legale rappresentante della scuola, determina le finalità e i mezzi del trattamento dei dati personali.",
-    "_ref": "[cite: 1016-1020, 1207]"
-  },
-  {
-    "id": 167,
-    "domanda": "Cosa sono i 'Dati particolari' secondo la normativa sulla privacy?",
-    "opzioni": ["Indirizzi IP e geolocalizzazione.", "Semplici dati anagrafici come nome e cognome.", "Dati che rivelano origine razziale, opinioni politiche, orientamento sessuale o salute.", "I numeri di serie dei PC."],
-    "corretta": 2,
-    "spiegazione": "I dati particolari sono categorie 'sensibili' (salute, orientamento, opinioni) che richiedono tutele rafforzate per proteggere l'interessato.",
-    "_ref": "[cite: 1021-1025, 1208]"
-  },
-  {
-    "id": 168,
-    "domanda": "Cosa si intende per 'Data Breach'?",
-    "opzioni": ["Il salvataggio dei dati su un cloud sicuro.", "Una violazione di sicurezza che comporta accidentalmente la distruzione, perdita o diffusione di dati personali.", "Un aggiornamento obbligatorio del database.", "La cancellazione autorizzata di file obsoleti."],
-    "corretta": 1,
-    "spiegazione": "Il Data Breach è una violazione di sicurezza che mette a rischio la riservatezza, l'integrità o la disponibilità delle informazioni gestite.",
-    "_ref": "[cite: 1026-1030, 1209]"
-  },
-  {
-    "id": 169,
-    "domanda": "Qual è l'obiettivo della 'DPIA' nel contesto scolastico?",
-    "opzioni": ["Valutare e mitigare preventivamente i rischi per la privacy prima di avviare un trattamento.", "Aumentare la velocità dei download.", "Catalogare i libri della biblioteca scolastica.", "Pagare le tasse tramite PagoPA."],
-    "corretta": 0,
-    "spiegazione": "La Valutazione di Impatto (DPIA) serve a valutare e mitigare preventivamente i rischi per la privacy prima di avviare un trattamento dati elevato.",
-    "_ref": "[cite: 1031-1035, 1210]"
-  },
-  {
-    "id": 170,
-    "domanda": "Qual è il primo passo operativo che un AT deve compiere se rileva un possibile 'Data Breach'?",
-    "opzioni": ["Spegnere internet in tutta la città.", "Segnalare immediatamente l'incidente al Dirigente Scolastico e al DPO.", "Cancellare tutti i log di sistema.", "Formattare i server della segreteria."],
-    "corretta": 1,
-    "spiegazione": "La segnalazione tempestiva al DS e al DPO è cruciale per attivare il protocollo di contenimento e l'eventuale notifica al Garante della Privacy.",
-    "_ref": "[cite: 1036-1040, 1211]"
-  },
-  {
-    "id": 171,
-    "domanda": "A cosa serve la configurazione di un 'Account Guest' (Ospite) in un laboratorio?",
-    "opzioni": ["A dare pieni privilegi ai docenti esterni.", "A consentire un accesso temporaneo e limitato senza salvataggio permanente dei dati.", "A installare software pirata.", "A bypassare il firewall della scuola."],
-    "corretta": 1,
-    "spiegazione": "L'account guest è ideale per postazioni condivise dove è richiesto un accesso temporaneo senza la memorizzazione permanente dei dati dell'utente.",
-    "_ref": "[cite: 1041-1045, 1212]"
-  },
-  {
-    "id": 172,
-    "domanda": "Qual è lo scopo primario di un Firewall nella rete scolastica?",
-    "opzioni": ["Velocizzare la navigazione web.", "Sincronizzare gli orari delle lezioni.", "Stampare i certificati in formato PDF/A.", "Filtrare il traffico di rete bloccando accessi non autorizzati."],
-    "corretta": 3,
-    "spiegazione": "Il firewall agisce come una barriera di sicurezza tra la rete interna della scuola e Internet, filtrando il traffico non autorizzato.",
-    "_ref": "[cite: 1046-1050, 1213]"
-  },
-  {
-    "id": 173,
-    "domanda": "Cosa consente di fare una rete VLAN (Virtual LAN) in ambito scolastico?",
-    "opzioni": ["Navigare in realtà virtuale.", "Separare logicamente il traffico per isolare reti uffici, didattica e ospiti.", "Collegare la scuola via satellite.", "Automatizzare l'irrigazione del giardino."],
-    "corretta": 1,
-    "spiegazione": "La segmentazione della rete tramite VLAN isola logicamente i diversi tipi di traffico (uffici, didattica, ospiti), aumentando la sicurezza generale.",
-    "_ref": "[cite: 1051-1055, 1214]"
-  },
-  {
-    "id": 174,
-    "domanda": "Cos'è l'interoperabilità tra i sistemi della Pubblica Amministrazione?",
-    "opzioni": ["La capacità di sistemi diversi di dialogare e condividere informazioni in modo sicuro.", "La capacità dei computer di spegnersi insieme.", "L'uso esclusivo di software italiani.", "L'uso della stessa password per tutti."],
-    "corretta": 0,
-    "spiegazione": "L'interoperabilità permette a sistemi della Pubblica Amministrazione diversi di dialogare e condividere informazioni in modo automatico.",
-    "_ref": "[cite: 1056-1060, 1215]"
-  },
-  {
-    "id": 175,
-    "domanda": "Quale formato di file garantisce che un documento appaia identico nel tempo e su diversi sistemi?",
-    "opzioni": [".docx.", "PDF/A (Archiving).", ".txt.", ".jpg."],
-    "corretta": 1,
-    "spiegazione": "Il formato PDF/A incorpora font e metadati per assicurare l'integrità visiva e la leggibilità a lungo termine dei documenti ufficiali.",
-    "_ref": "[cite: 1061-1065, 1216]"
-  },
-  {
-    "id": 176,
-    "domanda": "Secondo il regolamento europeo AI Act, cos'è un sistema di Intelligenza Artificiale?",
-    "opzioni": ["Un semplice calcolatore tascabile.", "Un sistema basato su macchine capace di generare output con un certo grado di autonomia.", "Un robot con fattezze umane.", "Un cavo di rete intelligente."],
-    "corretta": 1,
-    "spiegazione": "L'IA si distingue dai software tradizionali per la capacità di operare con autonomia e produrre risultati (output) basati sui dati elaborati.",
-    "_ref": "[cite: 1066-1070, 1217]"
-  },
-  {
-    "id": 177,
-    "domanda": "Quali sistemi di IA sono vietati in modo assoluto dal regolamento europeo?",
-    "opzioni": ["I correttori ortografici.", "I sistemi a rischio inaccettabile (es. punteggio sociale).", "I traduttori automatici.", "Le mappe digitali."],
-    "corretta": 1,
-    "spiegazione": "L'Unione Europea proibisce tecnologie IA a 'rischio inaccettabile' che ledono la dignità umana o violano i diritti fondamentali.",
-    "_ref": "[cite: 1071-1075, 1218]"
-  },
-  {
-    "id": 178,
-    "domanda": "Cosa indica il termine 'Bias' in un sistema di IA?",
-    "opzioni": ["La velocità massima del processore.", "Una distorsione sistematica che produce risultati discriminatori basati su dati distorti.", "La licenza d'uso gratuita.", "Il pulsante di avvio di un chatbot."],
-    "corretta": 1,
-    "spiegazione": "Il bias è una distorsione algoritmica che può amplificare pregiudizi umani se l'IA è addestrata su dati non rappresentativi.",
-    "_ref": "[cite: 1076-1080, 1219]"
-  },
-  {
-    "id": 179,
-    "domanda": "Quale termine descrive il fenomeno per cui un modello di Intelligenza Artificiale Generativa produce informazioni errate o inventate, presentandole però in modo convincente come fatti reali?",
-    "opzioni": ["Overclocking del processore.", "Latenza della connessione di rete.", "Debugging del codice sorgente.", "Allucinazione (Hallucination)."],
-    "corretta": 3,
-    "spiegazione": "L'allucinazione avviene quando l'IA genera informazioni false o inventate presentandole come veritiere, a causa dei suoi limiti probabilistici.",
-    "_ref": "[cite: 1081-1085, 1220]"
-  },
-  {
-    "id": 180,
-    "domanda": "Quale principio garantisce che le decisioni automatizzate dell'IA siano comprensibili e controllabili da un essere umano?",
-    "opzioni": ["Privacy by Design.", "Supervisione umana.", "Open Source.", "Netiquette."],
-    "corretta": 1,
-    "spiegazione": "Il principio di supervisione garantisce che l'essere umano mantenga sempre la responsabilità finale e il controllo critico sull'operato delle macchine.",
-    "_ref": "[cite: 1086-1090, 1221]"
-  },
-  {
-    "id": 181,
-    "domanda": "Quale documento scolastico fissa gli obiettivi e gli ausili tecnologici per un alunno con disabilità certificata?",
-    "opzioni": ["Il PEI (Piano Educativo Individualizzato).", "Il PTOF.", "Il Documento di Valutazione dei Rischi.", "Il Certificato di Laurea del docente."],
-    "corretta": 0,
-    "spiegazione": "Il PEI delinea il percorso personalizzato dello studente con disabilità, includendo l'eventuale supporto tecnico necessario in laboratorio.",
-    "_ref": "[cite: 1091-1095, 1222]"
-  },
-  {
-    "id": 182,
-    "domanda": "Cos'è uno 'Screen Reader' nel contesto delle tecnologie assistive?",
-    "opzioni": ["Un dispositivo che pulisce il monitor.", "Un software che trasforma il testo digitale in audio (sintesi vocale) per ipovedenti.", "Un filtro per la luce blu.", "Un proiettore laser."],
-    "corretta": 1,
-    "spiegazione": "Lo Screen Reader trasforma il testo digitale in audio, rappresentando una tecnologia fondamentale per l'accessibilità degli alunni ipovedenti.",
-    "_ref": "[cite: 1096-1100, 1223]"
-  },
-  {
-    "id": 183,
-    "domanda": "Quale ausilio hardware può predisporre l'AT per aiutare un alunno con difficoltà motorie in laboratorio?",
-    "opzioni": ["Mouse trackball, tastiere semplificate o banchi regolabili in altezza.", "Una stampante a colori.", "Un monitor senza cavi.", "Un telecomando per la TV."],
-    "corretta": 0,
-    "spiegazione": "L'adattamento della postazione fisica (trackball, tastiere semplificate) rimuove le barriere operative e favorisce l'autonomia dello studente.",
-    "_ref": "[cite: 1101-1105, 1224]"
-  },
-  {
-    "id": 184,
-    "domanda": "Cosa si intende per 'Strumenti compensativi'?",
-    "opzioni": ["I rimborsi spese per il personale ATA.", "Tecnologie e misure che aiutano l'alunno a superare le difficoltà (es. calcolatrice).", "I premi di risultato per i docenti.", "Gli attrezzi per la manutenzione dei PC."],
-    "corretta": 1,
-    "spiegazione": "Gli strumenti compensativi servono a bilanciare una carenza funzionale, consentendo allo studente BES di svolgere l'attività didattica.",
-    "_ref": "[cite: 1106-1110, 1225]"
-  },
-  {
-    "id": 185,
-    "domanda": "Chi assume il ruolo di 'referente per le tecnologie assistive' nella progettazione di soluzioni inclusive (livello avanzato)?",
-    "opzioni": ["Il Collaboratore Scolastico di turno.", "L'Assistente Tecnico di seconda posizione economica.", "Il fornitore della linea internet.", "Il Rappresentante dei Genitori."],
-    "corretta": 1,
-    "spiegazione": "La seconda posizione economica implica una responsabilità progettuale e di consulenza specialistica per l'inclusione scolastica.",
-    "_ref": "[cite: 1111-1115, 1226]"
-  },
-  {
-    "id": 186,
-    "domanda": "Qual è il portale ufficiale per la gestione economica e degli stipendi del personale della scuola?",
-    "opzioni": ["SIDI.", "NoiPA.", "MePA.", "TripAdvisor."],
-    "corretta": 1,
-    "spiegazione": "NoiPA è il portale istituzionale del MEF dedicato alla gestione economica e stipendiale dei dipendenti della Pubblica Amministrazione.",
-    "_ref": "[cite: 1116-1120, 1227]"
-  },
-  {
-    "id": 187,
-    "domanda": "In quale piattaforma la scuola gestisce le posizioni assicurative dei dipendenti per fini pensionistici?",
-    "opzioni": ["Passweb (INPS).", "Facebook.", "Registro Elettronico.", "Google Classroom."],
-    "corretta": 0,
-    "spiegazione": "Passweb è lo strumento ufficiale di comunicazione con l'INPS per la sistemazione del conto assicurativo e pensionistico del dipendente.",
-    "_ref": "[cite: 1121-1125, 1228]"
-  },
-  {
-    "id": 188,
-    "domanda": "Cos'è il meccanismo della 'Temporizzazione' nella carriera del personale ATA?",
-    "opzioni": ["Il calcolo del tempo di avvio dei computer.", "Un timer per l'autospegnimento delle luci.", "Un adeguamento stipendiale in caso di passaggio di ruolo per non perdere il valore maturato.", "L'intervallo tra due lezioni."],
-    "corretta": 2,
-    "spiegazione": "La temporizzazione serve a equiparare il maturato economico del ruolo precedente con l'anzianità giuridica nella nuova qualifica di assistente tecnico.",
-    "_ref": "[cite: 1126-1130, 1229]"
-  },
-  {
-    "id": 189,
-    "domanda": "Entro quanti giorni dall'immissione in ruolo deve essere presentata la 'Dichiarazione dei Servizi'?",
-    "opzioni": ["10 giorni.", "90 giorni.", "Entro la fine dell'anno di prova.", "30 giorni."],
-    "corretta": 3,
-    "spiegazione": "La normativa prevede la presentazione della dichiarazione dei servizi entro 30 giorni dall'assunzione per il corretto inquadramento di carriera.",
-    "_ref": "[cite: 1131-1135, 1230]"
-  },
-  {
-    "id": 190,
-    "domanda": "Cosa si intende per 'Riallineamento' della carriera per un Assistente Tecnico?",
-    "opzioni": ["Il recupero dell'anzianità economica accantonata.", "L'allineamento dei cavi in un rack.", "La modifica dell'orario di servizio.", "L'aggiornamento dei driver."],
-    "corretta": 0,
-    "spiegazione": "Il riallineamento riconosce integralmente l'anzianità di servizio preruolo utile ai fini economici dopo determinati anni di ruolo.",
-    "_ref": "[cite: 1136-1140, 1231]"
-  },
-  {
-    "id": 191,
-    "domanda": "Quale agenzia tecnica emana le linee guida per il design e l'accessibilità dei siti web delle PA?",
-    "opzioni": ["AgID (Agenzia per l'Italia Digitale).", "INPS.", "RAI.", "Poste Italiane."],
-    "corretta": 0,
-    "spiegazione": "L'AgID definisce gli standard obbligatori affinché i siti web pubblici siano trasparenti, accessibili a tutti e sicuri.",
-    "_ref": "[cite: 1141-1145, 1232]"
-  },
-  {
-    "id": 192,
-    "domanda": "Cos'è un CMS (Content Management System) nel contesto della gestione del sito scolastico?",
-    "opzioni": ["Un tipo di cavo di rete.", "Un software che permette di gestire i contenuti del sito senza scrivere codice complesso.", "Un sistema di videosorveglianza.", "Il registro dei voti degli studenti."],
-    "corretta": 1,
-    "spiegazione": "Il CMS (come WordPress) facilita la pubblicazione di circolari e news da parte del personale autorizzato senza scrivere codice complesso.",
-    "_ref": "[cite: 1146-1150, 1233]"
-  },
-  {
-    "id": 193,
-    "domanda": "Qual è la principale differenza tra 'Bacheca Online' e 'Circolari Online'?",
-    "opzioni": ["Le circolari hanno valore formale, sono protocollate e richiedono firma; la bacheca è informale.", "Nessuna, sono sinonimi.", "La bacheca è solo per gli studenti.", "La bacheca è a pagamento."],
-    "corretta": 0,
-    "spiegazione": "Le circolari sono atti ufficiali dell'istituzione, protocollati e soggetti a conservazione a norma, a differenza degli avvisi informali in bacheca.",
-    "_ref": "[cite: 1151-1155, 1234]"
-  },
-  {
-    "id": 194,
-    "domanda": "Cosa si intende per 'Nomi parlanti' nella gestione dei file digitali?",
-    "opzioni": ["File che emettono suoni.", "Nomi scritti solo in inglese.", "File protetti da password vocale.", "Denominazioni chiare che indicano il contenuto (es. Circolare_Ferie.pdf)."],
-    "corretta": 3,
-    "spiegazione": "L'uso di nomi parlanti (chiari e descrittivi) facilita notevolmente la ricerca e la tracciabilità dei documenti digitali nel tempo.",
-    "_ref": "[cite: 1156-1160, 1235]"
-  },
-  {
-    "id": 195,
-    "domanda": "Cosa raccomanda la Netiquette riguardo all'invio di email a molti destinatari esterni?",
-    "opzioni": ["Utilizzare il campo 'CCN' per proteggere la privacy dei destinatari.", "Inserire tutti gli indirizzi nel campo 'A:'.", "Allegare una foto di tutti i destinatari.", "Non inviare email a più di due persone."],
-    "corretta": 0,
-    "spiegazione": "L'uso del campo CCN impedisce che ogni destinatario visualizzi gli indirizzi email degli altri, evitando fughe di dati personali in invii massivi.",
-    "_ref": "[cite: 1161-1165, 1236]"
-  },
-  {
-    "id": 196,
-    "domanda": "Qual è lo strumento suggerito per mappare la copertura del segnale e le interferenze Wi-Fi?",
-    "opzioni": ["Un termometro digitale.", "Un software di analisi di rete (es. Wi-Fi Analyzer).", "Il sito web della scuola.", "Un cacciavite cercafase."],
-    "corretta": 1,
-    "spiegazione": "Software come Wi-Fi Analyzer permettono di visualizzare i canali occupati e la potenza del segnale per ottimizzare la rete scolastica.",
-    "_ref": "[cite: 1166-1170, 1237]"
-  },
-  {
-    "id": 197,
-    "domanda": "Quale standard Wi-Fi è ritenuto necessario per supportare stabilmente lo streaming video HD in Aula Magna?",
-    "opzioni": ["Wi-Fi 6 (802.11ax).", "Wi-Fi 4 (obsoleto).", "Bluetooth 5.0.", "Connessione Dial-up."],
-    "corretta": 0,
-    "spiegazione": "Il Wi-Fi 6 offre la larghezza di banda necessaria e una migliore gestione dell'alta densità di dispositivi per streaming video HD fluidi.",
-    "_ref": "[cite: 1171-1175, 1238]"
-  },
-  {
-    "id": 198,
     "domanda": "Se un PC emette dei segnali acustici (beep) all'avvio e lo schermo resta nero, cosa deve controllare l'AT?",
     "opzioni": ["Se la tastiera è pulita.", "Malfunzionamenti hardware segnalati dal BIOS (es. errori RAM).", "Se Word è aggiornato.", "La luminosità del mouse."],
     "corretta": 1,
     "spiegazione": "I beep sono codici diagnostici del BIOS che segnalano problemi ai componenti hardware essenziali rilevati durante il test di avvio (POST).",
-    "_ref": "[cite: 1176-1180, 1239]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
-    "id": 199,
+    "id": 167,
     "domanda": "Quale tra questi file non rispetta i criteri di accessibilità e trasparenza di un 'Open Format'?",
     "opzioni": ["Xml.", "Csv.", "Doc.", "Docx."],
     "corretta": 2,
     "spiegazione": "Un formato proprietario come .Doc, è controllato da un'entità privata che ne detiene i diritti e può limitarne l'utilizzo o l'accesso. Il .docx è invece uno standard aperto.",
-    "_ref": "[cite: 1181-1185, 1240, 1241]"
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
+  },
+  {
+    "id": 168,
+    "domanda": "Come può l'AT facilitare l'accesso immediato alle Schede di Sicurezza (SDS) dei reagenti?",
+    "opzioni": ["Stampando manuali di 500 pagine.", "Tramite QR code posizionati sugli armadietti o sui banconi che rimandano ai file PDF.", "Imparandole a memoria per dirle a voce.", "Nascondendole in un cassetto chiuso a chiave."],
+    "corretta": 1,
+    "spiegazione": "L'uso dei QR code permette una consultazione rapida e aggiornata, fondamentale in caso di emergenza.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 169,
+    "domanda": "Qual è lo scopo del 'Piano di emergenza' scolastico?",
+    "opzioni": ["Perdere ore di lezione.", "Definire i comportamenti e le procedure da seguire in caso di pericoli (es. incendio o terremoto).", "Decidere il menù della mensa.", "Comprare nuovi computer."],
+    "corretta": 1,
+    "spiegazione": "Il piano di emergenza salva vite umane tramite l'organizzazione preventiva dei soccorsi e dell'esodo.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 170,
+    "domanda": "Chi è l'Addetto al Primo Soccorso a scuola?",
+    "opzioni": ["Il medico dell'ospedale vicino.", "Personale scolastico formato per gestire le prime emergenze sanitarie in attesa del 118.", "L'alunno più bravo in scienze.", "Il custode della palestra."],
+    "corretta": 1,
+    "spiegazione": "L'addetto al primo soccorso interviene tempestivamente per limitare i danni in caso di infortunio.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 171,
+    "domanda": "Qual è il significato del cartello di sicurezza di colore 'Verde'?",
+    "opzioni": ["Pericolo immediato.", "Informazione di soccorso o salvataggio (es. uscite di emergenza, kit medico).", "Obbligo di indossare i guanti.", "Divieto di fumare."],
+    "corretta": 1,
+    "spiegazione": "Il verde indica sicurezza e vie di fuga o presidi di soccorso.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 172,
+    "domanda": "In un laboratorio, cos'è il 'Rischio Elettrico'?",
+    "opzioni": ["Il costo elevato della bolletta.", "Il pericolo di contatti diretti o indiretti con parti in tensione.", "L'uso di una lampadina troppo forte.", "Lo spegnimento del monitor."],
+    "corretta": 1,
+    "spiegazione": "Il rischio elettrico può causare folgorazioni gravi o incendi se gli impianti non sono a norma.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 173,
+    "domanda": "Cosa deve contenere la 'Cassetta di Primo Soccorso'?",
+    "opzioni": ["Solo cerotti colorati.", "Presidi medici minimi stabiliti dalla legge (D.M. 388/2003) costantemente aggiornati.", "Generi alimentari di conforto.", "Attrezzi per riparare il PC."],
+    "corretta": 1,
+    "spiegazione": "La cassetta deve essere sempre completa e con prodotti non scaduti per essere efficace.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 174,
+    "domanda": "Qual è la funzione del 'Rilevatore di fumo'?",
+    "opzioni": ["Contare quante persone fumano.", "Avvisare tempestivamente tramite allarme ottico/acustico lo sviluppo di un principio d'incendio.", "Profumare l'aula.", "Spegnere le luci automaticamente."],
+    "corretta": 1,
+    "spiegazione": "I rilevatori permettono di intervenire o evacuare prima che l'incendio diventi incontrollabile.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 175,
+    "domanda": "Perché è vietato ostruire le 'Uscite di Sicurezza' con armadi o scatoloni?",
+    "opzioni": ["Per motivi estetici.", "Perché devono garantire un deflusso rapido e sicuro delle persone in caso di evacuazione.", "Per non far arrabbiare il preside.", "Per far passare meglio l'aria."],
+    "corretta": 1,
+    "spiegazione": "Vie di fuga libere sono la condizione essenziale per un'evacuazione efficace senza ostacoli.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 176,
+    "domanda": "Qual è lo scopo del 'Registro antincendio'?",
+    "opzioni": ["Segnare i nomi di chi usa l'estintore.", "Annotare periodicamente le verifiche e le manutenzioni effettuate sui presidi antincendio.", "Scrivere poesie sul fuoco.", "Contenere le foto dei vigili del fuoco."],
+    "corretta": 1,
+    "spiegazione": "Il registro prova l'avvenuto controllo costante di estintori, idranti e porte tagliafuoco.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 177,
+    "domanda": "Cos'è il 'DVR' (Documento di Valutazione dei Rischi)?",
+    "opzioni": ["Un manuale di informatica.", "Il documento che analizza tutti i rischi presenti a scuola e definisce le misure di prevenzione.", "Il registro delle assenze degli ATA.", "La lista dei fornitori di cancelleria."],
+    "corretta": 1,
+    "spiegazione": "Il DVR è la colonna portante della sicurezza scolastica, redatto dal Dirigente col RSPP.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 178,
+    "domanda": "Chi è il 'Lavoratore' secondo il D.Lgs. 81/08 nella scuola?",
+    "opzioni": ["Solo il Dirigente.", "Docenti, ATA e anche gli studenti quando usano i laboratori (equiparati).", "Solo la ditta delle pulizie.", "Nessuno, la scuola non è un luogo di lavoro."],
+    "corretta": 1,
+    "spiegazione": "La normativa estende tutele e doveri a chiunque operi in un ambiente a rischio, inclusi gli studenti.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 179,
+    "domanda": "Qual è l'obbligo principale dell'AT riguardo alla propria sicurezza?",
+    "opzioni": ["Fare finta di nulla se nota un cavo scoperto.", "Utilizzare correttamente i DPI (Dispositivi di Protezione Individuale) e rispettare le procedure.", "Lavorare sempre da solo per non disturbare.", "Non segnalare mai i guasti."],
+    "corretta": 1,
+    "spiegazione": "Il lavoratore è il primo responsabile della propria incolumità tramite l'uso corretto dei mezzi forniti.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 180,
+    "domanda": "Cosa si intende per 'Segnaletica di Sicurezza'?",
+    "opzioni": ["Cartelli stradali fuori dalla scuola.", "Insieme di cartelli, colori e luci che forniscono indicazioni su pericoli, divieti o soccorsi.", "I nomi delle aule scritti sulle porte.", "Le pubblicità nei corridoi."],
+    "corretta": 1,
+    "spiegazione": "La segnaletica deve essere chiara, univoca e posizionata in modo visibile per guidare i comportamenti.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 181,
+    "domanda": "Qual è il compito del RSPP?",
+    "opzioni": ["Pulire i laboratori.", "Consigliare il Dirigente sui rischi e sulle misure di prevenzione da adottare.", "Insegnare informatica.", "Pagare le fatture della luce."],
+    "corretta": 1,
+    "spiegazione": "L'RSPP è l'esperto tecnico che supporta il Dirigente nella gestione della sicurezza.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 182,
+    "domanda": "Cosa indica un cartello 'Rosso' di forma circolare con sbarra diagonale?",
+    "opzioni": ["Obbligo di fare qualcosa.", "Divieto di un determinato comportamento.", "Attenzione, possibile pericolo.", "Informazione utile."],
+    "corretta": 1,
+    "spiegazione": "Il rosso circolare indica sempre un divieto assoluto (es. vietato fumare, vietato l'accesso).",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 183,
+    "domanda": "A cosa serve l' 'Interruttore Differenziale' (salvavita)?",
+    "opzioni": ["A spegnere tutte le luci di notte.", "A interrompere l'energia in caso di dispersione elettrica, proteggendo le persone dalla folgorazione.", "A risparmiare sulla bolletta.", "A far andare più veloci i PC."],
+    "corretta": 1,
+    "spiegazione": "Il differenziale è un dispositivo salvavita fondamentale che scatta prima che la corrente diventi letale.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 184,
+    "domanda": "Cosa si deve fare se si scopre un estintore con il manometro sul 'rosso' (scarico)?",
+    "opzioni": ["Ignorarlo.", "Segnalarlo immediatamente al Dirigente o al Responsabile Sicurezza per la ricarica.", "Cercare di gonfiarlo a mano.", "Metterlo in un posto dove non si vede."],
+    "corretta": 1,
+    "spiegazione": "Un estintore scarico è inutile e pericoloso perché dà un falso senso di sicurezza.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 185,
+    "domanda": "Qual è la corretta postura del videoterminalista (AT al PC)?",
+    "opzioni": ["Sdraiate sulla sedia.", "Schiena dritta, piedi appoggiati a terra, monitor all'altezza degli occhi e pause periodiche.", "In piedi sopra il tavolo.", "Sempre curvi verso lo schermo."],
+    "corretta": 1,
+    "spiegazione": "L'ergonomia previene disturbi muscolo-scheletrici e l'affaticamento visivo dovuto all'uso prolungato del PC.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 186,
+    "domanda": "Cosa indica l'acronimo 'RLS'?",
+    "opzioni": ["Responsabile Laboratorio Scientifico.", "Rappresentante dei Lavoratori per la Sicurezza.", "Rete Locale Scolastica.", "Regolamento Lavoro Straordinario."],
+    "corretta": 1,
+    "spiegazione": "L'RLS è eletto dai lavoratori per controllare l'applicazione delle norme di sicurezza in istituto.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 187,
+    "domanda": "Perché è importante la 'Formazione' sulla sicurezza per l'AT?",
+    "opzioni": ["Per non lavorare durante il corso.", "Per conoscere i rischi specifici del proprio lavoro e saper usare correttamente le attrezzature.", "Per avere un pezzo di carta in più.", "Perché lo dice il contratto."],
+    "corretta": 1,
+    "spiegazione": "La formazione trasforma la normativa in comportamenti sicuri che evitano infortuni.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 188,
+    "domanda": "Qual è il significato del cartello di forma 'Triangolare' di colore giallo?",
+    "opzioni": ["Obbligo di correre.", "Avvertimento di un rischio o pericolo (es. carichi sospesi, alta tensione).", "Informazione turistica.", "Divieto di sosta."],
+    "corretta": 1,
+    "spiegazione": "Il giallo triangolare segnala un'attenzione specifica verso un potenziale pericolo presente.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 189,
+    "domanda": "In caso di terremoto a scuola, qual è il comportamento corretto?",
+    "opzioni": ["Correre subito verso le scale.", "Ripararsi sotto un tavolo o una scrivania robusta lontano da vetri e finestre.", "Usare l'ascensore.", "Gridare forte per chiedere aiuto."],
+    "corretta": 1,
+    "spiegazione": "Proteggersi sotto una struttura solida evita di essere colpiti da oggetti che cadono o vetri infranti.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 190,
+    "domanda": "Cosa si deve fare dopo la 'scossa' di terremoto?",
+    "opzioni": ["Tornare a lavorare subito.", "Evacuare l'edificio con calma seguendo i percorsi stabiliti fino al punto di raccolta.", "Accendere subito tutti i PC.", "Chiudersi dentro un ufficio."],
+    "corretta": 1,
+    "spiegazione": "L'evacuazione post-scossa serve a mettersi in salvo in attesa di verifiche sulla stabilità dell'edificio.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 191,
+    "domanda": "Qual è il compito dell'Addetto Antincendio durante un'evacuazione?",
+    "opzioni": ["Fare il tifo.", "Assicurarsi che tutti abbiano lasciato i locali di competenza e collaborare all'esodo.", "Salvare solo il proprio computer.", "Non fare nulla."],
+    "corretta": 1,
+    "spiegazione": "L'addetto antincendio è un punto di riferimento fondamentale per l'ordine e la sicurezza del gruppo.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 192,
+    "domanda": "A cosa serve il 'Punto di raccolta'?",
+    "opzioni": ["A fare merenda.", "Luogo sicuro prestabilito all'esterno dove radunarsi per l'appello dopo un'evacuazione.", "A parcheggiare le auto dei docenti.", "A buttare i rifiuti ingombranti."],
+    "corretta": 1,
+    "spiegazione": "L'appello al punto di raccolta permette di capire immediatamente se mancano persone all'appello.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 193,
+    "domanda": "Qual è la distanza minima consigliata tra gli occhi e il monitor?",
+    "opzioni": ["10 cm.", "Almeno 50-70 cm.", "2 metri.", "Poche dita."],
+    "corretta": 1,
+    "spiegazione": "La giusta distanza previene l'affaticamento visivo e la secchezza oculare.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 194,
+    "domanda": "Perché è importante che l'AT segnali i 'Near Miss' (quasi infortuni)?",
+    "opzioni": ["Per farsi dare un premio.", "Per prevenire che l'evento si ripeta causando in futuro un infortunio reale.", "Per fare la spia sui colleghi.", "Per non far pulire i pavimenti."],
+    "corretta": 1,
+    "spiegazione": "Analizzare i mancati infortuni permette di correggere falle nella sicurezza prima che qualcuno si faccia male.",
+    "_ref": "",
+    "categoria": "Sicurezza"
+  },
+  {
+    "id": 195,
+    "domanda": "Qual è lo scopo del DigComp 2.2?",
+    "opzioni": ["Rallentare il lavoro scolastico.", "Fornire un quadro comune europeo per le competenze digitali dei cittadini.", "Misurare la velocità dei processori.", "Gestire il magazzino."],
+    "corretta": 1,
+    "spiegazione": "Il DigComp è il riferimento per definire cosa significa oggi essere 'competenti digitalmente'.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
+  },
+  {
+    "id": 196,
+    "domanda": "Cos'è l' 'Alfabetizzazione Informatica'?",
+    "opzioni": ["Saper leggere solo i libri cartacei.", "La capacità di trovare, valutare e utilizzare le informazioni digitali in modo critico.", "Imparare a memoria il codice ASCII.", "Comprare solo prodotti di una determinata marca."],
+    "corretta": 1,
+    "spiegazione": "Essere alfabetizzati digitalmente significa saper navigare la complessità delle informazioni online.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
+  },
+  {
+    "id": 197,
+    "domanda": "Cosa si intende per 'Collaborazione digitale'?",
+    "opzioni": ["Lavorare ognuno per conto proprio.", "L'uso di strumenti digitali per lavorare insieme su file e progetti (es. documenti condivisi).", "Prestare il mouse al collega.", "Mandare solo fax."],
+    "corretta": 1,
+    "spiegazione": "La collaborazione via cloud aumenta l'efficienza e riduce il numero di versioni diverse di uno stesso file.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
+  },
+  {
+    "id": 198,
+    "domanda": "Quale area del DigComp riguarda la 'Risoluzione di problemi'?",
+    "opzioni": ["Area 1.", "Area 5.", "Area 2.", "Area 3."],
+    "corretta": 1,
+    "spiegazione": "L'Area 5 è la più vicina al lavoro dell'AT: identificare bisogni tecnici e risolvere problemi tecnologici.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
+  },
+  {
+    "id": 199,
+    "domanda": "Cosa si intende per 'Netiquette' nell'Area 2 del DigComp?",
+    "opzioni": ["Una marca di modem.", "Saper interagire e comportarsi correttamente nelle tecnologie digitali.", "Il numero di account social permessi.", "Un software antivirus."],
+    "corretta": 1,
+    "spiegazione": "Il comportamento corretto online è una competenza digitale fondamentale per la cittadinanza attiva.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   },
   {
     "id": 200,
-    "domanda": "Come può l'AT facilitare l'accesso immediato alle Schede di Sicurezza (SDS) dei reagenti?",
-    "opzioni": ["Stampando manuali di 500 pagine.", "Associando ai materiali codici QR che aprono il file digitale in cloud.", "Imparandole a memoria.", "Chiudendole a chiave."],
+    "domanda": "Cosa significa 'Gestione dei dati e dei file' nel DigComp?",
+    "opzioni": ["Cancellare tutto ogni giorno.", "Saper organizzare, archiviare e recuperare informazioni e contenuti in ambienti digitali.", "Avere un disco rigido molto grande.", "Stampare tutto il contenuto delle cartelle."],
     "corretta": 1,
-    "spiegazione": "L'uso dei QR code associati ai reagenti garantisce a docenti e studenti l'accesso immediato alle schede di sicurezza (SDS) tramite dispositivi mobili.",
-    "_ref": "[cite: 1186-1190, 1242]"
+    "spiegazione": "L'organizzazione ordinata dei dati è alla base dell'efficienza lavorativa e della sicurezza informatica.",
+    "_ref": "",
+    "categoria": "Informatica e DigComp"
   }
+
 ]
