@@ -240,3 +240,20 @@ div[style*="max-width: 900px"] {
     transform: translateY(-4px) !important;
     box-shadow: 0 10px 25px rgba(0, 74, 153, 0.15) !important;
 }
+
+/* ==========================================
+   OTTIMIZZAZIONE MOBILE (Smartphone)
+   ========================================== */
+@media (max-width: 480px) {
+    /* Riduce i margini della pagina generale su smartphone */
+    .section {
+        padding: 20px 10px !important;
+    }
+    
+    /* Riduce forzatamente i padding interni dei riquadri bianchi e colorati (come in "Chi Sono") */
+    div[style*="padding: 40px"], 
+    div[style*="padding: 30px"] {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
