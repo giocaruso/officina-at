@@ -53,7 +53,6 @@ function tornaAllHub() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// Nuova funzione per gestire il link newsletter
 function vaiANewsletter() {
     tornaAllHub();
     setTimeout(() => {
@@ -72,7 +71,8 @@ function sbloccaSimulatore() {
     const inputPwd = document.getElementById('pass-word');
     if (!inputPwd) return;
 
-    const pwd = inputPwd.value;
+    // Rimuove spazi vuoti e trasforma tutto in minuscolo
+    const pwd = inputPwd.value.trim().toLowerCase();
 
     if (btoa(pwd) === SECRET_HASH) {
         caricaPagina('pagine/simulatore-quiz-at-200.html');
@@ -93,7 +93,7 @@ function avviaSimulazione(sorgenteJson, modalita, filtro) {
         })
         .then(data => {
             let selezionate = [];
-            let titoloVisibile = "Quiz Assistente Tecnico"; // Titolo di base
+            let titoloVisibile = "Quiz Assistente Tecnico"; 
 
             if (modalita === 'random') {
                 selezionate = data.sort(() => 0.5 - Math.random()).slice(0, filtro);
@@ -102,7 +102,7 @@ function avviaSimulazione(sorgenteJson, modalita, filtro) {
             else if (modalita === 'categoria') {
                 selezionate = data.filter(d => d.categoria.trim() === filtro.trim());
                 selezionate = selezionate.sort(() => 0.5 - Math.random());
-                titoloVisibile = "Argomento: " + filtro; // Salviamo il nome della tematica
+                titoloVisibile = "Argomento: " + filtro; 
             } 
             else if (modalita === 'all') {
                 selezionate = data.sort((a, b) => a.id - b.id);
@@ -115,7 +115,7 @@ function avviaSimulazione(sorgenteJson, modalita, filtro) {
             }
 
             sessionStorage.setItem('domandeCorrenti', JSON.stringify(selezionate));
-            sessionStorage.setItem('titoloQuiz', titoloVisibile); // Passiamo il titolo al motore
+            sessionStorage.setItem('titoloQuiz', titoloVisibile); 
 
             caricaPagina('pagine/motore-quiz-200-at.html');
         })
@@ -131,7 +131,7 @@ function avviaSimulazione(sorgenteJson, modalita, filtro) {
 
 function inizializzaQuiz() {
     const data = sessionStorage.getItem('domandeCorrenti');
-    const titolo = sessionStorage.getItem('titoloQuiz'); // Recuperiamo il titolo salvato
+    const titolo = sessionStorage.getItem('titoloQuiz'); 
     
     if (!data) {
         tornaAllHub();
@@ -142,7 +142,6 @@ function inizializzaQuiz() {
     currentIndex = 0;
     score = 0;
     
-    // Scriviamo il titolo nell'intestazione del quiz
     const titleEl = document.getElementById('quiz-title');
     if (titleEl) {
         titleEl.innerText = titolo;

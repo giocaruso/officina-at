@@ -43,7 +43,8 @@ body {
     border-bottom-right-radius: 30px;
 }
 
-.hero-container { max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+/* Allargato e reso fluido */
+.hero-container { max-width: 1200px; width: 96%; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 20px; }
 @media (min-width: 768px) { .hero-container { flex-direction: row; text-align: left; } }
 
 @keyframes gentleWave {
@@ -108,7 +109,14 @@ body {
 /* ==========================================
    LAYOUT PRINCIPALE E GRIGLIE
    ========================================== */
-.container { flex-grow: 1; max-width: 1000px; margin: 40px auto; padding: 0 20px; }
+/* Container allargato e reso fluido */
+.container { flex-grow: 1; max-width: 1200px; width: 96%; margin: 40px auto; padding: 0 20px; }
+
+/* OVERRIDE GLOBALE: Forza i vecchi div da 900px nei file HTML ad allargarsi a 1200px in automatico */
+div[style*="max-width: 900px"] {
+    max-width: 1200px !important;
+    width: 100% !important;
+}
 
 .category-section { margin-top: 50px; }
 .category-section:first-child { margin-top: 0; } 
@@ -213,7 +221,10 @@ body {
    FOOTER
    ========================================== */
 .footer { background-color: var(--secondary); color: #d1d9e6; text-align: center; padding: 40px 20px; margin-top: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; }
-.footer-container { max-width: 900px; margin: 0 auto; }
+
+/* Allargato e reso fluido */
+.footer-container { max-width: 1200px; width: 96%; margin: 0 auto; }
+
 .footer a { color: #fff; text-decoration: none; transition: 0.3s; }
 .footer a:hover { text-decoration: underline; color: var(--amazon); }
 
