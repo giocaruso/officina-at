@@ -112,7 +112,8 @@ function avviaSimulazione(sorgenteJson, modalita, filtro) {
             } 
             else if (modalita === 'all') {
                 selezionate = data.sort(() => 0.5 - Math.random());
-                titoloVisibile = "Maratona Completa (" + filtro + " quesiti)";
+                // AGGIORNATO: Ora conta dinamicamente le domande reali nel JSON!
+                titoloVisibile = "Maratona Completa (" + selezionate.length + " quesiti)";
             }
 
             if (selezionate.length === 0) {
