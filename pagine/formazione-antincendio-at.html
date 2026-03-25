@@ -1,0 +1,55 @@
+<div class="section" style="display: block;">
+    <div style="text-align: left; margin-bottom: 20px;">
+        <button onclick="caricaPagina('pagine/area-test.html')" class="btn-back-hub" style="margin: 0;">← Area Test</button>
+    </div>
+    
+    <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+        
+        <div style="margin-bottom: 40px;">
+            <span style="font-size: 3.5rem; display: block; margin-bottom: 10px;">🧯</span>
+            <h2 style="color: #c62828; margin-bottom: 10px; font-size: 2.2rem;">Formazione e Sicurezza</h2>
+            <p style="font-size: 1.1rem; color: #555; margin-bottom: 40px;">Test di verifica e banchi di prova per la sicurezza a scuola.</p>
+        </div>
+
+        <div style="background: white; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border: 2px solid #e53935; text-align: left; margin-bottom: 30px;">
+            
+            <h4 style="margin: 0 0 10px 0; font-size: 1.5rem; color: #c62828; display: flex; align-items: center; gap: 10px;">
+                Rischio Medio (Liv. 2)
+            </h4>
+            
+            <p style="margin: 0 0 15px 0; font-size: 1.05rem; color: #333; line-height: 1.6;">
+                Simulatore specifico per l'addetto antincendio nelle scuole (Corso 2-FOR).<br>
+                <strong style="color: #c62828;">💡 Simulatore con Spiegazione:</strong> ogni risposta (giusta o sbagliata) ti fornirà una spiegazione immediata basata sui manuali ufficiali per un apprendimento rapido.
+            </p>
+
+            <div style="margin-bottom: 25px;">
+                <button class="btn" style="background-color: #e53935; width: 100%; margin: 0; padding: 15px; font-size: 1.1rem;" onclick="avviaSimulazione('antincendio-lv2-cat.json', 'all', 30)">Avvia Test Completo (Tutte le domande)</button>
+            </div>
+
+            <div style="background: #fff5f5; border-radius: 8px; padding: 20px; border: 1px dashed #ef9a9a;">
+                <p style="margin: 0 0 15px 0; font-weight: bold; color: #c62828; font-size: 1rem;">🎯 Oppure scegli l'Allenamento Mirato per Argomento:</p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px;">
+                    <button class="btn" style="margin: 0; background: white; color: #c62828; border: 1px solid #ef9a9a; font-size: 0.95rem; padding: 10px;" onclick="avviaSimulazione('antincendio-lv2-cat.json', 'categoria', 'Teoria e Prevenzione')">📖 Teoria e Prevenzione</button>
+                    <button class="btn" style="margin: 0; background: white; color: #c62828; border: 1px solid #ef9a9a; font-size: 0.95rem; padding: 10px;" onclick="avviaSimulazione('antincendio-lv2-cat.json', 'categoria', 'Controllo Fumo e Calore')">💨 Fumo e Calore</button>
+                    <button class="btn" style="margin: 0; background: white; color: #c62828; border: 1px solid #ef9a9a; font-size: 0.95rem; padding: 10px;" onclick="avviaSimulazione('antincendio-lv2-cat.json', 'categoria', 'Procedure di Emergenza')">🏃 Procedure Emergenza</button>
+                    <button class="btn" style="margin: 0; background: white; color: #c62828; border: 1px solid #ef9a9a; font-size: 0.95rem; padding: 10px;" onclick="avviaSimulazione('antincendio-lv2-cat.json', 'categoria', 'Esercitazioni e Attrezzature')">🧯 Attrezzature</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="background: #f8fafc; border-radius: 12px; padding: 25px; border: 1px solid #cbd5e0; text-align: left; opacity: 0.7; margin-bottom: 50px;">
+            <h4 style="margin: 0 0 10px 0; font-size: 1.2rem; color: #64748b; display: flex; align-items: center; gap: 10px;">
+                <span style="color: #94a3b8;">🔥</span> Rischio Specifico / VVF
+            </h4>
+            <p style="margin: 0 0 15px 0; font-size: 1rem; color: #64748b; line-height: 1.5;">Questo modulo prenderà le domande direttamente dai test dei Vigili del Fuoco per il rischio specifico.</p>
+            <button class="btn" style="background-color: #94a3b8; width: 100%; margin: 0; cursor: not-allowed;" disabled>In fase di creazione...</button>
+        </div>
+
+        <div style="border-top: 1px solid #eee; padding-top: 30px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; align-items: center;">
+            <button class="btn" style="margin: 0; width: auto; min-width: 200px; padding: 12px 15px; font-size: 0.95rem; background-color: #f4f7fa; color: var(--primary); border: 2px solid var(--primary);" onclick="tornaAllHub()">🔧 Torna in Officina</button>
+            <button onclick="vaiANewsletter()" style="background: none; border: none; color: var(--primary); font-weight: bold; text-decoration: none; cursor: pointer; font-family: inherit; font-size: 1rem;">📩 Iscriviti alla Newsletter</button>
+        </div>
+
+    </div>
+</div>
