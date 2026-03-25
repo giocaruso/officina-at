@@ -1,0 +1,1983 @@
+[
+  {
+    "domanda": "Quali sono i prodotti generati da una reazione chimica di combustione?",
+    "opzioni": [
+      "Sviluppo di calore, fiamma, gas, fumo e luce",
+      "Esclusivamente calore e cenere solida",
+      "Solamente fumo denso e gas tossici"
+    ],
+    "corretta": 0,
+    "spiegazione": "La combustione è definita come una reazione chimica che dà luogo allo sviluppo di calore, fiamma, gas, fumo e luce.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa rappresenta graficamente il cosiddetto 'triangolo del fuoco'?",
+    "opzioni": [
+      "Le tre fasi di sviluppo di un incendio generalizzato",
+      "I tre componenti necessari per innescare e mantenere la combustione",
+      "I tre principali metodi di spegnimento tramite estintori"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il triangolo rappresenta il combustibile, il comburente e l'energia di attivazione, necessari contemporaneamente per la reazione.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "In cosa consiste il metodo di estinzione per 'raffreddamento'?",
+    "opzioni": [
+      "Allontanamento della sostanza combustibile dal focolaio",
+      "Sottrazione di calore fino a scendere sotto la temperatura di mantenimento",
+      "Riduzione della concentrazione di comburente nell'aria"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il raffreddamento consiste nella sottrazione di calore fino a ottenere una temperatura inferiore a quella necessaria per mantenere la combustione.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale azione definisce il sistema di spegnimento per 'soffocamento'?",
+    "opzioni": [
+      "Separazione del comburente dal combustibile o riduzione dell'ossigeno",
+      "Utilizzo di agenti chimici inibitori della reazione",
+      "Sottrazione della sorgente di calore primaria"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il soffocamento si ottiene separando il comburente dal combustibile o riducendo la concentrazione di comburente (ossigeno) in aria.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Cos'è l'inibizione chimica (anticatalisi) nel processo di estinzione?",
+    "opzioni": [
+      "L'uso di acqua nebulizzata per abbassare la temperatura",
+      "L'uso di sostanze che bloccano la reazione di ossidazione della combustione",
+      "La rimozione fisica del materiale solido infiammato"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'inibizione chimica utilizza agenti che generano sostanze inibitrici che bloccano la reazione di ossidazione.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Gli incendi di classe A interessano quale tipologia di materiali?",
+    "opzioni": [
+      "Materiali solidi",
+      "Liquidi infiammabili",
+      "Gas infiammabili"
+    ],
+    "corretta": 0,
+    "spiegazione": "La classe A identifica gli incendi di materiali solidi.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "A quale classe appartengono gli incendi di oli e grassi vegetali o animali usati in cucina?",
+    "opzioni": [
+      "Classe B",
+      "Classe D",
+      "Classe F"
+    ],
+    "corretta": 2,
+    "spiegazione": "La classe F riguarda gli incendi che interessano mezzi di cottura come oli e grassi.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Perché la classe E non è più inclusa nella classificazione ufficiale attuale?",
+    "opzioni": [
+      "Perché i materiali elettrici sono ora incombustibili",
+      "Perché i fuochi elettrici sono assimilati alle classi A e B",
+      "Perché l'elettricità non rappresenta più un rischio di incendio"
+    ],
+    "corretta": 1,
+    "spiegazione": "La classe E è assente perché i materiali delle apparecchiature elettriche generano incendi assimilabili alle classi A e B.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa accade durante il fenomeno della 'pirolisi' nei solidi?",
+    "opzioni": [
+      "Il materiale solido si scioglie diventando liquido infiammabile",
+      "Il calore decompone termochimicamente il materiale liberando molecole combustibili",
+      "L'ossigeno penetra nel reticolo cristallino raffreddando il solido"
+    ],
+    "corretta": 1,
+    "spiegazione": "La pirolisi è la decomposizione termochimica che rompe i legami della materia solida liberando molecole che si combinano con l'ossigeno.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa si intende per 'campo di infiammabilità'?",
+    "opzioni": [
+      "La differenza tra il limite superiore e inferiore di infiammabilità",
+      "La distanza minima di sicurezza da un incendio di gas",
+      "La temperatura massima raggiunta da una fiamma di metano"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il campo di infiammabilità è la differenza tra il limite superiore e quello inferiore di infiammabilità di un combustibile.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Qual è la definizione di 'temperatura di infiammabilità'?",
+    "opzioni": [
+      "La temperatura alla quale un solido inizia a pirolizzare",
+      "La temperatura minima alla quale un liquido emette vapori sufficienti a bruciare se innescati",
+      "La temperatura alla quale un gas si accende spontaneamente senza innesco"
+    ],
+    "corretta": 1,
+    "spiegazione": "È la più bassa temperatura alla quale un combustibile liquido emette vapori sufficienti a formare con l'aria una miscela che brucia se innescata.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cos'è la temperatura di autoaccensione?",
+    "opzioni": [
+      "La temperatura minima alla quale un combustibile brucia in aria senza necessità di innesco",
+      "Il valore termico oltre il quale un estintore a polvere diventa inefficace",
+      "La temperatura prodotta da una scintilla elettrica di breve durata"
+    ],
+    "corretta": 0,
+    "spiegazione": "Rappresenta la temperatura minima alla quale un combustibile, in presenza d'aria, brucia senza necessità di innesco.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Perché i gas caldi di un incendio (plume) si muovono verso l'alto?",
+    "opzioni": [
+      "Perché sono spinti dalla pressione del comburente",
+      "Perché sono meno densi dell'aria ambiente circostante",
+      "Perché sono attratti dalle cariche elettriche del soffitto"
+    ],
+    "corretta": 1,
+    "spiegazione": "I gas caldi si muovono verso l'alto in quanto meno densi dell'aria ambiente.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Cosa accade alla combustione in un ambiente confinato se non viene reintegrato l'ossigeno?",
+    "opzioni": [
+      "La combustione accelera violentemente a causa della pressione",
+      "La combustione rallenta e può cessare la fiamma per mancanza di comburente",
+      "L'incendio si spegne istantaneamente trasformandosi in fumo freddo"
+    ],
+    "corretta": 1,
+    "spiegazione": "In assenza di ventilazione, la combustione rallenta al ridursi dell'ossigeno fino a non poter più sostenere la fiamma.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "In che modo la 'pezzatura' influenza la suscettibilità di un solido a bruciare?",
+    "opzioni": [
+      "Minore è la pezzatura, maggiore è la superficie di scambio termico e la facilità a bruciare",
+      "Maggiore è la pezzatura, più velocemente il calore penetra all'interno",
+      "La pezzatura non influenza la combustione, conta solo l'umidità"
+    ],
+    "corretta": 0,
+    "spiegazione": "Se diminuisce la pezzatura (polvere), aumenta la superficie esterna di scambio termico e con essa la suscettibilità a bruciare.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Come sono classificati i liquidi con punto di infiammabilità inferiore a 21°C?",
+    "opzioni": [
+      "Categoria A",
+      "Categoria B",
+      "Categoria C"
+    ],
+    "corretta": 0,
+    "spiegazione": "I liquidi con punto di infiammabilità inferiore a 21°C appartengono alla Categoria A.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Qual è il comportamento di un 'gas leggero' (densità < 0,8) quando liberato?",
+    "opzioni": [
+      "Resta stagnante al livello del pavimento",
+      "Tende a stratificare verso l'alto",
+      "Penetra nei cunicoli sotterranei"
+    ],
+    "corretta": 1,
+    "spiegazione": "Un gas leggero, quando liberato, tende a stratificare verso l'alto.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Dove tende a permanere un 'gas pesante' (densità > 0,8) come il GPL?",
+    "opzioni": [
+      "Nella parte alta dell'ambiente vicino al soffitto",
+      "Nella parte bassa dell'ambiente o penetra nei cunicoli",
+      "Si disperde uniformemente in tutto il volume disponibile"
+    ],
+    "corretta": 1,
+    "spiegazione": "Un gas pesante tende a stratificare e permanere nella parte bassa dell'ambiente o penetrare in cunicoli.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Qual è l'importanza della classificazione degli incendi secondo il documento?",
+    "opzioni": [
+      "Permette solo di dare un nome scientifico all'evento",
+      "Consente l'identificazione della classe di rischio e la scelta dell'estinguente",
+      "Serve esclusivamente per le statistiche dei Vigili del Fuoco"
+    ],
+    "corretta": 1,
+    "spiegazione": "La classificazione consente l'identificazione della classe di rischio a cui corrisponde la scelta dell'opportuno estinguente.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Perché l'arco elettrico è una sorgente d'innesco molto efficace?",
+    "opzioni": [
+      "Perché produce luce molto intensa che scalda i solidi",
+      "Perché può persistere nel tempo trasferendo calore ai materiali circostanti",
+      "Perché elimina istantaneamente l'ossigeno dall'aria"
+    ],
+    "corretta": 1,
+    "spiegazione": "Più un arco elettrico persiste nel tempo, più è in grado di riscaldare i materiali circostanti trasferendo calore.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "In che modo la lubrificazione inadeguata può causare un incendio?",
+    "opzioni": [
+      "Generando calore per attrito che può innescare materiali combustibili",
+      "Aumentando la porosità delle parti metalliche",
+      "Diminuendo la pezzatura degli oli lubrificanti"
+    ],
+    "corretta": 0,
+    "spiegazione": "Un cuscinetto che si surriscalda per lubrificazione inadeguata può innescare materiali combustibili tramite l'attrito.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "In cosa consiste l'estinzione per 'esaurimento del combustibile'?",
+    "opzioni": [
+      "Allontanamento o separazione della sostanza combustibile dal focolaio",
+      "Saturazione dell'ambiente con anidride carbonica",
+      "Raffreddamento della superficie del liquido fino al congelamento"
+    ],
+    "corretta": 0,
+    "spiegazione": "L'esaurimento consiste nell'allontanamento o separazione della sostanza combustibile dal focolaio d'incendio.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è il ruolo principale della radiazione termica negli incendi?",
+    "opzioni": [
+      "È la causa primaria della scintilla iniziale",
+      "È la principale causa di propagazione dell'incendio in ambienti confinati",
+      "Serve solo a illuminare le vie di esodo per i soccorritori"
+    ],
+    "corretta": 1,
+    "spiegazione": "La radiazione termica è la principale causa di propagazione di un incendio che si sviluppa all'interno di un ambiente confinato.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Quale intensità può raggiungere la luce solare focalizzata da un oggetto trasparente?",
+    "opzioni": [
+      "Fino a 5 kW/m²",
+      "Tra 10 e 20 kW/m² nel punto focale",
+      "Oltre 50 kW/m² su tutta la superficie"
+    ],
+    "corretta": 1,
+    "spiegazione": "I raggi solari focalizzati possono raggiungere i 10-20 kW/m² nel punto focale, innescando materiale cellulosico.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "A quale valore di flusso termico a pavimento si ritiene si raggiunga la fase di flash-over?",
+    "opzioni": [
+      "Circa 1 kW/m²",
+      "Circa 5 kW/m²",
+      "Circa 20 kW/m²"
+    ],
+    "corretta": 2,
+    "spiegazione": "Si assume che il flash-over si raggiunga quando il flusso termico radiante raggiunge circa i 20 kW/m² a pavimento.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Quando si verifica il fenomeno dell'autocombustione?",
+    "opzioni": [
+      "In presenza di una scintilla elettrica persistente",
+      "Quando il calore generato da processi biochimici supera la dissipazione",
+      "Quando un gas pesante viene compresso oltre il limite superiore"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'autocombustione si ha quando una sostanza si ossida a una velocità tale che la generazione di calore supera la sua dissipazione.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa determina se un incendio si propaga dopo la fase iniziale di ignizione?",
+    "opzioni": [
+      "La tipologia di segnale di allarme attivato",
+      "La potenza della sorgente d'ignizione e l'inerzia termica del combustibile",
+      "La quantità di luce presente nell'ambiente confinato"
+    ],
+    "corretta": 1,
+    "spiegazione": "La propagazione dipende tipicamente dalla potenza della sorgente d'ignizione e dall'inerzia termica del combustibile.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa causa l'aspirazione di aria alla base delle fiamme durante un incendio?",
+    "opzioni": [
+      "Il movimento verso l'alto dei gas caldi meno densi",
+      "L'uso di ventilatori forzati per il controllo fumi",
+      "La contrazione termica del combustibile solido"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il movimento verso l'alto dei gas di combustione aspira l'aria alla base delle fiamme.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Perché è fondamentale identificare correttamente la classe d'incendio?",
+    "opzioni": [
+      "Per determinare la classe di rischio e l'azione operativa antincendio",
+      "Per misurare la temperatura esatta del plume",
+      "Per calcolare il volume di gas pesante stratificato"
+    ],
+    "corretta": 0,
+    "spiegazione": "Consente l'identificazione della classe di rischio a cui corrisponde una precisa azione operativa antincendio.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Perché una miscela combustibile-comburente potrebbe non infiammarsi nonostante l'innesco?",
+    "opzioni": [
+      "Per eccesso o difetto di combustibile rispetto al comburente",
+      "Per l'assenza totale di luce solare diretta",
+      "Perché il combustibile è in fase gas invece che solida"
+    ],
+    "corretta": 0,
+    "spiegazione": "È necessario che combustibile e comburente siano presenti nelle giuste proporzioni; oltre i limiti di infiammabilità la miscela non brucia.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Secondo i principi scientifici citati nel testo, a quale valore del flusso termico radiante a pavimento si raggiunge solitamente la fase di flash-over?",
+    "opzioni": [
+      "Circa 1 kW/m²",
+      "Circa 10 kW/m²",
+      "Circa 20 kW/m²"
+    ],
+    "corretta": 2,
+    "spiegazione": "Il documento afferma che la fase di flash-over si raggiunge quando il flusso termico radiante raggiunge il valore di circa 20 kW/m² a pavimento.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa si intende per autocombustione secondo la definizione del manuale?",
+    "opzioni": [
+      "L'innesco di un materiale in presenza di una fiamma libera",
+      "L'innesco di un materiale in assenza di sorgenti esterne di attivazione",
+      "L'incendio provocato da un corto circuito elettrico"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'autocombustione si verifica quando un materiale si innesca per il calore generato internamente (es. fermentazioni) senza sorgenti esterne.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Quale fenomeno rende il fumo di un incendio di colore scuro?",
+    "opzioni": [
+      "La presenza di vapor d'acqua condensato",
+      "La presenza di particelle solide incombuste e ceneri",
+      "L'evaporazione di gas inerti come l'azoto"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le particelle solide dei fumi, che sono incombusti e ceneri, rendono il fumo di colore scuro.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Qual è la formula analitica che definisce il Rischio secondo i parametri di sicurezza?",
+    "opzioni": [
+      "Rischio = Probabilità + Magnitudo",
+      "Rischio = Frequenza x Magnitudo",
+      "Rischio = Prevenzione / Protezione"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il rischio è definito dal prodotto tra la Frequenza (probabilità) e la Magnitudo (entità dei danni).",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Perché l'uso dell'acqua è sconsigliato su incendi di metalli come sodio e potassio?",
+    "opzioni": [
+      "Perché l'acqua evapora troppo velocemente",
+      "Perché al contatto con l'acqua liberano idrogeno infiammabile",
+      "Perché l'acqua raffredda eccessivamente il metallo impedendo l'estinzione"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il sodio ed il potassio a contatto con l'acqua liberano idrogeno, sostanza estremamente infiammabile e pericolosa.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Gli incendi di classe B riguardano:",
+    "opzioni": [
+      "Materiali solidi che formano brace",
+      "Liquidi infiammabili",
+      "Apparecchiature elettriche sotto tensione"
+    ],
+    "corretta": 1,
+    "spiegazione": "La classe B identifica gli incendi di liquidi infiammabili, per i quali è adatta ad esempio la CO2.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Una schiuma antincendio è definita ad 'Alta espansione' quando il suo rapporto è:",
+    "opzioni": [
+      "Superiore a 1:200",
+      "Compreso tra 1:20 e 1:200",
+      "Inferiore a 1:20"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il documento classifica le schiume come ad alta espansione quando il rapporto è superiore a 1:200.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "A quale temperatura viene emessa l'anidride carbonica (CO2) dal diffusore di un estintore?",
+    "opzioni": [
+      "Circa 0 °C",
+      "Circa -78 °C",
+      "Circa -100 °C"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'anidride carbonica si espande dal diffusore sotto forma di neve carbonica a una temperatura di circa -78 °C.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Gli occupanti di una scuola appartengono generalmente alla categoria 'A' perché:",
+    "opzioni": [
+      "Sono persone che non hanno familiarità con l'edificio",
+      "Sono in stato di veglia e hanno familiarità con l'edificio",
+      "Sono persone che ricevono cure mediche"
+    ],
+    "corretta": 1,
+    "spiegazione": "La categoria A identifica occupanti in stato di veglia che hanno familiarità con i luoghi, tipico di uffici non aperti al pubblico e scuole.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale delle seguenti è una misura di Protezione Passiva?",
+    "opzioni": [
+      "Estintori portatili",
+      "Compartimentazione antincendio",
+      "Impianti di rivelazione"
+    ],
+    "corretta": 1,
+    "spiegazione": "La compartimentazione è una misura di protezione passiva poiché non richiede attivazione o intervento umano per funzionare.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale temperatura possono raggiungere le resistenze di tostapane o forni elettrici?",
+    "opzioni": [
+      "Circa 100 °C",
+      "Oltre 600 °C",
+      "Circa 270 °C"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le resistenze elettriche possono raggiungere temperature superficiali dell'ordine dei 600 °C o maggiori.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Nella scala cromatica delle fiamme per i gas, il colore bianco indica una temperatura di circa:",
+    "opzioni": [
+      "525 °C",
+      "900 °C",
+      "1300 °C"
+    ],
+    "corretta": 2,
+    "spiegazione": "Secondo la tabella dei colori delle fiamme, il bianco corrisponde a circa 1300 °C.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Perché l'uso degli HALON è stato vietato?",
+    "opzioni": [
+      "Perché sono inefficaci nello spegnimento",
+      "Per la produzione di sostanze tossiche e dannose per l'ozonosfera",
+      "Perché troppo costosi rispetto alla polvere"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'uso degli HALON è vietato a causa della produzione di sostanze tossiche e del danno allo strato di ozono.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Qual è il limite principale degli estintori a polvere evidenziato nel manuale?",
+    "opzioni": [
+      "Non sono dielettrici",
+      "Non spengono efficacemente le braci",
+      "Hanno un'azione solo di raffreddamento"
+    ],
+    "corretta": 1,
+    "spiegazione": "Tra le caratteristiche delle polveri viene indicato che non spengono efficacemente le braci.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è il profilo di rischio vita (Rvita) tipico per una palestra scolastica?",
+    "opzioni": [
+      "A1",
+      "A3",
+      "B2"
+    ],
+    "corretta": 0,
+    "spiegazione": "La tabella degli esempi assegna alla palestra scolastica il profilo di rischio A1.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Qual è la principale causa di propagazione di un incendio in un ambiente confinato?",
+    "opzioni": [
+      "Conduzione termica attraverso i metalli",
+      "Radiazione termica",
+      "Luce solare diretta"
+    ],
+    "corretta": 1,
+    "spiegazione": "La radiazione termica è citata come la principale causa di propagazione di un incendio in un ambiente confinato.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Qual è l'effetto di un mozzicone di sigaretta acceso lasciato cadere su una pozza di liquido infiammabile?",
+    "opzioni": [
+      "Innesca quasi sempre un incendio violento",
+      "Difficilmente risulta efficace all'accensione e spesso si spegne",
+      "Provoca un'esplosione istantanea"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il testo specifica che mozziconi su pozze di liquidi infiammabili difficilmente risultano efficaci all'accensione.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Rispetto alla conducibilità elettrica, l'acqua a getto pieno:",
+    "opzioni": [
+      "È un ottimo isolante",
+      "È un buon conduttore di energia elettrica",
+      "Non conduce elettricità se calda"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'acqua è definita come un buon conduttore di energia elettrica, rendendola non impiegabile su impianti in tensione a getto pieno.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Agire sulle misure di 'prevenzione' significa intervenire su quale fattore del rischio?",
+    "opzioni": [
+      "Sulla Frequenza, riducendo le probabilità",
+      "Sulla Magnitudo, riducendo i danni",
+      "Sia sulla Frequenza che sulla Magnitudo in modo uguale"
+    ],
+    "corretta": 0,
+    "spiegazione": "Agendo sulle misure di prevenzione si interviene sulla frequenza, riducendo le probabilità di accadimento.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Nella valutazione del rischio per l'ambiente, cosa deve essere considerato?",
+    "opzioni": [
+      "Solo la quantità di acqua presente negli idranti",
+      "L'ubicazione dell'attività e la presenza di ricettori sensibili esterni",
+      "Esclusivamente la classe di rischio degli occupanti"
+    ],
+    "corretta": 1,
+    "spiegazione": "La valutazione deve tener conto dell'ubicazione e della presenza di ricettori sensibili come fiumi o aree protette.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "L'anidride carbonica (CO2) come sostanza estinguente è definita:",
+    "opzioni": [
+      "Perfettamente dielettrica",
+      "Altamente conduttiva",
+      "Tossica per inalazione in piccole dosi"
+    ],
+    "corretta": 0,
+    "spiegazione": "L'anidride carbonica è descritta come un gas più pesante dell'aria perfettamente dielettrico.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Cosa accade ai gas di combustione quando raggiungono i 15 °C?",
+    "opzioni": [
+      "Tornano tutti allo stato liquido",
+      "Rimangono allo stato gassoso",
+      "Si trasformano in aerosol solidi"
+    ],
+    "corretta": 1,
+    "spiegazione": "I gas di combustione sono quei prodotti che rimangono allo stato gassoso anche quando raffreddati a 15 °C.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Cosa indica il parametro 'A' relativo alla caratteristica prevalente degli occupanti?",
+    "opzioni": [
+      "Occupanti addormentati",
+      "Occupanti in stato di veglia con familiarità dei luoghi",
+      "Occupanti in transito (stazioni/aeroporti)"
+    ],
+    "corretta": 1,
+    "spiegazione": "La lettera A comprende individui in stato di veglia che hanno conoscenza e familiarità del luogo.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale intensità può raggiungere la luce solare focalizzata da un oggetto trasparente?",
+    "opzioni": [
+      "Sempre 1 kW/m²",
+      "Tra 10 e 20 kW/m² nel punto focale",
+      "Oltre 50 kW/m²"
+    ],
+    "corretta": 1,
+    "spiegazione": "Se i raggi solari sono focalizzati da un oggetto trasparente possono raggiungere i 10-20 kW/m².",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "L'azione estinguente delle polveri prodotta per effetto chimico è detta:",
+    "opzioni": [
+      "Azione di raffreddamento rapido",
+      "Azione anticatalitica",
+      "Azione di imbibimento"
+    ],
+    "corretta": 1,
+    "spiegazione": "La decomposizione delle polveri dà luogo ad effetti chimici sulla fiamma con azione anticatalitica.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è il principale effetto del calore su materiali e corpi esposti durante un incendio?",
+    "opzioni": [
+      "Solo l'illuminazione dell'ambiente",
+      "Danneggiamento fino alla distruzione per aumento di temperatura",
+      "La trasformazione di gas tossici in vapore acqueo"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il calore realizza l'aumento della temperatura provocando il danneggiamento fino alla distruzione dei corpi esposti.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Un incendio con velocità di crescita 'Rapida' è classificato con il valore numerico:",
+    "opzioni": [
+      "1",
+      "2",
+      "3"
+    ],
+    "corretta": 2,
+    "spiegazione": "Secondo la tabella della velocità caratteristica dell'incendio, il valore 3 corrisponde a una crescita rapida.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Tra le cause più comuni di incendio legate agli impianti elettrici rientrano:",
+    "opzioni": [
+      "L'uso di lampade LED a bassa potenza",
+      "Sovraccarichi e mancanza di protezione adeguata",
+      "La presenza di cavi schermati"
+    ],
+    "corretta": 1,
+    "spiegazione": "Gli impianti elettrici sovraccaricati e non adeguatamente protetti sono elencati tra le cause comuni di pericolo.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Quale gas inerte viene normalmente utilizzato per la pressurizzazione di altre sostanze come le polveri?",
+    "opzioni": [
+      "Ossigeno",
+      "Azoto (N2)",
+      "Argon"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'azoto come gas inerte è normalmente utilizzato per la pressurizzazione di altre sostanze estinguenti come le polveri.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Gli occupanti classificati come 'D' sono tipicamente:",
+    "opzioni": [
+      "Persone in hotel",
+      "Persone che ricevono cure mediche",
+      "Persone in transito ferroviario"
+    ],
+    "corretta": 1,
+    "spiegazione": "La categoria D identifica occupanti che ricevono cure mediche, come in ospedali o sale operatorie.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quali sono i valori di temperatura e irraggiamento termico che determinano istantaneamente la fase di flash-over?",
+    "opzioni": [
+      "300-400 °C e 5-10 kW/m²",
+      "500-600 °C e 15-20 kW/m²",
+      "800-1000 °C e 50 kW/m²"
+    ],
+    "corretta": 1,
+    "spiegazione": "Secondo il documento, il flash-over si sviluppa istantaneamente quando l'ambiente raggiunge temperature di 500-600 °C e un irraggiamento di 15-20 kW/m².",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa si verifica se l'aria (comburente) entra in un ambiente saturo di gas caldi ma povero di ossigeno?",
+    "opzioni": [
+      "Lo spegnimento immediato per raffreddamento",
+      "Il fenomeno del ritorno di fiamma o backdraft",
+      "La trasformazione del fumo in vapore acqueo"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'ingresso di aria in un ambiente con temperature elevate e materiale incombusto provoca nuovamente l'accensione e il ritorno di fiamma (backdraft).",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "A quale concentrazione di ossido di carbonio (CO) nell'aria l'uomo è considerato in immediato pericolo di vita?",
+    "opzioni": [
+      "100 p.p.m.",
+      "600 p.p.m.",
+      "2500 p.p.m."
+    ],
+    "corretta": 1,
+    "spiegazione": "Il testo specifica che a 100 p.p.m. si avvertono cefalea e nausea, ma a 600 p.p.m. si è già in pericolo di vita.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Qual è l'effetto dell'anidride carbonica (CO2) sulla respirazione quando presente in aria al 3%?",
+    "opzioni": [
+      "Il ritmo respiratorio rallenta drasticamente",
+      "La profondità del respiro aumenta del 50%",
+      "Il ritmo respiratorio raddoppia (aumento del 100%)"
+    ],
+    "corretta": 2,
+    "spiegazione": "Con una percentuale di CO2 al 3%, l'aumento del ritmo respiratorio è del 100%, ovvero raddoppia.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "In un incendio reale, qual è la temperatura massima dell'aria respirabile per breve tempo a causa dell'umidità?",
+    "opzioni": [
+      "Circa 60 °C",
+      "Circa 100 °C",
+      "Circa 150 °C"
+    ],
+    "corretta": 0,
+    "spiegazione": "Sebbare sulla pelle si possano sopportare 150 °C in aria secca, negli incendi la presenza di vapore acqueo abbassa il limite respirabile a circa 60 °C.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Come vengono classificate le ustioni caratterizzate dalla formazione di bolle e vescicole?",
+    "opzioni": [
+      "Ustioni di I grado",
+      "Ustioni di II grado",
+      "Ustioni di III grado"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le ustioni di II grado sono identificate dalla formazione di bolle e vescicole e richiedono la consultazione di una struttura sanitaria.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Perché archiviare correttamente la carta in armadi metallici è considerata una misura di prevenzione?",
+    "opzioni": [
+      "Perché elimina completamente il carico di incendio",
+      "Perché riduce la velocità di propagazione dell'incendio",
+      "Perché impedisce la formazione di monossido di carbonio"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il documento riporta che la carta archiviata in armadi metallici riduce la velocità di crescita dei focolari.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa deve essere garantito per i sistemi, i dispositivi e le attrezzature rilevanti ai fini della sicurezza?",
+    "opzioni": [
+      "La sostituzione integrale ogni due anni",
+      "Il controllo e la manutenzione regolare",
+      "L'attivazione manuale solo in presenza di fiamma"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le specifiche misure di prevenzione prevedono il controllo e la manutenzione regolare di sistemi, dispositivi e attrezzature antincendio.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale accorgimento deve essere adottato per i condotti di aspirazione e i filtri delle cucine?",
+    "opzioni": [
+      "Devono essere tenuti puliti con frequenza adeguata per evitare accumuli impropri",
+      "Devono essere chiusi ermeticamente durante l'uso delle fiamme",
+      "Vanno sostituiti solo in caso di guasto meccanico evidente"
+    ],
+    "corretta": 0,
+    "spiegazione": "Per evitare accumuli che potrebbero innescare incendi, i condotti e i filtri di cucine o forni devono essere costantemente puliti.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è la precauzione principale da osservare nell'uso delle prese multiple?",
+    "opzioni": [
+      "Possono essere sovraccaricate purché dotate di fusibile",
+      "Non devono essere sovraccaricate per evitare surriscaldamenti",
+      "Devono essere collegate tra loro in serie per dividere la tensione"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il manuale vieta il sovraccarico delle prese multiple per prevenire il surriscaldamento degli impianti elettrici.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Da quale dei seguenti fattori dipende la fase di ignizione di un incendio?",
+    "opzioni": [
+      "Dal colore della fiamma iniziale",
+      "Dalla ventilazione dell'ambiente",
+      "Dalla presenza di personale addestrato"
+    ],
+    "corretta": 1,
+    "spiegazione": "La fase di ignizione dipende da vari fattori, tra cui l'infiammabilità del combustibile, la geometria degli ambienti e la ventilazione.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa è vietato depositare lungo le vie di esodo come corridoi e scale?",
+    "opzioni": [
+      "Solo materiali infiammabili liquidi",
+      "Rifiuti e scarti di lavorazione, anche in via temporanea",
+      "Qualsiasi tipo di segnaletica non luminosa"
+    ],
+    "corretta": 1,
+    "spiegazione": "I rifiuti non devono essere depositati, neanche temporaneamente, lungo le vie di esodo per non ostacolare il deflusso.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale caratteristica definisce la fase di propagazione in un incendio?",
+    "opzioni": [
+      "Una drastica diminuzione dell'energia radiante",
+      "La riduzione della visibilità a causa dei fumi di combustione",
+      "L'aumento della concentrazione di ossigeno nell'aria"
+    ],
+    "corretta": 1,
+    "spiegazione": "La fase di propagazione è caratterizzata dalla produzione di gas tossici, aumento della temperatura e riduzione della visibilità.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Quale precauzione deve essere adottata per le aree non frequentate come i cantinati?",
+    "opzioni": [
+      "Devono essere lasciate aperte per facilitare l'accesso ai soccorsi",
+      "Devono essere tenute libere da materiali combustibili non essenziali",
+      "Possono essere utilizzate per il deposito temporaneo di mobili rotti"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le aree non frequentate devono essere libere da materiali superflui e protette contro l'accesso di persone non autorizzate.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa accade ai materiali combustibili lontani dal focolaio durante il flash-over?",
+    "opzioni": [
+      "Rimangono inalterati grazie alla distanza",
+      "Si autoaccendono istantaneamente a causa dell'irraggiamento e dei fumi caldi",
+      "Emettono gas inerti che tendono a spegnere le fiamme vicine"
+    ],
+    "corretta": 1,
+    "spiegazione": "Nel flash-over, tutti i materiali combustibili presenti nell'ambiente si autoaccendono istantaneamente, anche se non investiti direttamente dalle fiamme.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Quali sono le caratteristiche fisiche dell'ossido di carbonio (CO)?",
+    "opzioni": [
+      "Incolore, inodore e non irritante",
+      "Colore scuro, odore acre e molto irritante",
+      "Gas biancastro con odore di uova marce"
+    ],
+    "corretta": 0,
+    "spiegazione": "L'ossido di carbonio è un gas estremamente pericoloso proprio perché incolore, inodore e non irritante.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Perché l'anidride carbonica (CO2) può causare asfissia?",
+    "opzioni": [
+      "Perché reagisce chimicamente con i polmoni",
+      "Perché si sostituisce all'ossigeno dell'aria",
+      "Perché blocca i legami dell'emoglobina come il CO"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'anidride carbonica è un gas asfissiante che produce effetti dannosi quando si sostituisce all'ossigeno riducendone la percentuale sotto il 17%.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Perché il rischio d'incendio aumenta notevolmente durante i lavori di manutenzione?",
+    "opzioni": [
+      "Perché aumenta la ventilazione naturale dell'edificio",
+      "Perché possono essere temporaneamente disattivati gli impianti di sicurezza",
+      "Perché gli operai utilizzano solitamente solo materiali incombustibili"
+    ],
+    "corretta": 1,
+    "spiegazione": "Durante la manutenzione il rischio aumenta per la possibile disattivazione di impianti di sicurezza o la sospensione della compartimentazione.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa deve contenere obbligatoriamente la segnaletica di prevenzione?",
+    "opzioni": [
+      "I nomi di tutti gli addetti antincendio",
+      "I divieti e le precauzioni da osservare",
+      "La cronologia degli incendi passati nell'edificio"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le misure di prevenzione includono l'uso di istruzioni e segnaletica contenenti i divieti e le precauzioni comportamentali.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Chi è autorizzato a effettuare le riparazioni elettriche per prevenire incendi?",
+    "opzioni": [
+      "Qualsiasi dipendente che abbia familiarità con l'impianto",
+      "Esclusivamente personale competente e qualificato",
+      "Solo i Vigili del Fuoco in caso di emergenza"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il documento specifica che le riparazioni elettriche devono essere effettuate esclusivamente da personale competente e qualificato.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è l'obiettivo principale della 'reazione al fuoco' di un materiale?",
+    "opzioni": [
+      "Garantire la capacità portante dell'edificio per tutta la durata dell'incendio",
+      "Limitare l'innesco dei materiali e la propagazione dell'incendio nella fase iniziale",
+      "Assicurare l'estinzione automatica delle fiamme tramite sensori di calore"
+    ],
+    "corretta": 1,
+    "spiegazione": "La reazione al fuoco mira a limitare l'innesco e la propagazione nella fase iniziale dell'incendio (pre-flashover).",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Nella classificazione europea, cosa indica la classe di reazione al fuoco 'F'?",
+    "opzioni": [
+      "Materiale con reazione al fuoco non determinata",
+      "Materiale completamente incombustibile",
+      "Materiale con altissima prestazione di resistenza"
+    ],
+    "corretta": 0,
+    "spiegazione": "La classe F indica che la prestazione di reazione al fuoco del materiale non è stata determinata.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Secondo la normativa italiana, quale classe identifica i materiali incombustibili?",
+    "opzioni": [
+      "Classe 1",
+      "Classe 0",
+      "Classe 5"
+    ],
+    "corretta": 1,
+    "spiegazione": "La normativa italiana prevede la classe 0 per i materiali incombustibili.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa identifica il simbolo 'R' nella resistenza al fuoco di un elemento strutturale?",
+    "opzioni": [
+      "La capacità di impedire il passaggio di fumi e gas caldi",
+      "La capacità di isolamento termico verso i compartimenti vicini",
+      "La capacità portante di conservare la resistenza meccanica sotto l'azione del fuoco"
+    ],
+    "corretta": 2,
+    "spiegazione": "Il simbolo R identifica la capacità portante, ovvero l'attitudine a conservare la resistenza meccanica durante l'incendio.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Un elemento costruttivo classificato 'REI 60' cosa garantisce per 60 minuti?",
+    "opzioni": [
+      "Capacità portante, tenuta ai fumi e isolamento termico",
+      "Esclusivamente la tenuta ai fumi freddi",
+      "Il mantenimento della totale funzionalità dell'impianto elettrico"
+    ],
+    "corretta": 0,
+    "spiegazione": "REI 60 indica che l'elemento conserva capacità portante (R), tenuta (E) e isolamento (I) per 60 minuti.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Qual è il valore medio del carico d'incendio specifico riferito a una scuola?",
+    "opzioni": [
+      "100 MJ/m²",
+      "285 MJ/m²",
+      "780 MJ/m²"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il documento indica per le scuole un valore medio di carico d'incendio specifico pari a 285 MJ/m².",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "A quanta legna equivalente corrisponde convenzionalmente un potenziale termico di 1 MJ?",
+    "opzioni": [
+      "0,057 kg",
+      "1,000 kg",
+      "0,500 kg"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il carico di incendio è espresso in MJ e convenzionalmente 1 MJ è assunto pari all'energia di 0,057 kg di legna equivalente.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa indica la locuzione 'a prova di fumo' riferita a un compartimento?",
+    "opzioni": [
+      "La capacità di resistere a esplosioni di gas pesanti",
+      "La capacità di limitare l'ingresso di fumo generato in compartimenti comunicanti",
+      "L'assenza totale di materiali combustibili all'interno del locale"
+    ],
+    "corretta": 1,
+    "spiegazione": "Un compartimento a prova di fumo ha la capacità di limitare l'ingresso di fumo proveniente da compartimenti comunicanti.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Qual è la funzione del simbolo 'E' nella classificazione di un elemento separante?",
+    "opzioni": [
+      "Capacità di isolamento termico",
+      "Capacità di impedire il passaggio di fumi e gas caldi (Tenuta)",
+      "Capacità di resistere all'azione meccanica degli urti"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il simbolo E indica la tenuta, ossia la capacità di impedire il passaggio di fumi e gas caldi per un certo tempo.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Qual è la distanza minima richiesta tra le strutture verticali per definire uno 'spazio scoperto'?",
+    "opzioni": [
+      "1,50 m",
+      "3,50 m",
+      "5,00 m"
+    ],
+    "corretta": 1,
+    "spiegazione": "Lo spazio scoperto deve avere una distanza fra le strutture verticali non inferiore a 3,50 m.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa definisce un 'Filtro' in un'opera da costruzione?",
+    "opzioni": [
+      "Un compartimento con probabilità di avvio e sviluppo dell'incendio trascurabile",
+      "Un dispositivo meccanico per la pulizia dell'aria condizionata",
+      "Una via d'esodo priva di illuminazione di sicurezza"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il filtro è un compartimento antincendio dove la probabilità di avvio dell'incendio è resa trascurabile.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cos'è lo 'Spazio calmo' all'interno di un sistema d'esodo?",
+    "opzioni": [
+      "Un'area ricreativa per il personale addetto",
+      "Un luogo sicuro temporaneo dove attendere assistenza per completare l'esodo",
+      "Un corridoio cieco con pendenza superiore al 20%"
+    ],
+    "corretta": 1,
+    "spiegazione": "Lo spazio calmo è un luogo sicuro temporaneo dove gli occupanti possono attendere assistenza per l'esodo.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale pendenza massima è consentita per definire una via d'esodo come 'orizzontale'?",
+    "opzioni": [
+      "Minore o uguale al 5%",
+      "Esattamente il 10%",
+      "Nessuna pendenza (0%)"
+    ],
+    "corretta": 0,
+    "spiegazione": "Una via d'esodo orizzontale ha una pendenza minore o uguale al 5%.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "In un sistema d'esodo, cos'è un 'corridoio cieco'?",
+    "opzioni": [
+      "Un corridoio privo di segnaletica standardizzata",
+      "Un percorso da cui è possibile l'esodo in un'unica direzione",
+      "Un tunnel che conduce direttamente alla pubblica via"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il corridoio cieco (o percorso unidirezionale) è una porzione di via d'esodo che consente l'esodo in una sola direzione.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale tra queste opzioni descrive correttamente un 'luogo sicuro'?",
+    "opzioni": [
+      "Un ufficio chiuso con porta in legno",
+      "La pubblica via o uno spazio a cielo libero collegato alla pubblica via",
+      "Il tetto dell'edificio anche se non collegato a scale"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il luogo sicuro è la pubblica via o uno spazio a cielo libero sicuramente collegato ad essa.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale segnale UNI EN ISO deve essere apposto sulle porte tagliafuoco?",
+    "opzioni": [
+      "E001 (Via d'esodo)",
+      "F007 (Porta tagliafuoco)",
+      "E024 (Spazio calmo)"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le porte tagliafuoco devono essere contrassegnate con il segnale UNI EN ISO 7010-F007.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Se una porta tagliafuoco ha un fermo elettromagnetico, quale messaggio deve riportare?",
+    "opzioni": [
+      "Porta tagliafuoco tenere chiusa",
+      "Uscita finale",
+      "Porta tagliafuoco a chiusura automatica"
+    ],
+    "corretta": 2,
+    "spiegazione": "Se munite di fermo elettromagnetico, devono riportare il messaggio 'Porta tagliafuoco a chiusura automatica'.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Cosa deve essere obbligatoriamente presente sulle scale d'esodo per la sicurezza degli occupanti?",
+    "opzioni": [
+      "Ascensori d'emergenza",
+      "Corrimano laterale",
+      "Rivestimenti in moquette classe 5"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il documento specifica che le scale d'esodo devono essere dotate di corrimano laterale.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quando deve essere installato un impianto di illuminazione di sicurezza?",
+    "opzioni": [
+      "Solo se richiesto espressamente dagli studenti",
+      "Qualora l'illuminazione ordinaria possa risultare occasionalmente insufficiente",
+      "Sempre e solo all'interno degli ascensori"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'illuminazione di sicurezza va installata se quella ordinaria può risultare insufficiente a consentire l'esodo.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale misura è richiesta per i gradini in ambiti con ridotta illuminazione ordinaria (es. teatri)?",
+    "opzioni": [
+      "Colorazione fluorescente",
+      "Illuminazione segnapasso",
+      "Eliminazione totale dei gradini"
+    ],
+    "corretta": 1,
+    "spiegazione": "In ambiti con ridotta illuminazione ordinaria, i gradini devono avere illuminazione segnapasso.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Perché gli interventi di manutenzione possono alterare la reazione al fuoco di un ambiente?",
+    "opzioni": [
+      "Perché l'uso di cacciaviti danneggia le pareti",
+      "Per la possibile sostituzione di materiali con prodotti aventi differenti prestazioni",
+      "Perché la polvere della manutenzione è sempre incombustibile"
+    ],
+    "corretta": 1,
+    "spiegazione": "La sostituzione di materiali con altri aventi prestazioni diverse può variare le condizioni iniziali di progetto.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Cosa prevede il livello di prestazione III per la resistenza al fuoco?",
+    "opzioni": [
+      "Il collasso strutturale immediato",
+      "Il mantenimento dei requisiti per un periodo congruo con la durata dell'incendio",
+      "Il mantenimento della totale funzionalità dopo l'incendio"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il livello III prevede che la struttura mantenga i requisiti per un periodo congruo alla durata dell'incendio.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa accade se non viene interposta una idonea distanza di separazione tra edifici distinti?",
+    "opzioni": [
+      "Gli edifici sono assimilabili a porzioni dello stesso compartimento",
+      "La resistenza al fuoco aumenta automaticamente",
+      "Non è possibile installare estintori"
+    ],
+    "corretta": 0,
+    "spiegazione": "Senza distanza di separazione o compartimentazione, edifici distinti sono assimilabili allo stesso compartimento.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "In quale caso è ammesso l'uso di scale alla marinara lungo le vie d'esodo?",
+    "opzioni": [
+      "Per l'esodo di massa degli studenti",
+      "Solo per locali impianti/servizio con personale formato e basso affollamento",
+      "Sempre, se hanno un'inclinazione superiore al 5%"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'uso è ammesso solo per locali tecnici o di servizio con personale formato e basso affollamento.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa è richiesto per le porte ad apertura manuale in condizioni di elevata densità di affollamento?",
+    "opzioni": [
+      "Dispositivi di apertura a semplice spinta",
+      "Serrature a doppia mandata con chiave fissa",
+      "Apertura obbligatoria verso l'interno del locale"
+    ],
+    "corretta": 0,
+    "spiegazione": "In caso di elevato affollamento, le porte devono avere dispositivi di apertura a semplice spinta.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale simbolo identifica la prestazione di controllo dell'irraggiamento termico?",
+    "opzioni": [
+      "Simbolo W",
+      "Simbolo S",
+      "Simbolo M"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il simbolo W indica la prestazione relativa all'irraggiamento termico.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Cosa devono indicare le planimetrie semplificate installate ai piani?",
+    "opzioni": [
+      "Il numero di telefono del Dirigente Scolastico",
+      "La posizione del lettore ('Voi siete qui') e il layout del sistema d'esodo",
+      "La cronologia degli interventi di manutenzione degli idranti"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le planimetrie devono indicare 'Voi siete qui', vie d'esodo, spazi calmi e luoghi sicuri.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è la posizione corretta di una porta tagliafuoco per garantire la compartimentazione?",
+    "opzioni": [
+      "Sempre spalancata per favorire l'esodo",
+      "Normalmente chiusa (salvo dispositivi di sgancio collegati ad allarme)",
+      "Chiusa a chiave durante le ore di lezione"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le porte tagliafuoco devono essere normalmente chiuse per garantire la compartimentazione.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale tra i seguenti prodotti NON è destinato ai sistemi di controllo del fumo e del calore?",
+    "opzioni": [
+      "Evacuatori motorizzati di fumo",
+      "Barriere al fumo",
+      "Cavi elettrici senza marcatura CE"
+    ],
+    "corretta": 2,
+    "spiegazione": "Evacuatori e barriere sono sistemi di controllo, i cavi senza marcatura non sono presidi di controllo fumo.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Cosa indica il simbolo 'S' aggiunto alla classificazione di un elemento?",
+    "opzioni": [
+      "Sicurezza meccanica",
+      "Tenuta ai fumi",
+      "Segnalazione acustica"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il simbolo S indica la capacità di tenuta ai fumi di un elemento costruttivo.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Quale densità di affollamento deve essere considerata per gli ambiti adibiti ad attività scolastica e laboratori privi di posti a sedere?",
+    "opzioni": [
+      "0,1 persone/m²",
+      "0,7 persone/m²",
+      "0,4 persone/m²"
+    ],
+    "corretta": 2,
+    "spiegazione": "Secondo la tabella estratta dal DM 3/8/2015, per gli ambiti scolastici e laboratori senza posti a sedere si applica una densità di 0,4 persone/m².",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Qual è la lunghezza massima consentita per una via d'esodo in locali con occupanti in stato di veglia, familiarità con l'edificio e velocità di crescita dell'incendio bassa?",
+    "opzioni": [
+      "20 m",
+      "45 m",
+      "70 m"
+    ],
+    "corretta": 2,
+    "spiegazione": "Il documento specifica che la lunghezza massima della via di esodo può arrivare a 70 m per occupanti vigili, con familiarità e rischio basso.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa si intende per 'corridoio cieco' nel sistema d'esodo?",
+    "opzioni": [
+      "Una via d'esodo che offre agli occupanti una sola direzione senza alternative",
+      "Un corridoio privo di illuminazione di emergenza",
+      "Un passaggio riservato esclusivamente alle squadre di soccorso"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il corridoio cieco è definito come una via d'esodo che offre agli occupanti una sola via d'esodo senza alternative.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Per un ambito servito con un affollamento superiore a 1000 occupanti, quale deve essere la larghezza minima della via d'esodo?",
+    "opzioni": [
+      "900 mm",
+      "1200 mm",
+      "1000 mm"
+    ],
+    "corretta": 1,
+    "spiegazione": "La Tabella 2.3.4.1 stabilisce che per affollamenti superiori a 1000 occupanti la larghezza minima deve essere ≥ 1200 mm.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Qual è l'altezza minima prescritta per le vie di esodo?",
+    "opzioni": [
+      "1,80 m",
+      "2,20 m",
+      "2,00 m"
+    ],
+    "corretta": 2,
+    "spiegazione": "Il documento indica che l'altezza minima delle vie di esodo è pari a 2 m.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "A quale altezza dal pavimento deve essere installato il pulsante manuale di segnalazione incendio?",
+    "opzioni": [
+      "Tra 1 m e 1,6 m",
+      "Sempre a 1,5 m",
+      "Tra 0,5 m e 1,0 m"
+    ],
+    "corretta": 0,
+    "spiegazione": "L'altezza di installazione dal pavimento del pulsante manuale deve essere compresa tra 1 m e 1,6 m.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è la distanza massima di percorrenza per raggiungere un punto di segnalazione manuale (pulsante)?",
+    "opzioni": [
+      "Tra 5 e 10 m",
+      "Tra 15 e 30 m",
+      "Sempre 50 m"
+    ],
+    "corretta": 1,
+    "spiegazione": "I punti di segnalazione manuale devono essere raggiungibili mediante percorsi compresi tra i 15 e i 30 m.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quali sono i componenti base di un sistema di rivelazione incendio?",
+    "opzioni": [
+      "Rivelatori automatici, pulsanti manuali e centrale di controllo",
+      "Solo estintori e idranti",
+      "Esclusivamente sensori di fumo ottici"
+    ],
+    "corretta": 0,
+    "spiegazione": "Un sistema di rivelazione è costituito da rivelatori automatici, punti di segnalazione manuale, centrale di controllo, alimentazioni e sistema di diffusione.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Qual è lo scopo dei sistemi di ventilazione orizzontale forzata (SVOF)?",
+    "opzioni": [
+      "Spegnere l'incendio tramite gas inerti",
+      "Proteggere le vie di esodo, escluse quelle nel compartimento di primo innesco",
+      "Raffreddare esclusivamente i macchinari tecnologici"
+    ],
+    "corretta": 1,
+    "spiegazione": "I sistemi SVOF facilitano l'opera dei soccorritori e possono proteggere le vie di esodo, ad esclusione di quelle nel compartimento di origine.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Cosa caratterizza i sistemi di evacuazione di fumo e calore (SEFC)?",
+    "opzioni": [
+      "Aumentano la temperatura per accelerare la combustione",
+      "Mantengono uno strato d'aria libero da fumo nella porzione inferiore dell'ambiente",
+      "Servono solo a segnalare l'allarme ai Vigili del Fuoco"
+    ],
+    "corretta": 1,
+    "spiegazione": "I SEFC creano e mantengono uno strato d'aria sostanzialmente indisturbato nella porzione inferiore per agevolare l'esodo e le operazioni antincendio.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Qual è il limite di massa per definire un estintore come 'portatile'?",
+    "opzioni": [
+      "Minore o uguale a 20 kg",
+      "Massimo 5 kg",
+      "Fino a 50 kg"
+    ],
+    "corretta": 0,
+    "spiegazione": "Un estintore portatile, pronto all'uso, ha una massa minore o uguale a 20 kg.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Come si effettua l'estinzione in sicurezza di un fuoco di classe C (gas) da parte di occupanti?",
+    "opzioni": [
+      "Usando un estintore a base d'acqua",
+      "Tramite la chiusura della valvola di intercettazione in prossimità",
+      "Coprendo la fiamma con una coperta antincendio"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'estinzione di un fuoco di classe C si effettua tramite la chiusura della valvola di intercettazione disponibile nelle vicinanze.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "A quale distanza minima devono essere usati gli estintori a polvere su apparecchiature elettriche fino a 1000 V?",
+    "opzioni": [
+      "1 m",
+      "5 m",
+      "0,5 m"
+    ],
+    "corretta": 0,
+    "spiegazione": "Gli estintori con agente privo di conducibilità sono idonei su impianti fino a 1000 V alla distanza di 1 m.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Perché l'impiego di estintori a polvere è sconsigliato nei luoghi chiusi?",
+    "opzioni": [
+      "Perché sono meno efficaci dell'acqua",
+      "Per la riduzione della visibilità e le possibili irritazioni a pelle e mucose",
+      "Perché la polvere attira l'ossigeno alimentando le fiamme"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'uso della polvere al chiuso può compromettere l'orientamento per riduzione della visibilità e causare irritazioni agli occupanti.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è la massima distanza di raggiungimento prevista per un estintore di classe A con profilo di rischio Rvita A1 o A2?",
+    "opzioni": [
+      "20 m",
+      "40 m",
+      "30 m"
+    ],
+    "corretta": 1,
+    "spiegazione": "Per i profili di rischio A1 e A2, la distanza massima di raggiungimento dell'estintore è di 40 m.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "A quale altezza dal suolo dovrebbero essere collocate le impugnature degli estintori?",
+    "opzioni": [
+      "Circa 80 cm",
+      "Circa 110 cm",
+      "Esattamente 150 cm"
+    ],
+    "corretta": 1,
+    "spiegazione": "Le impugnature dei presidi manuali dovrebbero essere collocate a circa 110 cm dal piano di calpestio per facilitarne l'uso.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è la lunghezza tipica della manichetta flessibile di un idrante a muro DN 45?",
+    "opzioni": [
+      "10 metri",
+      "30 metri",
+      "20 metri"
+    ],
+    "corretta": 2,
+    "spiegazione": "La manichetta flessibile di un idrante a muro DN 45 ha una lunghezza che è in genere di 20 metri.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è la lunghezza massima consentita per la tubazione semirigida di un naspo DN 25?",
+    "opzioni": [
+      "20 metri",
+      "30 metri",
+      "50 metri"
+    ],
+    "corretta": 1,
+    "spiegazione": "La tubazione semirigida di un naspo DN 25 ha una lunghezza massima di 30 metri.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale colore dell'ampolla indica uno sprinkler tarato per rompersi a 68 °C?",
+    "opzioni": [
+      "Giallo",
+      "Rosso",
+      "Verde"
+    ],
+    "corretta": 1,
+    "spiegazione": "La versione più comune dello sprinkler ha un'ampollina di colore rosso regolata per rompersi a 68 °C.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Cosa si intende per 'accessibilità per mezzi di soccorso' secondo il DM 3/8/2015?",
+    "opzioni": [
+      "Possibilità di avvicinare i mezzi a distanza ≤ 50 m dagli accessi",
+      "Possibilità di entrare con l'automezzo all'interno dell'edificio",
+      "Presenza di un parcheggio riservato a meno di 100 m"
+    ],
+    "corretta": 0,
+    "spiegazione": "L'accessibilità consiste nella possibilità di avvicinare i mezzi di soccorso a una distanza non superiore a 50 m dagli accessi per soccorritori.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cos'è un 'ascensore antincendio'?",
+    "opzioni": [
+      "Un ascensore per occupanti utilizzabile dai soccorritori grazie a protezioni e comandi specifici",
+      "Un elevatore che si blocca automaticamente al piano terra",
+      "Un montacarichi utilizzabile solo per il trasporto di barelle"
+    ],
+    "corretta": 0,
+    "spiegazione": "L'ascensore antincendio è installato per gli occupanti ma può essere impiegato sotto il controllo dei soccorritori anche in caso di incendio.",
+    "corretta": 0,
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Secondo la definizione tecnica, quando si parla di 'rivelazione'?",
+    "opzioni": [
+      "Quando avviene solo la rilevazione fisica",
+      "Quando la notizia dell'incendio viene comunicata al sistema (rilevazione + segnalazione)",
+      "Solo quando suona la sirena esterna"
+    ],
+    "corretta": 1,
+    "spiegazione": "Si ha rivelazione quando la notizia dello sviluppo dell'incendio viene comunicata al sistema o all'uomo tramite rilevazione e segnalazione.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa differenzia un sistema a diluvio da un normale impianto sprinkler?",
+    "opzioni": [
+      "Usa erogatori aperti e inonda totalmente l'area simultaneamente",
+      "Funziona solo con polvere chimica",
+      "Si attiva solo manualmente tramite idranti"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il sistema a diluvio inonda totalmente l'area tramite erogatori privi di elemento termosensibile, scaricando acqua contemporaneamente da tutti gli erogatori.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale tra questi impianti tecnologici deve essere considerato ai fini della sicurezza antincendio?",
+    "opzioni": [
+      "Sistemi di intrattenimento audio",
+      "Produzione, trasporto e distribuzione dell'energia elettrica",
+      "Impianti di irrigazione dei giardini esterni"
+    ],
+    "corretta": 1,
+    "spiegazione": "Tra gli impianti rilevanti figurano quelli di energia elettrica, scariche atmosferiche, sollevamento, gas, riscaldamento e climatizzazione.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Qual è un obiettivo di sicurezza degli impianti tecnologici e di servizio?",
+    "opzioni": [
+      "Limitare la probabilità di costituire causa di incendio o esplosione",
+      "Aumentare il carico d'incendio per testare le strutture",
+      "Essere attivati esclusivamente in modalità manuale"
+    ],
+    "corretta": 0,
+    "spiegazione": "Uno degli obiettivi primari è limitare la probabilità che l'impianto stesso sia causa di incendio o esplosione.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quando le vie di esodo sono ritenute indipendenti?",
+    "opzioni": [
+      "Quando hanno colori diversi",
+      "Quando è minima la probabilità che siano rese indisponibili contemporaneamente dall'incendio",
+      "Quando si trovano in edifici diversi"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'indipendenza è garantita quando è minima la probabilità di indisponibilità simultanea causata dagli effetti dell'incendio.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Quale modalità deve essere adottata per l'esodo di occupanti che non possono usare autonomamente scale?",
+    "opzioni": [
+      "Uso obbligatorio di funi di emergenza",
+      "Impiego di spazi calmi o esodo orizzontale progressivo",
+      "Attesa del segnale di fine emergenza in aula"
+    ],
+    "corretta": 1,
+    "spiegazione": "Per chi non può usare vie verticali autonomamente, si adottano spazi calmi o modalità di esodo orizzontale.",
+    "categoria": "Procedure de Emergenza"
+  },
+  {
+    "domanda": "Quali sono le fasi caratteristiche dell'evoluzione di un incendio riportate nel grafico?",
+    "opzioni": [
+      "Fumo, calore e cenere",
+      "Ignizione, propagazione, flash-over e estinzione",
+      "Allarme, fuga e arrivo dei soccorsi"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il grafico dell'incendio distingue le fasi di ignizione, propagazione, incendio generalizzato (flash-over) ed estinzione.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa sono gli estintori a 'Clean Agent'?",
+    "opzioni": [
+      "Estintori con sapone per pulire le superfici",
+      "Sostanze non conduttive e volatili che non lasciano residui dopo l'evaporazione",
+      "Polveri profumate per ridurre l'odore di fumo"
+    ],
+    "corretta": 1,
+    "spiegazione": "I Clean Agent sono sostanze volatili gassose e non conduttive che non lasciano residui dopo l'uso.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "In quale caso è possibile utilizzare estintori con carica superiore a 6 kg?",
+    "opzioni": [
+      "Solo in ambienti di processo non accessibili al pubblico se non accompagnato",
+      "Sempre, purché l'addetto sia forte fisicamente",
+      "Esclusivamente nelle palestre scolastiche"
+    ],
+    "corretta": 0,
+    "spiegazione": "La carica standard è ≤ 6 kg; cariche superiori sono ammesse solo in aree di processo non aperte al pubblico non accompagnato.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è la definizione corretta di Gestione della Sicurezza Antincendio (GSA)?",
+    "opzioni": [
+      "L'insieme delle sole attrezzature di estinzione presenti nell'edificio",
+      "La misura organizzativa e gestionale atta a garantire nel tempo un adeguato livello di sicurezza",
+      "Il documento che elenca esclusivamente i numeri telefonici dei soccorsi esterni"
+    ],
+    "corretta": 1,
+    "spiegazione": "Secondo il D.M. 3/8/2015, la GSA rappresenta la misura organizzativa e gestionale dell'attività per garantire la sicurezza nel tempo.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "In quali due aspetti principali si suddivide la gestione della sicurezza antincendio?",
+    "opzioni": [
+      "Gestione in esercizio e gestione in emergenza",
+      "Gestione tecnica e gestione amministrativa",
+      "Gestione dei materiali e gestione del personale docente"
+    ],
+    "corretta": 0,
+    "spiegazione": "La GSA si divide negli aspetti della gestione in esercizio e della gestione in emergenza.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Secondo la definizione del D.M. 1/9/2021, cos'è la 'sorveglianza' dei presidi antincendio?",
+    "opzioni": [
+      "Un intervento tecnico profondo che richiede lo smontaggio dell'apparecchio",
+      "L'insieme di controlli visivi per verificare che i presidi siano in condizioni operative e fruibili",
+      "La prova di pressione idraulica delle manichette effettuata ogni cinque anni"
+    ],
+    "corretta": 1,
+    "spiegazione": "La sorveglianza consiste in controlli visivi atti a verificare che le attrezzature siano nelle normali condizioni operative e non presentino danni materiali.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Cosa deve essere verificato riguardo alla collocazione di un estintore durante l'attività di sorveglianza?",
+    "opzioni": [
+      "Che sia nascosto dietro una tenda per motivi estetici",
+      "Che sia collocato nel luogo previsto nella planimetria",
+      "Che sia posizionato esclusivamente all'interno di un armadio chiuso a chiave"
+    ],
+    "corretta": 1,
+    "spiegazione": "Tra le verifiche di sorveglianza occorre accertarsi che l'estintore sia presente e collocato nel luogo previsto nella planimetria.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale informazione deve essere fornita prioritariamente ai Vigili del Fuoco in caso di chiamata d'emergenza?",
+    "opzioni": [
+      "Il codice fiscale dell'istituto scolastico",
+      "Nome, indirizzo dell'attività e tipologia dell'emergenza",
+      "La marca e il modello degli estintori portatili presenti"
+    ],
+    "corretta": 1,
+    "spiegazione": "Nelle chiamate di emergenza è necessario fornire nome e indirizzo dell'attività, oltre alla tipologia e gravità dell'emergenza.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Durante l'evacuazione, perché gli addetti devono chiudere le porte di accesso e quelle tra i compartimenti?",
+    "opzioni": [
+      "Per evitare che gli studenti rientrino a prendere gli zaini",
+      "Per isolare la zona e circoscrivere l'emergenza limitando la diffusione di fumo e fiamme",
+      "Per proteggere gli arredi scolastici dal furto durante il caos"
+    ],
+    "corretta": 1,
+    "spiegazione": "Isolare la zona chiudendo le porte serve a circoscrivere l'emergenza e limitare la propagazione.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Quale compito spetta agli addetti antincendio una volta raggiunto il punto di ritrovo?",
+    "opzioni": [
+      "Congedare immediatamente tutti i presenti per farli tornare a casa",
+      "Verificare tramite appello che tutto il personale e gli occupanti siano presenti",
+      "Iniziare le operazioni di pulizia delle aree esterne"
+    ],
+    "corretta": 1,
+    "spiegazione": "Gli addetti devono verificare che tutto il personale sia giunto nel punto di ritrovo, solitamente tramite appello.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Che caratteristiche grafiche hanno i segnali di 'avvertimento' (es. pericolo elettrico o materiale infiammabile)?",
+    "opzioni": [
+      "Forma circolare, fondo blu e pittogramma bianco",
+      "Forma triangolare, fondo giallo e bordo nero",
+      "Forma quadrata, fondo verde e pittogramma bianco"
+    ],
+    "corretta": 1,
+    "spiegazione": "I segnali di avvertimento sono rappresentati da triangoli con fondo giallo e bordo nero.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Chi è responsabile dell'effettuazione dei controlli e della manutenzione sui presidi antincendio?",
+    "opzioni": [
+      "Il tecnico manutentore esterno",
+      "I Vigili del Fuoco di zona",
+      "Il datore di lavoro"
+    ],
+    "corretta": 2,
+    "spiegazione": "Il datore di lavoro è responsabile dell'effettuazione di controlli e manutenzione sui presidi antincendio.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa indica la lancetta del manometro di un estintore se si trova nel campo verde?",
+    "opzioni": [
+      "Che l'estintore deve essere immediatamente ricaricato",
+      "Che l'indicatore di pressione indica un valore compreso nei limiti di funzionamento",
+      "Che l'estintore è troppo pieno e potrebbe esplodere"
+    ],
+    "corretta": 1,
+    "spiegazione": "La sorveglianza prevede di verificare che la lancetta del manometro sia all'interno del campo verde, indicando corretta pressione.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Ogni quanto deve essere aggiornato il piano di emergenza?",
+    "opzioni": [
+      "Solo dopo che si è verificato un incendio reale",
+      "In occasione di ogni modifica che possa alterare le misure di prevenzione e protezione",
+      "Esclusivamente ogni 10 anni secondo la scadenza naturale"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il piano di emergenza deve essere aggiornato in occasione di ogni modifica che alteri le misure di prevenzione e protezione.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Come deve essere orientata l'etichetta delle istruzioni d'uso di un estintore installato a muro?",
+    "opzioni": [
+      "Verso la parete per proteggerla da urti accidentali",
+      "In modo che gli occupanti possano avere piena visione delle istruzioni",
+      "È indifferente, purché il cartello di segnalazione sia presente"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'etichetta con le istruzioni d'uso deve essere rivolta in modo che gli occupanti possano vederla chiaramente.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale sistema può essere utilizzato per diffondere l'allarme a persone con ridotte capacità sensoriali?",
+    "opzioni": [
+      "L'invio di messaggi tramite posta ordinaria",
+      "Dispositivi sensoriali come luci, scritte luminose e sistema EVAC",
+      "Il semplice passaparola tra i colleghi di ufficio"
+    ],
+    "corretta": 1,
+    "spiegazione": "Per assistere persone con esigenze speciali si possono usare luci, scritte luminose, dispositivi a vibrazione e sistemi EVAC.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Qual è il compito degli addetti antincendio in 'condizioni ordinarie' (in esercizio)?",
+    "opzioni": [
+      "Svolgere attività di sorveglianza dei presidi antincendio e garantire la fruibilità delle vie di esodo",
+      "Eseguire personalmente la ricarica chimica degli estintori scaduti",
+      "Progettare autonomamente nuove varianti strutturali all'edificio"
+    ],
+    "corretta": 0,
+    "spiegazione": "In condizioni ordinarie gli addetti attuano misure preventive, garantiscono le vie di esodo e sorvegliano i presidi.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa si deve verificare riguardo al sigillo di sicurezza di un estintore?",
+    "opzioni": [
+      "Che sia stato rimosso per facilitare l'uso rapido",
+      "Che sia integro per determinare che l'estintore non sia stato usato o manomesso",
+      "Che sia di colore diverso rispetto a quello degli altri estintori"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'integrità del sigillo garantisce che l'estintore non sia stato utilizzato o manomesso.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "È consentito l'uso degli ascensori per l'esodo durante un incendio?",
+    "opzioni": [
+      "Sì, per velocizzare l'uscita dai piani più alti",
+      "No, salvo che siano stati appositamente realizzati per tale scopo",
+      "Sì, ma solo se accompagnati da un docente"
+    ],
+    "corretta": 1,
+    "spiegazione": "Gli ascensori non devono essere utilizzati per l'esodo, a meno di specifiche realizzazioni per tale scopo.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "In quale documento sono riportate le vie di esodo, le compartimentazioni e l'ubicazione delle attrezzature?",
+    "opzioni": [
+      "Nelle planimetrie allegate al piano di emergenza",
+      "Nel registro delle presenze giornaliere degli studenti",
+      "Nel manuale d'uso della caldaia centralizzata"
+    ],
+    "corretta": 0,
+    "spiegazione": "Le planimetrie del piano di emergenza devono riportare caratteristiche distributive, vie di esodo, compartimentazioni e attrezzature.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Qual è la prima azione prevista dalle procedure di allarme in caso di incendio?",
+    "opzioni": [
+      "Mantenere la calma",
+      "Correre velocemente verso l'uscita gridando",
+      "Aprire tutte le finestre per far entrare aria fresca"
+    ],
+    "corretta": 0,
+    "spiegazione": "Le procedure di allarme prevedono generalmente come prima indicazione quella di mantenere la calma.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Chi può effettuare l'attività di 'sorveglianza' sui presidi antincendio?",
+    "opzioni": [
+      "Esclusivamente tecnici manutentori qualificati esterni",
+      "I lavoratori normalmente presenti dopo aver ricevuto adeguate istruzioni",
+      "Solo il personale dei Vigili del Fuoco durante le ispezioni"
+    ],
+    "corretta": 1,
+    "spiegazione": "La sorveglianza può essere effettuata dai lavoratori normalmente presenti dopo adeguate istruzioni.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Cosa definisce il 'controllo periodico' rispetto alla manutenzione?",
+    "opzioni": [
+      "Un'operazione visiva quotidiana fatta dagli studenti",
+      "Operazioni da effettuarsi con frequenza non superiore a quella indicata da norme o manuali per verificare la funzionalità",
+      "La sostituzione obbligatoria di tutti i presidi ogni dodici mesi"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il controllo periodico verifica la completa e corretta funzionalità con frequenza stabilita da disposizioni o norme.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Secondo le regole generali per l'utilizzo degli estintori, dove deve essere diretto il getto dell'agente estinguente?",
+    "opzioni": [
+      "Al centro della fiamma per raffreddarla",
+      "Alla base della fiamma",
+      "Sulla parte superiore del fumo prodotto"
+    ],
+    "corretta": 1,
+    "spiegazione": "Il testo specifica chiaramente di dirigere il getto dell'agente estinguente alla base della fiamma.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "In caso di incendio di liquidi, quale precauzione deve essere adottata nell'uso dell'estintore?",
+    "opzioni": [
+      "Agire in modo che il getto non causi proiezioni del liquido fuori dal recipiente",
+      "Aumentare la pressione del getto per affogare il liquido",
+      "Colpire il liquido dall'alto verso il basso con movimenti verticali"
+    ],
+    "corretta": 0,
+    "spiegazione": "Se il getto causa la proiezione del liquido che brucia al di fuori del recipiente, potrebbe causare la propagazione dell'incendio.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è l'angolo massimo consentito tra due o più operatori che impiegano contemporaneamente degli estintori?",
+    "opzioni": [
+      "Non superiore a 45 gradi",
+      "Non superiore a 90 gradi",
+      "Esattamente 180 gradi per circondare il fuoco"
+    ],
+    "corretta": 1,
+    "spiegazione": "Gli operatori devono muoversi verso un'unica direzione o operare da posizioni che formino un angolo non superiore a 90 gradi per non proiettare parti calde verso i colleghi.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Perché è necessario assumere una posizione il più bassa possibile quando ci si dirige verso un focolaio?",
+    "opzioni": [
+      "Per sfuggire all'azione nociva dei fumi",
+      "Per aumentare la stabilità durante l'uso della lancia",
+      "Per ridurre l'attrito dell'aria sulla tuta protettiva"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il documento indica di procedere assumendo una posizione bassa per sfuggire all'azione dei fumi.",
+    "categoria": "Controllo Fumo e Calore"
+  },
+  {
+    "domanda": "Quale angolo minimo deve poter raggiungere l'apertura del portello di una cassetta naspo?",
+    "opzioni": [
+      "Almeno 90 gradi",
+      "Almeno 170 gradi",
+      "Esattamente 180 gradi"
+    ],
+    "corretta": 1,
+    "spiegazione": "La cassetta deve avere un portello che possa aprirsi di almeno 170 gradi per consentire lo srotolamento della tubazione in ogni direzione.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "A quale distanza utile si deve fermare l'operatore che utilizza un naspo per lo spegnimento?",
+    "opzioni": [
+      "A circa 2 o 3 metri",
+      "A circa 5 o 6 metri",
+      "A non meno di 10 metri"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'operatore deve fermarsi alla distanza utile per la gittata dell'acqua, indicata in 5 o 6 metri dal bocchello della lancia.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Nello stendimento di una tubazione flessibile UNI 45, quale raccordo deve essere rivolto verso l'incendio?",
+    "opzioni": [
+      "Il raccordo maschio",
+      "Il raccordo femmina",
+      "È indifferente purché sia collegata la lancia"
+    ],
+    "corretta": 0,
+    "spiegazione": "Nella distesa delle tubazioni, il raccordo maschio deve essere diretto verso l'incendio poiché la lancia ha l'attacco femmina.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è lo scopo della 'Valvola a Clapet' in un attacco di mandata per autopompa?",
+    "opzioni": [
+      "Regolare la temperatura dell'acqua in ingresso",
+      "Permettere che l'acqua immessa vada in una sola direzione (verso l'impianto)",
+      "Scaricare la pressione residua dopo l'uso"
+    ],
+    "corretta": 1,
+    "spiegazione": "La valvola di non ritorno permette che l'acqua immessa nel gruppo autopompa vada solo verso l'alimentazione dell'impianto.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Qual è il limite minimo di ossigeno stabilito dal CEN sotto il quale i respiratori a filtro non possono essere utilizzati?",
+    "opzioni": [
+      "19%",
+      "17%",
+      "21%"
+    ],
+    "corretta": 1,
+    "spiegazione": "I respiratori isolanti devono essere utilizzati quando la percentuale di ossigeno è inferiore al valore stabilito del 17%.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Quale efficienza filtrante totale minima garantisce un respiratore con filtro di classe P2?",
+    "opzioni": [
+      "78%",
+      "92%",
+      "98%"
+    ],
+    "corretta": 1,
+    "spiegazione": "I filtri P2 sono classificati a media efficienza con un valore minimo del 92%.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Secondo il documento, quale autonomia può raggiungere un autorespiratore (A.R.) a circuito chiuso?",
+    "opzioni": [
+      "Circa 30 minuti",
+      "Circa 4 ore",
+      "Fino a 12 ore"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'autonomia di un A.R. a circuito chiuso può arrivare alle 4 ore circa, risultando utile per lunghe durate.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "In un autorespiratore a circuito aperto, cosa indica l'attivazione del segnalatore acustico?",
+    "opzioni": [
+      "Che l'apparecchio è acceso correttamente",
+      "Che la pressione della bombola si avvicina al valore di riserva",
+      "Che la maschera è posizionata male sul volto"
+    ],
+    "corretta": 1,
+    "spiegazione": "Durante il funzionamento, quando la pressione si avvicina al valore di riserva, entra in funzione il segnalatore acustico emettendo un sibilo.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "A quale pressione viene ridotta l'aria dalla bombola nel gruppo riduttore di un autorespiratore?",
+    "opzioni": [
+      "Da 200-300 bar a 6-9 bar",
+      "Da 300 bar a 100 bar",
+      "Da 15 bar a 1 bar"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il gruppo riduttore ha lo scopo di ridurre la pressione di 200-300 bar della bombola a 6-9 bar di media pressione.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "Quale precauzione è prescritta per l'uso di estintori in locali chiusi?",
+    "opzioni": [
+      "Spegnere tutte le luci prima dell'intervento",
+      "Assicurarsi a una corda che consenta il recupero in caso di infortunio",
+      "Utilizzare solo estintori con carica superiore a 20 kg"
+    ],
+    "corretta": 1,
+    "spiegazione": "Nell'utilizzo di estintori in locali chiusi, bisogna assicurarsi a una corda per consentire il recupero dell'operatore.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Come sono classificati i DPI per la protezione delle vie respiratorie?",
+    "opzioni": [
+      "DPI di I Categoria",
+      "DPI di II Categoria",
+      "DPI di III Categoria"
+    ],
+    "corretta": 2,
+    "spiegazione": "Gli apparecchi di protezione delle vie respiratorie sono tutti classificati come DPI di III Categoria, richiedendo formazione ed addestramento.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Cosa deve fare l'operatore prima di abbandonare definitivamente il luogo dell'incendio?",
+    "opzioni": [
+      "Lasciare tutte le porte aperte per ventilare",
+      "Verificare che il focolaio sia effettivamente spento ed escludere la riaccensione",
+      "Svuotare l'agente estinguente residuo a terra"
+    ],
+    "corretta": 1,
+    "spiegazione": "Prima di abbandonare il luogo, bisogna verificare che il focolaio sia spento e che non vi sia possibilità di riaccensione.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "Cosa serve a impedire il verificarsi di sovrappressioni nell'anello idrico durante le manovre d'immissione d'acqua?",
+    "opzioni": [
+      "La saracinesca in ottone",
+      "La valvola di sicurezza",
+      "Il rubinetto idrante UNI 70"
+    ],
+    "corretta": 1,
+    "spiegazione": "La valvola di sicurezza serve ad impedire il verificarsi di sovrappressioni che potrebbero danneggiare irreparabilmente l'anello idrico.",
+    "categoria": "Esercitazioni e Attrezzature"
+  },
+  {
+    "domanda": "In quali condizioni gli attacchi di mandata devono essere installati?",
+    "opzioni": [
+      "In posizioni nascoste per evitare manomissioni",
+      "In posizione facilmente raggiungibile e sicura anche durante l'incendio",
+      "Esclusivamente in locali chiusi e protetti da chiave"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'attacco deve essere collocato in posizione facilmente raggiungibile e sicura per i Vigili del Fuoco, anche durante l'incendio.",
+    "categoria": "Procedure di Emergenza"
+  },
+  {
+    "domanda": "In un autorespiratore a circuito chiuso, come viene trattata l'aria espirata?",
+    "opzioni": [
+      "Viene scaricata integralmente nell'ambiente esterno",
+      "Attraversa una cartuccia depuratrice che fissa CO2 e vapore acqueo",
+      "Viene compressa istantaneamente in una seconda bombola"
+    ],
+    "corretta": 1,
+    "spiegazione": "L'aria espirata attraversa una cartuccia depuratrice con sostanze alcaline che fissano l'anidride carbonica prima del ricircolo.",
+    "categoria": "Teoria e Prevenzione"
+  },
+  {
+    "domanda": "Quale deve essere il comportamento dell'operatore rispetto al vento durante lo spegnimento di un incendio?",
+    "opzioni": [
+      "Operare sempre sopra vento rispetto al focolare",
+      "Operare sotto vento per evitare che il calore lo colpisca",
+      "È indifferente purché si usi il DPI corretto"
+    ],
+    "corretta": 0,
+    "spiegazione": "Il documento prescrive di operare sempre sopra vento rispetto al focolare.",
+    "categoria": "Procedure di Emergenza"
+  }
+]
