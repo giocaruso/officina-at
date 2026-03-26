@@ -1,0 +1,2648 @@
+[
+  {
+    "domanda": "Si definisce combustione",
+    "opzioni": [
+      "qualunque reazione chimica nella quale alcune sostanze (reagenti) si trasformano in altre (prodotti)",
+      "la trasformazione che un materiale subisce nella sua forma, senza che venga alterata la sua natura chimica",
+      "qualunque reazione chimica nella quale un combustibile reagisce con un comburente dando luogo a sviluppo di calore, fiamme, gas e fumi"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Affinché la reazione di combustione abbia luogo è necessaria la presenza di una fonte di innesco, cioè:",
+    "opzioni": [
+      "esclusivamente di una fiamma libera che fornisca l'energia necessaria per attivare la reazione di combustione",
+      "di una generica sorgente di calore che fornisca l'energia necessaria per attivare la reazione di combustione",
+      "di un adeguata percentuale di ossigeno nell’aria"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Affinché la reazione di combustione abbia inizio, deve sempre verificarsi:",
+    "opzioni": [
+      "La contemporanea presenza del combustibile e del comburente",
+      "La contemporanea presenza del combustibile, del comburente e dell’innesco/sorgente di calore",
+      "La contemporanea presenza del combustibile e della giusta temperatura o innesco"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "In caso di mancata presenza di uno degli elementi del “triangolo del fuoco” (combustibile, comburente e innesco/sorgente di calore)",
+    "opzioni": [
+      "La reazione di combustione (incendio) può avvenire lo stesso con percentuali elevate di ossigeno in aria",
+      "La reazione di combustione (incendio) non ha luogo",
+      "La reazione di combustione (incendio) può avvenire lo stesso se in presenza di un’adeguata quantità di materiale combustibile"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La propagazione della combustione richiede la presenza contemporanea di",
+    "opzioni": [
+      "Combustibile, comburente e temperatura adeguata",
+      "Combustibili e temperatura adeguata",
+      "Comburente e temperatura adeguata"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il combustibile è:",
+    "opzioni": [
+      "Qualunque sostanza ossidante, in genere l’ossigeno presente nell’aria, che partecipa alla reazione di combustione",
+      "Il calore fornito alle sostanze combustibili e comburenti per attivare la reazione di combustione",
+      "Qualunque sostanza che, ossidandosi, partecipa alla reazione chimica di combustione"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Il comburente è:",
+    "opzioni": [
+      "una sostanza che a contatto con altre sostanze combustibili provoca una reazione endotermica",
+      "una sostanza che a contatto con altre sostanze combustibili provoca una reazione esotermica",
+      "una sostanza che a contatto con altre sostanze comburenti provoca una reazione esotermica"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Per ottenere lo spegnimento dell’incendio si può ricorrere",
+    "opzioni": [
+      "al solo raffreddamento",
+      "all’esaurimento del combustibile e/o al soffocamento",
+      "a una qualsiasi combinazione di soffocamento, raffreddamento, inibizione chimica, esaurimento del combustibile"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Per ottenere lo spegnimento dell’incendio si può ricorrere all’esaurimento del combustibile, che consiste",
+    "opzioni": [
+      "Nell’allontanamento o separazione della sostanza combustibile dal focolaio d’incendio;",
+      "Nella separazione del comburente dal combustibile o riduzione della concentrazione di comburente in aria;",
+      "Nella sottrazione di calore fino ad ottenere una temperatura inferiore a quella necessaria al mantenimento della combustione;"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Per ottenere lo spegnimento dell’incendio si può ricorrere al soffocamento, che consiste",
+    "opzioni": [
+      "Nell’allontanamento o separazione della sostanza combustibile dal focolaio d’incendio;",
+      "Nella separazione del comburente dal combustibile o riduzione della concentrazione di comburente in aria;",
+      "Nella sottrazione di calore fino ad ottenere una temperatura inferiore a quella necessaria al mantenimento della combustione;"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Per ottenere lo spegnimento dell’incendio si può ricorrere al raffreddamento, che consiste",
+    "opzioni": [
+      "Nell’allontanamento o separazione della sostanza combustibile dal focolaio d’incendio;",
+      "Nella separazione del comburente dal combustibile o riduzione della concentrazione di comburente in aria;",
+      "Nella sottrazione di calore fino ad ottenere una temperatura inferiore a quella necessaria al mantenimento della combustione;"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Gli incendi, in relazione allo stato chimico-fisico dei materiali combustibili, si distinguono in classi:",
+    "opzioni": [
+      "Si, in cinque classi: A, B, C, D ed F",
+      "Si, in tre classi: A, B e C",
+      "No, si distinguono in categorie: 1, 2, 3, 4 e 5"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli incendi di Classe A, in relazione allo stato fisico dei materiali combustibili, sono:",
+    "opzioni": [
+      "incendi di materiali solidi con formazione di braci (carta, cartoni, libri, legna, segatura,  ....)",
+      "incendi di liquidi infiammabili e solidi che possono liquefare (petrolio, vernici, nafta, benzina ....)",
+      "incendi di gas infiammabili (metano, propano, g.p.l., cloro, idrogeno ....)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli incendi di Classe B, in relazione allo stato fisico dei materiali combustibili, sono:",
+    "opzioni": [
+      "incendi di materiali solidi con formazione di braci (carta, cartoni, libri, legna, segatura,  ....)",
+      "incendi di liquidi infiammabili e solidi che possono liquefare (petrolio, vernici, nafta, benzina ....)",
+      "incendi di gas infiammabili (metano, propano, g.p.l., cloro, idrogeno ....)"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Gli incendi di Classe C, in relazione allo stato fisico dei materiali combustibili, sono:",
+    "opzioni": [
+      "incendi di materiali solidi con formazione di braci (carta, cartoni, libri, legna, segatura,  ....)",
+      "incendi di liquidi infiammabili e solidi che possono liquefare (petrolio, vernici, nafta, benzina ....)",
+      "incendi di gas infiammabili (metano, propano, g.p.l., cloro, idrogeno ....)"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Gli incendi di Classe D, in relazione allo stato fisico dei materiali combustibili, sono:",
+    "opzioni": [
+      "incendi di materiali solidi con formazione di braci (carta, cartoni, libri, legna, segatura,  ....)",
+      "incendi di metalli combustibili e sostanze chimiche contenenti ossigeno comburente (magnesio, potassio, fosforo, sodio, titanio, alluminio, carburi, nitrati, clorati, perclorati, perossidi ....).",
+      "incendi che interessano sostanze usate nella cottura (oli e grassi vegetali o animali)"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Gli incendi di Classe F, in relazione allo stato fisico dei materiali combustibili, sono:",
+    "opzioni": [
+      "incendi di materiali solidi con formazione di braci (carta, cartoni, libri, legna, segatura,  ....)",
+      "incendi di metalli combustibili e sostanze chimiche contenenti ossigeno comburente (magnesio, potassio, fosforo, sodio, titanio, alluminio, carburi, nitrati, clorati, perclorati, perossidi ....).",
+      "incendi che interessano sostanze usate nella cottura (oli e grassi vegetali o animali)"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Il combustibile, sostanza che si trasforma durante l’incendio, può trovarsi allo stato solido, liquido o gassoso:",
+    "opzioni": [
+      "No, i combustibili sono sostanze solo allo stato solido",
+      "No, i combustibili sono sostanze che possono essere solo allo stato solido o liquido",
+      "Si, i combustibili possono trovarsi in uno dei tre stati (combustibile solido, liquido o gassoso)"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "La temperatura in corrispondenza della quale inizia la combustione è definita:",
+    "opzioni": [
+      "Temperatura di infiammabilità",
+      "Temperatura di ebollizione",
+      "temperatura di accensione o temperatura di ignizione"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "La più bassa temperatura alla quale un combustibile liquido sviluppa vapori in quantità sufficiente da formare con l'aria una miscela che, in presenza di innesco, si accende è definita",
+    "opzioni": [
+      "Temperatura di infiammabilità",
+      "Temperatura di combustione o accensione",
+      "Temperatura di fusione"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In presenza di liquidi infiammabili (combustibili), la probabilità che si formino vapori in quantità tali da essere incendiati",
+    "opzioni": [
+      "aumenta con il diminuire della temperatura di infiammabilità",
+      "aumenta con l’aumentare della temperatura di infiammabilità",
+      "Non varia al variare della temperature di infiammabilità"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Un liquido “infiammabile” (combustibile), ai fini del rischio incendio/esplosione:",
+    "opzioni": [
+      "È più pericoloso se ha basse temperature di infiammabilità",
+      "È più pericoloso se ha alte temperature di infiammabilità",
+      "La pericolosità dei liquidi infiammabili non dipendente dalla temperatura di infiammabilità"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con limiti di infiammabilità di una sostanza (gassosa o allo stato aeriforme) si intende:",
+    "opzioni": [
+      "le percentuali in volume di combustibile nella miscela aria – combustibile entro le quali può avvenire la combustione",
+      "le percentuali in volume di comburente nella miscela aria – combustibile entro le quali può avvenire la combustione",
+      "la temperatura in corrispondenza della quale un liquido combustibile è in grado di emettere vapori in quantità sufficiente da formare con l'aria una miscela che, in presenza di innesco, si accende"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il “limite inferiore di infiammabilità” di una sostanza (gassosa o allo stato aeriforme):",
+    "opzioni": [
+      "rappresenta la minima concentrazione di comburente, in fase gas, presente nella miscela aria-combustibile che consente a quest'ultima, se innescata, di reagire dando luogo ad una combustione in grado di propagarsi a tutta la miscela.",
+      "rappresenta la minima concentrazione di combustibile, in fase gas, presente nella miscela aria-combustibile che consente a quest'ultima, se innescata, di reagire dando luogo ad una combustione in grado di propagarsi a tutta la miscela.",
+      "rappresenta la massima concentrazione di combustibile, in fase gas, presente nella miscela aria-combustibile che consente a quest’ultima, se innescata, di reagire dando luogo ad una combustione in grado di propagarsi a tutta la miscela."
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Il “limite superiore di infiammabilità” di una sostanza (gassosa o allo stato aeriforme):",
+    "opzioni": [
+      "rappresenta la minima concentrazione di comburente, in fase gas, presente nella miscela aria-combustibile che consente a quest'ultima, se innescata, di reagire dando luogo ad una combustione in grado di propagarsi a tutta la miscela.",
+      "rappresenta la minima concentrazione di combustibile, in fase gas, presente nella miscela aria-combustibile che consente a quest'ultima, se innescata, di reagire dando luogo ad una combustione in grado di propagarsi a tutta la miscela.",
+      "rappresenta la massima concentrazione di combustibile, in fase gas, presente nella miscela aria-combustibile che consente a quest’ultima, se innescata, di reagire dando luogo ad una combustione in grado di propagarsi a tutta la miscela."
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Con il termine “campo di infiammabilità” intendiamo:",
+    "opzioni": [
+      "L’intervallo di concentrazione “miscela aria – combustibile” compreso fra il limite inferiore di infiammabilità ed il limite superiore, caratteristici per ciascuna sostanza",
+      "L’intervallo di temperature in corrispondenza della quale un liquido combustibile è in grado di emettere vapori in quantità sufficiente da formare con l'aria una miscela che, in presenza di innesco, si accende",
+      "L’intervallo di temperature in corrispondenza della quale un liquido combustibile o un gas si innescano"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La temperatura di accensione",
+    "opzioni": [
+      "rappresenta la minima temperatura alla quale un combustibile liquido sviluppa vapori in quantità tale da formare con l'aria una miscela che, in presenza di innesco, brucia spontaneamente",
+      "Rappresenta la temperatura in corrispondenza della quale un liquido va in ebollizione",
+      "rappresenta la minima temperatura alla quale una sostanza combustibile (solida, liquida o gassosa), in presenza di aria inizia a bruciare spontaneamente in modo continuo senza necessità di innesco o di energia dall’esterno"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "La combustione delle sostanze solide è caratterizzata dai seguenti parametri:",
+    "opzioni": [
+      "tipologia, pezzatura e forma del materiale",
+      "grado di porosità contenuto dell’umidità del materiale e ventilazione",
+      "da tutti i parametri indicati negli altri due punti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Per i combustibili liquidi, la reazione di combustione, in presenza di innesco, si genera quando:",
+    "opzioni": [
+      "il liquido emette una quantità di vapori sufficienti, opportunamente miscelati con l’aria",
+      "Il liquido a una bassa temperatura di combustione o accensione",
+      "Il liquido non è chiuso in un contenitore metallico"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In funzione della temperatura di infiammabilità i liquidi combustibili",
+    "opzioni": [
+      "Vengono raggruppati in cinque classi: 1, 2, 3, 4 e 5",
+      "Vengono raggruppati in cinque classi: A, B, C, D ed F",
+      "Vengono raggruppati in tre categorie: A, B e C"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "I liquidi di categoria “A” sono",
+    "opzioni": [
+      "i liquidi aventi temperatura di infiammabilità inferiore a 21°C",
+      "liquidi aventi temperatura di infiammabilità compresa tra 21°C e 65°C",
+      "liquidi aventi temperatura di infiammabilità oltre 65° e fino a 125°C"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I liquidi di categoria “B” sono",
+    "opzioni": [
+      "i liquidi aventi temperatura di infiammabilità inferiore a 21°C",
+      "liquidi aventi temperatura di infiammabilità compresa tra 21°C e 65°C",
+      "liquidi aventi temperatura di infiammabilità oltre 65° e fino a 125°C"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "I liquidi di categoria “C” sono",
+    "opzioni": [
+      "i liquidi aventi temperatura di infiammabilità inferiore a 21°C",
+      "liquidi aventi temperatura di infiammabilità compresa tra 21°C e 65°C",
+      "liquidi aventi temperatura di infiammabilità oltre 65° e fino a 125°C"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "I combustibili gassosi possono essere conservati:",
+    "opzioni": [
+      "in due modalità diverse (compressi o liquefatti) a seconda delle loro caratteristiche fisiche ed in particolare della temperatura critica",
+      "in quattro modalità diverse (compressi, liquefatti, refrigerati, disciolti) a seconda delle loro caratteristiche chimico-fisiche ed in particolare della temperatura critica",
+      "Solo liquefatti"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "I combustibili gassosi sono:",
+    "opzioni": [
+      "quelle sostanze che si trovano allo stato gassoso nelle condizioni alta pressione e di alta temperatura (almeno pressione di 10 bar e temperatura di circa 100°C).",
+      "I combustibili che, a seguito della reazione di combustione, si trasformano in sostanze gassose",
+      "quelle sostanze che si trovano allo stato gassoso nelle condizioni normali di pressione e di temperatura (pressione atmosferica e temperatura di circa 15°C)."
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "I combustibili gassosi, in relazione alla densità relativa all’aria, sono classificati gas pesanti:",
+    "opzioni": [
+      "se la densità relativa all’aria è minore del valore di soglia 0.8 (es. metano,ecc.).",
+      "se la densità relativa all’aria è maggiore del valore di soglia 0.8 (es. GPL, acetilene, ecc.).",
+      "se la densità relativa all’aria è maggiore del valore di soglia 1.0"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "I combustibili gassosi, in relazione alla densità relativa all’aria, sono classificati gas leggeri:",
+    "opzioni": [
+      "se la densità relativa all’aria è minore del valore di soglia 0.8 (es. metano,ecc.).",
+      "se la densità relativa all’aria è maggiore del valore di soglia 0.8 (es. GPL, acetilene, ecc.).",
+      "se la densità relativa all’aria è maggiore del valore di soglia 1.0"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Affinché la combustione abbia luogo è necessaria la presenza di una fonte di innesco, cioè:",
+    "opzioni": [
+      "di una adeguata fiamma libera che, lambendo il materiale combustibile, dia la necessaria energia per l’avvio dell’“incendio non per forza superiore all’energia di attivazione",
+      "di una adeguata sorgente di calore che dia la necessaria energia per l’avvio dell’“incendio”, che deve essere superiore all’energia di attivazione",
+      "Di un adeguata percentuale di ossigeno nell’aria"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le principali sorgenti di attivazione dell’incendio sono",
+    "opzioni": [
+      "Tutte quelle indicate negli altri punti",
+      "Attrito, radiazioni termiche, reazioni chimiche esotermiche e autocombustione",
+      "Fiamme, Superfici calde e scintille e archi elettrici,"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Si ha calore per attrito:",
+    "opzioni": [
+      "quando si ha sfregamento tra due materiali.",
+      "quando il calore d’innesco avviene nelle forme della convezione, conduzione e irraggiamento termico",
+      "quando una fiamma, una scintilla o altro materiale incandescente entra in contatto con un materiale combustibile in presenza di ossigeno"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Si ha autocombustione o riscaldamento spontaneo:",
+    "opzioni": [
+      "quando il calore viene prodotto dallo stesso combustibile che si innesca senza sorgenti esterne di attivazione",
+      "quando il calore d’innesco avviene nelle forme della convezione, conduzione e irraggiamento termico",
+      "quando una fiamma, una scintilla o altro materiale incandescente entra in contatto con un materiale combustibile in presenza di ossigeno"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il calore radiante emesso da caminetti e stufe può innescare un incendio?",
+    "opzioni": [
+      "Si, se il materiale investito dalla radiazione termica raggiunge la temperatura di accensione",
+      "No, i materiali combustibili non possono ma essere innescati per irraggiamento del calore",
+      "No, i materiali combustibili si innescano solo se a contatto diretto con fonti di calore"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Una reazione di combustione può produrre",
+    "opzioni": [
+      "solo fiamme",
+      "calore, fiamme, gas e fumi",
+      "solo calore, gas e fumi"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "I gas di combustione",
+    "opzioni": [
+      "è la quantità di aria necessaria per raggiungere la combustione completa di una determinata quantità di combustibile",
+      "sono quei prodotti allo stato gassoso che si hanno prima della reazione di combustione",
+      "sono quei prodotti della combustione che rimangono allo stato gassoso anche quando raggiungono, raffreddandosi, la temperatura ambiente."
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Le fiamme",
+    "opzioni": [
+      "sono formate da piccolissime particelle solide (aerosol), liquide (nebbie o vapori condensati) disperse nei gas prodotti durante la combustione",
+      "sono costituite dall'emissione di luce come reazione conseguente alla combustione di gas sviluppatosi in un incendio",
+      "sono quei prodotti della combustione che rimangono allo stato gassoso anche quando raggiungono, raffreddandosi, la temperatura ambiente."
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "I fumi",
+    "opzioni": [
+      "sono formati da piccolissime particelle solide (aerosol), liquide (nebbie o vapori condensati) disperse nei gas prodotti durante la combustione",
+      "sono costituiti dall'emissione di luce come reazione conseguente alla combustione di gas sviluppatosi in un incendio",
+      "sono quei prodotti della combustione che rimangono allo stato gassoso anche quando raggiungono, raffreddandosi, la temperatura ambiente."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le sostanze estinguenti sono",
+    "opzioni": [
+      "sostanze che a contatto con altre sostanze, soprattutto se infiammabili, provocano una forte reazione esotermica",
+      "sostanze aventi la proprietà di interrompere la combustione",
+      "sostanze che, in presenza di comburenti, possono comunque sostenere un processo di combustione"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "I principi di azione di spegnimento degli incendi sono:",
+    "opzioni": [
+      "solo raffreddamento",
+      "solo sottrazione del combustibile e soffocamento",
+      "raffreddamento, sottrazione del combustibile, soffocamento e inibizione chmica"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "I principi di azione di spegnimento degli incendi (soffocamento, raffreddamento, ecc) sono gli stessi per tutti gli agenti estinguenti",
+    "opzioni": [
+      "No, ciascun agente estinguente, generalmente, è in grado di esercitare in modo efficace solo alcune specifiche azioni di spegnimento",
+      "Si, ogni agente estinguente agisce esercitando tutte le azioni di spegnimento allo stesso modo",
+      "No, ciascun agente estinguente è in grado di esercitare esclusivamente una singola azione di spegnimento"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le sostanze estinguenti normalmente utilizzate sono",
+    "opzioni": [
+      "Solo l’acqua, la schiuma e le polveri",
+      "Solo i gas inerti (Ar, N, CO2)",
+      "Tutte le sostanze elencate negli altri punti possono essere utilizzate come agenti estinguenti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Nello spegnimento di un incendio, l’acqua, agisce per:",
+    "opzioni": [
+      "raffreddamento e soffocamento",
+      "Solo soffocamento",
+      "inibizione chimica"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nello spegnimento di un incendio, le polveri, agiscono per:",
+    "opzioni": [
+      "raffreddamento e soffocamento",
+      "inibizione chimica",
+      "tutti i parametri indicati negli altri due punti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Nello spegnimento di un incendio, i gas inerti, come Azoto e Argon, agiscono per:",
+    "opzioni": [
+      "raffreddamento",
+      "soffocamento",
+      "inibizione chimica"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Nello spegnimento di un incendio, l’anidride carbonica (CO2), agisce per:",
+    "opzioni": [
+      "soffocamento",
+      "soffocamento e raffreddamento",
+      "inibizione chimica"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La scelta dell’agente estinguente:",
+    "opzioni": [
+      "Dipende dalle caratteristiche delle proprietà della sostanza estinguente, dalle dimensioni del fuoco prevedibile e dalla natura dei prodotti combustibili",
+      "Dipende solo dalle caratteristiche delle proprietà della sostanza estinguente",
+      "È effettuata dal Datore di Lavoro, sulla base del suo giudizio esperto"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "L’impiego dell’acqua come agente estinguente è generalmente vietato in presenza di impianti elettrici sotto tensione",
+    "opzioni": [
+      "No, mai",
+      "No, l’uso dell’acqua è vietato solo in presenza di sostanze reagenti con essa in modo violento ed esplosivo o che possono dar luogo a prodotti tossici o corrosivi",
+      "Si"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "L’impiego dell’acqua come agente estinguente è vietato in presenza di sostanze reagenti con essa in modo violento ed esplosivo o che possono dar luogo a prodotti tossici o corrosivi",
+    "opzioni": [
+      "No, l’importante è provare a spegnere il principio di incendio",
+      "No, l’uso dell’acqua è vietato solo in presenza di impianti elettrici",
+      "Si"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "L’impiego dell’acqua come agente estinguente può essere sconsigliato in caso di ambienti con presenza di apparecchiature delicate e documenti a causa del danno che potrebbe derivarne per gli stessi",
+    "opzioni": [
+      "No, l’importante è provare a spegnere sempre e comunque il principio di incendio",
+      "Si, però solo nei luoghi di lavoro classificati a basso rischio di incendio",
+      "Si"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Le polveri utilizzate come agenti estinguenti sono sempre idonee per qualunque classe di incendio",
+    "opzioni": [
+      "No, esistono diverse tipologie di polveri che forniscono prestazioni diverse a seconda della classe di incendio",
+      "No, le polveri sono efficaci solo per gli incendi di classe A",
+      "Si"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le schiume sono agenti estinguenti",
+    "opzioni": [
+      "costituiti da una miscela di acqua, liquido schiumogeno e aria (o altro gas inerte)",
+      "costituiti da sostanze liquide che vengono sversate direttamente sul materiale in combustione",
+      "Costituiti da sostanze liquide che quando vengono utilizzate si trasformano in gas inerti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le schiume hanno le stesse limitazioni di impiego dell’acqua",
+    "opzioni": [
+      "Si, essendo l’acqua un componente essenziale della schiuma estinguente",
+      "No, essendo un aggregato di bolle di gas non ha limitazioni di impiego",
+      "Si, ma solo per le attività che non possono essere classificate a basso rischio di incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le schiume sono molto efficaci",
+    "opzioni": [
+      "Su incendio che coinvolgono combustibili solidi e liquidi infiammabili",
+      "Su incendi che coinvolgono sostanze gassose",
+      "Su incendi di classe D"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le sostanze estinguenti gassose sono ugualmente efficaci per tutte le classi di incendio",
+    "opzioni": [
+      "Si,",
+      "No, sono generalmente molto efficaci su incendi di liquidi e gas infiammabili o, non essendo conduttrici, incendi che coinvolgono apparecchiature ed impianti elettrici sotto tensione",
+      "No, sono generalmente molto efficaci solo su incendi di materiali organici"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La CO2 è generalmente sconsigliata su apparecchiature sensibili alle brusche variazioni di temperatura",
+    "opzioni": [
+      "Si,",
+      "No, la CO2 agisce solo per soffocamento non determinando problemi di raffreddamento",
+      "Si, ma solo su apparecchiature sotto tensione"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il termine “rischio di incendio” intendiamo",
+    "opzioni": [
+      "la probabilità che l’evento incendio si verifichi (frequenza) e l’entità dei danni sulle persone e i beni presenti negli ambienti considerati conseguenti al verificarsi dell’evento (magnitudo)",
+      "La proprietà o la qualità intrinseca di determinati materiali o attrezzature, oppure metodologie e pratiche del lavoro o di utilizzo di un ambiente”, “potenzialmente capaci di causare un incendio”",
+      "Nessuna delle definizioni riportate negli altri punti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La mitigazione del “rischio di incendio” è possibile attraverso una adeguata progettazione e realizzazione",
+    "opzioni": [
+      "di sole misure di prevenzione degli incendi (es: realizzazione impianti a regola d’arte ...) e di protezione (es: installazione estintori, idranti, ...)",
+      "di sole misure precauzionali di esercizio (misure gestionali)",
+      "di misure di prevenzione degli incendi (es: realizzazione impianti a regola d’arte ...), di protezione (es: installazione estintori, idranti, ...) e di misure precauzionali di esercizio (misure gestionali)"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Le misure di prevenzione, propriamente dette, sono",
+    "opzioni": [
+      "tutte le misure finalizzate alla riduzione del rischio incendio mediante la riduzione della probabilità/frequenza di accadimento dell’evento (impianti a regola d’arte, ...)",
+      "tutte le misure finalizzate alla riduzione del rischio incendio mediante la riduzione del danno conseguente all’evento (es: impianti antincendio, porte tagliafuoco, vie di esodo, ...)",
+      "Tutte le misure finalizzate al mantenimento del livello di sicurezza raggiunto nella progettazione della sicurezza antincendio del luogo di lavoro (manutenzione, controllo, sorveglianza, formazione, addestramento, pianificazione emergenza, e...."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nei luoghi di lavoro, in conformità alle disposizioni dettate dal Dlgs 81/2008, è sempre obbligatorio per il Datore di Lavoro adottare idonee misure per prevenire gli incendi e tutelare l’incolumità delle persone",
+    "opzioni": [
+      "No, si attuano solo se a seguito di specifica valutazione del rischio incendio il luogo di lavoro non risulta a rischio di incendio basso",
+      "No, solo per i luoghi di lavoro che sono contemporaneamente attività soggette ai controlli dei vigili del fuoco",
+      "Si, nei luoghi di lavoro è sempre obbligatorio adottare misure per prevenire gli incendi"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Le misure di protezione sono",
+    "opzioni": [
+      "tutte le misure finalizzate alla riduzione del rischio incendio mediante la riduzione della probabilità/frequenza di accadimento dell’evento (impianti a regola d’arte, ...)",
+      "tutte le misure finalizzate alla riduzione del rischio incendio mediante la riduzione del danno conseguente all’evento (es: impianti antincendio, porte tagliafuoco, vie di esodo, ...)",
+      "Tutte le misure finalizzate al mantenimento del livello di sicurezza raggiunto nella progettazione della sicurezza antincendio del luogo di lavoro (manutenzione, controllo, sorveglianza, formazione, addestramento, pianificazione emergenza, e...."
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le misure di protezione attiva sono",
+    "opzioni": [
+      "tutti quei dispositivi che, a seguito della rivelazione di un incendio, sono in grado di esplicare l’azione protettiva senza richiedere alcuna azione (impiantistica o umana)",
+      "tutti quei dispositivi che, a seguito della rivelazione di un incendio, per esplicare l’azione protettiva necessitano di un intervento o un’azione (impiantistica o umana)",
+      "tutti quei dispositivi che consentono di ridurre la probabilità che si inneschi un incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le misure di protezione passiva sono",
+    "opzioni": [
+      "tutti quei dispositivi che, a seguito della rivelazione di un incendio, sono in grado di esplicare l’azione protettiva senza richiedere alcuna azione (impiantistica o umana)",
+      "tutti quei dispositivi che, a seguito della rivelazione di un incendio, per esplicare l’azione protettiva necessitano di un intervento o un’azione (impiantistica o umana)",
+      "tutti quei dispositivi che consentono di ridurre la probabilità che si inneschi un incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I sistemi di controllo dell’incendio (estintori, idranti, naspi, ...) sono",
+    "opzioni": [
+      "Misure di protezione passiva in quanto, per esplicare l’azione protettiva non necessitano di alcuna azione (impiantistica o umana)",
+      "Misure di protezione attiva in quanto, per esplicare l’azione protettiva necessitano di un intervento o un’azione (impiantistica o umana)",
+      "Sono misure di prevenzione in quanto, la loro installazione consente di ridurre la frequenza di accadimento degli incendi"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Il sistema di esodo (vie di esodo verticali, orizzontali, ...) sono",
+    "opzioni": [
+      "Misure di protezione passiva in quanto, per esplicare l’azione protettiva non necessitano di alcuna azione (impiantistica o umana)",
+      "Misure di protezione attiva in quanto, per esplicare l’azione protettiva necessitano di un intervento o un’azione (impiantistica o umana)",
+      "Sono misure di prevenzione in quanto, la loro realizzazione consente di ridurre la frequenza di accadimento degli incendi"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le porte EI “tagliafuoco” sono",
+    "opzioni": [
+      "Misure di protezione passiva in quanto, per esplicare l’azione protettiva non necessitano di alcuna azione (impiantistica o umana)",
+      "Misure di protezione attiva in quanto, per esplicare l’azione protettiva necessitano di un intervento o un’azione (impiantistica o umana)",
+      "Sono misure di prevenzione in quanto, la loro realizzazione consente di ridurre la frequenza di accadimento degli incendi"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le porte EI “tagliafuoco”, munite di “fermi elettromagnetici in apertura” asserviti a impianti IRAI, sono",
+    "opzioni": [
+      "Misure di protezione passiva in quanto, per esplicare l’azione protettiva non necessitano di alcuna azione (impiantistica o umana)",
+      "Misure di protezione attiva in quanto, per esplicare l’azione protettiva necessitano di un intervento o un’azione (impiantistica o umana)",
+      "Sono misure di prevenzione in quanto, la loro realizzazione consente di ridurre la frequenza di accadimento degli incendi"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’ambito della sicurezza antincendio, il rischio per la salvaguardia dell’incolumità delle persone è caratterizzato",
+    "opzioni": [
+      "dalla caratteristica prevalente degli occupanti (occ) e dalla velocità caratteristica prevalente di crescita dell’incendio (),",
+      "Solo dalla velocità di crescita dell’incendio (),",
+      "Solo dalle caratteristiche degli occupanti (occ)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Che cosa si intende per fattore occ nell’individuazione del profilo di rischio Rvita:",
+    "opzioni": [
+      "si intendono le caratteristiche prevalenti degli occupanti che sono classificate in 5 categorie, in base allo stato di veglia e di conoscenza del luogo",
+      "si intendono le caratteristiche degli occupanti che per vulnerabilità sono più rappresentativi dell’attività svolta nell’ambito considerato (persone anziane, bambini, ecc)",
+      "si intendono le caratteristiche degli occupanti che per numerosità e tipologia sono mediamente rappresentativi dell’attività svolta nell’ambito considerato"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La velocità caratteristica prevalente di crescita dell’incendio (), fattore necessario per caratterizzare il rischio per la salvaguarda dell’incolumità delle persone",
+    "opzioni": [
+      "Rappresenta la velocità caratteristica prevalente di crescita dell’incendio, riferita al tempo t in secondi impiegato dalla potenza termica per raggiungere il valore di 1000 kW",
+      "È la velocità di combustione del materiale mc [kg\\s]",
+      "La velocità di crescita dell’incendio non è un fattore importante per la valutazione del rischio al quale sono esposte le persone"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "L’incendio è",
+    "opzioni": [
+      "qualunque reazione chimica nella quale un combustibile, sostanza ossidabile, reagisce con un comburente, sostanza ossidante, liberando energia, in genere sotto forma di calore",
+      "qualunque reazione chimica che avviene in un luogo di lavoro nella quale un combustibile, sostanza ossidabile, reagisce con un comburente, sostanza ossidante, liberando energia, in genere sotto forma di calore",
+      "una combustione in atmosfera di ossigeno (quello contenuto nell’aria), che avviene in un luogo non predisposto ad accoglierla e che per tale motivo spesso sfugge al controllo dell’uomo"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "La severità dell'incendio dipende",
+    "opzioni": [
+      "Dalla quantità e dalla tipologia dei materiali combustibili e dalla loro distribuzione",
+      "Dalle caratteristiche di ventilazione e dalla geometria degli ambienti interessati dall’incendio",
+      "Da tutti i fattori elencati negli altri due punti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Nell’evoluzione di un incendio si possono individuare le seguenti fasi caratteristiche",
+    "opzioni": [
+      "Fase di ignizione, fase di propagazione, punto di flash over, fase di incendio generalizzato e fase di estinzione",
+      "Fase di ignizione, fase di propagazione e incendio generalizzato (flash over)",
+      "Fase di ignizione, fase di propagazione (flash over) e fase di estinzione"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’evoluzione di un incendio la fase iniziale o di ignizione di un incendio",
+    "opzioni": [
+      "È caratterizzata dalla combustione di oggetti limitrofi alla zona di innesco con aumento rapido della temperatura e dell’energia di irraggiamento",
+      "È caratterizzata dalla transizione da uno stato di incendio localizzato alla propagazione delle fiamme a tutto il volume disponibile, con brusco incremento della temperatura, raggiungimento del flash over (oltre 500°) e crescita esponenziale della velocità di combustione",
+      "è caratterizzata da un focolaio d’incendio che interessa una zona limitata dell’ambiente"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Nell’evoluzione di un incendio la fase propagazione",
+    "opzioni": [
+      "È caratterizzata dalla combustione di oggetti limitrofi alla zona di innesco con aumento rapido della temperatura e dell’energia di irraggiamento",
+      "È caratterizzata dalla transizione da uno stato di incendio localizzato alla propagazione delle fiamme a tutto il volume disponibile, con brusco incremento della temperatura, raggiungimento del flash over (oltre 500°) e crescita esponenziale della velocità di combustione",
+      "è caratterizzata da un regime instabile, con un focolaio d’incendio che interessa zone limitate e temperature molto differenti da punto a punto e che possono subire rapide ed ingenti oscillazioni"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’evoluzione di un incendio la fase di incendio generalizzato",
+    "opzioni": [
+      "È caratterizzata dalla combustione di oggetti limitrofi alla zona di innesco con aumento rapido della temperatura e dell’energia di irraggiamento",
+      "È caratterizzata dalla transizione da uno stato di incendio localizzato alla propagazione delle fiamme a tutto il volume disponibile, con brusco incremento della temperatura, raggiungimento del flash over (oltre 500°) e crescita esponenziale della velocità di combustione",
+      "è caratterizzata da un regime instabile, con un focolaio d’incendio che interessa zone limitate e temperature molto differenti da punto a punto e che possono subire rapide ed ingenti oscillazioni"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Nell’evoluzione di un incendio la fase di raffreddamento",
+    "opzioni": [
+      "Ha inizio quando la maggior parte del materiale combustibile presente è bruciato, ed è caratterizzata dal decremento delle temperature all’interno del locale a causa del progressivo diminuire dell’apporto termico del materiale residuo",
+      "È caratterizzata dall’abbattimento delle temperature a seguito dell’azione estinguente dell’acqua",
+      "è caratterizzata da un regime instabile, con un focolaio d’incendio che interessa zone limitate e temperature molto differenti da punto a punto e che possono subire rapide ed ingenti oscillazioni"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I principali effetti sull’uomo sono determinati dai prodotti della combustione, ovvero",
+    "opzioni": [
+      "Anossia (riduzione dell’ossigeno nell’aria), azione tossica dei gas, riduzione della visibilità per il fumo e azione termica del calore prodotto",
+      "Anossia (riduzione dell’ossigeno nell’aria) e azione tossica dei gas",
+      "riduzione della visibilità per il fumo e azione termica del calore prodotto"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il monossido di carbonio (CO), che generalmente si sviluppa durante gli incendi in ambienti chiusi a causa della carenza di ossigeno:",
+    "opzioni": [
+      "È una sostanza tossica che, combinandosi con l’emoglobina dei globuli rossi del sangue, impedisce all’ossigeno di raggiungere le cellule dell’organismo",
+      "E’ un gas asfissiante",
+      "E’ un gas che non comporta rischi per le persone"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il monossido di carbonio (CO), gas tossico per il sangue, che generalmente si sviluppa durante gli incendi in ambienti chiusi a causa della carenza di ossigeno:",
+    "opzioni": [
+      "È un gas la cui presenza non viene rilevata dall’uomo poiché è inodore, incolore e non irritante",
+      "E’ un gas dal colore caratteristico ed è facilmente individuabile dall’uomo",
+      "E’ un gas dall’odore caratteristico di mandorle ed è facilmente percepibile dall’uomo"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "L’anidride carbonica, che si può sviluppare durante gli incendi in ambienti chiusi:",
+    "opzioni": [
+      "È una sostanza tossica per il sangue che impedisce all’ossigeno di raggiungere le cellule dell’organismo",
+      "E’ un gas asfissiante che, pur non producendo effetti tossici sull’organismo, può essere pericolosa perché si sostituisce all’ossigeno nell’aria",
+      "E’ un gas che non comporta mai rischi per le persone"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La pulizia dei luoghi ed il mantenimento dell’ordine sono",
+    "opzioni": [
+      "Misure preventive, in quanto concorrono alla riduzione della probabilità di innesco di incendi e alla velocità di crescita dei focolari",
+      "Misure protettive, in quanto concorrono alla riduzione dei possibili danni conseguenti l’incendio",
+      "Misure gestionali che non concorrono alla riduzione dei rischi di incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La prevenzione di un incendio in un luogo di lavoro può essere ottenuta",
+    "opzioni": [
+      "solo riducendo gli inneschi efficaci",
+      "solo riducendo il quantitativo di materiale combustibile presente negli ambienti",
+      "anche riducendo gli inneschi efficaci e il quantitativo di materiale combustibile presente negli ambienti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Il controllo e la manutenzione regolare dei sistemi, dispositivi, attrezzature e degli impianti rilevanti ai fini della sicurezza antincendio (es: impianti elettrici, adduzione gas, impianti termici, ecc)",
+    "opzioni": [
+      "rientrano fra le azioni necessarie per prevenire l’insorgere di incendi",
+      "sono misure gestionali che non incidono sulla probabilità di accadimento di un incendio",
+      "Il controllo e la manutenzione non rientrano fra le attività finalizzate alla sicurezza antincendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La gestione dei lavori di manutenzione o di modifica dell’attività (cantieri)",
+    "opzioni": [
+      "rientra fra le azioni necessarie per prevenire l’insorgere di incendi",
+      "è una misura gestionale che non incide sulla probabilità di accadimento di un incendio",
+      "La pianificazione e gestione dei lavori all’interno dei luoghi di lavoro non rientra fra le attività finalizzate alla sicurezza antincendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Secondo il D.M. 3 agosto 2015 (Codice di Prevenzione Incendi), nelle attività lavorative la \"formazione ed informazione\" del personale ai rischi specifici dell’attività:",
+    "opzioni": [
+      "E' una misura che contribuisce alla mitigazione del rischio incendio",
+      "Il D.M. 3 agosto 2015 (Codice di Prevenzione Incendi) non contempla i concetti di \"formazione e informazione\"",
+      "Non è una misura che contribuisce alla mitigazione del rischio incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "L’adozione di istruzioni e segnaletiche contenenti i divieti e le precauzioni da osservare",
+    "opzioni": [
+      "è una misura di prevenzione incendi",
+      "è una misura di protezione incendi",
+      "Non è una misura che contribuisce alla mitigazione del rischio incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La progettazione e realizzazione a regola d’arte degli impianti tecnologici e di servizio (impianti elettrici, gas, riscaldamento, eccc) può essere considerata una misura di prevenzione degli incendi",
+    "opzioni": [
+      "Si, perché la progettazione e realizzazione deve essere effettuata in modo da limitare la probabilità di costituire causa di incendio ed esplosione",
+      "No, poiché la progettazione e realizzazione ha come obiettivo quello di limitare solo la propagazione di un incendio",
+      "La progettazione e realizzazione di impianti tecnologici e di servizio non influisce sul rischio incendio dell’attività lavorativa"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In un luogo di lavoro, per mantenere nel tempo il livello di sicurezza antincendio realizzato, è necessario organizzare un adeguato controllo degli ambienti (verificare che i percorsi di esodo siano sempre fruibili e liberi da ostacoli, verificare il funzionamento dei dispositivi di apertura delle porte, ecc)",
+    "opzioni": [
+      "Si, la verifica delle condizioni di esercizio stabilite nella progettazione della sicurezza è fondamentale ai fini della mitigazione del rischio incendio",
+      "No, il controllo degli ambienti di lavoro non influisce sulla sicurezza antincendio dell’attività",
+      "No, il datore di lavoro ha solo l’obbligo di fare manutenzione agli impianti e alle attrezzature antincendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La segnaletica di sicurezza contribuisce alla prevenzione e protezione dai rischi di incendio",
+    "opzioni": [
+      "Si, l’adozione della segnaletica di sicurezza favorisce la corretta gestione dell’attività anche ai fini della sicurezza antincendio",
+      "No, la segnaletica è facoltativa e non contribuisce a mitigare il rischio incendio",
+      "No, la segnaletica ha la finalità di prevenire solo i rischi per la salute delle persone"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La segnaletica di sicurezza contribuisce alla prevenzione e protezione dai rischi di incendio",
+    "opzioni": [
+      "una segnaletica che, riferita ad un oggetto, ad un’attività o ad una situazione determinata, fornisce un’indicazione o una prescrizione concernente la sicurezza, e che utilizza, a seconda dei casi, un cartello, un colore, un segnale luminoso o acustico, una comunicazione verbale o un segnale gestuale",
+      "una segnaletica che prescrive un determinato comportamento",
+      "un segnale che vieta un comportamento che potrebbe far correre o causare un pericolo"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, con segnale di divieto intendiamo",
+    "opzioni": [
+      "un segnale che avverte di un rischio o pericolo",
+      "una segnaletica che prescrive un determinato comportamento",
+      "un segnale che vieta un comportamento che potrebbe far correre o causare un pericolo"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, con segnale di avvertimento intendiamo",
+    "opzioni": [
+      "un segnale che avverte di un rischio o pericolo",
+      "una segnaletica che prescrive un determinato comportamento",
+      "un segnale che vieta un comportamento che potrebbe far correre o causare un pericolo"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, con segnale di prescrizione intendiamo",
+    "opzioni": [
+      "un segnale che avverte di un rischio o pericolo",
+      "una segnaletica che prescrive un determinato comportamento",
+      "un segnale che vieta un comportamento che potrebbe far correre o causare un pericolo"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, con segnale di con segnale di salvataggio e soccorso intendiamo",
+    "opzioni": [
+      "un segnale che avverte di un rischio o pericolo",
+      "un segnale che fornisce indicazioni relative alle uscite di sicurezza o ai mezzi di soccorso o di salvataggio",
+      "un segnale che vieta un comportamento che potrebbe far correre o causare un pericolo"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, le forme e i colori utilizzati per i cartelli di sicurezza da impiegare nei luoghi di lavoro",
+    "opzioni": [
+      "Sono puntualmente definiti nel DLgs 81/2008 in funzione del loro oggetto specifico e delle indicazioni fornite (cartelli di divieto, di avvertimento, di prescrizione, di salvataggio e per le attrezzature antincendio)",
+      "Sono scelti dal Datore di Lavoro",
+      "Sono scelti dal professionista incaricato della valutazione del rischio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, i cartelli di sicurezza di forma “rotonda”, con pittogramma nero su fondo bianco e boro e banda (verso il basso da sinistra a destra, inclinata di 45°) rossi sono",
+    "opzioni": [
+      "Segnali di avvertimento",
+      "Segnali di prescrizione",
+      "segnali di divieto"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di divieto, che segnala il divieto di usare fiamme libere",
+      "E’ un cartello di prescrizione, che prescrive di non usare fiamme libere",
+      "E’ un cartello di avvertimento, che avverte che è pericoloso utilizzare fiamme libere"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di divieto, che segnala il divieto di utilizzare acqua per spegnere le fiamme",
+      "E’ un cartello di prescrizione, che prescrive di non usare acqua per spegnere un fuoco",
+      "E’ un cartello di avvertimento, che avverte che è pericoloso utilizzare acqua per spegnere un fuoco"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, i cartelli di sicurezza di forma “triangolare”, con pittogramma nero su fondo giallo e bordo nero sono",
+    "opzioni": [
+      "Segnali di avvertimento",
+      "Segnali di prescrizione",
+      "segnali di divieto"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala un pericolo generico",
+      "E’ un cartello di prescrizione, che prescrive un pericolo generico",
+      "E’ un cartello di divieto, che segnala un divieto generico"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala la presenza di sostanze infiammabili",
+      "E’ un cartello di prescrizione, che prescrive l’uso di sostanze infiammabili",
+      "E’ un cartello di divieto, che vieta l’uso di sostanze infiammabili"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala l’esposizione ad un rischio elettrico",
+      "E’ un cartello di prescrizione, che prescrive l’uso di apparecchiature alimentate elettricamente",
+      "E’ un cartello di divieto, che vieta l’uso di apparecchiature alimentate elettricamente"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, i cartelli di sicurezza di forma “rotonda”, con pittogramma bianco su fondo azzurro sono",
+    "opzioni": [
+      "Segnali di avvertimento",
+      "Segnali di prescrizione",
+      "segnali di divieto"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala il pericolo per le vie respiratorie",
+      "E’ un cartello di prescrizione, che prescrive l’obbligo di protezione delle vie respiratorie",
+      "E’ un cartello di divieto, che vieta l’utilizzo di dispositivi di protezione delle vie respiratorie"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala il pericolo per gli le mani",
+      "E’ un cartello di prescrizione, che prescrive l’obbligo di usare i guanti protettivi",
+      "E’ un cartello di divieto, che vieta l’utilizzo di guanti protettivi"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, i cartelli di sicurezza di forma “quadrata o rettangolare”, con pittogramma bianco su fondo verde sono",
+    "opzioni": [
+      "Segnali di salvataggio",
+      "Segnali di prescrizione",
+      "segnali di divieto"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che avvisa che la via di esodo è a destra",
+      "E’ un cartello di salvataggio, che indica che la via di esodo è a destra",
+      "E’ un cartello di salvataggio, che indica che a destra c’è una porta"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che avvisa dove è il punto di raccolta",
+      "E’ un cartello di salvataggio, che indica il punto di raccolta",
+      "E’ un cartello di salvataggio, che indica che al centro dell’ambiente in cui è collocato siamo al sicuro"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, i cartelli di sicurezza di forma “quadrata o rettangolare”, con pittogramma bianco su fondo rosso sono",
+    "opzioni": [
+      "Segnali per le attrezzature antincendio",
+      "Segnali di divieto",
+      "segnali di salvataggio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala il pericolo di incendio",
+      "E’ un cartello per le attrezzature antincendio, che segnala l’ubicazione di una lancia antincendio “naspo”",
+      "E’ un cartello di divieto, che vieta l’utilizzo di acqua sull’incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala il pericolo di incendio",
+      "E’ un cartello per le attrezzature antincendio, che segnala l’ubicazione di una lancia antincendio “idrante”",
+      "E’ un cartello di divieto, che vieta l’utilizzo di acqua sull’incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con riferimento al Dlgs 81/2008, cosiddetto “Testo Unico Sicurezza Lavoratori”, il seguente cartello",
+    "opzioni": [
+      "È un cartello di avvertimento, che segnala il pericolo di incendio",
+      "E’ un cartello per le attrezzature antincendio, che segnala l’ubicazione di un “estintore”",
+      "E’ un cartello di divieto, che vieta l’utilizzo di estintori sull’incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La reazione al fuoco rappresenta",
+    "opzioni": [
+      "il comportamento di un materiale che, con la sua decomposizione, partecipa al fuoco al quale è stato sottoposto in specifiche condizioni",
+      "grado di partecipazione di un materiale (o di un prodotto) al fuoco al quale è stato sottoposto",
+      "la capacità portante in caso di incendio, per una struttura, per una parte della struttura o per un elemento strutturale nonché la capacità di compartimentazione in caso di incendio per gli elementi di separazione strutturali (es. muri, solai, ...) e non strutturali (es. porte, divisori, ...)."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La misura antincendio “reazione al fuoco”",
+    "opzioni": [
+      "È una misura di protezione passiva che esplica i suoi principali effetti nella fase iniziale dell’incendio, con l’obiettivo di limitare l’innesco dei materiali e la propagazione dell’incendio.",
+      "È una misura di protezione passiva che esplica i suoi principali effetti nella fase generalizzata dell’incendio, con l’obiettivo di limitare la propagazione dell’incendio",
+      "È una misura di protezione attiva che esplica i suoi principali effetti nella fase iniziale dell’incendio, con l’obiettivo di limitare l’innesco dei materiali e la propagazione dell’incendio."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le classi di reazione al fuoco 1 IM, 2 IM e 3 IM",
+    "opzioni": [
+      "Esprimono la classificazione alla reazione al fuoco dei mobili imbottiti",
+      "Esprimono la classificazione alla reazione al fuoco dei prodotti da costruzione",
+      "Non esprimono una classificazione al fuoco per nessun materiale"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le classi di reazione al fuoco 0, 1, 2, 3, 4 e 5",
+    "opzioni": [
+      "Esprimono le classi italiane di reazione al fuoco dei materiali",
+      "Esprimono le classi europee di reazione al fuoco dei materiali",
+      "Non esprimono una classificazione al fuoco per nessun materiale"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le classi di reazione al fuoco A1, A2, B, C, D, E ed F",
+    "opzioni": [
+      "Esprimono le classi italiane di reazione al fuoco dei materiali",
+      "Esprimono le classi europee di reazione al fuoco dei prodotti da costruzione",
+      "Non esprimono una classificazione al fuoco per nessun materiale"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le classi di reazione al fuoco",
+    "opzioni": [
+      "Sono determinate sperimentalmente, con prove di laboratorio",
+      "Sono determinate dal progettista antincendio",
+      "Sono stabilite dal produttore del materiale sulla base di norme di buona progettazione"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La Resistenza al fuoco rappresenta",
+    "opzioni": [
+      "la capacità portante in caso di incendio, per una struttura, per una parte della struttura o per un elemento strutturale",
+      "la capacità portante in caso di incendio, per una struttura, per una parte della struttura o per un elemento strutturale nonché la capacità di compartimentazione in caso di incendio per gli elementi di separazione strutturali (es. muri, solai, ...) e non strutturali (es. porte, divisori, ...).",
+      "la capacità di compartimentazione in caso di incendio per gli elementi di separazione strutturali (es. muri, solai, ...) e non strutturali (es. porte, divisori, ...)."
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La finalità della Resistenza al fuoco è",
+    "opzioni": [
+      "quella di garantire la capacità portante delle strutture in condizioni di incendio nonché la capacità di compartimentazione, per un tempo minimo necessario al raggiungimento degli obiettivi di sicurezza di prevenzione incendi",
+      "quella di garantire la capacità portante delle strutture in condizioni di incendio nonché la capacità di compartimentazione, per tutta la durata dell’incendio",
+      "quella di garantire la capacità portante delle strutture in condizioni di incendio nonché la capacità di compartimentazione, il tempo sufficiente a garantire l’esodo delle persone"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La Classe di Resistenza al fuoco (es: R 60, R 90, ... ) è",
+    "opzioni": [
+      "intervallo di tempo espresso in minuti, definito in base al carico di incendio specifico di progetto, durante il quale il compartimento antincendio garantisce la resistenza al fuoco",
+      "intervallo di tempo espresso in secondi, definito in base al carico di incendio specifico di progetto, durante il quale il compartimento antincendio garantisce la resistenza al fuoco",
+      "intervallo di tempo espresso in ore, definito in base al carico di incendio specifico di progetto, durante il quale il compartimento antincendio garantisce la resistenza al fuoco"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il simbolo R, utilizzato nella sigla REI (es: REI 60, REI 90), indichiamo la seguente prestazione di resistenza al fuoco",
+    "opzioni": [
+      "La capacità portante, cioè la capacità di un elemento strutturale di portare i carichi presenti in condizioni di incendio normalizzato, per un certo periodo di tempo",
+      "La tenuta, cioè la capacità di un elemento costruttivo o strutturale di impedire il passaggio di fumi e gas caldi per un certo periodo di tempo, in condizioni di incendio normalizzate",
+      "L’isolamento, cioè la capacità di un elemento costruttivo o strutturale di impedire il passaggio calore di un incendio normalizzato per un certo periodo di tempo"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il simbolo E, utilizzato nella sigla REI (es: REI 60, REI 90), indichiamo la seguente prestazione di resistenza al fuoco",
+    "opzioni": [
+      "La capacità portante, cioè la capacità di un elemento strutturale di portare i carichi presenti in condizioni di incendio normalizzato, per un certo periodo di tempo",
+      "La tenuta, cioè la capacità di un elemento costruttivo o strutturale di impedire il passaggio di fumi e gas caldi per un certo periodo di tempo, in condizioni di incendio normalizzate",
+      "L’isolamento, cioè la capacità di un elemento costruttivo o strutturale di impedire il passaggio calore di un incendio normalizzato per un certo periodo di tempo"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con il simbolo I, utilizzato nella sigla REI (es: REI 60, REI 90), indichiamo la seguente prestazione di resistenza al fuoco",
+    "opzioni": [
+      "La capacità portante, cioè la capacità di un elemento strutturale di portare i carichi presenti in condizioni di incendio normalizzato, per un certo periodo di tempo",
+      "La tenuta, cioè la capacità di un elemento costruttivo o strutturale di impedire il passaggio di fumi e gas caldi per un certo periodo di tempo, in condizioni di incendio normalizzate",
+      "L’isolamento, cioè la capacità di un elemento costruttivo o strutturale di impedire il passaggio calore di un incendio normalizzato per un certo periodo di tempo"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Con il simbolo REI 60 si identifica un elemento costruttivo che",
+    "opzioni": [
+      "deve conservare, per 60 minuti, la capacità portante, la tenuta e l’isolamento termico",
+      "deve conservare, per 60 minuti, la capacità portante e la tenuta",
+      "deve conservare, per 60 minuti, solo la capacità portante."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il simbolo RE 60 si identifica un elemento costruttivo che",
+    "opzioni": [
+      "deve conservare, per 60 minuti, la capacità portante, la tenuta e l’isolamento termico",
+      "deve conservare, per 60 minuti, la capacità portante e la tenuta",
+      "deve conservare, per 60 minuti, solo la capacità portante."
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con il simbolo R 60 si identifica un elemento costruttivo che",
+    "opzioni": [
+      "deve conservare, per 60 minuti, la capacità portante, la tenuta e l’isolamento termico",
+      "deve conservare, per 60 minuti, la capacità portante e la tenuta",
+      "deve conservare, per 60 minuti, solo la capacità portante."
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "La Capacità di Compartimentazione rappresenta",
+    "opzioni": [
+      "attitudine di un elemento costruttivo a conservare, sotto l’azione del fuoco, un sufficiente isolamento termico (I) ed una sufficiente tenuta ai fumi e ai gas caldi della combustione (E), nonché tutte le altre eventuali prestazioni se richieste",
+      "la sola attitudine di un elemento costruttivo a conservare, sotto l’azione del fuoco, un sufficiente isolamento termico (I)",
+      "la sola attitudine di un elemento costruttivo a conservare, sotto l’azione del fuoco, una sufficiente tenuta ai fumi e ai gas caldi della combustione (E)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il termine “compartimento” intendiamo",
+    "opzioni": [
+      "parte dell’opera da costruzione delimitata da prodotti o elementi costruttivi idonei a garantire, sotto l’azione del fuoco e per un dato intervallo di tempo, la resistenza al fuoco (EI, ...)",
+      "parte dell’opera da costruzione nella quale la probabilità di avvio e sviluppo dell’incendio sia resa trascurabile",
+      "spazio “cielo libero” avente caratteristiche tali da contrastare temporaneamente la propagazione dell’incendio tra le eventuali opere da costruzione o strutture che lo delimitano"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il termine “filtro” intendiamo",
+    "opzioni": [
+      "parte dell’opera da costruzione delimitata da prodotti o elementi costruttivi idonei a garantire, sotto l’azione del fuoco e per un dato intervallo di tempo, la resistenza al fuoco (EI, ...)",
+      "Un compartimento antincendio nel quale, per basso carico di incendio e limitata presenza di sorgenti di innesco, la probabilità di avvio e sviluppo dell’incendio è resa trascurabile",
+      "spazio “cielo libero” avente caratteristiche tali da contrastare temporaneamente la propagazione dell’incendio tra le eventuali opere da costruzione o strutture che lo delimitano"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con il termine “compartimento a prova di fumo” intendiamo",
+    "opzioni": [
+      "un compartimento separato dagli altri compartimenti adiacenti mediante strutture EI adeguate senza alcuna comunicazione",
+      "un compartimento realizzato in modo da limitare l’ingresso di fumo generato da un incendio che si sviluppa in compartimenti comunicanti",
+      "Un compartimento dove è vietato fumare"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con il termine “filtro a prova di fumo” intendiamo",
+    "opzioni": [
+      "Un compartimento antincendio realizzato con i requisiti di “filtro”, cioè dove è improbabile l’innesco di un incendio, e anche con i requisiti di un compartimento a “prova di fumo”, cioè nel quale è impedito anche l’ingresso di effluenti dell’incendio",
+      "Un disimpegno realizzato con strutture e porte REI\\EI mantenuto in sovrappressione, ovvero dotato di camino di smaltimento dei fumi o aerato direttamente verso l’esterno",
+      "Un compartimento antincendio avente anche i requisiti di compartimento a “prova di fumo”, cioè nel quale è impedito l’ingresso di effluenti dell’incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La finalità della Compartimentazione è quella di",
+    "opzioni": [
+      "limitare la propagazione dell’incendio e dei suoi effetti verso altre attività, afferenti ad altro responsabile dell’attività o di diversa tipologia, e all’interno della stessa attività",
+      "limitare la propagazione dell’incendio e dei suoi effetti solo all’interno della stessa attività",
+      "limitare la propagazione dell’incendio e dei suoi effetti solo verso altre attività, afferenti ad altro responsabile dell’attività o di diversa tipologia"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La compartimentazione è realizzata mediante",
+    "opzioni": [
+      "Elementi strutturali e non aventi la capacità di conservare, sotto l’azione del fuoco, i requisiti di resistenza, tenuta ai fumi e isolamento termico per un determinato intervallo di tempo",
+      "interposizione di distanze di separazione, tra opere da costruzione o altri bersagli combustibili, anche ubicati in spazio a cielo libero",
+      "Entrambe le modalità indicate negli altri due punti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Al fine di realizzare una compartimentazione efficace è fondamentale che le chiusure d’ambito orizzontali e verticali costituiscano una barriera continua ed uniforme contro la propagazione degli effetti dell’incendio",
+    "opzioni": [
+      "No, eventuali discontinuità, grandi o piccole, (attraversamenti di impianti tecnologici o di processo, canalizzazioni, ecc) non invalidano le proprietà di compartimentazione delle chiusure di ambito",
+      "La continuità delle chiusure di ambito orizzontali e verticali sono fondamentali per garantire una effettiva ed efficace compartimentazione; pertanto, la loro realizzazione deve essere particolarmente accurata (giunzioni, serrande tagliafuoco, ecc)",
+      "Si, ma solo in caso di attività utilizzate prevalentemente da persone classificabili di tipo C, D ed E ai fini del Rvita"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Fra diverse attività o ambiti della stessa attività, separate da spazio a cielo libero, è possibile la propagazione di un incendio",
+    "opzioni": [
+      "No, mai; l’interposizione di uno spazio superiormente libero (cortile, strada, ecc) fra due edifici non consente la propagazione di un incendio in nessun caso",
+      "Si, pertanto, al fine di impedire la propagazione di un incendio all’esterno di un’attività è sempre necessario verificare che sia esistente una adeguata distanza di separazione fra ambiti della stessa attività o verso altre attività",
+      "Si, ma solo in caso di attività non classificabili a basso rischio di incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La porta “taglia fuoco” (porta EI) è",
+    "opzioni": [
+      "L’elemento di chiusura di un varco di comunicazione tra compartimenti adiacenti, in grado di limitare per un determinato intervallo di tempo la propagazione degli effetti di un incendio",
+      "L’elemento di chiusura di un varco di comunicazione tra scala protetta e piani serviti, in grado di limitare per un determinato intervallo di tempo la propagazione degli effetti di un incendio",
+      "L’elemento di chiusura di un varco di comunicazione tra la scala a prova di fumo e i piani serviti, in grado di limitare per un determinato intervallo di tempo la propagazione degli effetti di un incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La porta “taglia fuoco” (porta EI), elemento di chiusura di un varco di comunicazione tra compartimenti adiacenti, in grado di limitare per un determinato intervallo di tempo la propagazione degli effetti di un incendio",
+    "opzioni": [
+      "deve essere adeguatamente segnalata su entrambi i lati e oggetto di specifica attività di sorveglianza, controllo e manutenzione",
+      "non deve essere segnalata né oggetto di specifica attività di sorveglianza, controllo e manutenzione",
+      "deve essere sempre colorata di “rosso”"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Qualunque spazio a cielo libero (es: cortile, cavedio, ...) è qualificabile come “spazio scoperto” ai fini del contrasto temporaneo alla propagazione dell’incendio tre le opere da costruzione o strutture che lo delimitano",
+    "opzioni": [
+      "Si, è sufficiente che un’area sia a “cielo libero”, a prescindere dalla superficie e dalle distanze fra le strutture che la delimitano, per contrastare la propagazione dell’incendio tra le opere",
+      "No, un’area a “cielo libero” per potere essere qualificata come “spazio scoperto” deve avere una superficie determinata e deve essere garantita una adeguata distanza fra gli eventuali edifici che la delimitano",
+      "No, nessun spazio a “cielo libero” può essere qualificato come “spazio scoperto” ai fini del contrasto alla propagazione di un incendio fra edifici che lo delimitano"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "L’interposizione di un’adeguata distanza di separazione “d” in spazio a cielo libero fra edifici adiacenti ovvero fra edifici e depositi esterni di materiale combustibile, opportunamente valutata sulla base delle indicazioni fornite dalle regole di prevenzioni incendi, consente di limitare la propagazione dell’incendio.",
+    "opzioni": [
+      "Si, un’adeguata distanza di separazione consente di limitare l’irraggiamento, al di sotto di valori critici, fra il compartimento interessato dall’incendio e altri compartimenti o materiali combustibili in deposito",
+      "No, non è necessario valutare tali distanze, qualunque spazio a cielo libero consente di garantire la limitazione della propagazione dell’incendio",
+      "No, solo strutture o elementi tagliafuoco (REI, EI ...) consente di limitare la propagazione dell’incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nella progettazione della sicurezza antincendio è consentito che si realizzino opere prive di resistenza al fuoco (Livello di prestazione I ai sensi del DM 03/08/2015)",
+    "opzioni": [
+      "No, mai",
+      "Si, a condizione che l’attività non preveda la presenza di occupanti, ad esclusione di quella occasionale e di breve durata di personale addetto",
+      "Si, sempre"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le “Classi”, cioè l’intervallo di tempo nel quale è garantito il requisito di resistenza al fuoco del prodotto\\elemento costruttivo",
+    "opzioni": [
+      "Sono codificati dalle disposizioni legislative in materia (ES: elementi portanti privi di funzione di compartimento R 15,20,30, 45, 60 ....)",
+      "Sono codificati da progettista della prevenzione incendi",
+      "Sono codificati dal Comando VVF competente territorialmente"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con “carico di incendio” intendiamo:",
+    "opzioni": [
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio, corretto in base ai parametri indicativi della partecipazione alla combustione dei singoli materiali, espresso in MJ",
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio riferito all’unità di superficie lorda di piano, espresso in MJ/m2",
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio riferito all’unità di superficie lorda di piano (MJ/m2), corretto in base ai parametri indicatori del rischio di incendio del compartimento antincendio e dei fattori relativi alle misure antincendio presenti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con “carico di incendio specifico” intendiamo:",
+    "opzioni": [
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio, corretto in base ai parametri indicativi della partecipazione alla combustione dei singoli materiali, espresso in MJ",
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio riferito all’unità di superficie lorda di piano, espresso in MJ/m2",
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio riferito all’unità di superficie lorda di piano (MJ/m2), corretto in base ai parametri indicatori del rischio di incendio del compartimento antincendio e dei fattori relativi alle misure antincendio presenti"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Con “carico di incendio specifico di progetto” intendiamo:",
+    "opzioni": [
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio, corretto in base ai parametri indicativi della partecipazione alla combustione dei singoli materiali, espresso in MJ",
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio riferito all’unità di superficie lorda di piano, espresso in MJ/m2",
+      "potenziale termico netto della totalità dei materiali combustibili contenuti in uno spazio riferito all’unità di superficie lorda di piano (MJ/m2), corretto in base ai parametri indicatori del rischio di incendio del compartimento antincendio e dei fattori relativi alle misure antincendio presenti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Il “carico di incendio” è un parametro fondamentale per la progettazione della sicurezza antincendio",
+    "opzioni": [
+      "Si, in particolare il “carico di incendio specifico di progetto” è fondamentale per la progettazione della resistenza al fuoco delle strutture",
+      "Si, è il parametro indicativo del rischio di incendio presente in un luogo di lavoro",
+      "Si, solo nel caso di approccio ingegneristico alla progettazione della sicurezza antincendi"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I valori del carico di incendio specifico di progetto adottati nel progetto della prevenzione incendi costituiscono un vincolo d’esercizio per le attività da svolgere all’interno della costruzione",
+    "opzioni": [
+      "No, la progettazione della resistenza al fuoco non è influenzata dai valori assunti dal carico di incendio specifico di progetto",
+      "No, in generale, la gestione delle condizioni previste in fase di progetto non influisce sulla sicurezza antincendio",
+      "Si, il mantenimento delle condizioni che hanno determinato il valore del carico di incendio specifico di progetto è un obbligo di esercizio per le attività che vengono svolte nella costruzione"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "La finalità della misura Esodo (S.4) è quella di",
+    "opzioni": [
+      "assicurare che gli occupanti dell’attività possano raggiungere un luogo sicuro o permanere al sicuro, autonomamente o con assistenza, prima che l’incendio determini condizioni incapacitanti negli ambiti dell’attività ove si trovano",
+      "assicurare che gli occupanti dell’attività possano raggiungere un luogo sicuro autonomamente prima che l’incendio determini condizioni incapacitanti negli ambiti dell’attività ove si trovano",
+      "assicurare che gli occupanti dell’attività possano permanere al sicuro prima che l’incendio determini condizioni incapacitanti negli ambiti dell’attività ove si trovano"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Sistema di Esodo è",
+    "opzioni": [
+      "L’insieme delle misure di salvaguardia della vita che consentono agli occupanti di raggiungere un luogo sicuro o permanere al sicuro, autonomamente o con assistenza, prima che l’incendio determini condizioni incapacitanti negli ambiti dell’attività ove si trovano",
+      "L’insieme delle misure di salvaguardia della vita che consentono agli occupanti di raggiungere un luogo sicuro, autonomamente o con assistenza, prima che l’incendio determini il crollo delle strutture",
+      "Il percorso senza ostacoli al deflusso che consente agli occupanti di raggiungere un luogo sicuro dal luogo in cui si trovano"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, per “Luogo sicuro” intendiamo",
+    "opzioni": [
+      "Un luogo in cui è temporaneamente trascurabile il rischio d’incendio per gli occupanti che vi stazionano o vi transitano durante l’esodo",
+      "Un luogo in cui è permanentemente trascurabile il rischio d’incendio per gli occupanti che vi stazionano o vi transitano;",
+      "Uno spazio a “cielo libero” (cortile, ....)"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, per “Luogo sicuro temporaneo” intendiamo",
+    "opzioni": [
+      "Un luogo in cui è temporaneamente trascurabile il rischio d’incendio per gli occupanti che vi stazionano o vi transitano durante l’esodo",
+      "Un luogo in cui è permanentemente trascurabile il rischio d’incendio per gli occupanti che vi stazionano o vi transitano;",
+      "Uno spazio a “cielo libero” (cortile, ....)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, per “spazio calmo” intendiamo",
+    "opzioni": [
+      "Uno spazio a “cielo libero”",
+      "Un luogo in cui è permanentemente trascurabile il rischio d’incendio per gli occupanti che vi stazionano o vi transitano;",
+      "luogo sicuro temporaneo ove gli occupanti possono attendere e ricevere assistenza per completare l’esodo verso luogo sicuro"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, per “via di esodo” intendiamo",
+    "opzioni": [
+      "Un qualunque percorso, a prescindere dalla geometria, che adduce dall’interno dell’edificio all’esterno",
+      "Un percorso a prova di fumo rispetto al compartimento servito, che adduce dall’interno all’esterno",
+      "Un percorso senza ostacoli al deflusso, appartenente al sistema d’esodo, che consente agli occupanti di raggiungere un luogo sicuro dal luogo in cui si trovano"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, per “corridoio cieco” intendiamo",
+    "opzioni": [
+      "Una porzione di via d’esodo da cui è possibile l’esodo in un’unica direzione",
+      "Una porzione di via d’esodo nella quale non sono realizzate aperture di aerazione e illuminazione naturale",
+      "Un percorso senza ostacoli al deflusso, appartenente al sistema d’esodo, che consente agli occupanti di raggiungere un luogo sicuro dal luogo in cui si trovano"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, le modalità di esodo da un’opera di costruzione possono essere diverse",
+    "opzioni": [
+      "Si, esodo simultaneo, esodo per fasi, esodo orizzontale progressivo ovvero protezione sul posto",
+      "No, in caso di incendio gli occupanti devono spostarti obbligatoriamente tutti verso un luogo sicuro",
+      "No, in caso di incendio gli occupanti devono spostarti obbligatoriamente tutti dal compartimento di primo innesco in un compartimento adiacente"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, l’ “esodo simultaneo” da un’opera di costruzione è",
+    "opzioni": [
+      "modalità di esodo che prevede lo spostamento contemporaneo degli occupanti fino a luogo sicuro.",
+      "modalità di esodo di una struttura organizzata con più compartimenti, in cui l’evacuazione degli occupanti fino a luogo sicuro avviene in successione dopo l’evacuazione del compartimento di primo innesco",
+      "modalità di esodo che prevede lo spostamento degli occupanti dal compartimento di primo innesco in un compartimento adiacente capace di contenerli e proteggerli fino a quando l’incendio non sia estinto o fino a che non si proceda ad una successiva evacuazione fino a luogo sicuro"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, l’“esodo per fasi” da un’opera di costruzione è",
+    "opzioni": [
+      "modalità di esodo che prevede lo spostamento contemporaneo degli occupanti fino a luogo sicuro.",
+      "modalità di esodo di una struttura organizzata con più compartimenti, in cui l’evacuazione degli occupanti fino a luogo sicuro avviene in successione dopo l’evacuazione del compartimento di primo innesco",
+      "modalità di esodo che prevede lo spostamento degli occupanti dal compartimento di primo innesco in un compartimento adiacente capace di contenerli e proteggerli fino a quando l’incendio non sia estinto o fino a che non si proceda ad una successiva evacuazione fino a luogo sicuro"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, l’“esodo orizzontale progressivo” da un’opera di costruzione è",
+    "opzioni": [
+      "modalità di esodo che prevede lo spostamento contemporaneo degli occupanti fino a luogo sicuro.",
+      "modalità di esodo di una struttura organizzata con più compartimenti, in cui l’evacuazione degli occupanti fino a luogo sicuro avviene in successione dopo l’evacuazione del compartimento di primo innesco",
+      "modalità di esodo che prevede lo spostamento degli occupanti dal compartimento di primo innesco in un compartimento adiacente capace di contenerli e proteggerli fino a quando l’incendio non sia estinto o fino a che non si proceda ad una successiva evacuazione fino a luogo sicuro"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, la “protezione sul posto” è",
+    "opzioni": [
+      "modalità di esodo che prevede lo spostamento contemporaneo degli occupanti fino a luogo sicuro.",
+      "modalità di esodo di una struttura organizzata con più compartimenti, in cui l’evacuazione degli occupanti fino a luogo sicuro avviene in successione dopo l’evacuazione del compartimento di primo innesco",
+      "modalità di esodo che prevede la protezione degli occupanti nell’ambito in cui si trovano"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Secondo il D.M. 3 agosto 2015 (Codice di Prevenzione Incendi), la pubblica via può essere qualificata come “luogo sicuro” ai fini dell’esodo?",
+    "opzioni": [
+      "Non sempre, dipende dalla larghezza della via",
+      "No, mai",
+      "Si, sempre"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Uno “spazio a cielo libero” può essere qualificato come “luogo sicuro” ai fini dell’esodo",
+    "opzioni": [
+      "Si, se è collegato ad una pubblica via in ogni condizione di incendio e nel quale siano garantita la protezione delle persone dai prodotti della combustione, dal pericolo di crolli e sia di ampiezza sufficiente e contenere gli occupanti che lo impiegano nell’esodo",
+      "No, mai",
+      "Si, è sufficiente che sia collegato ad una pubblica via"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’ambito dell’organizzazione del sistema di esodo, possono essere considerate ed utilizzate le scale portatili, gli ascensori e le rampe con grande pendenza (superior a 20 %)",
+    "opzioni": [
+      "Si, sempre a condizione che il loro utilizzo sia indicato nel piano di emergenza",
+      "No,",
+      "Si, se la gestione dell’emergenza prevede una specifica struttura di supporto"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le superfici dei percorsi individuati come vie di esodo (corridoi, scale, androni, ...) devono garantire specifici requisiti",
+    "opzioni": [
+      "Si, non devono essere sdrucciolevoli, né presentare avvallamenti o sporgenze pericolose e devono essere in condizioni tali da rendere sicuro il movimento ed il transito degli occupanti",
+      "No, è sufficiente che i percorsi di esodo adducono all’esterno, a prescindere dalle caratteristiche delle superfici",
+      "No, è sufficiente che siano in condizioni tali da rendere sicuro il movimento ed il transito degli occupanti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le porte installate lungo le vie di esodo devono garantire specifici requisiti",
+    "opzioni": [
+      "Si, devono essere facilmente identificabili ed apribili da parte di tutti gli occupanti e l’apertura delle porte non deve ostacolare il deflusso degli occupanti lungo le vie d’esodo",
+      "No, è sufficiente che siano solo identificabili",
+      "No, è sufficiente che siano apribili da parte di tutti gli occupanti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le porte ad apertura manuale installate lungo le vie di esodo, in condizioni di elevata densità di affollamento, devono garantire specifici requisiti",
+    "opzioni": [
+      "Si, devono essere dotate di dispositivi di apertura a semplice spinta secondo specifiche normative, al fine di consentire l’affidabile, immediata e semplice apertura delle porte",
+      "No, è sufficiente che siano solo identificabili con specifica segnaletica",
+      "No, è sufficiente che siano dotate di una maniglia funzionante"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il sistema di esodo deve essere facilmente riconosciuto e identificabile dagli occupanti",
+    "opzioni": [
+      "Si, sempre mediante apposita segnaletica di sicurezza",
+      "No, è sufficiente che le vie di esodo siano indicate nelle planimetrie semplificate affisse ai piani",
+      "No, solo nei luoghi con elevata densità di affollamento"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Ai fini dell’identificazione degli elementi del sistema di esodo con il seguente cartello intendiamo",
+    "opzioni": [
+      "Luogo sicuro, punto di ritrovo",
+      "Spazio calmo, per attendere i soccorritori",
+      "Via di esodo"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Ai fini dell’identificazione degli elementi del sistema di esodo con il seguente cartello intendiamo",
+    "opzioni": [
+      "Luogo sicuro, punto di ritrovo",
+      "Spazio calmo, attesa dei soccorritori",
+      "Via di esodo"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Ai fini dell’identificazione degli elementi del sistema di esodo con il seguente cartello intendiamo",
+    "opzioni": [
+      "Luogo sicuro, punto di ritrovo",
+      "Spazio calmo, attesa dei soccorritori",
+      "Via di esodo"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Ai fini dell’identificazione degli elementi del sistema di esodo con il seguente cartello intendiamo",
+    "opzioni": [
+      "Luogo sicuro, punto di ritrovo",
+      "Spazio calmo, attesa dei soccorritori",
+      "Via di esodo verso spazio clamo"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Lungo le vie di esodo deve essere installato un impianto di illuminazione di sicurezza",
+    "opzioni": [
+      "Si, sempre qualora l’illuminazione possa risultare anche occasionalmente insufficiente a consentire l’esodo degli occupanti.",
+      "No, mai",
+      "No, solo nei luoghi con elevata densità di affollamento"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Negli ambiti ove l’attività sia svolta con assente o ridotta illuminazione ordinaria (es. sale cinematografiche, sale teatrali, ...) eventuali gradini lungo le vie d’esodo devono essere provvisti di illuminazione",
+    "opzioni": [
+      "Si, sempre con idonea illuminazione “segnapasso” dei gradini",
+      "No, mai",
+      "No, solo nei luoghi con affollamento superiore a 1000 persone"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il sistema d’esodo in un’attività lavorativa, al fine di limitare la probabilità che agli occupanti sia impedita l’evacuazione dall’incendio, il numero minimo di vie d’esodo e uscite indipendenti da ciascun locale deve essere specificamente progettato",
+    "opzioni": [
+      "Si, in funzione del rischio di incendio e dell’affollamento",
+      "Si, in funzione del rischio di incendio",
+      "No, è sufficiente che ci siano almeno due uscite da ogni compartimento per garantire un corretto ed efficace esodo"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Secondo il D.M. 3 agosto 2015 (Codice di Prevenzione Incendi), le vie di esodo previste in un luogo di lavoro devono essere di lunghezza limitata, in funzione del rischio di incendio dell’attività?",
+    "opzioni": [
+      "Si, a seconda del profilo di rischio dell’attività, le lunghezze possono avere valori massimi fra 20 e 70 metri",
+      "No, solo i corridoi ciechi devono rispettare dei limiti di lunghezza massima in funzione del rischio di incendio",
+      "No, le lunghezze delle vie di esodo, compresi i corridoi ciechi, possono essere di qualunque valore a prescindere dal rischio dell’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Secondo il D.M. 3 agosto 2015 (Codice di Prevenzione Incendi), gli eventuali corridoi ciechi presenti in un luogo di lavoro devono essere di lunghezza limitata, in funzione del rischio di incendio dell’attività?",
+    "opzioni": [
+      "Si, a seconda del profilo di rischio dell’attività, le lunghezze possono avere valori massimi fra 10 e 45 metri",
+      "No, le lunghezze devono essere limitate solo in presenza di elevati affollamenti",
+      "No, le lunghezze delle vie di esodo, compresi i corridoi ciechi, possono essere di qualunque valore a prescindere dal rischio dell’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In un luogo con affollamento dell’ambito servito maggiore di 1000 occupanti, la larghezza della via di esodo orizzontale deve essere maggiore o uguale a 1200 mm (1,2 m)",
+    "opzioni": [
+      "Si, a prescindere dal numero di vie di esodo disponibili",
+      "No, la larghezza è definita dal progettista sulla base dell’affollamento e del numero di uscite",
+      "Si, solo se in presenza di percorso di esodo unidirezionale (corridoio cieco)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In un sistema di esodo sono consentite larghezze minime delle vie di esodo orizzontali maggiori o uguali a 800 mm (80 cm)",
+    "opzioni": [
+      "Si, a condizione che l’affollamento dell’ambito servito non sia elevato, massimo 50 occupanti",
+      "No, mai, le vie di esodo devono essere sempre almeno uguali o maggiori di 1,20 m, a prescindere dall’affollamento",
+      "Si, solo se in presenza di percorso di esodo alternativi"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In un luogo con affollamento dell’ambito servito maggiore di 1000 occupanti, la larghezza della via di esodo verticali deve essere maggiore o uguale a 1200 mm (1,20 m)",
+    "opzioni": [
+      "Si, a prescindere dal numero di vie di esodo disponibili",
+      "No, la larghezza è definita dal progettista sulla base dell’affollamento e del numero di uscite",
+      "Si, solo se in presenza di percorso di esodo unidirezionale (corridoio cieco)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In un sistema di esodo sono consentite larghezze minime delle vie di esodo verticali maggiori o uguali a 900 mm (90 cm)",
+    "opzioni": [
+      "Si, a condizione che l’affollamento dell’ambito servito non sia molto elevato, massimo 300 occupanti",
+      "No, mai, le vie di esodo devono essere sempre almeno uguali o maggiori di 1,20 m, a prescindere dall’affollamento",
+      "Si, solo se in presenza di percorso di esodo alternativi"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le vie di esodo devono avere un’altezza minima di 2 metri",
+    "opzioni": [
+      "Si, ad eccezione di brevi tratti segnalati di vie di esodo utilizzabili esclusivamente da personale specificamente formato ovvero utilizzate occasionalmente da un numero limitato di occupanti",
+      "No, l’altezza la stabilisce il progettista sulla base della valutazione del rischio",
+      "Si, solo se in presenza di elevati affollamenti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nella progettazione del sistema di esodo, in caso di piani nei quali vi può essere presenza non occasionale di occupanti che non abbiano sufficienti abilità per raggiungere autonomamente un luogo sicuro tramite vie di esodo verticali devono essere adottate specifiche modalità di gestione dell’esodo:",
+    "opzioni": [
+      "Si, deve essere adottata almeno una delle seguenti modalità: spazi calmi, esodo orizzontale progressivo o esodo orizzontale verso luogo sicuro",
+      "No, il progettista può decidere di organizzare l’esodo mediante squadre appositamente dedicate alle persone che non abbiano sufficienti abilità per raggiungere autonomamente un luogo sicuro tramite vie di esodo verticali",
+      "No, solo se prescritte dai vigili del fuoco"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La misura antincendio “Rilevazione ed allarme” ha come obiettivo la sorveglianza degli ambiti di un’attività, rilevare precocemente un incendio e diffondere l’allarme al fine di",
+    "opzioni": [
+      "attivare le misure protettive (es. impianti automatici estinzione, ripristino della compartimentazione, evacuazione di fumi e calore, ...);",
+      "attivare le misure gestionali (es. piano e procedure di emergenza e di esodo, ...) progettate e programmate in relazione all’incendio rivelato ed all’ambito ove tale principio di incendio si è sviluppato rispetto all’intera attività sorvegliata",
+      "Attivare sia le misure protettive sia le misure gestionali indicate negli altri due punti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Gli impianti di rivelazione incendio e segnalazione allarme incendio (IRAI) sono",
+    "opzioni": [
+      "Impianti in grado di rivelare un incendio quanto prima possibile e di segnalare l’allarme al fine di attivare le misure antincendio tecniche (impianti automatici di controllo o estinzione dell’incendio, compartimentazione, evacuazione dei fumi e del calore, ...) e procedurali (piano e procedure di emergenza e di esodo, ...)",
+      "Impianti in grado di rivelare un incendio quanto prima possibile e di segnalare l’allarme al fine di attivare le misure antincendio tecniche (impianti automatici di controllo o estinzione dell’incendio, compartimentazione, evacuazione dei fumi e del calore, ...)",
+      "Impianti in grado di rivelare un incendio quanto prima possibile e di segnalare l’allarme al fine di attivare le misure procedurali (piano e procedure di emergenza e di esodo, ...)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La rivelazione e la diffusione dell’allarme incendio possono essere demandate solo alla sorveglianza da parte degli occupanti",
+    "opzioni": [
+      "Si, ove valutazione del rischio non evidenzi particolari e significativi rischi di incendio, a condizione che siano codificate idonee procedure finalizzate al rapido e sicuro allertamento degli occupanti in caso di incendio, da inserire nel piano di emergenza",
+      "No, mai",
+      "Si, solo se l’affollamento non supera i 10 occupanti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Secondo il D.M. 3 agosto 2015 (Codice di Prevenzione Incendi), i punti di segnalazione manuale a servizio di un Impianto di Rilevazione e Allarme Incendio (IRAI)",
+    "opzioni": [
+      "devono essere raggiungibili mediante percorsi compresi tra i 15 e i 30 m, individuati in relazione al rischio incendio",
+      "devono essere posti in corrispondenza dell’uscita di esodo principale",
+      "devono essere posti nella zona dove lavora il coordinatore degli addetti antincendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I punti di segnalazione manuale a servizio di un Impianto di Rilevazione e Allarme Incendio (IRAI)",
+    "opzioni": [
+      "devono essere installati in posizione ben visibile e segnalata ed essere facilmente accessibili",
+      "devono essere posti in corrispondenza dell’uscita di esodo principale",
+      "devono essere posti nella zona dove lavora il coordinatore degli addetti antincendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I punti di segnalazione manuale a servizio di un Impianto di Rilevazione e Allarme Incendio (IRAI), per consentire a tutti gli occupanti, anche a quelli che impiegano ausili di movimento, di inviare l’allarme d’incendio",
+    "opzioni": [
+      "dovrebbero essere collocati ad una quota pari a circa 110 cm dal piano di calpestio.",
+      "dovrebbero sempre essere collocati negli eventuali spazi calmi, se previsti.",
+      "dovrebbero essere collocati ad una quota non superiore di 50 cm dal piano di calpestio."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La progettazione della misura antincendio “Controllo Fumo e Calore” ha come scopo",
+    "opzioni": [
+      "l’individuazione dei presidi antincendio da installare nell’attività per consentire solo l’evacuazione o lo smaltimento dei prodotti della combustione in caso di incendio",
+      "l’individuazione dei presidi antincendio da installare nell’attività per consentire il controllo, l’evacuazione o lo smaltimento dei prodotti della combustione in caso di incendio",
+      "l’individuazione dei presidi antincendio da installare nell’attività per consentire solo il controllo dei prodotti della combustione in caso di incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Il “Controllo Fumo e Calore” si attua attraverso la realizzazione di:",
+    "opzioni": [
+      "aperture di smaltimento di fumo e calore d’emergenza, sistemi di ventilazione orizzontale forzata del fumo e del calore (SVOF) e sistemi per l’evacuazione di fumo e calore (SEFC)",
+      "Solo attraverso smaltimento di fumo e calore d’emergenza, sistemi di ventilazione orizzontale forzata del fumo e del calore (SVOF)",
+      "Solo attraverso sistemi per l’evacuazione di fumo e calore (SEFC)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Lo smaltimento di fumo e calore di emergenza verso l’esterno di un edificio può essere realizzato per mezzo di aperture già ordinariamente disponibili per la funzionalità dell’attività (es. finestre, lucernari, porte, ...)",
+    "opzioni": [
+      "Si",
+      "No, solo attraverso sistemi di ventilazione orizzontale forzata del fumo e del calore (SVOF)",
+      "No, solo attraverso specifici sistemi per l’evacuazione di fumo e calore (SEFC)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le aperture di smaltimento realizzate per lo smaltimento dei fumi e calore di emergenza devono essere gestite e in particolare protette dall’ostruzione accidentale durante l’esercizio dell’attività",
+    "opzioni": [
+      "Si, sempre in quanto sono parte integrante di una misura antincendio progettata per mitigare il rischio incendio dell’attività",
+      "No, perché in caso di emergenza l’ostruzione può essere sempre eliminata",
+      "No, perché la realizzazione delle aperture di smaltimento dei fumi e calore di emergenza sono una misura consigliata ma non necessaria ai fini della sicurezza antincendio di un’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Lo smaltimento di fumo e calore d’emergenza ha la sola funzione di facilitare l’opera di estinzione dei soccorritori",
+    "opzioni": [
+      "Si,",
+      "No, anche di garantire che le vie di esodo siano libere dai prodotti della combustione durante l’evacuazione",
+      "No, hanno lo scopo di impedire la realizzazione delle condizioni di flash over (incendio generalizzato)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le aperture di smaltimento individuate nella progettazione dello smaltimento di fumo e calore d’emergenza possono essere solo di tipo “permanentemente aperte”",
+    "opzioni": [
+      "No, fatte salve particolari condizioni di elevati carichi di incendio, possono essere anche di altra tipologia: aperture dotate di sistema automatico di apertura (attivazione da impianto di rivelazione e allarme incendio), con infissi comandati da posizione protetta e segnalata, con infissi comandanti da posizione non protetta, con chiusura bassofondente",
+      "Si, in alternativa si deve realizzare un impianto automatico di estrazione fumi e calore",
+      "No, in alternativa possono essere istallate solo aperture dotate di sistema automatico di apertura (attivazione da impianto di rivelazione e allarme incendio)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le aperture di smaltimento individuate nella progettazione dello smaltimento di fumo e calore d’emergenza devono essere uniformemente distribuite nel compartimento servito e preferibilmente poste nella porzione superiore dei locali",
+    "opzioni": [
+      "Si, al fine di facilitare lo smaltimento dei fumi e gas caldi",
+      "No, è sufficiente che ci siano aperture di superficie adeguata, a prescindere dalla posizione",
+      "No, è preferibile che le aperture siano nella porzione inferiore dei locali"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di ventilazione forzata orizzontale del fumo e del calore (SVOF), svolgono la funzione di smaltimento di fumo e calore d’emergenza",
+    "opzioni": [
+      "Si, come le aperture di smaltimento, possono facilitare l’opera di estinzione dei soccorritori, fornendo condizioni favorevoli per le squadre di soccorso da un punto di accesso sino alla posizione dell’incendio",
+      "No, hanno lo scopo di garantire, per un determinato intervallo di tempo, un’adeguata altezza libera dai fumi in caso di incendio nel compartimento di innesco",
+      "No, hanno lo scopo di impedire, per un determinato intervallo di tempo, la formazione delle condizioni di “flash over” (incendio generalizzato) nel compartimento di innesco"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di evacuazione del fumo e del calore (SEFC)",
+    "opzioni": [
+      "creano e mantengono uno strato d’aria sostanzialmente indisturbato nella porzione inferiore dell’ambiente protetto mediante l’evacuazione di fumo e calore prodotti dall’incendio",
+      "hanno lo scopo di facilitare l’opera di estinzione dei soccorritori, fornendo condizioni favorevoli per le squadre di soccorso da un punto di accesso sino alla posizione dell’incendio",
+      "hanno lo scopo agevolare lo smaltimento di fumo e calore dall’attività dopo l’incendio, ripristinando rapidamente le condizioni di sicurezza."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di evacuazione del fumo e del calore (SEFC), fra i diversi obiettivi, hanno anche quello di mantenere le vie di esodo libere da fumo e calore",
+    "opzioni": [
+      "Si, poiché creano e mantengono uno strato d’aria sostanzialmente indisturbato nella porzione inferiore dell’ambiente protetto mediante l’evacuazione di fumo e calore prodotti dall’incendio",
+      "No, hanno solo lo scopo di facilitare l’opera di estinzione dei soccorritori, fornendo condizioni favorevoli per le squadre di soccorso da un punto di accesso sino alla posizione dell’incendio",
+      "No, hanno solo lo scopo agevolare lo smaltimento di fumo e calore dall’attività dopo l’incendio, ripristinando rapidamente le condizioni di sicurezza."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di evacuazione del fumo e del calore (SEFC), fra i diversi obiettivi, hanno anche quello di ritardare o prevenire il flashover e quindi la generalizzazione dell’incendio",
+    "opzioni": [
+      "Si, poiché creano e mantengono uno strato d’aria sostanzialmente indisturbato nella porzione inferiore dell’ambiente protetto mediante l’evacuazione di fumo e calore prodotti dall’incendio",
+      "No, hanno solo lo scopo di facilitare l’opera di estinzione dei soccorritori, fornendo condizioni favorevoli per le squadre di soccorso da un punto di accesso sino alla posizione dell’incendio",
+      "No, hanno solo lo scopo agevolare lo smaltimento di fumo e calore dall’attività dopo l’incendio, ripristinando rapidamente le condizioni di sicurezza."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di evacuazione del fumo e del calore (SEFC), fra i diversi obiettivi, hanno anche quello di limitare i danni agli impianti di servizio o di processo ed al contenuto dell’ambito protetto",
+    "opzioni": [
+      "Si, poiché creano e mantengono uno strato d’aria sostanzialmente indisturbato nella porzione inferiore dell’ambiente protetto mediante l’evacuazione di fumo e calore prodotti dall’incendio",
+      "No, hanno solo lo scopo di facilitare l’opera di estinzione dei soccorritori, fornendo condizioni favorevoli per le squadre di soccorso da un punto di accesso sino alla posizione dell’incendio",
+      "No, hanno solo lo scopo agevolare lo smaltimento di fumo e calore dall’attività dopo l’incendio, ripristinando rapidamente le condizioni di sicurezza."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di evacuazione del fumo e del calore (SEFC), fra i diversi obiettivi, hanno anche quello di ridurre gli effetti termici sulle strutture dell’ambiente protetto",
+    "opzioni": [
+      "Si, poiché creano e mantengono uno strato d’aria sostanzialmente indisturbato nella porzione inferiore dell’ambiente protetto mediante l’evacuazione di fumo e calore prodotti dall’incendio",
+      "No, hanno solo lo scopo di facilitare l’opera di estinzione dei soccorritori, fornendo condizioni favorevoli per le squadre di soccorso da un punto di accesso sino alla posizione dell’incendio",
+      "No, hanno solo lo scopo agevolare lo smaltimento di fumo e calore dall’attività dopo l’incendio, ripristinando rapidamente le condizioni di sicurezza."
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di evacuazione del fumo e del calore (SEFC), possono essere di tipo naturale (SENFC) o forzato (SEFFC).",
+    "opzioni": [
+      "Si,",
+      "No, solo di tipo naturale (SEFNC)",
+      "No, solo di tipo forzato (SEFFC)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I Sistemi di evacuazione del fumo e del calore di tipo naturale (SENFC)",
+    "opzioni": [
+      "prevedono la realizzazione di evacuatori ad apertura automatica in grado di mantenere uno strato libero da fumo fino ad una altezza stabilita in fase di progettazione e comunque superiore all’altezza di una persona",
+      "prevedono l’attivazione di estrattori meccanici in grado di mantenere uno strato libero da fumo fino ad una altezza stabilita in fase di progettazione e comunque superiore all’altezza di una persona",
+      "prevedono l’apertura automatica delle aperutre ordinariamente disponibili per la funzionalità dell’attività (es. finestre, lucernari, porte, ...)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La misura “Controllo dell’incendio”",
+    "opzioni": [
+      "ha come scopo l’individuazione dei presidi antincendio da installare nell’attività per fronteggiare gli eventuali incendi",
+      "creano e mantengono uno strato d’aria sostanzialmente indisturbato nella porzione inferiore dell’ambiente protetto mediante l’evacuazione di fumo e calore prodotti dall’incendio",
+      "attivare le misure protettive e gestionali presenti presso l’attività lavorativa"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Le sostanze estinguenti che intervengono sul processo di combustione, nel loro impiego possono mettere in atto le seguenti azioni di spegnimento",
+    "opzioni": [
+      "Solo effetti di soffocamento e raffreddamento",
+      "Solo effetti di diluizione e inibizione chimica",
+      "Tutti e quattro gli effetti elencati negli altri punti"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "I presidi antincendio installati nei luoghi di lavoro per il controllo dell’incendio sono",
+    "opzioni": [
+      "gli estintori d’incendio e gli impianti di protezione attiva contro l’incendio (es: rete idranti, impianti sprinkler ...)",
+      "Solo gli estintori",
+      "Solo gli impianti di protezione attiva contro l’incendio (es: rete idranti, impianti sprinkler ...)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I presidi antincendio installati nei luoghi di lavoro per il controllo dell’incendio hanno come scopo",
+    "opzioni": [
+      "Tutti gli obiettivi indicati negli altri due punti",
+      "la protezione nei confronti di un principio di incendio",
+      "la protezione manuale o automatica, finalizzata all’inibizione o al controllo dell’incendio, e la protezione mediante completa estinzione di un incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il presidio antincendio “sprinkler” svolge prioritariamente un’azione di controllo dell’incendio, cioè",
+    "opzioni": [
+      "riesce a mantenere l’incendio stesso in uno stato di \"non sviluppo\" o comunque di limitate dimensioni, tale da poter essere facilmente attaccato ed estinto dalle squadre di emergenza successivamente intervenute",
+      "riesce sempre a spegnere in maniera completa e definitiva l’incendio",
+      "Riesce ad abbattere la concentrazione dell’ossigeno a valori che non consentono lo sviluppo del fuoco"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori",
+    "opzioni": [
+      "Sono un presidio antincendio base e il loro impiego è riferibile solo ad un principio d’incendio",
+      "Sono un presidio antincendio e il loro impiego è riferibile all’estinzione completa di incendi anche generalizzati",
+      "Sono un presidio antincendio e il loro impiego è riferibile all’inibizione di un incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori devono essere sempre presenti nei luoghi di lavoro",
+    "opzioni": [
+      "Si, sono un presidio di base complementare alle altre misure di protezione attiva e di sicurezza in caso d’incendio",
+      "No, se nell’attività è presente la rete idranti non è necessario installare anche gli estintori",
+      "No, se nell’attività è presente un sistema sprinkler non è necessario installare anche gli estintori"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La prestazione di un estintore, cioè la “grandezza dell’incendio” che è in grado di estinguere",
+    "opzioni": [
+      "È determinata sperimentalmente e in funzione della classe dell’incendio ed è indicata con un codice composto da lettere e numeri (es 13 A – 89 B)",
+      "Dipende dall’abilità dell’utilizzatore",
+      "È stabilita dal datore di lavoro sulla base della propria esperienza"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori sono mezzi di estinzione da usare per pronto intervento sui principi d’incendio",
+    "opzioni": [
+      "Si, e si distinguono in relazione al peso complessivo in “estintori portatili” ed “estintori carrellati”",
+      "No, sono mezzi di protezione da utilizzate per l’estinzione completa di un incendio generalizzato",
+      "Si, ma solo quelli che hanno una massa minore o uguale a 20 kg, cosiddetti estintori portatili"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori portatili sono mezzi di estinzione da usare per pronto intervento sui principi d’incendio",
+    "opzioni": [
+      "Si, sono quelli che hanno una massa fino a 150 kg",
+      "No, sono mezzi di protezione da utilizzate per l’estinzione completa di un incendio generalizzato",
+      "Si, solo quelli che hanno una massa minore o uguale a 20 kg,"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Gli estintori carrellati sono mezzi di estinzione da usare per pronto intervento sui principi d’incendio",
+    "opzioni": [
+      "Si, sono quelli che hanno una massa fino a 150 kg",
+      "No, sono mezzi di protezione da utilizzate per l’estinzione completa di un incendio generalizzato",
+      "Si, solo quelli che hanno una massa minore o uguale a 20 kg,"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La carica degli estintori portatili utilizzabili in ambienti accessibili al pubblico",
+    "opzioni": [
+      "Non può essere superiore a 6 kg o 6 litri",
+      "Può essere di qualunque perso, anche superiore a 6 kg",
+      "Può essere di qualunque perso, anche superiore a 20 kg"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Un estintore è caratterizzato dall’agente estinguente che contiene",
+    "opzioni": [
+      "Si, e si dividono in: a polvere, ad anidride carbonica, ad acqua e agenti estinguenti a base d’acqua (schiuma) ed a “clean agent”)",
+      "No, gli estintori nei luoghi di lavoro possono essere solo a polvere",
+      "No, gli estintori nei luoghi di lavoro possono essere solo ad anidride carbonica"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori portatili sono idonei all’utilizzo su impianti e apparecchiature elettriche",
+    "opzioni": [
+      "Si, su impianti e apparecchiature sino a 1000 V ed alla distanza di 1 metro se l’agente estinguente è privo di conducibilità elettrica (es: polvere, anidride carbonica)",
+      "Si, su impianti e apparecchiature sino a 1000 V ed alla distanza di 1 metro a prescindere dalla sostanza estinguente",
+      "No, mai"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori portatili a base d’acqua sono idonei all’utilizzo su impianti e apparecchiature elettriche",
+    "opzioni": [
+      "Si, su impianti e apparecchiature sino a un massimo di 1000 V operando alla distanza di almeno 1 metro, ma solo se questa caratteristica è riportata sull'etichetta dell'estintore a seguito del superamento della prova dielettrica prevista dalla normativa",
+      "Si, su impianti e apparecchiature sino a un massimo di 1000 V operando alla distanza di almeno 1 metro",
+      "No, mai"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La tipologia degli estintori installati nei luoghi di lavoro",
+    "opzioni": [
+      "deve essere selezionata sulla base della valutazione del rischio e, in particolare in riferimento alle classi di fuoco (es. estintori per classe A, estintori polivalenti per classi AB, estintori per la classe F, ...).",
+      "deve essere selezionata dai Vigili del Fuoco",
+      "È selezionata dal Datore di Lavoro sulla base della propria esperienza"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nei luoghi chiusi, fatte salve incompatibilità, nei confronti di principi di incendio di classe A o classe B",
+    "opzioni": [
+      "è opportuno l’utilizzo di estintori a base d’acqua (estintori idrici).",
+      "è opportuno l’utilizzo di estintori a polvere",
+      "è opportuno l’utilizzo di estintori ad anidride carbonica"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori devono essere sempre disponibili per l’uso immediato",
+    "opzioni": [
+      "Si, pertanto devono essere collocati in posizione facilmente visibile e raggiungibile, lungo i percorsi d’esodo in prossimità delle uscite dei locali, di piano o finali, ed in prossimità delle aree a rischio specifico",
+      "No, poiché sono utilizzati dagli addetti antincendio devono essere posti in prossimità dei locali dove sono presenti gli addetti",
+      "No, è sufficiente che siano collocati in un qualunque locale del luogo di lavoro"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori di classe A devono essere installati in modo da non superare le massime distanza di raggiungimento indicate nelle norme di prevenzione incendi",
+    "opzioni": [
+      "Si, le massime distanze di installazione variano fra i 20 e 40 metri in funzione del rischio di incendio al quale sono esposte le persone (Rvita)",
+      "No, poiché sono utilizzati dagli addetti antincendio devono essere posti in prossimità dei locali dove sono presenti gli addetti",
+      "No, è sufficiente che siano collocati in un qualunque locale del luogo di lavoro"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori di classe B devono essere posizionati a distanza non superiore a 15 m rispetto alle sorgenti di rischio (es: deposito di liquidi infiammabili)",
+    "opzioni": [
+      "Si,",
+      "No, poiché sono utilizzati dagli addetti antincendio devono essere posti in prossimità dei locali dove sono presenti gli addetti",
+      "No, è sufficiente che siano collocati in un qualunque locale del luogo di lavoro"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Per consentire a tutti gli occupanti di impiegare gli estintori per rispondere immediatamente ad un principio di incendio le impugnature dei presidi manuali dovrebbero essere collocate",
+    "opzioni": [
+      "ad una quota pari a circa 110 cm dal piano di calpestio",
+      "ad una quota pari a circa 50 cm dal piano di calpestio",
+      "ad una quota non superiore a 200 cm dal piano di calpestio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli estintori devono essere sempre disponibili per l’uso immediato e la loro posizione deve essere sempre segnalata con opportuni segnali di sicurezza",
+    "opzioni": [
+      "Si, in particolare la segnaletica dovrà indicare la tipologia di estintore (portatile o carrellato)",
+      "No, poiché sono utilizzati dagli addetti antincendio non è necessario segnalarli",
+      "No, è sufficiente che siano indicati nella planimetria affissa nei locali del luogo di lavoro"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il seguente segnale di sicurezza indichiamo",
+    "opzioni": [
+      "Il punto di installazione di un estintore portatile",
+      "Il punto di installazione di un estintore carrellato",
+      "Il locale del luogo di lavoro nel quale sono collocati tutti gli estintori per affrontare un principio di incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Con il seguente segnale di sicurezza indichiamo",
+    "opzioni": [
+      "Il punto di installazione di un estintore portatile",
+      "Il punto di installazione di un estintore carrellato",
+      "Il locale del luogo di lavoro nel quale sono collocati tutti gli estintori per affrontare un principio di incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La rete idrica antincendi o rete idranti è un impianto di protezione attiva finalizzato al “controllo dell’incendio”",
+    "opzioni": [
+      "sì, è un impianto fisso ad azionamento automatico",
+      "sì, è un impianto fisso ad azionamento manuale",
+      "no, è un impianto fisso finalizzato alla rilevazione dell’incendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le reti di idranti (RI) si distinguono in RI ordinarie e RI all’aperto",
+    "opzioni": [
+      "No, esistono solo le RI ordinarie, destinate alla protezione di attività ubicate all’interno di opere da costruzione",
+      "Si, ordinarie, destinate alla protezione di attività ubicate all’interno di opere da costruzione, e all’aperto, destinate alla protezione di attività ubicate all’aperto",
+      "No, esistono solo le RI all’aperto, destinate alla protezione di attività ubicate all’aperto"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Le reti di idranti (RI) sono composte dai seguenti componenti principali",
+    "opzioni": [
+      "alimentazione idrica e rete di tubazioni fisse",
+      "alimentazione idrica; rete di tubazioni fisse, preferibilmente chiuse ad anello, ad uso esclusivo; attacchi di mandata per autopompa; valvole; apparecchi erogatori",
+      "alimentazione idrica, attacchi di mandata per autopompa e valvole"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Gli apparecchi erogatori utilizzati nelle reti idranti ordinarie, destinate alla protezione di attività ubicate all’interno di opere da costruzione, si dividono in:",
+    "opzioni": [
+      "idranti a muro di DN 50 ( = 50 mm) o naspi DN 30 ( = 30 mm)",
+      "idranti a muro di DN 45 ( = 45 mm) o naspi di DN 25 ( = 25 mm)",
+      "Nelle reti idranti ordinarie si utilizzano esclusivamente idranti a muro DN 45( = 45 mm)"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La tubazione flessibile degli “idranti a muro DN 45 ( = 45 mm)” è in genere lunga",
+    "opzioni": [
+      "50 metri",
+      "20 metri",
+      "10 metri"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La tubazione semirigida dei “naspi DN 25 ( = 25 mm)” ha una lunghezza massima di",
+    "opzioni": [
+      "50 metri",
+      "30 metri",
+      "10 metri"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "I sistemi automatici di inibizione, controllo o estinzione dell’incendio adottati nella misura “controllo dell’incendio” possono erogare diversa tipologia di agenti estinguenti (acqua, gas, polvere ...)",
+    "opzioni": [
+      "No, i sistemi utilizzati per il “controllo dell’incendio” possono erogare solo acqua (impianti sprinkler o diluvio)",
+      "Si, in relazione alla classe dell’incendio e al rischio di incendio presente nell’attività",
+      "No, i sistemi utilizzati per il “controllo dell’incendio” possono erogare solo agenti estinguenti di tipo gassoso"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Un impianto automatico a pioggia sprinkler",
+    "opzioni": [
+      "Serve ad estinguere definitivamente l’incendio, anche se si è diffuso all’intero locale servito",
+      "serve ad assicurare una pronta risposta all’incendio rivelandone la presenza e controllandolo in modo che l'estinzione possa essere completata con altri mezzi, oppure estinguendolo nello stadio iniziale",
+      "serve ad assicurare una pronta risposta all’incendio rivelandone la presenza"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Gli ugelli regolatori distribuiti sull’area protetta dagli impianti a pioggia sprinkler",
+    "opzioni": [
+      "Sono tutti aperti, all’attivazione dell’allarme viene erogata acqua contemporaneamente in tutto il locale protetto",
+      "Sono chiusi con elementi che ad una data temperatura (termosensibili) si “rompono” consentendo all’acqua di uscire",
+      "Sono chiusi con elementi che si “rompono” alla temperatura di progetto, che è sempre di 200 °C"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Un impianto automatico a diluvio",
+    "opzioni": [
+      "serve ad assicurare una pronta risposta all’incendio rivelandone la presenza e controllandolo in modo che l'estinzione possa essere completata con altri mezzi, oppure estinguendolo nello stadio iniziale",
+      "è un sistema fisso di protezione antincendio che inonda totalmente l'area con acqua sotto pressione, attraverso un sistema di tubazioni e di erogatori sprinkler privi del tappo e dell'elemento termosensibile",
+      "serve ad assicurare una pronta risposta all’incendio rivelandone la presenza"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Negli impianti automatici a diluvio le tubazioni sono vuote e l'acqua è mantenuta a monte di un'apposita valvola a diluvio la cui apertura è comandata da un sistema di rivelazione incendi scaricando l'acqua contemporaneamente da tutti gli erogatori",
+    "opzioni": [
+      "No, le tubazioni sono piene è l’acqua è scaricata solo nell’area in cui gli elementi termosensibili si aprono e consentono all’acqua si uscire",
+      "Si",
+      "Gli impianti a diluvio non esisitono"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La progettazione della misura antincendio “Operatività Antincendio” ha lo scopo di:",
+    "opzioni": [
+      "agevolare l’efficace conduzione di interventi di soccorso dei Vigili del fuoco in tutte le attività",
+      "agevolare l’efficace azione delle “addetti alla gestione dell’emergenza” aziendali in tutte le attività",
+      "Agevolare l’efficace azione dei soccorsi sanitari in tutte le attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Ai fini della mitigazione del rischio incendio, è sempre necessario, in relazione al rischio valutato, progettare soluzioni tecniche che agevolino l’efficace conduzione di interventi di soccorso dei Vigili del fuoco",
+    "opzioni": [
+      "No, l’agevolazione dell’attività di soccorso dei Vigili del Fuoco non rientra fra i requisiti da garantire al fine di minimizzare il rischio incendio e raggiungere gli obiettivi di sicurezza primaria della prevenzione incendi",
+      "Si, l’agevolazione dell’attività di soccorso dei Vigili del Fuoco rientra fra i requisiti da garantire al fine di minimizzare il rischio incendio e raggiungere gli obiettivi di sicurezza primaria della prevenzione incendi",
+      "No, le misure finalizzate all’agevolazione dell’attività di soccorso dei Vigili del Fuoco non si progettano con l’applicazione del “Codice” ma concordandole con il locale Comando VVF"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Tra le misure di “Operatività Antincendio” rientra l’accessibilità per mezzi di soccorso antincendio,",
+    "opzioni": [
+      "Si, al fine di agevolare gli interventi dei VVF, generalmente deve essere garantita la possibilità di avvicinare i mezzi di soccorso a distanza 50 m dagli accessi dell’attività",
+      "No, l’importante che i mezzi possano arrivare tramite la pubblica il più vicino possibile al luogo dell’intervento, a prescindere dalla distanza degli accessi all’attività",
+      "No, l’accessibilità per i mezzi di soccorso all’attività non influisce sulla mitigazione del rischio di incendio dell’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Tra le misure di “Operatività Antincendio” rientra la pronta disponibilità di agenti estinguenti",
+    "opzioni": [
+      "Si, ed è attuabile nei seguenti modi: rete idranti con protezione interna o, in alternativa, per attività a più piani fuori terra, tramite colonna a secco e rete idranti con protezione esterna o presenza di almeno un idrante, derivato dalla rete interna oppure collegato alla rete pubblica, raggiungibile con un percorso massimo di 500 m dai confini dell’attività",
+      "No, i Vigili del Fuoco che intervengono hanno sui loro mezzi gli agenti estinguenti sufficienti a fronteggiare tempestivamente ed efficacemente qualunque tipo di incendio",
+      "No, la pronta disponibilità di agenti estinguenti non influisce sulla mitigazione del rischio di incendio dell’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Tra le misure di “Operatività Antincendio” rientra la possibilità di controllare o arrestare gli impianti tecnologici e di servizio dell’attività, compresi gli impianti di sicurezza",
+    "opzioni": [
+      "Si, e si attua, ad esempio, mediante l’ubicazione dei sistemi di controllo e comando dei servizi di sicurezza destinati a funzionare in caso di incendio in posizione segnalata e facilmente raggiungibile durante l’incendio",
+      "No, i Vigili del Fuoco che intervengono hanno i dispositivi di protezione individuale grazie ai quali possono raggiungere ogni area dell’attività e controllare o arrestare gli impianti dell’attività",
+      "No, la possibilità di controllare o arrestare gli impianti tecnologici e di servizio dell’attività, compresi gli impianti di sicurezza non influisce sulla mitigazione del rischio di incendio dell’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Tra le misure di “Operatività Antincendio” rientra l’accessibilità protetta per i vigili del fuoco a tutti i piani dell’attività",
+    "opzioni": [
+      "Si, e si attua, ad esempio, tramite accostabilità a tutti i piani dell’autoscala o di mezzo equivalente dei vigili del fuoco",
+      "No, i Vigili del Fuoco che intervengono hanno i dispositivi di protezione individuale grazie ai quali possono raggiungere ogni area dell’attività e operare contro l’incendio",
+      "No, l’accessibilità protetta per i vigili del fuoco a tutti i piani dell’attività non influisce sulla mitigazione del rischio di incendio dell’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "L’ascensore antincendio è",
+    "opzioni": [
+      "un ascensore installato principalmente per uso degli occupanti, munito però di ulteriori protezioni, comandi e segnalazioni che lo rendono in grado di essere impiegato, sotto il controllo delle squadre di soccorso, anche in caso di incendio",
+      "un ascensore utilizzabile in caso di incendio, installato esclusivamente per il trasporto delle attrezzature di servizio antincendio ed eventualmente, per l’evacuazione di emergenza degli occupanti",
+      "un ascensore protetto da impianti automatici di spegnimento"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "L’ascensore di soccorso è",
+    "opzioni": [
+      "un ascensore installato principalmente per uso degli occupanti, munito però di ulteriori protezioni, comandi e segnalazioni che lo rendono in grado di essere impiegato, sotto il controllo delle squadre di soccorso, anche in caso di incendio",
+      "un ascensore utilizzabile in caso di incendio, installato esclusivamente per il trasporto delle attrezzature di servizio antincendio ed eventualmente, per l’evacuazione di emergenza degli occupanti",
+      "un ascensore protetto da impianti automatici di spegnimento"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "La Gestione della Sicurezza Antincendio è la misura di sicurezza antincendio",
+    "opzioni": [
+      "finalizzata alla gestione di un’attività in condizioni di sicurezza, sia in fase di esercizio che in fase di emergenza, attraverso l’adozione di una organizzazione che prevede ruoli, compiti, responsabilità e procedure",
+      "finalizzata solo alla gestione di un’attività in condizioni di sicurezza in fase di esercizio, attraverso l’adozione di una organizzazione che prevede ruoli, compiti, responsabilità e procedure",
+      "non è una misura di sicurezza antincendio ma una strategia"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "la finalità della misura Gestione della Sicurezza Antincendio (GSA)",
+    "opzioni": [
+      "È di garantire, nel tempo, un adeguato livello di sicurezza in caso di incendio",
+      "E’ di garantire nel tempo un adeguato livello di manutenzione delle attrezzature e impianti antincendio",
+      "E’ di garantire nel tempo una adeguato livello di affidabilità degli impianti di protezione attiva a disponibilità superiore"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La gestione della sicurezza antincendio (GSA) si divide nei due aspetti: gestione della sicurezza antincendio in esercizio e gestione della sicurezza antincendio in emergenza",
+    "opzioni": [
+      "Si",
+      "No, solo gestione della sicurezza antincendio in esercizio",
+      "No, solo gestione della sicurezza antincendio in emergenza"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La gestione della sicurezza antincendio (GSA) in esercizio deve comprendere",
+    "opzioni": [
+      "Tutte le azioni previste negli altre due punti",
+      "L’adozione e verifica periodica delle misure antincendio preventive, l’apposizione della segnaletica di sicurezza (divieti, avvertimenti, evacuazione,...), la verifica dell’osservanza dei divieti, delle limitazioni e delle condizioni di esercizio ed il controllo e la manutenzione di impianti e attrezzature antincendio e la compilazione registro dei controlli",
+      "La preparazione alla gestione dell’emergenza, tramite piano di emergenza, formazione e addestramento degli addetti alla gestione dell’emergenza, esercitazioni antincendio e prove d’evacuazione periodiche e la gestione delle condizioni di maggior rischio (lavori di manutenzione, rischi di interferenza, disattivazione di impianti o sistemi di sicurezza, impiego"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La gestione della sicurezza antincendio (GSA) in emergenza riguarda",
+    "opzioni": [
+      "l’attivazione e l’attuazione del piano di emergenza.",
+      "L’adozione e verifica periodica delle misure antincendio preventive, l’apposizione della segnaletica di sicurezza (divieti, avvertimenti, evacuazione,), la verifica dell’osservanza dei divieti, delle limitazioni e delle condizioni di esercizio ed il controllo e la manutenzione di impianti e attrezzature antincendio e la compilazione registro dei controlli",
+      "La preparazione alla gestione dell’emergenza, tramite piano di emergenza, formazione e addestramento degli addetti alla gestione dell’emergenza, esercitazioni antincendio e prove d’evacuazione periodiche e la gestione delle condizioni di maggior rischio (lavori di manutenzione, rischi di interferenza, disattivazione di impianti o sistemi di sicurezza, impiego"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli addetti al servizio antincendio",
+    "opzioni": [
+      "attuano le misure antincendio in esercizio e in emergenza, con le modalità stabilite dal datore di lavoro nei documenti della Gestione della Sicurezza Antincendio (GSA) e nel piano di emergenza",
+      "Attuano solo le misure antincendio in emergenza, con le modalità stabilite dal datore di lavoro nel piano di emergenza",
+      "Attuano solo le misure antincendio in esercizio, con le modalità stabilite dal datore di lavoro nei documenti della Gestione della Sicurezza Antincendio (GSA)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli addetti al servizio antincendio, in condizione ordinarie (gestione sicurezza antincendio – GSA - in esercizio)",
+    "opzioni": [
+      "attuano le misure antincendio in esercizio, in particolare: attuano le misure antincendio preventive; garantiscono la fruibilità delle vie di esodo; svolgono le attività di sorveglianza dei presidi antincendio",
+      "Attuano le misure antincendio in emergenza, in particolare: mettono in atto le azioni previste dal piano di emergenza; attuano le misure per l’evacuazione degli occupanti; eseguono le comunicazioni previste in emergenza; supportano le squadre di soccorso; provvedono allo spegnimento di un principio di incendio",
+      "Non svolgono particolari mansioni finalizzati alla Gestione della Sicurezza Antincendio (GSA)"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Gli addetti al servizio antincendio, in condizione di emergenza (gestione sicurezza antincendio – GSA - in emergenza)",
+    "opzioni": [
+      "attuano le misure antincendio in esercizio, in particolare: attuano le misure antincendio preventive; garantiscono la fruibilità delle vie di esodo; svolgono le attività di sorveglianza dei presidi antincendio",
+      "Attuano le misure antincendio in emergenza, in particolare: mettono in atto le azioni previste dal piano di emergenza; attuano le misure per l’evacuazione degli occupanti; eseguono le comunicazioni previste in emergenza; supportano le squadre di soccorso; provvedono allo spegnimento di un principio di incendio",
+      "Non svolgono particolari mansioni finalizzati alla Gestione della Sicurezza Antincendio (GSA)"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "IL controllo e la manutenzione di impianti e attrezzature antincendio è parte integrante e fondamentale della gestione della sicurezza antincendio (GSA) organizzata dal datore di lavoro",
+    "opzioni": [
+      "No, il mantenimento nel tempo del funzionamento e dell’efficacia degli impianti e attrezzature antincendio è garantito da una buona progettazione e una corretta installazione",
+      "Si, è fondamentale per garantire nel tempo il funzionamento e l’efficacia degli impianti e attrezzature antincendio",
+      "No, il controllo e la manutenzione di impianti e attrezzature antincendio non rientrano fra le attività di gestione della sicurezza antincendio"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Il Piano di Emergenza che il Datore di Lavoro redige ai sensi del Dlgs 81/2008 è",
+    "opzioni": [
+      "L’organizzazione della risposta all’emergenza sviluppata e implementata sulla base della valutazione del rischio incendio nonché in risposta ad altri eventuali eventi emergenziali credibili (es terremoto, ...)",
+      "L’organizzazione della risposta all’emergenza sviluppata e implementata sulla base dell’esperienza del Datore di Lavoro",
+      "L’organizzazione della risposta all’emergenza mediante la redazione delle procedure per l’evacuazione del luogo di lavoro"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Piano di Emergenza, redatto per fronteggiare gli eventuali incendi che possono interessare il luogo di lavoro, dettaglia i compiti ed incarichi affidati agli addetti antincendio",
+    "opzioni": [
+      "Si, specificando le modalità di allertamento per avvisare dell’emergenza in atto e delle chiamate di emergenza e soccorso (in particolare ai VVF), nonché le modalità di primo intervento negli ambiti coinvolti nell’emergenza e le modalità di avvio e coordinamento dell’evacuazione",
+      "Si, specificando che il principale compito affidato agli addetti antincendio è chiamare i soccorsi, in particolare ai VVF",
+      "No, il piano di emergenza delinea in generale le attività da mettere in campo in caso di incendio poiché gli addetti antincendio sono formati e sanno cosa fare"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Piano di Emergenza, redatto dal Datore di Lavoro per fronteggiare gli eventuali incendi che possono interessare il luogo di lavoro, deve contenere",
+    "opzioni": [
+      "le azioni che i lavoratori devono mettere in atto in caso di incendio; le procedure per l’evacuazione del luogo di lavoro che devono essere attuate dai lavoratori e dalle altre persone presenti; le disposizioni per chiedere l’intervento dei vigili del fuoco e per fornire le necessarie informazioni al loro arrivo; le specifiche misure per assistere le persone con esigenze",
+      "unicamente le procedure per l’evacuazione del luogo di lavoro che devono essere attuate dai lavoratori e dalle altre persone presenti",
+      "unicamente le disposizioni per chiedere l’intervento dei vigili del fuoco e per fornire le necessarie informazioni al loro arrivo"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Piano di Emergenza, redatto dal Datore di Lavoro per fronteggiare gli eventuali incendi che possono interessare il luogo di lavoro, deve identificare un adeguato numeri di addetti al servizio antincendio incaricati di sovrintendere e attuare le procedure previste",
+    "opzioni": [
+      "Si, il numero complessivo di personale designato alla gestione delle emergenze deve essere congruo, in relazione alle turnazioni e alle assenze ordinariamente prevedibili",
+      "No, è sufficiente che tra i lavoratori almeno due unità siano formate e addestrate per svolgere l’incarico di addetti antincendio",
+      "No, solo per le attività con un numero di occupanti maggiore di 1000"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Piano di Emergenza, redatto dal Datore di Lavoro per fronteggiare gli eventuali incendi che possono interessare il luogo di lavoro, dettaglia i compiti ed incarichi affidati agli addetti antincendio",
+    "opzioni": [
+      "Si, in generale: le modalità di allertamento per avvisare dell’emergenza in atto e delle chiamate di emergenza e soccorso, in particolare ai VVF; le modalità di primo intervento negli ambiti coinvolti nell’emergenza; le modalità di avvio e coordinamento dell’evacuazione",
+      "Si, in particolare il principale compito affidato agli addetti antincendio è chiamare i soccorsi, in particolare ai VVF",
+      "No, il piano di emergenza delinea in generale le attività da mettere in campo in caso di incendio poiché gli addetti antincendio sono formati e sanno cosa fare"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Piano di Emergenza, redatto dal Datore di Lavoro per fronteggiare gli eventuali incendi che possono interessare il luogo di lavoro",
+    "opzioni": [
+      "deve essere basato su chiare istruzioni scritte relative alle modalità di risposta all’incendio e includere anche una o più planimetrie descrittive dei luoghi e riportanti l’ubicazione dei presidi antincendio",
+      "deve essere basato solo su chiare istruzioni scritte relative alle modalità di risposta all’incendio",
+      "È composto solo da planimetrie descrittive dei luoghi e riportanti l’ubicazione dei presidi antincendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Piano di Emergenza, redatto dal Datore di Lavoro per fronteggiare gli eventuali incendi che possono interessare il luogo di lavoro deve essere portato a conoscenza di tutti i lavoratori, anche se non addetti antincendio",
+    "opzioni": [
+      "Si, in particolare nel piano di emergenza devono essere indicati anche i provvedimenti necessari per assicururare che tutto il personale sia informato sulle procedure da attuare",
+      "No, deve essere portato a conoscenza solo agli addetti antincendio che devono attuare gli incarichi e i compiti assegnati",
+      "No, deve essere portato a conoscenza dei VVF che devono intervenire in caso di incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Piano di Emergenza, redatto dal Datore di Lavoro per fronteggiare gli eventuali incendi che possono interessare il luogo di lavoro, deve indicare le specifiche procedure per la chiamata dei vigili del fuoco",
+    "opzioni": [
+      "Si, in modo da fornire correttamente informazioni utili per il soccorso: indirizzo del luogo di lavoro; tipologia emergenza e gravità; eventuale presenza di infortunati e di materiali e/o sostanze pericolosi presenti; informazioni su accesso e vie preferenziali per raggiungere il sito",
+      "No, è sufficiente indicare il numero di soccorso da chiamare nelle planimetrie ubicate nel luogo di lavoro",
+      "No, gli addetti antincendio incaricati sono formati e addestrati e non necessitano di altre istruzioni"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Per più luoghi di lavoro ubicati nello stesso edificio, ma facenti capo a titolari diversi, i piani di emergenza devono essere coordinati",
+    "opzioni": [
+      "Si, in modo che i piani di emergenza delle singole attività siano coerenti fra loro",
+      "No, è sufficiente che ogni datore di lavoro rediga il proprio piano di emergenza indipendente dagli altri piani",
+      "No, poichè nello stesso edificio non possono mai coesistere più luoghi di lavoro facenti capo a titolari diversi"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I lavoratori e gli addetti antincendio che individuano prontamente un’emergenza incendio in atto devono",
+    "opzioni": [
+      "dare l’allarme secondo le indicazioni del piano di emergenza evitando di trasmettere stato di agitazione agli altri occupanti",
+      "dare l’allarme in qualunque modo per avvisare tutti",
+      "dare l’allarme al Datore di Lavoro che deciderà cosa fare"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "I lavoratori, in caso di emergenza incendio",
+    "opzioni": [
+      "Devono seguire le indicazioni del piano di emergenza redatte dal Datore di Lavoro",
+      "Intervenire nel luogo interessato cercando di spegnere in ogni modo l’incendio",
+      "Devono allontanarsi dal luogo di lavoro, il più velocemente possibile e con qualunque modalità"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il datore di lavoro, oltre alla predisposizione del sistema d’esodo, nel piano di emergenza deve predisporre le procedure per consentire l’evacuazione dell’attività",
+    "opzioni": [
+      "Si,",
+      "No, e sufficiente che il datore di lavoro identifichi le vie di esodo con idonea segnaletica di sicurezza",
+      "No, è sufficiente che il datore di lavoro indichi le vie di esodo nelle planimetrie apposte nell’attività"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’attuazione delle procedure di evacuazione gli addetti antincendio",
+    "opzioni": [
+      "svolgono un ruolo fondamentale assicurando e sovraintendendo il corretto svolgimento delle procedure di evacuazione",
+      "Non sono chiamati a svolgere alcun ruolo poiché le procedure di evacuazione sono già a conoscenza di tutti i lavoratori",
+      "Non sono chiamati a svolgere alcun ruolo poiché il loro compito è solo chiamare i soccorsi esterni e tentare di spegnere l’incendio"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Nell’attuazione delle procedure di evacuazione, le azioni e le attività che devono svolgere gli addetti antincendio sono",
+    "opzioni": [
+      "Accertarsi che le uscite di sicurezza siano fruibili nonché tutte le altre azioni indicate negli altri due punti",
+      "sorvegliare la corretta evacuazione delle persone, accertarsi che nessun occupante abbia problemi a raggiungere l'uscita, assistere le persone con specifiche necessità (disabili, ...) fino al raggiungimento del punto di raccolta",
+      "riunire gli occupanti presso il punto di raccolta; verificare, tramite appello dei presenti, che tutti gli occupanti abbiano raggiunto il luogo sicuro; verificare che tutte le persone presso il luogo di raccolta rimangano nelle aree prestabilite fino al termine dell'emergenza"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La gestione dell’emergenza deve essere oggetto di preparazione e prove periodiche",
+    "opzioni": [
+      "Si, la gestione dell’emergenza deve essere preparata durante l’esercizio ordinario dell’attività e oggetto di specifiche prove periodiche",
+      "No, non è necessario fare le prove periodiche è sufficiente che la pianificazione della gestione delle emergenze sia portata a conoscenza dei lavoratori",
+      "No, in caso di emergenza gli addetti antincendio incaricati forniranno le istruzione e le procedure necessarie per gestire l’emergenza"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Il Datore di Lavoro, nel predisporre il piano di emergenza, deve prevedere una adeguata assistenza alle persone con esigenze speciali,",
+    "opzioni": [
+      "Si, indicando misure di supporto alle persone con ridotte capacità sensoriali o motorie, tra le quali adeguate modalità di diffusione dell'allarme, attraverso dispositivi sensoriali (luci, scritte luminose, dispositivi a vibrazione) e messaggi da altoparlanti (ad esempio con sistema EVAC).",
+      "No, non è necessario è sufficiente incaricare gli addetti antincendio che provvederanno in base alla loro formazione ed esperienza a gestire le persone con esigenze speciali",
+      "No, è sufficiente comunicare durante la chiamata di soccorso ai Vigili del Fuoco l’eventuale presenza di persone con esigenze speciali"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La maschera a filtro si può usare in ambiente con presenza di ossigeno non inferiore",
+    "opzioni": [
+      "al 6%",
+      "al 12%",
+      "al 17%"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Gli autorespiratori a ciclo aperto dispongono di bombole contenenti:",
+    "opzioni": [
+      "Ossigeno puro",
+      "Aria compressa",
+      "Aria ed ossigeno"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Per diminuire il pericolo d'incendio in un locale adibito allo stoccaggio di liquidi infiammabili si può",
+    "opzioni": [
+      "aumentare la temperatura del locale",
+      "dotare il locale di aperture di ventilazione naturale",
+      "aumentare la pressione dell'aria nel locale"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Una bassa temperatura di infiammabilità indica che una sostanza",
+    "opzioni": [
+      "Emette fumi",
+      "Reagisce con altre sostanze",
+      "È più facilmente infiammabile in presenza di innesco"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Immagazzinando combustibili che sviluppano vapori più pesanti dell'aria il pericolo è maggiore:",
+    "opzioni": [
+      "in locali sotterranei",
+      "in locali al piano terra",
+      "in locali sopraelevati"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "In un ambiente con presenza di gas o vapori più pesanti dell'aria le aperture di ventilazione devono essere disposte",
+    "opzioni": [
+      "sul tetto",
+      "a filo pavimento",
+      "a filo soffitto"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Nel caso di un dardo di fuoco originato da una fuga di gas da una tubazione o da una flangia si procede immediatamente",
+    "opzioni": [
+      "all'intercettazione della fuga di gas",
+      "allo spegnimento con acqua",
+      "allo spegnimento con schiuma"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "La probabilità che possa verificarsi un incendio aumenta",
+    "opzioni": [
+      "con la quantità di materiali combustibili",
+      "con la presenza di sorgenti di innesco",
+      "con la quantità di liquidi infiammabili"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Il flash over è",
+    "opzioni": [
+      "l'istante di innesco dell'incendio",
+      "l'istante di estinzione dell'incendio",
+      "l'istante di propagazione generalizzata dell'incendio"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Durante un incendio si possono avere difficoltà respiratorie a causa",
+    "opzioni": [
+      "della riduzione del tasso di azoto nell'aria",
+      "della riduzione del tasso di ossigeno nell'aria",
+      "della presenza di idrogeno nell'aria."
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "In un compartimento di classe 120 di resistenza a fuoco una porta deve avere resistenza a fuoco pari a",
+    "opzioni": [
+      "la metà di quella della struttura attraversata",
+      "il doppio di quella della struttura attraversata",
+      "uguale a quella della struttura attraversata"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "Le vie di esodo sono una misura di",
+    "opzioni": [
+      "Protezione attiva",
+      "Prevenzione",
+      "Protezione passiva"
+    ],
+    "corretta": 2
+  },
+  {
+    "domanda": "La lunghezza d'esodo deve essere valutata",
+    "opzioni": [
+      "sulla base della valutazione del rischio e del profilo di rischio vita",
+      "sulla base del carico di incendio",
+      "in base alla temperatura di accensione dei combustibili presenti"
+    ],
+    "corretta": 0
+  },
+  {
+    "domanda": "Durante l'uso di un estintore è preferibile indirizzare l'agente estinguente:",
+    "opzioni": [
+      "sempre sullo stesso punto alla base delle fiamme",
+      "muovendo l'erogazione a ventaglio in senso orizzontale, avendo cura di indirizzare il getto sempre alla base delle fiamme",
+      "muovendo l'erogazione dall'alto verso il basso"
+    ],
+    "corretta": 1
+  },
+  {
+    "domanda": "Un impianto automatico di estinzione assolve alla funzione di",
+    "opzioni": [
+      "spegnimento dell'incendio",
+      "inertizzazione preventiva dell'ambiente",
+      "segnalazione acustica dell'incendio"
+    ],
+    "corretta": 0
+  }
+]
