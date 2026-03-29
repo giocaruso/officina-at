@@ -32,15 +32,28 @@
         .manuale-hover { transition: all 0.3s ease !important; }
         .manuale-hover:hover { transform: translateY(-4px) !important; box-shadow: 0 10px 25px rgba(0, 74, 153, 0.15) !important; border-left-width: 6px !important; }
     </style>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92SS78S6QT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/63b5cc28417c9e07808b06952cb0fe96/script.js"></script>
 
-  // Configurazione base
-  gtag('config', 'G-92SS78S6QT');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-92SS78S6QT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+
+      // COMANDO FONDAMENTALE: Dice a Google di attendere il consenso.
+      // Di default i cookie sono "denied" (negati).
+      gtag('consent', 'default', {
+        'analytics_storage': 'denied',
+        'ad_storage': 'denied',
+        'personalization_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'wait_for_update': 500
+      });
+
+      gtag('js', new Date());
+      gtag('config', 'G-92SS78S6QT');
+    </script>
 </head>
 <body>
 
