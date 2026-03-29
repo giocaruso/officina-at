@@ -29,6 +29,14 @@ async function caricaPagina(urlFile) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
         sessionStorage.setItem('paginaSalvata', urlFile);
 
+        // --- INVIO DATI A GOOGLE ANALYTICS (G-92SS78S6QT) ---
+        if (typeof gtag === 'function') {
+            gtag('event', 'page_view', {
+                page_path: '/' + urlFile
+            });
+        }
+        // ----------------------------------------------------
+
         if (urlFile.includes('motore-universale-quiz.html')) {
             setTimeout(inizializzaQuiz, 150);
         }
