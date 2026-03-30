@@ -32,9 +32,6 @@
         .manuale-hover { transition: all 0.3s ease !important; }
         .manuale-hover:hover { transform: translateY(-4px) !important; box-shadow: 0 10px 25px rgba(0, 74, 153, 0.15) !important; border-left-width: 6px !important; }
     </style>
-    
-    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/63b5cc28417c9e07808b06952cb0fe96/script.js"></script>
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-92SS78S6QT"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -174,6 +171,16 @@
     </div>
 
     <div id="footer-placeholder"></div>
+
+    <div id="cookie-banner">
+        <div id="cookie-text">
+            Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito. Puoi scegliere di accettarli tutti o <span onclick="apriPreferenzeCookie()" style="text-decoration: underline; cursor: pointer; font-weight: bold;">gestire le tue preferenze</span>.
+        </div>
+        <div class="cookie-buttons">
+            <button class="cookie-btn btn-reject" onclick="gestisciCookie('rifiutati')">Rifiuta</button>
+            <button class="cookie-btn btn-accept" onclick="gestisciCookie('accettati')">Accetta tutti</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
