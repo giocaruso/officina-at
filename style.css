@@ -218,9 +218,23 @@ div[style*="max-width: 900px"] {
 }
 
 /* ==========================================
-   FOOTER
+   FOOTER (Versione Ultra Compatta)
    ========================================== */
-.footer { background-color: var(--secondary); color: #d1d9e6; text-align: center; padding: 40px 20px; margin-top: 40px; border-top-left-radius: 40px; border-top-right-radius: 40px; }
+.footer { 
+    background-color: var(--secondary); 
+    color: #d1d9e6; 
+    text-align: center; 
+    padding: 10px 20px; /* Ridotto da 40px per la massima compattezza */
+    margin-top: 15px;    /* Ridotto da 40px per avvicinarlo ai contenuti */
+    border-radius: 0;    /* Rimossi gli arrotondati per un profilo più sottile */
+    line-height: 1.2;    /* Comprime lo spazio tra le righe di testo */
+}
+
+/* Compattazione specifica per i testi nel footer */
+.footer p { 
+    margin: 2px 0; 
+    font-size: 0.85rem; 
+}
 
 /* Allargato e reso fluido */
 .footer-container { max-width: 1200px; width: 96%; margin: 0 auto; }
@@ -250,7 +264,7 @@ div[style*="max-width: 900px"] {
         padding: 20px 10px !important;
     }
     
-    /* Riduce forzatamente i padding interni dei riquadri bianchi e colorati (come in "Chi Sono") */
+    /* Riduce forzatamente i padding interni dei riquadri bianchi e colorati */
     div[style*="padding: 40px"], 
     div[style*="padding: 30px"] {
         padding-left: 15px !important;
