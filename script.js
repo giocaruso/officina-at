@@ -13,6 +13,12 @@ let score = 0;
 
 async function caricaPagina(urlFile) {
     try {
+        // NOVITÀ: Prima di caricare la nuova pagina, salvo quella attuale come "precedente"
+        const paginaAttuale = sessionStorage.getItem('paginaSalvata');
+        if (paginaAttuale && paginaAttuale !== urlFile) {
+            sessionStorage.setItem('paginaPrecedente', paginaAttuale);
+        }
+
         const response = await fetch(urlFile);
         if (!response.ok) throw new Error("Pagina non trovata: " + urlFile);
         const html = await response.text();
@@ -27,6 +33,8 @@ async function caricaPagina(urlFile) {
         if(contenitore) contenitore.innerHTML = html;
         
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        
+        // Salva la nuova pagina come quella attuale
         sessionStorage.setItem('paginaSalvata', urlFile);
 
         // --- INVIO DATI A GOOGLE ANALYTICS (G-92SS78S6QT) ---
@@ -572,7 +580,6 @@ async function caricaComponente(idContenitore, fileHtml) {
         console.error("Errore componente:", fileHtml);
     }
 }
-
 document.addEventListener("DOMContentLoaded", () => {
     caricaComponente('header-placeholder', 'pagine/header.html');
     caricaComponente('footer-placeholder', 'pagine/footer.html');
@@ -581,4 +588,23 @@ document.addEventListener("DOMContentLoaded", () => {
     if (pagina) {
         caricaPagina(pagina);
     }
-});
+}); 
+
+// ==========================================
+// --- FUNZIONI EXTRA AGGIUNTE ---
+// ==========================================
+
+function gestisciRitorno() {
+    // Va a leggere la memoria interna che abbiamo appena creato
+    const paginaPrecedente = sessionStorage.getItem('paginaPrecedente');
+
+    if (paginaPrecedente) {
+        // Se si ricorda da dove viene, ricarica quell'articolo
+        caricaPagina(paginaPrecedente);
+        // Svuota la memoria per evitare loop strani se clicca più volte
+        sessionStorage.removeItem('paginaPrecedente');
+    } else {
+        // Se non ha memoria (es. è entrato direttamente sulla newsletter), torna in Home
+        tornaAllHub(); 
+    }
+}
