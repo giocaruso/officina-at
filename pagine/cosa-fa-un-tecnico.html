@@ -5,12 +5,36 @@
 </style>
 
 <div class="section" style="display: block;">
-     <button onclick="tornaAllHub()" class="btn-back-hub">← Torna all'Officina</button>
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <button id="btn-ritorno-dinamico" onclick="gestisciRitorno()" class="btn-back-hub" style="margin: 0;">
+            ← Indietro
+        </button>
+        <button onclick="tornaAllHub()" class="btn-back-hub" style="margin: 0; background-color: var(--primary); color: white; border-color: var(--primary);">
+            🏠 Officina
+        </button>
+    </div>
+
     <div style="max-width: 800px; margin: 0 auto;">
         <h2 style="color: var(--secondary); text-align: center; margin-bottom: 20px; font-size: 2.2rem;">Cosa fa (davvero) un Assistente Tecnico?</h2>
         <p style="font-size: 1.1rem; line-height: 1.6; color: #555; text-align: center; margin-bottom: 40px;">
             Mansioni, orari e responsabilità dell'AT di informatica (Area AR02) nella gestione quotidiana dei laboratori scolastici.
         </p>
+
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 30px;">
+            <button class="btn" style="width: auto; margin: 0; padding: 8px 16px; font-size: 0.9rem; background-color: #f4f7fa; color: var(--primary); border: 2px solid var(--primary);" onclick="caricaPagina('pagine/come-diventare-at.html')">
+                Come si diventa AT
+            </button>
+            <button class="btn" style="width: auto; margin: 0; padding: 8px 16px; font-size: 0.9rem; background-color: var(--primary); color: white; border: 2px solid var(--primary);" onclick="caricaPagina('pagine/cosa-fa-un-tecnico.html')">
+                Cosa fa un tecnico
+            </button>
+            <button class="btn" style="width: auto; margin: 0; padding: 8px 16px; font-size: 0.9rem; background-color: #f4f7fa; color: var(--primary); border: 2px solid var(--primary);" onclick="caricaPagina('pagine/avanzamento-carriera.html')">
+                Carriera
+            </button>
+            <button class="btn" style="width: auto; margin: 0; padding: 8px 16px; font-size: 0.9rem; background-color: #f4f7fa; color: var(--primary); border: 2px solid var(--primary);" onclick="caricaPagina('pagine/link-utili.html')">
+                Link utili
+            </button>
+        </div>
 
         <div style="background: var(--bg); padding: 30px; border-radius: 12px; margin-bottom: 30px; border-left: 5px solid var(--primary);">
             <h3 style="color: var(--secondary); margin-top: 0; margin-bottom: 20px; font-size: 1.5rem;">🧑‍💻 Le Mansioni Principali</h3>
@@ -49,7 +73,7 @@
                     
                     <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: flex-start;">
                         <button class="btn btn-speciale" style="width: auto; padding: 12px 25px; font-size: 1rem; background-color: var(--primary);" onclick="window.open('https://amzn.eu/d/005dvtg0', '_blank')">📖 Leggi il mio Diario</button>
-                        <button class="btn btn-speciale" style="width: auto; padding: 12px 25px; font-size: 1rem; background-color: var(--secondary);" onclick="caricaPagina('pagine/Quiz-assistente-tecnico-manuale-3.html')">✅ Mettiti alla prova (Quiz)</button>
+                        <button class="btn btn-speciale" style="width: auto; padding: 12px 25px; font-size: 1rem; background-color: var(--secondary);" onclick="caricaPagina('pagine/manuale-3-quiz-at.html')">✅ Mettiti alla prova (Quiz)</button>
                     </div>
                 </div>
             </div>
@@ -57,13 +81,22 @@
         
         <div style="margin-top: 25px; padding: 15px 20px; background-color: #f4f7fa; border-radius: 12px; margin-bottom: 30px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 15px; font-size: 0.95rem; border: 1px solid #e9ecef;">
             <p style="color: var(--secondary); font-weight: bold; margin: 0;">Resta aggiornato sulle novità dell'Officina AT:</p>
-            <button class="btn btn-speciale" style="width: auto; padding: 6px 15px; font-size: 0.9rem; background-color: white; color: var(--primary); border: 2px solid var(--primary); margin: 0; box-shadow: none;" onclick="caricaPagina('pagine/newsletter.html')">📩 Newsletter</button>
+            <button class="btn btn-speciale" style="display: inline-flex; align-items: center; gap: 6px; width: auto; padding: 6px 15px; font-size: 0.9rem; background-color: white; color: var(--primary); border: 2px solid var(--primary); margin: 0; box-shadow: none;" onclick="caricaPagina('pagine/newsletter.html')">📩 Newsletter</button>
         </div>
         
         <div style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap; margin-bottom: 20px;">
-            <button class="btn" style="margin: 0; width: 220px; padding: 12px 15px; font-size: 0.95rem; background-color: var(--secondary);" onclick="caricaPagina('pagine/come-diventare-at.html')">← Come si diventa AT</button>
+            <button class="btn" style="margin: 0; width: 220px; padding: 12px 15px; font-size: 0.95rem; background-color: var(--secondary); border: none; color: white;" onclick="caricaPagina('pagine/come-diventare-at.html')">← Come si diventa AT</button>
             <button class="btn" style="margin: 0; width: 220px; padding: 12px 15px; font-size: 0.95rem; background-color: #f4f7fa; color: var(--primary); border: 2px solid var(--primary);" onclick="tornaAllHub()">🏠 Torna all'Officina</button>
-            <button class="btn" style="margin: 0; width: 220px; padding: 12px 15px; font-size: 0.95rem; background-color: var(--primary);" onclick="caricaPagina('pagine/avanzamento-carriera.html')">Carriera →</button>
+            <button class="btn" style="margin: 0; width: 220px; padding: 12px 15px; font-size: 0.95rem; background-color: var(--primary); color: white; border: 2px solid var(--primary);" onclick="caricaPagina('pagine/avanzamento-carriera.html')">Carriera →</button>
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const btnRitorno = document.getElementById('btn-ritorno-dinamico');
+    if (btnRitorno && sessionStorage.getItem('paginaPrecedente')) {
+        btnRitorno.innerHTML = "← Torna all'articolo";
+    }
+});
+</script>

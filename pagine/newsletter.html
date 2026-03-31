@@ -2,7 +2,9 @@
     <div style="max-width: 800px; margin: 0 auto; text-align: center;">
         
         <div style="text-align: left; margin-bottom: 20px;">
-            <button onclick="tornaAllHub()" class="btn-back-hub" style="margin: 0;">← Torna all'Officina</button>
+            <button id="btn-ritorno-dinamico" onclick="gestisciRitorno()" class="btn-back-hub" style="margin: 0;">
+              ← Indietro
+            </button>        
         </div>
         
         <span style="font-size: 4rem; display: block; margin-bottom: 10px;">📩</span>
@@ -45,3 +47,12 @@
 
     </div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const btnRitorno = document.getElementById('btn-ritorno-dinamico');
+    if (document.referrer && document.referrer.indexOf(window.location.hostname) !== -1) {
+        btnRitorno.innerHTML = "← Torna all'articolo";
+    }
+});
+</script>
