@@ -81,6 +81,17 @@ function vaiANewsletter() {
     }, 150);
 }
 
+function vaiAgliAppunti() {
+    tornaAllHub(); // Prima chiude tutto e ti riporta in Home
+    setTimeout(() => {
+        // Cerca la sezione dei libri e fa uno scorrimento morbido
+        const sezioneAppunti = document.getElementById('sezione-appunti');
+        if (sezioneAppunti) {
+            sezioneAppunti.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, 150);
+}
+
 // NUOVA FUNZIONE: Gestisce l'uscita dinamica dal motore quiz
 function esciDalQuiz() {
     const urlRitorno = sessionStorage.getItem('cruscottoRitorno') || 'pagine/area-test.html';
