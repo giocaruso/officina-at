@@ -32,7 +32,8 @@ async function caricaPagina(urlFile) {
         const contenitore = document.getElementById('contenuto-pagina');
         if(contenitore) contenitore.innerHTML = html;
         
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+         // MODIFICA: Salto istantaneo in cima, senza scorrimento "smooth"
+        window.scrollTo(0, 0);
         
         // Salva la nuova pagina come quella attuale
         sessionStorage.setItem('paginaSalvata', urlFile);
@@ -66,7 +67,8 @@ function tornaAllHub() {
     if(hero) hero.style.display = 'block';
     
     sessionStorage.removeItem('paginaSalvata');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // MODIFICA: Salto istantaneo in cima alla Home
+    window.scrollTo(0, 0);
 }
 
 function vaiANewsletter() {
@@ -423,7 +425,7 @@ function domandaPrecedente() {
         if (currentIndex >= 10) {
             currentIndex -= 10;
             mostraPaginaEsame();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            window.scrollTo(0, 0); // Rimossa animazione morbida nei quiz
         }
     } else {
         if (currentIndex > 0) {
@@ -439,7 +441,7 @@ function prossimaDomanda() {
         currentIndex += 10;
         if (currentIndex < currentQuestions.length) {
             mostraPaginaEsame();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            window.scrollTo(0, 0); // Rimossa animazione morbida nei quiz
         } else {
             mostraRisultatoFinale();
         }
@@ -562,7 +564,7 @@ function mostraRisultatoFinale() {
     document.getElementById('total-questions').innerText = currentQuestions.length;
 
     // Riporta la visuale morbidamente in cima per mostrare il trofeo!
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo(0, 0); 
 }
 
 // ==========================================
