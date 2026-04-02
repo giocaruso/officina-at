@@ -1,51 +1,56 @@
-<div class="section" style="display: block;">
-    <div style="text-align: left; margin-bottom: 20px;">
-        <button onclick="caricaPagina('pagine/area-test.html')" class="btn-back-hub" style="margin: 0;">← Area Test</button>
+<div class="section" style="padding: 40px 30px; margin-top: 20px;">
+    <div style="text-align: left; margin-bottom: 30px;">
+        <button onclick="caricaPagina('pagine/area-test.html')" class="btn" style="padding: 8px 15px; font-size: 0.9rem; margin: 0;">← Torna all'Area Test</button>
     </div>
     
-    <div style="max-width: 900px; margin: 0 auto;">
-        <h2 style="color: var(--secondary); text-align: center; margin-bottom: 30px; font-size: 2rem;">Quiz dell'AT: Preparazione e Competenze</h2>
+    <div style="max-width: 950px; margin: 0 auto;">
         
-        <div class="quiz-intro-wrapper">
-            <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" class="quiz-cover-link" title="Acquista o visualizza su Amazon">
-                <img src="img/copertina-200quiz.jpg" alt="Copertina Quiz 200" class="quiz-cover-img">
-            </a>
+        <div style="text-align: center; margin-bottom: 40px;">
+            <h2 style="color: var(--secondary); font-size: 2.2rem; margin: 0; display: inline-block; border-bottom: 3px solid var(--accent); padding-bottom: 10px;">
+                Quiz dell'AT: Preparazione e Competenze
+            </h2>
+        </div>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; justify-content: center;">
             
-            <div>
-                <p style="font-size: 1.05rem; margin-top: 0; line-height: 1.6;">
+            <div style="flex: 1; min-width: 250px; max-width: 300px; text-align: center;">
+                <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" title="Acquista o visualizza su Amazon">
+                    <img src="img/copertina-200quiz.jpg" alt="Copertina Quiz 200" style="width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0, 74, 153, 0.2); border: 2px solid var(--accent); transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                </a>
+            </div>
+            
+            <div style="flex: 2; min-width: 300px;">
+                <p style="font-size: 1.1rem; line-height: 1.7; color: var(--text); margin-top: 0;">
                     Questo simulatore contiene le 200 domande interattive tratte dal mio libro: <br>
-                    <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: underline;"><em>"Quiz dell'Assistente Tecnico delle scuole"</em></a>.
+                    <a href="https://amzn.eu/d/0iFVNuCY" target="_blank" style="color: var(--primary); font-weight: bold; text-decoration: none; border-bottom: 2px solid var(--accent); padding-bottom: 2px;">"Quiz dell'Assistente Tecnico delle scuole"</a>.
                 </p>
 
-                <div style="background: var(--bg); padding: 20px; border-radius: 12px; border: 1px dashed var(--primary); margin-top: 20px; margin-bottom: 30px;">
-                    <p style="margin-top: 0; font-weight: bold; color: var(--secondary);">Come accedere:</p>
-                    <p style="margin-bottom: 15px; font-size: 0.95rem;">Prendi una copia del manuale, cerca la spiegazione relativa alla <strong>domanda n. 187</strong> e inserisci qui sotto la <strong>prima parola</strong> esatta di quel testo.</p>
+                <div style="background: rgba(0, 74, 153, 0.05); padding: 25px; border-radius: 12px; border-left: 5px solid var(--primary); margin: 30px 0;">
+                    <h3 style="margin-top: 0; color: var(--secondary); font-size: 1.2rem; margin-bottom: 10px;">🔐 Come accedere:</h3>
+                    <p style="margin-bottom: 20px; font-size: 1rem; color: var(--text);">Prendi una copia del manuale, cerca la spiegazione relativa alla <strong>domanda n. 187</strong> e inserisci qui sotto la <strong>prima parola</strong> esatta di quel testo.</p>
                     
-                    <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
-                        <input type="password" id="pass-word" placeholder="Parola segreta..." style="padding:12px; border-radius:8px; border:1px solid #ccc; flex: 1; min-width: 200px; font-size: 1rem; margin-bottom: 0;">
-                        <button onclick="sbloccaSimulatore()" class="btn" style="width: auto;">Sblocca Simulatore</button>
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap; align-items: stretch;">
+                        <input type="password" id="pass-word" placeholder="Parola segreta..." style="padding: 12px 15px; border-radius: 8px; border: 2px solid rgba(0, 74, 153, 0.2); flex: 1; min-width: 200px; font-size: 1rem; font-family: inherit; outline: none; transition: 0.3s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='rgba(0, 74, 153, 0.2)'">
+                        <button onclick="sbloccaSimulatore()" class="btn" style="margin: 0; padding: 12px 25px;">Sblocca Simulatore</button>
                     </div>
                 </div>
 
-                <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 20px;">
+                <p style="font-size: 1.05rem; line-height: 1.6; margin-bottom: 20px; color: var(--text);">
                     Uno strumento pensato per misurare il livello di competenza professionale e prepararsi ai passaggi per le <strong>posizioni economiche ATA</strong> attraverso un metodo di apprendimento attivo.
                 </p>
                 
-                <div style="margin-top: 20px; text-align: left;">
-                    <p style="margin-top: 0; font-weight: bold; color: var(--secondary);">Cosa troverai in questo simulatore:</p>
-                    <ul style="line-height: 1.6; padding-left: 20px; margin-top: 5px;">
-                        <li style="margin-bottom: 8px;"><strong>200 Quiz Mirati:</strong> Normativa, sicurezza, gestione documentale, informatica e IA.</li>
-                        <li style="margin-bottom: 8px;"><strong>Soluzioni Commentate:</strong> Ogni risposta include una spiegazione rapida per un ripasso immediato.</li>
-                        <li><strong>Sistema Random:</strong> L'algoritmo rimescola le domande a ogni avvio per evitare l'apprendimento mnemonico.</li>
-                    </ul>
-                </div>
-
+                <h3 style="color: var(--secondary); font-size: 1.2rem; margin-bottom: 10px;">Cosa troverai in questo simulatore:</h3>
+                <ul style="line-height: 1.8; padding-left: 20px; color: var(--text); font-size: 1.05rem; margin-top: 0;">
+                    <li><strong>200 Quiz Mirati:</strong> Normativa, sicurezza, gestione documentale, informatica e IA.</li>
+                    <li><strong>Soluzioni Commentate:</strong> Ogni risposta include una spiegazione rapida per un ripasso immediato.</li>
+                    <li><strong>Sistema Random:</strong> L'algoritmo rimescola le domande a ogni avvio per evitare l'apprendimento mnemonico.</li>
+                </ul>
             </div>
         </div>
         
-        <div style="border-top: 1px solid #eee; padding-top: 30px; margin-top: 40px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; align-items: center;">
-            <button class="btn" style="margin: 0; width: auto; min-width: 200px; padding: 12px 15px; font-size: 0.95rem; background-color: #f4f7fa; color: var(--primary); border: 2px solid var(--primary);" onclick="tornaAllHub()">🔧 Torna in Officina</button>
-            <button onclick="caricaPagina('pagine/newsletter.html')" style="background: none; border: none; color: var(--primary); font-weight: bold; text-decoration: none; cursor: pointer; font-family: inherit; font-size: 1rem;">📩 Iscriviti alla Newsletter</button>
+        <div style="border-top: 2px solid rgba(0, 74, 153, 0.1); padding-top: 30px; margin-top: 40px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: center;">
+            <button class="btn" style="margin: 0; padding: 12px 25px; font-size: 1rem;" onclick="tornaAllHub()">🔧 Torna in Officina</button>
+            <button class="btn" style="margin: 0; padding: 12px 25px; font-size: 1rem;" onclick="caricaPagina('pagine/newsletter.html')">📩 Iscriviti alla Newsletter</button>
         </div>
         
     </div>
