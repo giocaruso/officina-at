@@ -178,9 +178,13 @@ div[style*="background: white"], div[style*="background-color: white"] {
 
 /* 7. BOTTONI INTERNI (Professione / Quiz) */
 .btn, .btn-back-hub {
+    padding: 14px 26px !important; /* <-- LA CURA: Più alti e più larghi */
+    font-size: 1.05rem !important; /* Testo leggermente più grande e leggibile */
     font-weight: bold;
-    border-radius: 4px !important;
+    border-radius: 8px !important; /* Angoli leggermente più morbidi */
     transition: 0.3s !important;
+    cursor: pointer;
+    line-height: 1.5;
 }
 
 /* Stato Riposo */
