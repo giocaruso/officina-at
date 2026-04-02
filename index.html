@@ -31,6 +31,12 @@
         /* Effetto speciale per i manuali con fix per lo spostamento del testo */
         .manuale-hover { transition: all 0.3s ease !important; }
         .manuale-hover:hover { transform: translateY(-4px) !important; box-shadow: 0 10px 25px rgba(0, 74, 153, 0.15) !important; border-left-width: 6px !important; }
+        
+        /* FIX NUOVI: Manina sulle card e padding interno per non far toccare il testo ai bordi */
+        .card {
+            cursor: pointer !important;
+            padding: 30px 25px !important; /* Dà più respiro al testo all'interno dei blocchi */
+        }
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-92SS78S6QT"></script>
     <script>
@@ -107,7 +113,7 @@
                         </div>
                     </div>
                     
-                    <div style="background: #fafafa; border-radius: 12px; padding: 20px; border: 1px solid #eee; display: flex; align-items: center; gap: 20px; filter: grayscale(100%); opacity: 0.6; cursor: not-allowed;" title="Tools">
+                    <div style="background: #fafafa; border-radius: 12px; padding: 20px; border: 1px solid #797979; display: flex; align-items: center; gap: 20px; filter: grayscale(100%); opacity: 0.6; cursor: not-allowed;" title="Tools">
                         <span style="font-size: 2.8rem;">🛠️</span>
                         <div style="text-align: left;">
                             <h3 style="margin: 0 0 5px 0; color: #333; font-size: 1.3rem;">Trucchi del Mestiere</h3>
@@ -118,7 +124,7 @@
                 </div>
             </div>
 
-            <div class="category-section category-alt">
+            <div class="category-section category-alt" style="background: #cae4ff; border: 2px solid #004a99; padding: 15px 20px; border-radius: 20px; box-shadow: 0 8px 20px rgba(0, 45, 93, 0.06); margin-top: 20px;">
                 <h2>🧑‍🔧La Professione</h2>
                 <p class="subtitle">Tutto quello che c'è da sapere per iniziare e crescere come Assistente Tecnico di Laboratorio.</p>
                 <div class="grid">
@@ -148,7 +154,7 @@
             <div id="sezione-appunti">
             <div class="category-section" style="background: #f0f8ff; border: 2px solid #4da6ff; padding: 45px 20px; border-radius: 20px; margin-top: 50px; box-shadow: 0 10px 30px rgba(0, 166, 255, 0.08);">
                 <h2 style="color: var(--secondary); margin-top: 0; font-size: 2.2rem;">📒 I Miei Appunti</h2>
-                <p style="font-size: 1.1rem; color: #444; max-width: 750px; margin: 0 auto 35px auto; line-height: 1.6;">
+                <p style="font-size: 1.1rem; color: #444; max-width: 950px; margin: 0 auto 35px auto; line-height: 1.6;">
                     Oltre a questa Officina digitale, ho deciso di mettere la mia esperienza su carta. Ho scritto questi libri per raccogliere i miei appunti quotidiani, le soluzioni ai problemi tecnici più comuni in laboratorio e le esercitazioni per superare i test. In fondo, è il materiale che avrei voluto avere io tra le mani il mio primo giorno di scuola.
                 </p>
                 
@@ -206,7 +212,7 @@
         </script>
     </div>
 <div style="margin-top: 25px; opacity: 1; font-family: 'Courier New', Courier, monospace; font-size: 0.9rem; color: #ffffff; background-color: var(--secondary); display: inline-block; padding: 4px 12px; border: 1px solid rgba(255, 255, 255, 0.2);white-space: nowrap !important;">
-    Accessi: <strong>103</strong> | Last Update: 31/03/2026
+    Accessi: <strong>103</strong> | Last Update: 02/04/2026
 </div>
     <script src="script.js"></script>
 </body>

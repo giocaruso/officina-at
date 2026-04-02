@@ -10,7 +10,6 @@
 
 html {
     overflow-y: scroll !important;
-    scroll-behavior: smooth;
 }
 
 :root { 
@@ -23,7 +22,7 @@ html {
 }
 
 body { 
-    font-family: 'Courier New', Courier, monospace !important; 
+font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
     background-color: var(--bg);
     background-image: radial-gradient(rgba(0, 74, 153, 0.1) 1px, transparent 1px);
     background-size: 30px 30px;
@@ -57,19 +56,20 @@ body {
     transition: all 0.3s ease !important;
 }
 
-/* Bottoni Menu: Stato Sopra (Hover) */
+/* Bottoni Menu: Stato Sopra (Hover) - Più sobrio ed elegante */
 .header-btn:hover {
-    background: var(--accent) !important;
-    color: var(--secondary) !important;
-    border-color: var(--accent) !important;
-    box-shadow: 0 0 10px var(--accent);
+    background: rgba(0, 74, 153, 0.08) !important; /* Azzurrino trasparente molto delicato */
+    color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    box-shadow: none !important; /* Rimosso l'effetto neon */
 }
 
-/* Bottoni Menu: Stato Attivo (Selezionato) */
+/* Bottoni Menu: Stato Attivo (Selezionato / Click) */
 .header-btn.active, .header-btn:active {
-    background: var(--primary) !important;
+    background: var(--secondary) !important; /* Blu scuro professionale */
     color: white !important;
     border-color: var(--secondary) !important;
+    transform: scale(0.98);
 }
 
 /* 3. HERO SECTION (Compatta + Immagine Dinamica) */
@@ -81,6 +81,12 @@ body {
     border-bottom: 4px solid var(--accent);
     margin-bottom: 30px !important;
     box-shadow: 0 8px 25px rgba(0, 74, 153, 0.2);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .hero-img {
@@ -150,7 +156,6 @@ div[style*="background: white"], div[style*="background-color: white"] {
     border: 1px solid rgba(0, 74, 153, 0.2) !important;
     border-radius: 10px !important;
     transition: all 0.3s ease !important;
-    cursor: pointer !important;
 }
 
 .card:hover, .pannello-operativo:hover, .manuale-hover:hover {
@@ -161,7 +166,6 @@ div[style*="background: white"], div[style*="background-color: white"] {
 
 /* 7. BOTTONI INTERNI (Professione / Quiz) */
 .btn, .btn-back-hub {
-    font-family: 'Courier New', monospace !important;
     font-weight: bold;
     border-radius: 4px !important;
     transition: 0.3s !important;
@@ -202,45 +206,34 @@ div[style*="background: white"], div[style*="background-color: white"] {
     .header-officina { flex-direction: column; gap: 8px; }
     .hero { padding: 20px 10px; }
 }
-
-/* --- ANIMAZIONE SALUTO AUTOMATICO (Ripristinata) --- */
-@keyframes gentleWave {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(-2deg); }
-    50% { transform: rotate(2deg); }  
-    75% { transform: rotate(-1deg); } 
-    100% { transform: rotate(0deg); } 
+/* ==========================================
+   LAYOUT BANNER BENVENUTO (Foto SX, Testo DX)
+   ========================================== */
+.hero-container {
+    display: flex;
+    flex-direction: row;         /* Affianca gli elementi in orizzontale */
+    align-items: center;         /* Li allinea verticalmente al centro */
+    justify-content: center;
+    gap: 30px;                   /* Spazio tra la foto e il testo */
+    max-width: 950px;            /* Rende il contenuto più stretto e compatto */
+    margin: 0 auto;              /* Lo centra perfettamente nella pagina */
+    text-align: left;            /* Il testo si allinea ordinatamente a sinistra */
 }
 
-.hero-img {
-    width: 140px;
-    border: 2px solid var(--accent);
-    box-shadow: 0 0 15px var(--accent);
-    /* Fondamentale: la rotazione parte dal basso per simulare il saluto */
-    transform-origin: bottom center; 
-    /* Ripristino l'animazione infinita */
-    animation: gentleWave 4s ease-in-out infinite;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+/* Su schermi piccoli (smartphone), torna automaticamente in verticale */
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
 }
-
-.hero-img:hover {
-    /* Quando passi il mouse, l'immagine si ingrandisce e l'oscillazione si mette in pausa */
-    transform: scale(1.1) rotate(0deg); 
-    box-shadow: 0 0 30px var(--accent);
-    animation-play-state: paused; 
-}
-
-/* --- IL PALLINO LAMPEGGIANTE (Aggiornato per il template) --- */
-.pulse-dot {
-    width: 10px;
-    height: 10px;
-    background-color: var(--accent);
-    border-radius: 50% !important;
-    box-shadow: 0 0 8px var(--accent);
-    /* Effetto blink tecnico */
-    animation: blink-tech 1s step-end infinite;
-}
-
-@keyframes blink-tech {
-    50% { opacity: 0; }
+/* ==========================================
+   FIX MENU FISSO (La Scatola Madre)
+   ========================================== */
+#header-placeholder {
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
 }
