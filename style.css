@@ -89,16 +89,28 @@ font-family: 'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif !important;
     margin-right: -50vw;
 }
 
+/* L'effetto "Saluto" automatico */
+@keyframes gentleWave {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-3deg); }
+    50% { transform: rotate(3deg); }  
+    75% { transform: rotate(-1deg); } 
+    100% { transform: rotate(0deg); } 
+}
+
 .hero-img {
-    width: 140px; /* Più piccola e agile */
+    width: 140px; 
     border: 2px solid var(--accent);
     box-shadow: 0 0 15px var(--accent);
+    transform-origin: bottom center; /* La rotazione parte dal basso */
+    animation: gentleWave 4s ease-in-out infinite;
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* L'effetto "Saluto" al passaggio del mouse */
 .hero-img:hover {
-    transform: rotate(10deg) scale(1.1);
+    /* Si ferma e si ingrandisce se toccata/cliccata */
+    transform: scale(1.1) rotate(0deg); 
+    animation-play-state: paused; 
 }
 
 /* 4. TERMINALE AGGIORNAMENTI (Il Pallino Lampeggiante) */
@@ -203,6 +215,9 @@ div[style*="background: white"], div[style*="background-color: white"] {
 /* 9. FIX SMARTPHONE */
 @media (max-width: 768px) {
     .pannello-operativo { flex-direction: column; text-align: center; }
+    
+    /* Forza il testo al centro annullando lo stile inline del file HTML */
+    .pannello-operativo div { text-align: center !important; }
     .header-officina { flex-direction: column; gap: 8px; }
     .hero { padding: 20px 10px; }
 }
